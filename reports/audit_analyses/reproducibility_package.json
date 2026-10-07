@@ -1,0 +1,374 @@
+{
+  "_meta": {
+    "description": "MetaDerm-XA Reproducibility Package",
+    "date": "2026-09-28",
+    "random_seed": 42,
+    "framework": "PyTorch",
+    "backbone": "EfficientNet-B2 (torchvision)"
+  },
+  "data_splits": {
+    "train": {
+      "n_images": 20160,
+      "n_mel": 3570,
+      "prevalence": 0.17708333333333334,
+      "n_unique_groups": 11145
+    },
+    "val": {
+      "n_images": 5171,
+      "n_mel": 952,
+      "prevalence": 0.18410365499903306,
+      "n_unique_groups": 2786
+    },
+    "test": {
+      "n_images": 8238,
+      "n_mel": 1327,
+      "n_unk": 2047,
+      "n_known": 6191,
+      "prevalence_all": 0.16108278708424376
+    },
+    "overlap": {
+      "train_val_images": 0,
+      "train_test_images": 0,
+      "val_test_images": 0
+    }
+  },
+  "model_configs": {
+    "baseline": {
+      "seed": 42,
+      "backbone": "efficientnet_b2",
+      "feature_dim": 256,
+      "num_attn_heads": null,
+      "dropout": 0.4,
+      "lr": 3e-05,
+      "weight_decay": 0.0005,
+      "pos_weight": 5.0,
+      "epochs": 25,
+      "patience": 8,
+      "batch_size": 12,
+      "img_size": 224,
+      "use_weighted_sampler": true,
+      "use_amp": true
+    },
+    "concat_fusion": {
+      "seed": 42,
+      "backbone": "efficientnet_b2",
+      "feature_dim": 256,
+      "num_attn_heads": null,
+      "dropout": 0.4,
+      "lr": 3e-05,
+      "weight_decay": 0.0005,
+      "pos_weight": 5.0,
+      "epochs": 25,
+      "patience": 8,
+      "batch_size": 12,
+      "img_size": 224,
+      "use_weighted_sampler": true,
+      "use_amp": true
+    },
+    "cross_attention": {
+      "seed": 42,
+      "backbone": "efficientnet_b2",
+      "feature_dim": 256,
+      "num_attn_heads": 8,
+      "dropout": 0.4,
+      "lr": 3e-05,
+      "weight_decay": 0.0005,
+      "pos_weight": 5.0,
+      "epochs": 25,
+      "patience": 8,
+      "batch_size": 12,
+      "img_size": 224,
+      "use_weighted_sampler": true,
+      "use_amp": true
+    },
+    "field_token": {
+      "seed": 42,
+      "backbone": "efficientnet_b2",
+      "feature_dim": 256,
+      "num_attn_heads": 8,
+      "dropout": 0.4,
+      "lr": 3e-05,
+      "weight_decay": 0.0005,
+      "pos_weight": 5.0,
+      "epochs": 25,
+      "patience": 8,
+      "batch_size": 12,
+      "img_size": 224,
+      "use_weighted_sampler": true,
+      "use_amp": true
+    },
+    "film": {
+      "seed": 42,
+      "backbone": "efficientnet_b2",
+      "feature_dim": 256,
+      "num_attn_heads": null,
+      "dropout": 0.4,
+      "lr": 3e-05,
+      "weight_decay": 0.0005,
+      "pos_weight": 5.0,
+      "epochs": 25,
+      "patience": 8,
+      "batch_size": 12,
+      "img_size": 224,
+      "use_weighted_sampler": true,
+      "use_amp": true
+    }
+  },
+  "thresholds": {
+    "baseline": 0.5079237222671509,
+    "concat_fusion": 0.8397482633590698,
+    "cross_attention": 0.49402397871017456,
+    "field_token": 0.42750614881515503,
+    "film": 0.6154564023017883
+  },
+  "temperatures": {
+    "baseline": 1.9817,
+    "concat": 2.0471,
+    "cross_attn": 2.1316,
+    "field_token": 1.5275,
+    "film": 1.4486
+  },
+  "reported_metrics": {
+    "baseline": {
+      "auroc": 0.8802483006842188,
+      "ap": 0.6497364758808591,
+      "recall": 0.80180859080633,
+      "specificity": 0.7906236434669368,
+      "precision": 0.4237355635205098,
+      "f1": 0.5544554455445545,
+      "tp": 1064,
+      "fp": 1447,
+      "fn": 263,
+      "tn": 5464,
+      "threshold": 0.5079237222671509,
+      "auroc_ci": "0.880 [0.870\u20130.890]",
+      "recall_ci": "0.802 [0.780\u20130.822]"
+    },
+    "concat_fusion": {
+      "auroc": 0.8953843882446832,
+      "ap": 0.6794306535228175,
+      "recall": 0.7287113790504898,
+      "specificity": 0.8772970626537404,
+      "precision": 0.5327823691460055,
+      "f1": 0.6155315085932527,
+      "tp": 967,
+      "fp": 848,
+      "fn": 360,
+      "tn": 6063,
+      "threshold": 0.8397482633590698,
+      "auroc_ci": "0.895 [0.886\u20130.904]",
+      "recall_ci": "0.729 [0.705\u20130.752]"
+    },
+    "cross_attention": {
+      "auroc": 0.8827790782079442,
+      "ap": 0.6713245010934353,
+      "recall": 0.7686510926902789,
+      "specificity": 0.8338880046302996,
+      "precision": 0.470479704797048,
+      "f1": 0.5836909871244635,
+      "tp": 1020,
+      "fp": 1148,
+      "fn": 307,
+      "tn": 5763,
+      "threshold": 0.49402397871017456,
+      "auroc_ci": "0.883 [0.873\u20130.892]",
+      "recall_ci": "0.769 [0.747\u20130.791]"
+    },
+    "field_token": {
+      "auroc": 0.8958843393399796,
+      "ap": 0.6787631803176312,
+      "recall": 0.854559155990957,
+      "specificity": 0.7616842714513095,
+      "precision": 0.4077669902912621,
+      "f1": 0.5520934761441091,
+      "tp": 1134,
+      "fp": 1647,
+      "fn": 193,
+      "tn": 5264,
+      "threshold": 0.42750614881515503,
+      "auroc_ci": "0.896 [0.887\u20130.904]",
+      "recall_ci": "0.855 [0.835\u20130.873]"
+    },
+    "film": {
+      "auroc": 0.9038488819577846,
+      "ap": 0.6902804035474543,
+      "recall": 0.7957799547852299,
+      "specificity": 0.8347561857907684,
+      "precision": 0.48043676069153773,
+      "f1": 0.5991489361702128,
+      "brier_score": 0.1501055359840393,
+      "ece": 0.20255415450711944,
+      "tp": 1056,
+      "fp": 1142,
+      "fn": 271,
+      "tn": 5769,
+      "threshold": 0.6154564023017883,
+      "auroc_ci": "0.904 [0.896\u20130.912]",
+      "recall_ci": "0.796 [0.774\u20130.817]"
+    }
+  },
+  "delong_tests": {
+    "raw_results": [
+      {
+        "model_a": "Baseline",
+        "model_b": "FiLM",
+        "z": -6.5722,
+        "p_raw": 0.0,
+        "p_holm": 0.0,
+        "sig": "***"
+      },
+      {
+        "model_a": "Cross-Attn",
+        "model_b": "FiLM",
+        "z": -6.3445,
+        "p_raw": 0.0,
+        "p_holm": 0.0,
+        "sig": "***"
+      },
+      {
+        "model_a": "Baseline",
+        "model_b": "Concat",
+        "z": -4.6919,
+        "p_raw": 3e-06,
+        "p_holm": 2.4e-05,
+        "sig": "***"
+      },
+      {
+        "model_a": "Baseline",
+        "model_b": "Field-Token",
+        "z": -4.3437,
+        "p_raw": 1.4e-05,
+        "p_holm": 9.8e-05,
+        "sig": "***"
+      },
+      {
+        "model_a": "Cross-Attn",
+        "model_b": "Field-Token",
+        "z": -3.9157,
+        "p_raw": 9e-05,
+        "p_holm": 0.00054,
+        "sig": "***"
+      },
+      {
+        "model_a": "Concat",
+        "model_b": "Cross-Attn",
+        "z": 3.7385,
+        "p_raw": 0.000185,
+        "p_holm": 0.000925,
+        "sig": "***"
+      },
+      {
+        "model_a": "Concat",
+        "model_b": "FiLM",
+        "z": -2.9829,
+        "p_raw": 0.002855,
+        "p_holm": 0.01142,
+        "sig": "*"
+      },
+      {
+        "model_a": "Field-Token",
+        "model_b": "FiLM",
+        "z": -2.7877,
+        "p_raw": 0.005308,
+        "p_holm": 0.015924,
+        "sig": "*"
+      },
+      {
+        "model_a": "Baseline",
+        "model_b": "Cross-Attn",
+        "z": -0.6522,
+        "p_raw": 0.51426,
+        "p_holm": 1.0,
+        "sig": "ns"
+      },
+      {
+        "model_a": "Concat",
+        "model_b": "Field-Token",
+        "z": -0.1811,
+        "p_raw": 0.856299,
+        "p_holm": 1.0,
+        "sig": "ns"
+      }
+    ],
+    "correction_method": "Holm-Bonferroni",
+    "n_comparisons": 10
+  },
+  "calibration": {
+    "baseline": {
+      "temperature": 1.9817,
+      "ece_raw": 0.164,
+      "ece_calibrated": 0.1975,
+      "brier_raw": 0.154,
+      "brier_calibrated": 0.1424
+    },
+    "concat": {
+      "temperature": 2.0471,
+      "ece_raw": 0.2365,
+      "ece_calibrated": 0.2674,
+      "brier_raw": 0.1843,
+      "brier_calibrated": 0.1711
+    },
+    "cross_attn": {
+      "temperature": 2.1316,
+      "ece_raw": 0.1333,
+      "ece_calibrated": 0.1978,
+      "brier_raw": 0.1443,
+      "brier_calibrated": 0.1372
+    },
+    "field_token": {
+      "temperature": 1.5275,
+      "ece_raw": 0.1855,
+      "ece_calibrated": 0.2159,
+      "brier_raw": 0.1479,
+      "brier_calibrated": 0.1449
+    },
+    "film": {
+      "temperature": 1.4486,
+      "ece_raw": 0.2026,
+      "ece_calibrated": 0.2272,
+      "brier_raw": 0.1501,
+      "brier_calibrated": 0.1481
+    }
+  },
+  "prediction_files": {
+    "baseline_isic2019": {
+      "labels": "reports/isic2019_internal/baseline_isic2019_isic2019_labels.npy",
+      "probs": "reports/isic2019_internal/baseline_isic2019_isic2019_probs.npy",
+      "probs_calibrated": "reports/isic2019_internal/baseline_isic2019_isic2019_probs_calibrated.npy"
+    },
+    "concat_fusion_isic2019": {
+      "labels": "reports/isic2019_internal/concat_fusion_isic2019_isic2019_labels.npy",
+      "probs": "reports/isic2019_internal/concat_fusion_isic2019_isic2019_probs.npy",
+      "probs_calibrated": "reports/isic2019_internal/concat_fusion_isic2019_isic2019_probs_calibrated.npy"
+    },
+    "cross_attention_isic2019": {
+      "labels": "reports/isic2019_internal/cross_attention_isic2019_isic2019_labels.npy",
+      "probs": "reports/isic2019_internal/cross_attention_isic2019_isic2019_probs.npy",
+      "probs_calibrated": "reports/isic2019_internal/cross_attention_isic2019_isic2019_probs_calibrated.npy"
+    },
+    "field_token_isic2019": {
+      "labels": "reports/isic2019_internal/field_token_isic2019_isic2019_labels.npy",
+      "probs": "reports/isic2019_internal/field_token_isic2019_isic2019_probs.npy",
+      "probs_calibrated": "reports/isic2019_internal/field_token_isic2019_isic2019_probs_calibrated.npy"
+    },
+    "film_isic2019": {
+      "labels": "reports/isic2019_internal/film_isic2019_isic2019_labels.npy",
+      "probs": "reports/isic2019_internal/film_isic2019_isic2019_probs.npy",
+      "probs_calibrated": "reports/isic2019_internal/film_isic2019_isic2019_probs_calibrated.npy"
+    }
+  },
+  "split_files": {
+    "train": "data/processed_isic2019/train.csv",
+    "val": "data/processed_isic2019/val.csv",
+    "test": "data/processed_isic2019/test.csv",
+    "external": "data/processed_isic2019/external_test.csv",
+    "encoder": "data/processed_isic2019/metadata_encoder.json"
+  },
+  "checkpoint_files": {
+    "baseline": "checkpoints/baseline_isic2019_best.pth",
+    "concat_fusion": "checkpoints/concat_fusion_isic2019_best.pth",
+    "cross_attention": "checkpoints/cross_attention_isic2019_best.pth",
+    "field_token": "checkpoints/field_token_isic2019_best.pth",
+    "film": "checkpoints/film_isic2019_best.pth"
+  }
+}

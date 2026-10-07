@@ -1,0 +1,41 @@
+# =====================================================
+# Quantum-Inspired Fusion — Ablation Variant
+# Phase 6
+# Identical to cross_attention.yaml EXCEPT model_type and model_name.
+# This ensures a single controlled variable for fair ablation.
+# =====================================================
+
+model_name: quantum_fusion
+model_type: quantum_fusion
+
+seed: 42
+
+csv_path: data/raw/isic2020/train.csv
+images_dir: data/raw/isic2020/images
+processed_dir: data/processed
+encoder_save_path: data/processed/metadata_encoder.json
+
+val_frac: 0.15
+test_frac: 0.15
+
+backbone: efficientnet_b2
+pretrained: true
+freeze_early: false
+feature_dim: 256
+num_attn_heads: 8
+dropout: 0.3
+
+img_size: 224
+batch_size: 12
+num_workers: 0
+use_weighted_sampler: true
+
+epochs: 25
+lr: 0.00005
+weight_decay: 0.0001
+pos_weight: 55.0
+patience: 8
+use_amp: true
+
+checkpoint_dir: checkpoints
+reports_dir: reports/results

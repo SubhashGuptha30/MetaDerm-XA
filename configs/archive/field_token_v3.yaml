@@ -1,0 +1,40 @@
+# =====================================================
+# Field-Token Cross-Attention — v3 (balanced regularization)
+# Full backbone (no freeze) + moderate dropout + stronger weight decay
+# =====================================================
+
+model_name: field_token_v3
+model_type: field_token
+
+seed: 42
+
+csv_path: data/raw/isic2020/train.csv
+images_dir: data/raw/isic2020/images
+processed_dir: data/processed
+encoder_save_path: data/processed/metadata_encoder.json
+
+val_frac: 0.15
+test_frac: 0.15
+
+# --- Architecture ---
+backbone: efficientnet_b2
+pretrained: true
+freeze_early: false            # keep full backbone trainable (like v1)
+feature_dim: 256
+num_attn_heads: 8
+dropout: 0.4                   # moderate increase (v1=0.3, v2=0.45)
+
+img_size: 224
+batch_size: 12
+num_workers: 0
+use_weighted_sampler: true
+
+epochs: 25
+lr: 0.00003                   # slightly lower than v1 (was 5e-5)
+weight_decay: 0.0005           # 5x v1 (was 1e-4), 2x less than v2 (was 1e-3)
+pos_weight: 55.0
+patience: 8
+use_amp: true
+
+checkpoint_dir: checkpoints
+reports_dir: reports/results

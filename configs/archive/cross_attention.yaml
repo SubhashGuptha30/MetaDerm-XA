@@ -1,0 +1,46 @@
+# =====================================================
+# Cross-Attention Fusion — Core Model
+# Phase 5
+# =====================================================
+
+model_name: cross_attention
+model_type: cross_attention
+
+seed: 42
+
+csv_path: data/raw/isic2020/train.csv
+images_dir: data/raw/isic2020/images
+processed_dir: data/processed
+encoder_save_path: data/processed/metadata_encoder.json
+
+val_frac: 0.15
+test_frac: 0.15
+
+# --- Architecture ---
+backbone: efficientnet_b2
+pretrained: true
+freeze_early: false          # set true to freeze early backbone layers if GPU memory is tight
+feature_dim: 256             # shared token dimension for image tokens and metadata vector
+num_attn_heads: 8            # must divide feature_dim evenly
+dropout: 0.3
+
+# --- Metadata ---
+# continuous_dim and num_sites are set automatically from MetadataEncoder
+# but documented here for clarity:
+# continuous_dim: 5  (age_norm, sex_male, sex_female, sex_unknown, age_missing)
+# num_sites: 7
+
+img_size: 224
+batch_size: 12               # reduced for 4GB VRAM
+num_workers: 0
+use_weighted_sampler: true
+
+epochs: 25
+lr: 0.00005                  # slightly lower LR for larger model
+weight_decay: 0.0001
+pos_weight: 55.0
+patience: 8
+use_amp: true
+
+checkpoint_dir: checkpoints
+reports_dir: reports/results

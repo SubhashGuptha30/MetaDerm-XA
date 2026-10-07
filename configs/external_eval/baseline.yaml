@@ -1,0 +1,24 @@
+# External validation — Baseline on ISIC 2020
+model_name: baseline_external_2020
+model_type: baseline
+seed: 42
+images_dir: data/raw/isic2019/train/images
+test_images_dir: data/raw/isic2020/images
+processed_dir: data/processed_isic2019_external
+encoder_save_path: data/processed_isic2019/metadata_encoder.json
+val_frac: 0.20
+backbone: efficientnet_b2
+pretrained: true
+dropout: 0.4
+img_size: 224
+batch_size: 12
+num_workers: 0
+use_weighted_sampler: true
+epochs: 25
+lr: 0.00003
+weight_decay: 0.0005
+pos_weight: 5.0
+patience: 8
+use_amp: true
+checkpoint_dir: checkpoints
+reports_dir: reports/results_isic2019

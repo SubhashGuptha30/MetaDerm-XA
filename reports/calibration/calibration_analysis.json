@@ -1,0 +1,96 @@
+{
+  "calibration": {
+    "baseline": {
+      "ece": 0.16403957926691967,
+      "brier": 0.15397150814533234
+    },
+    "concat": {
+      "ece": 0.23654935896576618,
+      "brier": 0.18426930904388428
+    },
+    "cross_attn": {
+      "ece": 0.13329764462792199,
+      "brier": 0.14432735741138458
+    },
+    "field_token": {
+      "ece": 0.1855053727149432,
+      "brier": 0.14787793159484863
+    },
+    "film": {
+      "ece": 0.20255415450711944,
+      "brier": 0.1501055359840393
+    }
+  },
+  "delong_pairwise": [
+    {
+      "model_a": "Vision-Only Baseline",
+      "model_b": "Concat Fusion",
+      "z": -4.6919,
+      "p_value": 3e-06,
+      "significant": "***"
+    },
+    {
+      "model_a": "Vision-Only Baseline",
+      "model_b": "Cross-Attn (1-token)",
+      "z": -0.6522,
+      "p_value": 0.51426,
+      "significant": "ns"
+    },
+    {
+      "model_a": "Vision-Only Baseline",
+      "model_b": "Field-Token (4-token)",
+      "z": -4.3437,
+      "p_value": 1.4e-05,
+      "significant": "***"
+    },
+    {
+      "model_a": "Vision-Only Baseline",
+      "model_b": "FiLM (MetaBlock)",
+      "z": -6.5722,
+      "p_value": 0.0,
+      "significant": "***"
+    },
+    {
+      "model_a": "Concat Fusion",
+      "model_b": "Cross-Attn (1-token)",
+      "z": 3.7385,
+      "p_value": 0.000185,
+      "significant": "***"
+    },
+    {
+      "model_a": "Concat Fusion",
+      "model_b": "Field-Token (4-token)",
+      "z": -0.1811,
+      "p_value": 0.856299,
+      "significant": "ns"
+    },
+    {
+      "model_a": "Concat Fusion",
+      "model_b": "FiLM (MetaBlock)",
+      "z": -2.9829,
+      "p_value": 0.002855,
+      "significant": "**"
+    },
+    {
+      "model_a": "Cross-Attn (1-token)",
+      "model_b": "Field-Token (4-token)",
+      "z": -3.9157,
+      "p_value": 9e-05,
+      "significant": "***"
+    },
+    {
+      "model_a": "Cross-Attn (1-token)",
+      "model_b": "FiLM (MetaBlock)",
+      "z": -6.3445,
+      "p_value": 0.0,
+      "significant": "***"
+    },
+    {
+      "model_a": "Field-Token (4-token)",
+      "model_b": "FiLM (MetaBlock)",
+      "z": -2.7877,
+      "p_value": 0.005308,
+      "significant": "**"
+    }
+  ]
+}

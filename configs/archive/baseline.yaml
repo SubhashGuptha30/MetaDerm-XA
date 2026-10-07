@@ -1,0 +1,50 @@
+# =====================================================
+# Baseline — Image-Only EfficientNet-B2
+# Phase 4
+# =====================================================
+
+# --- Experiment identity ---
+model_name: baseline
+model_type: baseline        # options: baseline | concat_fusion | cross_attention | quantum_fusion
+
+# --- Seed ---
+seed: 42
+
+# --- Data paths ---
+csv_path: data/raw/isic2020/train.csv
+images_dir: data/raw/isic2020/images
+processed_dir: data/processed
+encoder_save_path: data/processed/metadata_encoder.json
+
+# --- Split fractions ---
+val_frac: 0.15
+test_frac: 0.15
+
+# --- Model architecture ---
+backbone: efficientnet_b2
+pretrained: true
+dropout: 0.4
+freeze_early: true        # freeze early backbone layers to fit in 4GB VRAM
+
+# --- Image ---
+img_size: 224
+
+# --- Data loading ---
+batch_size: 16
+num_workers: 0
+use_weighted_sampler: true
+
+# --- Training ---
+epochs: 25
+lr: 0.0001
+weight_decay: 0.0001
+pos_weight: 55.0            # ~1.8% malignant → ~1/0.018 ≈ 55 (tune as needed)
+patience: 7                 # early stopping patience
+use_amp: true               # mixed precision (requires CUDA)
+
+# --- Scheduler ---
+# CosineAnnealingLR: lr decays from lr → lr*0.01 over T_max=epochs
+
+# --- Output paths ---
+checkpoint_dir: checkpoints
+reports_dir: reports/results

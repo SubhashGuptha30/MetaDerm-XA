@@ -1,0 +1,58 @@
+[
+  {
+    "image": "ISIC_1247683",
+    "predicted_prob": 0.8272139430046082
+  },
+  {
+    "image": "ISIC_1356715",
+    "predicted_prob": 0.1645393669605255
+  },
+  {
+    "image": "ISIC_1393771",
+    "predicted_prob": 0.7757606506347656
+  },
+  {
+    "image": "ISIC_2979268",
+    "predicted_prob": 0.08814308047294617
+  },
+  {
+    "image": "ISIC_4619903",
+    "predicted_prob": 0.8196364045143127
+  },
+  {
+    "image": "ISIC_5331102",
+    "predicted_prob": 0.23386822640895844
+  },
+  {
+    "image": "ISIC_5673518",
+    "predicted_prob": 0.07868245244026184
+  },
+  {
+    "image": "ISIC_5733748",
+    "predicted_prob": 0.05492709204554558
+  },
+  {
+    "image": "ISIC_6581411",
+    "predicted_prob": 0.677204966545105
+  },
+  {
+    "image": "ISIC_6809586",
+    "predicted_prob": 0.7208608388900757
+  },
+  {
+    "image": "ISIC_7577395",
+    "predicted_prob": 0.1447717398405075
+  },
+  {
+    "image": "ISIC_7658729",
+    "predicted_prob": 0.6490052342414856
+  },
+  {
+    "image": "ISIC_8985109",
+    "predicted_prob": 0.78570955991745
+  },
+  {
+    "image": "ISIC_9626843",
+    "predicted_prob": 0.15783463418483734
+  }
+]

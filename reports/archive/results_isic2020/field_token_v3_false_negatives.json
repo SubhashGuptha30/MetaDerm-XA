@@ -1,0 +1,34 @@
+[
+  {
+    "image": "ISIC_0337631",
+    "predicted_prob": 0.0005304294172674417
+  },
+  {
+    "image": "ISIC_1247683",
+    "predicted_prob": 0.0006815704400651157
+  },
+  {
+    "image": "ISIC_1356715",
+    "predicted_prob": 0.0006794504006393254
+  },
+  {
+    "image": "ISIC_2609984",
+    "predicted_prob": 0.000631490780506283
+  },
+  {
+    "image": "ISIC_5331102",
+    "predicted_prob": 0.0005947814788669348
+  },
+  {
+    "image": "ISIC_6809586",
+    "predicted_prob": 0.0004123281396459788
+  },
+  {
+    "image": "ISIC_8325226",
+    "predicted_prob": 0.0005144814494997263
+  },
+  {
+    "image": "ISIC_8985109",
+    "predicted_prob": 0.0006584636284969747
+  }
+]

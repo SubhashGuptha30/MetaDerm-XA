@@ -1,0 +1,1082 @@
+[
+  {
+    "image": "ISIC_0232101",
+    "predicted_prob": 0.4539984166622162
+  },
+  {
+    "image": "ISIC_0272509",
+    "predicted_prob": 0.07964923977851868
+  },
+  {
+    "image": "ISIC_0273046",
+    "predicted_prob": 0.048592325299978256
+  },
+  {
+    "image": "ISIC_0275828",
+    "predicted_prob": 0.09339249134063721
+  },
+  {
+    "image": "ISIC_0327406",
+    "predicted_prob": 0.061823345720767975
+  },
+  {
+    "image": "ISIC_0337631",
+    "predicted_prob": 0.3554127514362335
+  },
+  {
+    "image": "ISIC_0489267",
+    "predicted_prob": 0.12228622287511826
+  },
+  {
+    "image": "ISIC_0528044",
+    "predicted_prob": 0.2799604833126068
+  },
+  {
+    "image": "ISIC_0572205",
+    "predicted_prob": 0.22964423894882202
+  },
+  {
+    "image": "ISIC_0647224",
+    "predicted_prob": 0.1677614152431488
+  },
+  {
+    "image": "ISIC_0833889",
+    "predicted_prob": 0.3401179611682892
+  },
+  {
+    "image": "ISIC_0914168",
+    "predicted_prob": 0.2264910340309143
+  },
+  {
+    "image": "ISIC_0924427",
+    "predicted_prob": 0.11014614254236221
+  },
+  {
+    "image": "ISIC_0946787",
+    "predicted_prob": 0.19201284646987915
+  },
+  {
+    "image": "ISIC_0961235",
+    "predicted_prob": 0.05094291642308235
+  },
+  {
+    "image": "ISIC_0981639",
+    "predicted_prob": 0.21248751878738403
+  },
+  {
+    "image": "ISIC_1009042",
+    "predicted_prob": 0.19325727224349976
+  },
+  {
+    "image": "ISIC_1110583",
+    "predicted_prob": 0.2911021411418915
+  },
+  {
+    "image": "ISIC_1116483",
+    "predicted_prob": 0.6048045754432678
+  },
+  {
+    "image": "ISIC_1159891",
+    "predicted_prob": 0.25300133228302
+  },
+  {
+    "image": "ISIC_1177505",
+    "predicted_prob": 0.2224520444869995
+  },
+  {
+    "image": "ISIC_1231419",
+    "predicted_prob": 0.1390172243118286
+  },
+  {
+    "image": "ISIC_1241817",
+    "predicted_prob": 0.43602851033210754
+  },
+  {
+    "image": "ISIC_1247683",
+    "predicted_prob": 0.5347412824630737
+  },
+  {
+    "image": "ISIC_1330008",
+    "predicted_prob": 0.16978119313716888
+  },
+  {
+    "image": "ISIC_1356715",
+    "predicted_prob": 0.08773420751094818
+  },
+  {
+    "image": "ISIC_1369967",
+    "predicted_prob": 0.22781698405742645
+  },
+  {
+    "image": "ISIC_1375476",
+    "predicted_prob": 0.16433016955852509
+  },
+  {
+    "image": "ISIC_1388552",
+    "predicted_prob": 0.6072216629981995
+  },
+  {
+    "image": "ISIC_1393771",
+    "predicted_prob": 0.41027289628982544
+  },
+  {
+    "image": "ISIC_1412843",
+    "predicted_prob": 0.41753941774368286
+  },
+  {
+    "image": "ISIC_1460932",
+    "predicted_prob": 0.29663416743278503
+  },
+  {
+    "image": "ISIC_1473522",
+    "predicted_prob": 0.5437524914741516
+  },
+  {
+    "image": "ISIC_1474461",
+    "predicted_prob": 0.4731225073337555
+  },
+  {
+    "image": "ISIC_1484659",
+    "predicted_prob": 0.10881954431533813
+  },
+  {
+    "image": "ISIC_1620401",
+    "predicted_prob": 0.10760673880577087
+  },
+  {
+    "image": "ISIC_1706912",
+    "predicted_prob": 0.1990852952003479
+  },
+  {
+    "image": "ISIC_1752943",
+    "predicted_prob": 0.22499245405197144
+  },
+  {
+    "image": "ISIC_1785627",
+    "predicted_prob": 0.40101781487464905
+  },
+  {
+    "image": "ISIC_1797795",
+    "predicted_prob": 0.587700605392456
+  },
+  {
+    "image": "ISIC_1834920",
+    "predicted_prob": 0.11731195449829102
+  },
+  {
+    "image": "ISIC_1866770",
+    "predicted_prob": 0.21921312808990479
+  },
+  {
+    "image": "ISIC_1870415",
+    "predicted_prob": 0.13577885925769806
+  },
+  {
+    "image": "ISIC_1881133",
+    "predicted_prob": 0.05572006106376648
+  },
+  {
+    "image": "ISIC_1968421",
+    "predicted_prob": 0.175693079829216
+  },
+  {
+    "image": "ISIC_2072219",
+    "predicted_prob": 0.5770890712738037
+  },
+  {
+    "image": "ISIC_2077116",
+    "predicted_prob": 0.10902930051088333
+  },
+  {
+    "image": "ISIC_2105563",
+    "predicted_prob": 0.026030410081148148
+  },
+  {
+    "image": "ISIC_2153401",
+    "predicted_prob": 0.28233465552330017
+  },
+  {
+    "image": "ISIC_2176112",
+    "predicted_prob": 0.32420414686203003
+  },
+  {
+    "image": "ISIC_2212473",
+    "predicted_prob": 0.26671522855758667
+  },
+  {
+    "image": "ISIC_2232442",
+    "predicted_prob": 0.19197282195091248
+  },
+  {
+    "image": "ISIC_2268341",
+    "predicted_prob": 0.601618766784668
+  },
+  {
+    "image": "ISIC_2306349",
+    "predicted_prob": 0.28582796454429626
+  },
+  {
+    "image": "ISIC_2309744",
+    "predicted_prob": 0.5335807800292969
+  },
+  {
+    "image": "ISIC_2311665",
+    "predicted_prob": 0.3354395031929016
+  },
+  {
+    "image": "ISIC_2320481",
+    "predicted_prob": 0.4964357912540436
+  },
+  {
+    "image": "ISIC_2406492",
+    "predicted_prob": 0.32359573245048523
+  },
+  {
+    "image": "ISIC_2437633",
+    "predicted_prob": 0.06287787109613419
+  },
+  {
+    "image": "ISIC_2481044",
+    "predicted_prob": 0.07270368933677673
+  },
+  {
+    "image": "ISIC_2609984",
+    "predicted_prob": 0.4191419780254364
+  },
+  {
+    "image": "ISIC_2697083",
+    "predicted_prob": 0.2251221239566803
+  },
+  {
+    "image": "ISIC_2700320",
+    "predicted_prob": 0.06358296424150467
+  },
+  {
+    "image": "ISIC_2720971",
+    "predicted_prob": 0.06023276224732399
+  },
+  {
+    "image": "ISIC_2724529",
+    "predicted_prob": 0.26038360595703125
+  },
+  {
+    "image": "ISIC_2844539",
+    "predicted_prob": 0.36360546946525574
+  },
+  {
+    "image": "ISIC_2871230",
+    "predicted_prob": 0.3841245770454407
+  },
+  {
+    "image": "ISIC_2895555",
+    "predicted_prob": 0.331631600856781
+  },
+  {
+    "image": "ISIC_2957732",
+    "predicted_prob": 0.07326211035251617
+  },
+  {
+    "image": "ISIC_3002956",
+    "predicted_prob": 0.5602970719337463
+  },
+  {
+    "image": "ISIC_3009877",
+    "predicted_prob": 0.07749677449464798
+  },
+  {
+    "image": "ISIC_3028754",
+    "predicted_prob": 0.02126096934080124
+  },
+  {
+    "image": "ISIC_3065032",
+    "predicted_prob": 0.390094518661499
+  },
+  {
+    "image": "ISIC_3084312",
+    "predicted_prob": 0.08106999844312668
+  },
+  {
+    "image": "ISIC_3093026",
+    "predicted_prob": 0.2840532958507538
+  },
+  {
+    "image": "ISIC_3097354",
+    "predicted_prob": 0.57192063331604
+  },
+  {
+    "image": "ISIC_3159924",
+    "predicted_prob": 0.4831841289997101
+  },
+  {
+    "image": "ISIC_3253484",
+    "predicted_prob": 0.23039261996746063
+  },
+  {
+    "image": "ISIC_3301933",
+    "predicted_prob": 0.2777239978313446
+  },
+  {
+    "image": "ISIC_3338629",
+    "predicted_prob": 0.5264230966567993
+  },
+  {
+    "image": "ISIC_3359880",
+    "predicted_prob": 0.17835307121276855
+  },
+  {
+    "image": "ISIC_3372750",
+    "predicted_prob": 0.12434320151805878
+  },
+  {
+    "image": "ISIC_3391427",
+    "predicted_prob": 0.4032876789569855
+  },
+  {
+    "image": "ISIC_3394520",
+    "predicted_prob": 0.361270010471344
+  },
+  {
+    "image": "ISIC_3435596",
+    "predicted_prob": 0.22414225339889526
+  },
+  {
+    "image": "ISIC_3440759",
+    "predicted_prob": 0.5254465341567993
+  },
+  {
+    "image": "ISIC_3446357",
+    "predicted_prob": 0.47449401021003723
+  },
+  {
+    "image": "ISIC_3475660",
+    "predicted_prob": 0.5473885536193848
+  },
+  {
+    "image": "ISIC_3590167",
+    "predicted_prob": 0.18048804998397827
+  },
+  {
+    "image": "ISIC_3673080",
+    "predicted_prob": 0.12073561549186707
+  },
+  {
+    "image": "ISIC_3684488",
+    "predicted_prob": 0.2870349884033203
+  },
+  {
+    "image": "ISIC_3733653",
+    "predicted_prob": 0.33851099014282227
+  },
+  {
+    "image": "ISIC_3775417",
+    "predicted_prob": 0.14747919142246246
+  },
+  {
+    "image": "ISIC_3778192",
+    "predicted_prob": 0.09119300544261932
+  },
+  {
+    "image": "ISIC_3909039",
+    "predicted_prob": 0.08038941770792007
+  },
+  {
+    "image": "ISIC_3941123",
+    "predicted_prob": 0.29519879817962646
+  },
+  {
+    "image": "ISIC_3965087",
+    "predicted_prob": 0.10779514908790588
+  },
+  {
+    "image": "ISIC_3969411",
+    "predicted_prob": 0.5228927731513977
+  },
+  {
+    "image": "ISIC_3993924",
+    "predicted_prob": 0.5362865924835205
+  },
+  {
+    "image": "ISIC_4012047",
+    "predicted_prob": 0.055704277008771896
+  },
+  {
+    "image": "ISIC_4163686",
+    "predicted_prob": 0.2918621599674225
+  },
+  {
+    "image": "ISIC_4223155",
+    "predicted_prob": 0.2814319133758545
+  },
+  {
+    "image": "ISIC_4229473",
+    "predicted_prob": 0.33921512961387634
+  },
+  {
+    "image": "ISIC_4276255",
+    "predicted_prob": 0.062302276492118835
+  },
+  {
+    "image": "ISIC_4346693",
+    "predicted_prob": 0.44594553112983704
+  },
+  {
+    "image": "ISIC_4362713",
+    "predicted_prob": 0.2510097324848175
+  },
+  {
+    "image": "ISIC_4377208",
+    "predicted_prob": 0.47464993596076965
+  },
+  {
+    "image": "ISIC_4398011",
+    "predicted_prob": 0.4261820614337921
+  },
+  {
+    "image": "ISIC_4408559",
+    "predicted_prob": 0.08171805739402771
+  },
+  {
+    "image": "ISIC_4425657",
+    "predicted_prob": 0.4365074336528778
+  },
+  {
+    "image": "ISIC_4469476",
+    "predicted_prob": 0.032611504197120667
+  },
+  {
+    "image": "ISIC_4523238",
+    "predicted_prob": 0.5639853477478027
+  },
+  {
+    "image": "ISIC_4619903",
+    "predicted_prob": 0.14226916432380676
+  },
+  {
+    "image": "ISIC_4649440",
+    "predicted_prob": 0.3208017945289612
+  },
+  {
+    "image": "ISIC_4653503",
+    "predicted_prob": 0.24203477799892426
+  },
+  {
+    "image": "ISIC_4874581",
+    "predicted_prob": 0.3040020763874054
+  },
+  {
+    "image": "ISIC_4936662",
+    "predicted_prob": 0.37657514214515686
+  },
+  {
+    "image": "ISIC_4938994",
+    "predicted_prob": 0.43856701254844666
+  },
+  {
+    "image": "ISIC_4960802",
+    "predicted_prob": 0.5530401468276978
+  },
+  {
+    "image": "ISIC_4967586",
+    "predicted_prob": 0.345452219247818
+  },
+  {
+    "image": "ISIC_5021861",
+    "predicted_prob": 0.20350942015647888
+  },
+  {
+    "image": "ISIC_5037784",
+    "predicted_prob": 0.6118811368942261
+  },
+  {
+    "image": "ISIC_5044438",
+    "predicted_prob": 0.2119620442390442
+  },
+  {
+    "image": "ISIC_5046082",
+    "predicted_prob": 0.19111275672912598
+  },
+  {
+    "image": "ISIC_5086349",
+    "predicted_prob": 0.18806092441082
+  },
+  {
+    "image": "ISIC_5137933",
+    "predicted_prob": 0.5646603107452393
+  },
+  {
+    "image": "ISIC_5140952",
+    "predicted_prob": 0.24826478958129883
+  },
+  {
+    "image": "ISIC_5147292",
+    "predicted_prob": 0.09754835069179535
+  },
+  {
+    "image": "ISIC_5166798",
+    "predicted_prob": 0.4524971842765808
+  },
+  {
+    "image": "ISIC_5167209",
+    "predicted_prob": 0.3061133027076721
+  },
+  {
+    "image": "ISIC_5258657",
+    "predicted_prob": 0.3233293294906616
+  },
+  {
+    "image": "ISIC_5331102",
+    "predicted_prob": 0.01625189371407032
+  },
+  {
+    "image": "ISIC_5369000",
+    "predicted_prob": 0.4644303023815155
+  },
+  {
+    "image": "ISIC_5415761",
+    "predicted_prob": 0.6079534888267517
+  },
+  {
+    "image": "ISIC_5434661",
+    "predicted_prob": 0.36327412724494934
+  },
+  {
+    "image": "ISIC_5495413",
+    "predicted_prob": 0.06812828034162521
+  },
+  {
+    "image": "ISIC_5576354",
+    "predicted_prob": 0.3850744366645813
+  },
+  {
+    "image": "ISIC_5581931",
+    "predicted_prob": 0.09440305829048157
+  },
+  {
+    "image": "ISIC_5667461",
+    "predicted_prob": 0.5230877995491028
+  },
+  {
+    "image": "ISIC_5673518",
+    "predicted_prob": 0.1881181001663208
+  },
+  {
+    "image": "ISIC_5732201",
+    "predicted_prob": 0.39479362964630127
+  },
+  {
+    "image": "ISIC_5733748",
+    "predicted_prob": 0.08159296959638596
+  },
+  {
+    "image": "ISIC_5747486",
+    "predicted_prob": 0.04455749690532684
+  },
+  {
+    "image": "ISIC_5868291",
+    "predicted_prob": 0.49142977595329285
+  },
+  {
+    "image": "ISIC_5869480",
+    "predicted_prob": 0.48526230454444885
+  },
+  {
+    "image": "ISIC_5983500",
+    "predicted_prob": 0.09878983348608017
+  },
+  {
+    "image": "ISIC_6017985",
+    "predicted_prob": 0.1674741953611374
+  },
+  {
+    "image": "ISIC_6110888",
+    "predicted_prob": 0.37785762548446655
+  },
+  {
+    "image": "ISIC_6251753",
+    "predicted_prob": 0.130543053150177
+  },
+  {
+    "image": "ISIC_6255113",
+    "predicted_prob": 0.4359731376171112
+  },
+  {
+    "image": "ISIC_6269166",
+    "predicted_prob": 0.3112372159957886
+  },
+  {
+    "image": "ISIC_6285925",
+    "predicted_prob": 0.04229568690061569
+  },
+  {
+    "image": "ISIC_6303107",
+    "predicted_prob": 0.15207219123840332
+  },
+  {
+    "image": "ISIC_6348638",
+    "predicted_prob": 0.6062611937522888
+  },
+  {
+    "image": "ISIC_6355353",
+    "predicted_prob": 0.059736721217632294
+  },
+  {
+    "image": "ISIC_6392461",
+    "predicted_prob": 0.31320858001708984
+  },
+  {
+    "image": "ISIC_6398283",
+    "predicted_prob": 0.11673795431852341
+  },
+  {
+    "image": "ISIC_6404049",
+    "predicted_prob": 0.1687440574169159
+  },
+  {
+    "image": "ISIC_6509682",
+    "predicted_prob": 0.4972119629383087
+  },
+  {
+    "image": "ISIC_6512653",
+    "predicted_prob": 0.18341964483261108
+  },
+  {
+    "image": "ISIC_6516710",
+    "predicted_prob": 0.15144146978855133
+  },
+  {
+    "image": "ISIC_6526489",
+    "predicted_prob": 0.13585540652275085
+  },
+  {
+    "image": "ISIC_6539127",
+    "predicted_prob": 0.5751853585243225
+  },
+  {
+    "image": "ISIC_6541615",
+    "predicted_prob": 0.07819141447544098
+  },
+  {
+    "image": "ISIC_6613150",
+    "predicted_prob": 0.45589256286621094
+  },
+  {
+    "image": "ISIC_6620377",
+    "predicted_prob": 0.11461988836526871
+  },
+  {
+    "image": "ISIC_6671773",
+    "predicted_prob": 0.16217203438282013
+  },
+  {
+    "image": "ISIC_6688417",
+    "predicted_prob": 0.030886713415384293
+  },
+  {
+    "image": "ISIC_6692344",
+    "predicted_prob": 0.49514418840408325
+  },
+  {
+    "image": "ISIC_6713432",
+    "predicted_prob": 0.05085112527012825
+  },
+  {
+    "image": "ISIC_6714082",
+    "predicted_prob": 0.5656508803367615
+  },
+  {
+    "image": "ISIC_6785680",
+    "predicted_prob": 0.5726174116134644
+  },
+  {
+    "image": "ISIC_6786198",
+    "predicted_prob": 0.4592301845550537
+  },
+  {
+    "image": "ISIC_6809586",
+    "predicted_prob": 0.17725083231925964
+  },
+  {
+    "image": "ISIC_6829008",
+    "predicted_prob": 0.5789494514465332
+  },
+  {
+    "image": "ISIC_6904082",
+    "predicted_prob": 0.019178707152605057
+  },
+  {
+    "image": "ISIC_6927840",
+    "predicted_prob": 0.44190144538879395
+  },
+  {
+    "image": "ISIC_6931277",
+    "predicted_prob": 0.2455500066280365
+  },
+  {
+    "image": "ISIC_6945634",
+    "predicted_prob": 0.2778320014476776
+  },
+  {
+    "image": "ISIC_6966001",
+    "predicted_prob": 0.030208425596356392
+  },
+  {
+    "image": "ISIC_6971606",
+    "predicted_prob": 0.31284019351005554
+  },
+  {
+    "image": "ISIC_7070020",
+    "predicted_prob": 0.3589586615562439
+  },
+  {
+    "image": "ISIC_7075474",
+    "predicted_prob": 0.08595378696918488
+  },
+  {
+    "image": "ISIC_7098141",
+    "predicted_prob": 0.10153592377901077
+  },
+  {
+    "image": "ISIC_7183212",
+    "predicted_prob": 0.5729091763496399
+  },
+  {
+    "image": "ISIC_7190243",
+    "predicted_prob": 0.1150493249297142
+  },
+  {
+    "image": "ISIC_7205745",
+    "predicted_prob": 0.0938940942287445
+  },
+  {
+    "image": "ISIC_7218890",
+    "predicted_prob": 0.21043117344379425
+  },
+  {
+    "image": "ISIC_7233368",
+    "predicted_prob": 0.4068009853363037
+  },
+  {
+    "image": "ISIC_7242384",
+    "predicted_prob": 0.14114134013652802
+  },
+  {
+    "image": "ISIC_7253401",
+    "predicted_prob": 0.3541523218154907
+  },
+  {
+    "image": "ISIC_7265673",
+    "predicted_prob": 0.13548476994037628
+  },
+  {
+    "image": "ISIC_7287303",
+    "predicted_prob": 0.07393041253089905
+  },
+  {
+    "image": "ISIC_7293518",
+    "predicted_prob": 0.28469979763031006
+  },
+  {
+    "image": "ISIC_7295035",
+    "predicted_prob": 0.09677202254533768
+  },
+  {
+    "image": "ISIC_7312977",
+    "predicted_prob": 0.5393105745315552
+  },
+  {
+    "image": "ISIC_7346228",
+    "predicted_prob": 0.22010743618011475
+  },
+  {
+    "image": "ISIC_7349772",
+    "predicted_prob": 0.0580865778028965
+  },
+  {
+    "image": "ISIC_7371801",
+    "predicted_prob": 0.41590866446495056
+  },
+  {
+    "image": "ISIC_7520843",
+    "predicted_prob": 0.37592896819114685
+  },
+  {
+    "image": "ISIC_7612992",
+    "predicted_prob": 0.4734334349632263
+  },
+  {
+    "image": "ISIC_7614221",
+    "predicted_prob": 0.019029488787055016
+  },
+  {
+    "image": "ISIC_7658729",
+    "predicted_prob": 0.12275049835443497
+  },
+  {
+    "image": "ISIC_7730937",
+    "predicted_prob": 0.3183746635913849
+  },
+  {
+    "image": "ISIC_7763042",
+    "predicted_prob": 0.43044283986091614
+  },
+  {
+    "image": "ISIC_7785723",
+    "predicted_prob": 0.06303264945745468
+  },
+  {
+    "image": "ISIC_7844825",
+    "predicted_prob": 0.22553525865077972
+  },
+  {
+    "image": "ISIC_7897925",
+    "predicted_prob": 0.052083276212215424
+  },
+  {
+    "image": "ISIC_7914631",
+    "predicted_prob": 0.045336756855249405
+  },
+  {
+    "image": "ISIC_7936755",
+    "predicted_prob": 0.4448221027851105
+  },
+  {
+    "image": "ISIC_7948290",
+    "predicted_prob": 0.06926585733890533
+  },
+  {
+    "image": "ISIC_7960869",
+    "predicted_prob": 0.12052217870950699
+  },
+  {
+    "image": "ISIC_7961365",
+    "predicted_prob": 0.04138819873332977
+  },
+  {
+    "image": "ISIC_8011058",
+    "predicted_prob": 0.3109917640686035
+  },
+  {
+    "image": "ISIC_8027899",
+    "predicted_prob": 0.02073713205754757
+  },
+  {
+    "image": "ISIC_8040024",
+    "predicted_prob": 0.12913313508033752
+  },
+  {
+    "image": "ISIC_8066110",
+    "predicted_prob": 0.27178213000297546
+  },
+  {
+    "image": "ISIC_8068693",
+    "predicted_prob": 0.42660781741142273
+  },
+  {
+    "image": "ISIC_8106899",
+    "predicted_prob": 0.2359481006860733
+  },
+  {
+    "image": "ISIC_8124900",
+    "predicted_prob": 0.4917972981929779
+  },
+  {
+    "image": "ISIC_8194835",
+    "predicted_prob": 0.028050219640135765
+  },
+  {
+    "image": "ISIC_8207974",
+    "predicted_prob": 0.038358405232429504
+  },
+  {
+    "image": "ISIC_8231999",
+    "predicted_prob": 0.3508949875831604
+  },
+  {
+    "image": "ISIC_8355446",
+    "predicted_prob": 0.4101022481918335
+  },
+  {
+    "image": "ISIC_8379956",
+    "predicted_prob": 0.1215788796544075
+  },
+  {
+    "image": "ISIC_8397285",
+    "predicted_prob": 0.1333456039428711
+  },
+  {
+    "image": "ISIC_8414609",
+    "predicted_prob": 0.2143932580947876
+  },
+  {
+    "image": "ISIC_8417873",
+    "predicted_prob": 0.33498886227607727
+  },
+  {
+    "image": "ISIC_8450656",
+    "predicted_prob": 0.5294709801673889
+  },
+  {
+    "image": "ISIC_8493108",
+    "predicted_prob": 0.4054325819015503
+  },
+  {
+    "image": "ISIC_8496052",
+    "predicted_prob": 0.4419197738170624
+  },
+  {
+    "image": "ISIC_8497457",
+    "predicted_prob": 0.1823110580444336
+  },
+  {
+    "image": "ISIC_8527092",
+    "predicted_prob": 0.4368740916252136
+  },
+  {
+    "image": "ISIC_8609756",
+    "predicted_prob": 0.10203417390584946
+  },
+  {
+    "image": "ISIC_8615491",
+    "predicted_prob": 0.2821349799633026
+  },
+  {
+    "image": "ISIC_8617277",
+    "predicted_prob": 0.546735405921936
+  },
+  {
+    "image": "ISIC_8621568",
+    "predicted_prob": 0.17207716405391693
+  },
+  {
+    "image": "ISIC_8692218",
+    "predicted_prob": 0.5570966601371765
+  },
+  {
+    "image": "ISIC_8702237",
+    "predicted_prob": 0.18199187517166138
+  },
+  {
+    "image": "ISIC_8724944",
+    "predicted_prob": 0.04073945805430412
+  },
+  {
+    "image": "ISIC_8732757",
+    "predicted_prob": 0.1747184544801712
+  },
+  {
+    "image": "ISIC_8838753",
+    "predicted_prob": 0.26180216670036316
+  },
+  {
+    "image": "ISIC_8859274",
+    "predicted_prob": 0.3196469247341156
+  },
+  {
+    "image": "ISIC_8866651",
+    "predicted_prob": 0.43837642669677734
+  },
+  {
+    "image": "ISIC_8882374",
+    "predicted_prob": 0.06992248445749283
+  },
+  {
+    "image": "ISIC_8892236",
+    "predicted_prob": 0.033392831683158875
+  },
+  {
+    "image": "ISIC_8922893",
+    "predicted_prob": 0.4190663993358612
+  },
+  {
+    "image": "ISIC_8951909",
+    "predicted_prob": 0.11055399477481842
+  },
+  {
+    "image": "ISIC_8985109",
+    "predicted_prob": 0.017529839649796486
+  },
+  {
+    "image": "ISIC_9000234",
+    "predicted_prob": 0.142826110124588
+  },
+  {
+    "image": "ISIC_9000824",
+    "predicted_prob": 0.1581745594739914
+  },
+  {
+    "image": "ISIC_9130157",
+    "predicted_prob": 0.2223765254020691
+  },
+  {
+    "image": "ISIC_9174306",
+    "predicted_prob": 0.36044424772262573
+  },
+  {
+    "image": "ISIC_9193127",
+    "predicted_prob": 0.3524519205093384
+  },
+  {
+    "image": "ISIC_9228573",
+    "predicted_prob": 0.5142049193382263
+  },
+  {
+    "image": "ISIC_9268487",
+    "predicted_prob": 0.31257566809654236
+  },
+  {
+    "image": "ISIC_9286292",
+    "predicted_prob": 0.6117240190505981
+  },
+  {
+    "image": "ISIC_9312164",
+    "predicted_prob": 0.33350512385368347
+  },
+  {
+    "image": "ISIC_9547725",
+    "predicted_prob": 0.42607206106185913
+  },
+  {
+    "image": "ISIC_9571842",
+    "predicted_prob": 0.47398895025253296
+  },
+  {
+    "image": "ISIC_9593940",
+    "predicted_prob": 0.2458532154560089
+  },
+  {
+    "image": "ISIC_9612481",
+    "predicted_prob": 0.11651020497083664
+  },
+  {
+    "image": "ISIC_9626843",
+    "predicted_prob": 0.15013429522514343
+  },
+  {
+    "image": "ISIC_9685931",
+    "predicted_prob": 0.10060901939868927
+  },
+  {
+    "image": "ISIC_9785077",
+    "predicted_prob": 0.07769709825515747
+  },
+  {
+    "image": "ISIC_9828846",
+    "predicted_prob": 0.3574877679347992
+  },
+  {
+    "image": "ISIC_9863642",
+    "predicted_prob": 0.2683905065059662
+  },
+  {
+    "image": "ISIC_9870885",
+    "predicted_prob": 0.2524605691432953
+  },
+  {
+    "image": "ISIC_9978107",
+    "predicted_prob": 0.5789801478385925
+  },
+  {
+    "image": "ISIC_9998682",
+    "predicted_prob": 0.235029399394989
+  }
+]
