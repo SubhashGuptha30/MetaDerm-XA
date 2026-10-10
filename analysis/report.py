@@ -11,6 +11,7 @@ Each section skips itself (with a message) if its inputs do not exist yet.
 import argparse
 import itertools
 import json
+import re
 from pathlib import Path
 
 import numpy as np
@@ -41,6 +42,7 @@ def save(name: str, df: pd.DataFrame, tex_cols=None, caption=None):
     df.to_csv(OUT / f"{name}.csv", index=False)
     t = df[tex_cols] if tex_cols else df
     body = t.to_latex(index=False, escape=False, column_format="l" + "c" * (t.shape[1] - 1))
+    body = re.sub(r"(?<!\\)%", r"\\%", body)  # escape=False keeps $\pm$ etc.; a bare % would start a comment
     (TEX / f"{name}.tex").write_text(body)
     print(f"--- {name} ---\n{t.to_string(index=False)}\n")
 
@@ -484,6 +486,25 @@ def sec_errors(models=("baseline", "film", "field_token")):
     save("errors_missed", pd.DataFrame(rows))
 
 
+def sec_transfer_tables():
+    """Compact conference tables from reports/v2/transfer.csv (no recomputation): zero-label transfer of all
+    models, and the label-budget curve of the image-only model on the two external targets."""
+    t = pd.read_csv(OUT / "transfer.csv")
+    names = {"test": "ISIC 2019 test", "external": "ISIC 2020", "pad": "PAD-UFES-20"}
+    z = t[t["n labelled"] == 0]
+    rows = [{"Model": m, **{f"{names[k]} {c[:4]}.": g[g.Target == k][c].iloc[0] for k in names for c in ("Sensitivity", "Specificity")}}
+            for m, g in z.groupby("Model", sort=False)]
+    save("transfer_zero", pd.DataFrame(rows))
+    b = t[(t.Model == "Image-only") & (t.Target != "test")].copy()
+    b["Sensitivity"] = b["Sensitivity"].astype(str)
+    rows = []
+    for (target, g) in b.groupby("Target", sort=False):
+        for _, r in g.iterrows():
+            rows.append({"Target": names[target], "n labelled": r["n labelled"], "melanomas (mean)": r["n mel. (mean)"],
+                         "Sensitivity": r["Sensitivity"], "Specificity": r["Specificity"], "Usable draws": r["usable reps"]})
+    save("transfer_budget", pd.DataFrame(rows))
+
+
 SECTIONS = {
     "lr": sec_lr,
     "pitfalls": sec_pitfalls,
@@ -501,6 +522,7 @@ SECTIONS = {
     "subgroups": sec_subgroups,
     "training": sec_training,
     "errors": sec_errors,
+    "transfer_tables": sec_transfer_tables,
 }
 
 if __name__ == "__main__":
