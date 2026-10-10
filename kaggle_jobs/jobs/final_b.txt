@@ -1,0 +1,23 @@
+# Stage 2 (22 runs). lr per model from stage-1 validation AUROC: {'baseline': 0.00045, 'baseline_wide': 0.00045, 'concat_fusion': 0.00045, 'cross_attention': 0.00045, 'field_token': 0.00045, 'film': 0.00135}
+configs/v2/field_token.yaml seed=789 lr=0.00045
+configs/v2/baseline.yaml seed=2024 lr=0.00045
+configs/v2/baseline_wide.yaml seed=2024 lr=0.00045
+configs/v2/concat_fusion.yaml seed=2024 lr=0.00045
+configs/v2/cross_attention.yaml seed=2024 lr=0.00045
+configs/v2/film.yaml seed=2024 lr=0.00135
+configs/v2/field_token.yaml seed=2024 lr=0.00045
+configs/v2/field_token_k1.yaml seed=42 lr=0.00045
+configs/v2/field_token_k2.yaml seed=42 lr=0.00045
+configs/v2/field_token_k3.yaml seed=42 lr=0.00045
+configs/v2/field_token_k1.yaml seed=123 lr=0.00045
+configs/v2/field_token_k2.yaml seed=123 lr=0.00045
+configs/v2/field_token_k3.yaml seed=123 lr=0.00045
+configs/v2/field_token_k1.yaml seed=456 lr=0.00045
+configs/v2/field_token_k2.yaml seed=456 lr=0.00045
+configs/v2/field_token_k3.yaml seed=456 lr=0.00045
+configs/v2/field_token_k1.yaml seed=789 lr=0.00045
+configs/v2/field_token_k2.yaml seed=789 lr=0.00045
+configs/v2/field_token_k3.yaml seed=789 lr=0.00045
+configs/v2/field_token_k1.yaml seed=2024 lr=0.00045
+configs/v2/field_token_k2.yaml seed=2024 lr=0.00045
+configs/v2/field_token_k3.yaml seed=2024 lr=0.00045

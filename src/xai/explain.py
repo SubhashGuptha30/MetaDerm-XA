@@ -22,7 +22,7 @@ from PIL import Image
 
 from src.data.metadata_encoder import MetadataEncoder, SITE_CATEGORIES
 from src.data.transforms import get_inference_transforms, denormalize
-from src.train import build_model
+from src.models.factory import build_model
 from src.utils.seed import set_seed
 from src.xai.counterfactual_engine import run_full_counterfactual
 from src.xai.gradcam import GradCAM, get_default_target_layer, overlay_cam_on_image

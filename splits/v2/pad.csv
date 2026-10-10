@@ -1,0 +1,2299 @@
+image_name,img_dir,target,age_approx,age_missing,sex,anatom_site_general_challenge,group_id,diagnosis,fitzpatrick
+PAT_1516_1765_530,pad_ufes20,0,8.0,0,unknown,upper extremity,PAT_1516,NEV,
+PAT_46_881_939,pad_ufes20,0,55.0,0,female,head/neck,PAT_46,BCC,3.0
+PAT_1545_1867_547,pad_ufes20,0,77.0,0,unknown,head/neck,PAT_1545,ACK,
+PAT_1989_4061_934,pad_ufes20,0,75.0,0,unknown,upper extremity,PAT_1989,ACK,
+PAT_684_1302_588,pad_ufes20,0,79.0,0,male,upper extremity,PAT_684,BCC,1.0
+PAT_1549_1882_230,pad_ufes20,0,53.0,0,unknown,torso,PAT_1549,SEK,
+PAT_778_1471_835,pad_ufes20,0,52.0,0,female,head/neck,PAT_778,BCC,3.0
+PAT_117_179_983,pad_ufes20,0,74.0,0,female,head/neck,PAT_117,BCC,1.0
+PAT_1995_4080_695,pad_ufes20,0,68.0,0,unknown,upper extremity,PAT_1995,ACK,
+PAT_705_4015_413,pad_ufes20,0,58.0,0,female,upper extremity,PAT_705,ACK,1.0
+PAT_2140_4726_141,pad_ufes20,0,45.0,0,unknown,head/neck,PAT_2140,ACK,
+PAT_967_1827_247,pad_ufes20,0,34.0,0,female,head/neck,PAT_967,BCC,2.0
+PAT_2088_4524_465,pad_ufes20,0,9.0,0,unknown,torso,PAT_2088,NEV,
+PAT_636_1204_521,pad_ufes20,0,78.0,0,female,torso,PAT_636,BCC,2.0
+PAT_38_54_234,pad_ufes20,0,52.0,0,male,lower extremity,PAT_38,BCC,1.0
+PAT_741_1401_619,pad_ufes20,0,77.0,0,male,head/neck,PAT_741,BCC,2.0
+PAT_380_1540_959,pad_ufes20,0,60.0,0,male,head/neck,PAT_380,SCC,2.0
+PAT_1783_3414_120,pad_ufes20,0,75.0,0,unknown,head/neck,PAT_1783,SEK,
+PAT_759_1538_566,pad_ufes20,0,74.0,0,male,head/neck,PAT_759,BCC,2.0
+PAT_821_1547_77,pad_ufes20,0,64.0,0,female,head/neck,PAT_821,BCC,2.0
+PAT_1693_3103_879,pad_ufes20,0,45.0,0,unknown,torso,PAT_1693,ACK,
+PAT_875_1668_588,pad_ufes20,0,61.0,0,male,torso,PAT_875,BCC,2.0
+PAT_1653_2916_346,pad_ufes20,0,62.0,0,unknown,head/neck,PAT_1653,SEK,
+PAT_1790_3425_942,pad_ufes20,0,67.0,0,unknown,head/neck,PAT_1790,SEK,
+PAT_106_159_325,pad_ufes20,0,71.0,0,female,head/neck,PAT_106,BCC,1.0
+PAT_435_854_68,pad_ufes20,0,60.0,0,female,head/neck,PAT_435,BCC,3.0
+PAT_1902_3790_168,pad_ufes20,0,66.0,0,unknown,upper extremity,PAT_1902,SEK,
+PAT_42_58_13,pad_ufes20,0,38.0,0,female,torso,PAT_42,BCC,1.0
+PAT_302_651_529,pad_ufes20,0,64.0,0,male,head/neck,PAT_302,BCC,2.0
+PAT_359_4450_86,pad_ufes20,0,54.0,0,female,upper extremity,PAT_359,ACK,3.0
+PAT_107_160_609,pad_ufes20,0,82.0,0,female,torso,PAT_107,SEK,1.0
+PAT_134_201_587,pad_ufes20,0,62.0,0,male,head/neck,PAT_134,BCC,1.0
+PAT_1453_1567_250,pad_ufes20,0,52.0,0,unknown,head/neck,PAT_1453,NEV,
+PAT_79_120_532,pad_ufes20,0,63.0,0,female,head/neck,PAT_79,BCC,2.0
+PAT_1926_3871_371,pad_ufes20,0,78.0,0,unknown,head/neck,PAT_1926,SEK,
+PAT_724_1369_896,pad_ufes20,0,49.0,0,female,head/neck,PAT_724,BCC,1.0
+PAT_1582_2574_34,pad_ufes20,0,76.0,0,unknown,head/neck,PAT_1582,SEK,
+PAT_1006_53_716,pad_ufes20,0,63.0,0,unknown,upper extremity,PAT_1006,ACK,
+PAT_1431_1495_511,pad_ufes20,0,58.0,0,unknown,upper extremity,PAT_1431,ACK,
+PAT_944_1795_371,pad_ufes20,0,31.0,0,male,head/neck,PAT_944,BCC,3.0
+PAT_793_1512_327,pad_ufes20,0,36.0,0,male,torso,PAT_793,NEV,4.0
+PAT_394_1562_579,pad_ufes20,0,75.0,0,male,upper extremity,PAT_394,BCC,2.0
+PAT_1842_3615_850,pad_ufes20,0,17.0,0,unknown,upper extremity,PAT_1842,NEV,
+PAT_621_1183_56,pad_ufes20,0,34.0,0,male,torso,PAT_621,NEV,3.0
+PAT_374_762_794,pad_ufes20,0,77.0,0,female,head/neck,PAT_374,ACK,2.0
+PAT_265_406_276,pad_ufes20,0,44.0,0,male,torso,PAT_265,BCC,2.0
+PAT_1074_322_662,pad_ufes20,0,45.0,0,unknown,upper extremity,PAT_1074,ACK,
+PAT_289_1399_481,pad_ufes20,0,56.0,0,male,upper extremity,PAT_289,ACK,2.0
+PAT_1803_3463_639,pad_ufes20,0,26.0,0,unknown,torso,PAT_1803,NEV,
+PAT_1029_135_239,pad_ufes20,0,47.0,0,unknown,head/neck,PAT_1029,ACK,
+PAT_2020_4174_799,pad_ufes20,0,74.0,0,unknown,upper extremity,PAT_2020,ACK,
+PAT_682_1292_986,pad_ufes20,0,75.0,0,female,torso,PAT_682,BCC,2.0
+PAT_805_1517_154,pad_ufes20,0,58.0,0,female,upper extremity,PAT_805,SCC,3.0
+PAT_680_1289_182,pad_ufes20,1,78.0,0,male,torso,PAT_680,MEL,2.0
+PAT_53_1370_245,pad_ufes20,0,80.0,0,male,torso,PAT_53,BCC,1.0
+PAT_868_1657_698,pad_ufes20,0,64.0,0,male,torso,PAT_868,ACK,3.0
+PAT_183_283_495,pad_ufes20,0,76.0,0,male,torso,PAT_183,SCC,3.0
+PAT_479_919_97,pad_ufes20,0,48.0,0,male,head/neck,PAT_479,BCC,2.0
+PAT_333_1469_499,pad_ufes20,0,51.0,0,female,torso,PAT_333,NEV,3.0
+PAT_867_1650_901,pad_ufes20,0,47.0,0,female,torso,PAT_867,BCC,3.0
+PAT_236_361_180,pad_ufes20,0,55.0,0,male,torso,PAT_236,ACK,3.0
+PAT_620_1176_980,pad_ufes20,0,35.0,0,male,upper extremity,PAT_620,BCC,2.0
+PAT_26_37_865,pad_ufes20,0,47.0,0,female,torso,PAT_26,ACK,2.0
+PAT_2051_4356_460,pad_ufes20,0,58.0,0,unknown,upper extremity,PAT_2051,ACK,
+PAT_1381_1314_517,pad_ufes20,0,68.0,0,unknown,upper extremity,PAT_1381,ACK,
+PAT_544_3299_671,pad_ufes20,0,87.0,0,female,head/neck,PAT_544,SEK,2.0
+PAT_2025_4229_541,pad_ufes20,0,63.0,0,unknown,torso,PAT_2025,ACK,
+PAT_814_1532_545,pad_ufes20,0,63.0,0,male,torso,PAT_814,BCC,2.0
+PAT_1014_86_861,pad_ufes20,0,41.0,0,unknown,upper extremity,PAT_1014,ACK,
+PAT_1984_4038_265,pad_ufes20,0,22.0,0,unknown,head/neck,PAT_1984,NEV,
+PAT_920_1747_19,pad_ufes20,0,56.0,0,female,head/neck,PAT_920,BCC,2.0
+PAT_838_1585_282,pad_ufes20,0,53.0,0,female,head/neck,PAT_838,BCC,3.0
+PAT_1255_876_939,pad_ufes20,0,60.0,0,unknown,upper extremity,PAT_1255,ACK,
+PAT_701_4056_457,pad_ufes20,0,69.0,0,male,head/neck,PAT_701,SEK,2.0
+PAT_411_815_692,pad_ufes20,0,59.0,0,male,torso,PAT_411,SEK,2.0
+PAT_795_1508_925,pad_ufes20,0,69.0,0,male,upper extremity,PAT_795,ACK,3.0
+PAT_288_441_312,pad_ufes20,0,57.0,0,female,head/neck,PAT_288,BCC,1.0
+PAT_692_1308_364,pad_ufes20,0,71.0,0,female,head/neck,PAT_692,BCC,3.0
+PAT_1278_965_701,pad_ufes20,0,65.0,0,unknown,upper extremity,PAT_1278,ACK,
+PAT_1094_381_85,pad_ufes20,0,41.0,0,unknown,upper extremity,PAT_1094,ACK,
+PAT_645_4043_374,pad_ufes20,0,57.0,0,female,head/neck,PAT_645,ACK,3.0
+PAT_963_1820_823,pad_ufes20,0,58.0,0,male,torso,PAT_963,ACK,2.0
+PAT_241_367_89,pad_ufes20,0,83.0,0,male,torso,PAT_241,BCC,2.0
+PAT_882_1677_789,pad_ufes20,0,92.0,0,female,upper extremity,PAT_882,SCC,2.0
+PAT_1725_3222_943,pad_ufes20,0,47.0,0,unknown,upper extremity,PAT_1725,ACK,
+PAT_98_152_562,pad_ufes20,0,61.0,0,male,torso,PAT_98,BCC,2.0
+PAT_995_1867_5,pad_ufes20,1,49.0,0,female,lower extremity,PAT_995,MEL,2.0
+PAT_1884_3730_813,pad_ufes20,0,80.0,0,unknown,head/neck,PAT_1884,ACK,
+PAT_369_755_391,pad_ufes20,0,77.0,0,female,head/neck,PAT_369,SCC,2.0
+PAT_1276_957_406,pad_ufes20,0,33.0,0,unknown,head/neck,PAT_1276,NEV,
+PAT_1070_305_907,pad_ufes20,0,63.0,0,unknown,upper extremity,PAT_1070,ACK,
+PAT_1688_3066_491,pad_ufes20,0,68.0,0,unknown,head/neck,PAT_1688,ACK,
+PAT_981_1848_906,pad_ufes20,0,67.0,0,female,head/neck,PAT_981,BCC,3.0
+PAT_409_812_974,pad_ufes20,0,46.0,0,female,head/neck,PAT_409,BCC,3.0
+PAT_276_425_539,pad_ufes20,0,52.0,0,female,upper extremity,PAT_276,ACK,2.0
+PAT_430_848_476,pad_ufes20,0,75.0,0,female,head/neck,PAT_430,BCC,2.0
+PAT_419_832_706,pad_ufes20,0,80.0,0,female,upper extremity,PAT_419,BCC,2.0
+PAT_1423_1472_18,pad_ufes20,0,56.0,0,unknown,head/neck,PAT_1423,ACK,
+PAT_55_84_506,pad_ufes20,0,66.0,0,female,upper extremity,PAT_55,BCC,1.0
+PAT_1710_3160_488,pad_ufes20,0,64.0,0,unknown,head/neck,PAT_1710,ACK,
+PAT_1818_3568_132,pad_ufes20,0,60.0,0,unknown,upper extremity,PAT_1818,ACK,
+PAT_1414_1429_59,pad_ufes20,0,75.0,0,unknown,upper extremity,PAT_1414,ACK,
+PAT_1573_2499_849,pad_ufes20,0,45.0,0,unknown,head/neck,PAT_1573,ACK,
+PAT_377_1580_534,pad_ufes20,0,66.0,0,male,lower extremity,PAT_377,SCC,2.0
+PAT_802_1516_910,pad_ufes20,0,60.0,0,male,head/neck,PAT_802,ACK,3.0
+PAT_962_1823_942,pad_ufes20,0,52.0,0,male,head/neck,PAT_962,BCC,3.0
+PAT_1109_437_254,pad_ufes20,0,36.0,0,unknown,torso,PAT_1109,NEV,
+PAT_241_367_374,pad_ufes20,0,83.0,0,male,torso,PAT_241,BCC,2.0
+PAT_1210_738_915,pad_ufes20,0,50.0,0,unknown,head/neck,PAT_1210,ACK,
+PAT_1492_1705_578,pad_ufes20,0,63.0,0,unknown,upper extremity,PAT_1492,ACK,
+PAT_492_937_958,pad_ufes20,0,70.0,0,male,torso,PAT_492,SCC,2.0
+PAT_1400_1372_276,pad_ufes20,0,78.0,0,unknown,head/neck,PAT_1400,SEK,
+PAT_966_1825_584,pad_ufes20,1,46.0,0,female,head/neck,PAT_966,MEL,3.0
+PAT_181_833_109,pad_ufes20,0,59.0,0,male,upper extremity,PAT_181,ACK,4.0
+PAT_263_404_410,pad_ufes20,0,83.0,0,male,upper extremity,PAT_263,ACK,1.0
+PAT_549_1043_676,pad_ufes20,0,85.0,0,male,head/neck,PAT_549,SCC,2.0
+PAT_461_895_72,pad_ufes20,0,41.0,0,female,head/neck,PAT_461,BCC,3.0
+PAT_875_1669_946,pad_ufes20,0,61.0,0,male,torso,PAT_875,BCC,2.0
+PAT_1721_3219_737,pad_ufes20,0,53.0,0,unknown,torso,PAT_1721,SEK,
+PAT_714_1337_709,pad_ufes20,0,67.0,0,male,head/neck,PAT_714,SCC,3.0
+PAT_426_842_458,pad_ufes20,0,63.0,0,female,torso,PAT_426,BCC,3.0
+PAT_847_1610_165,pad_ufes20,0,60.0,0,male,torso,PAT_847,BCC,2.0
+PAT_281_1516_753,pad_ufes20,0,61.0,0,male,upper extremity,PAT_281,ACK,3.0
+PAT_168_1486_97,pad_ufes20,0,51.0,0,male,torso,PAT_168,BCC,2.0
+PAT_441_861_415,pad_ufes20,0,55.0,0,female,torso,PAT_441,BCC,2.0
+PAT_958_1812_62,pad_ufes20,0,66.0,0,female,head/neck,PAT_958,NEV,3.0
+PAT_319_680_832,pad_ufes20,0,62.0,0,female,torso,PAT_319,SCC,2.0
+PAT_999_20_223,pad_ufes20,0,40.0,0,unknown,upper extremity,PAT_999,ACK,
+PAT_1305_4097_251,pad_ufes20,0,54.0,0,unknown,head/neck,PAT_1305,SEK,
+PAT_796_1510_130,pad_ufes20,0,83.0,0,male,upper extremity,PAT_796,BCC,2.0
+PAT_963_1819_298,pad_ufes20,0,58.0,0,male,torso,PAT_963,SCC,2.0
+PAT_1730_3236_7,pad_ufes20,0,73.0,0,unknown,upper extremity,PAT_1730,SEK,
+PAT_1546_1871_376,pad_ufes20,0,75.0,0,unknown,upper extremity,PAT_1546,ACK,
+PAT_2154_4783_625,pad_ufes20,0,45.0,0,unknown,head/neck,PAT_2154,ACK,
+PAT_413_819_268,pad_ufes20,0,58.0,0,male,upper extremity,PAT_413,BCC,2.0
+PAT_1414_1432_969,pad_ufes20,0,75.0,0,unknown,upper extremity,PAT_1414,ACK,
+PAT_690_1309_981,pad_ufes20,0,58.0,0,female,head/neck,PAT_690,BCC,3.0
+PAT_2127_4662_596,pad_ufes20,0,44.0,0,unknown,torso,PAT_2127,NEV,
+PAT_1552_1895_190,pad_ufes20,0,54.0,0,unknown,head/neck,PAT_1552,ACK,
+PAT_1754_3308_390,pad_ufes20,0,10.0,0,unknown,torso,PAT_1754,NEV,
+PAT_118_180_386,pad_ufes20,0,62.0,0,female,head/neck,PAT_118,BCC,2.0
+PAT_850_1611_332,pad_ufes20,0,55.0,0,male,head/neck,PAT_850,BCC,2.0
+PAT_771_1488_562,pad_ufes20,0,69.0,0,male,upper extremity,PAT_771,SCC,3.0
+PAT_1410_1410_46,pad_ufes20,0,86.0,0,unknown,head/neck,PAT_1410,ACK,
+PAT_365_751_709,pad_ufes20,0,70.0,0,male,head/neck,PAT_365,SCC,2.0
+PAT_63_1075_498,pad_ufes20,0,36.0,0,female,torso,PAT_63,BCC,2.0
+PAT_207_3951_140,pad_ufes20,0,80.0,0,male,torso,PAT_207,ACK,3.0
+PAT_483_925_716,pad_ufes20,0,85.0,0,female,head/neck,PAT_483,BCC,3.0
+PAT_358_738_837,pad_ufes20,0,60.0,0,male,torso,PAT_358,BCC,2.0
+PAT_875_1670_121,pad_ufes20,0,61.0,0,male,torso,PAT_875,BCC,2.0
+PAT_645_1300_463,pad_ufes20,0,57.0,0,female,head/neck,PAT_645,BCC,3.0
+PAT_514_967_300,pad_ufes20,0,64.0,0,male,head/neck,PAT_514,BCC,3.0
+PAT_1286_1000_517,pad_ufes20,0,73.0,0,unknown,head/neck,PAT_1286,SEK,
+PAT_330_698_211,pad_ufes20,0,71.0,0,male,torso,PAT_330,BCC,2.0
+PAT_1062_264_741,pad_ufes20,0,54.0,0,unknown,torso,PAT_1062,ACK,
+PAT_792_4351_858,pad_ufes20,0,58.0,0,female,upper extremity,PAT_792,ACK,5.0
+PAT_1728_3234_299,pad_ufes20,0,79.0,0,unknown,head/neck,PAT_1728,ACK,
+PAT_722_1377_120,pad_ufes20,0,65.0,0,male,head/neck,PAT_722,BCC,2.0
+PAT_2076_4459_450,pad_ufes20,0,66.0,0,unknown,head/neck,PAT_2076,ACK,
+PAT_280_431_466,pad_ufes20,0,53.0,0,male,head/neck,PAT_280,BCC,2.0
+PAT_2008_4126_489,pad_ufes20,0,50.0,0,unknown,upper extremity,PAT_2008,ACK,
+PAT_1411_1414_355,pad_ufes20,0,63.0,0,unknown,upper extremity,PAT_1411,ACK,
+PAT_655_926_447,pad_ufes20,0,53.0,0,female,upper extremity,PAT_655,ACK,2.0
+PAT_1651_2914_833,pad_ufes20,0,60.0,0,unknown,upper extremity,PAT_1651,ACK,
+PAT_966_1825_546,pad_ufes20,1,46.0,0,female,head/neck,PAT_966,MEL,3.0
+PAT_396_796_394,pad_ufes20,0,76.0,0,female,head/neck,PAT_396,BCC,2.0
+PAT_1701_3135_5,pad_ufes20,0,75.0,0,unknown,head/neck,PAT_1701,SEK,
+PAT_2042_4301_636,pad_ufes20,0,54.0,0,unknown,torso,PAT_2042,NEV,
+PAT_216_331_678,pad_ufes20,0,71.0,0,male,upper extremity,PAT_216,SCC,3.0
+PAT_747_1408_427,pad_ufes20,0,55.0,0,male,torso,PAT_747,BCC,3.0
+PAT_691_1311_686,pad_ufes20,0,56.0,0,male,upper extremity,PAT_691,BCC,1.0
+PAT_34_47_108,pad_ufes20,0,69.0,0,male,torso,PAT_34,BCC,2.0
+PAT_1277_964_152,pad_ufes20,0,61.0,0,unknown,torso,PAT_1277,ACK,
+PAT_361_1568_456,pad_ufes20,0,71.0,0,male,head/neck,PAT_361,SCC,3.0
+PAT_162_252_773,pad_ufes20,0,72.0,0,female,head/neck,PAT_162,BCC,2.0
+PAT_1794_3435_711,pad_ufes20,0,67.0,0,unknown,head/neck,PAT_1794,ACK,
+PAT_1702_3548_386,pad_ufes20,0,57.0,0,unknown,torso,PAT_1702,NEV,
+PAT_267_412_275,pad_ufes20,0,79.0,0,male,head/neck,PAT_267,BCC,2.0
+PAT_395_795_43,pad_ufes20,0,58.0,0,female,lower extremity,PAT_395,SCC,3.0
+PAT_465_901_627,pad_ufes20,0,14.0,0,female,lower extremity,PAT_465,NEV,2.0
+PAT_306_1646_903,pad_ufes20,0,87.0,0,male,upper extremity,PAT_306,ACK,2.0
+PAT_249_380_366,pad_ufes20,0,62.0,0,male,upper extremity,PAT_249,ACK,3.0
+PAT_985_1856_397,pad_ufes20,0,49.0,0,male,head/neck,PAT_985,BCC,3.0
+PAT_458_891_709,pad_ufes20,0,80.0,0,male,head/neck,PAT_458,BCC,1.0
+PAT_747_1410_179,pad_ufes20,0,55.0,0,male,upper extremity,PAT_747,ACK,3.0
+PAT_1316_1114_517,pad_ufes20,0,69.0,0,unknown,upper extremity,PAT_1316,ACK,
+PAT_398_799_163,pad_ufes20,0,21.0,0,female,lower extremity,PAT_398,NEV,3.0
+PAT_953_1806_326,pad_ufes20,0,53.0,0,female,upper extremity,PAT_953,SCC,3.0
+PAT_466_903_893,pad_ufes20,0,44.0,0,female,head/neck,PAT_466,BCC,3.0
+PAT_1132_508_325,pad_ufes20,0,60.0,0,unknown,upper extremity,PAT_1132,ACK,
+PAT_300_648_84,pad_ufes20,0,62.0,0,female,lower extremity,PAT_300,ACK,2.0
+PAT_82_125_365,pad_ufes20,0,71.0,0,male,upper extremity,PAT_82,BCC,2.0
+PAT_478_916_806,pad_ufes20,0,47.0,0,male,torso,PAT_478,BCC,2.0
+PAT_1089_375_677,pad_ufes20,0,39.0,0,unknown,torso,PAT_1089,NEV,
+PAT_76_1039_269,pad_ufes20,0,94.0,0,male,head/neck,PAT_76,SCC,1.0
+PAT_663_1254_732,pad_ufes20,0,58.0,0,female,torso,PAT_663,SCC,3.0
+PAT_206_312_760,pad_ufes20,0,47.0,0,male,torso,PAT_206,BCC,2.0
+PAT_1566_2435_150,pad_ufes20,0,72.0,0,unknown,head/neck,PAT_1566,ACK,
+PAT_1955_3947_778,pad_ufes20,0,58.0,0,unknown,head/neck,PAT_1955,ACK,
+PAT_1638_2878_536,pad_ufes20,0,59.0,0,unknown,upper extremity,PAT_1638,ACK,
+PAT_1298_1051_831,pad_ufes20,0,43.0,0,unknown,head/neck,PAT_1298,NEV,
+PAT_167_258_711,pad_ufes20,0,58.0,0,male,head/neck,PAT_167,BCC,1.0
+PAT_54_83_405,pad_ufes20,0,73.0,0,male,head/neck,PAT_54,BCC,1.0
+PAT_997_14_40,pad_ufes20,0,60.0,0,unknown,upper extremity,PAT_997,ACK,
+PAT_373_761_708,pad_ufes20,0,80.0,0,male,head/neck,PAT_373,BCC,4.0
+PAT_1509_1741_810,pad_ufes20,0,80.0,0,unknown,upper extremity,PAT_1509,SEK,
+PAT_228_348_535,pad_ufes20,0,43.0,0,female,torso,PAT_228,BCC,3.0
+PAT_1871_3666_675,pad_ufes20,0,46.0,0,unknown,torso,PAT_1871,SEK,
+PAT_547_1033_911,pad_ufes20,0,56.0,0,female,head/neck,PAT_547,BCC,3.0
+PAT_1582_2574_890,pad_ufes20,0,76.0,0,unknown,head/neck,PAT_1582,SEK,
+PAT_56_86_479,pad_ufes20,0,70.0,0,female,upper extremity,PAT_56,SCC,2.0
+PAT_699_1320_901,pad_ufes20,0,76.0,0,male,head/neck,PAT_699,BCC,1.0
+PAT_221_339_566,pad_ufes20,0,66.0,0,female,head/neck,PAT_221,BCC,3.0
+PAT_803_1522_907,pad_ufes20,0,52.0,0,female,head/neck,PAT_803,BCC,3.0
+PAT_256_295_583,pad_ufes20,0,90.0,0,female,torso,PAT_256,SEK,1.0
+PAT_115_175_206,pad_ufes20,0,69.0,0,male,head/neck,PAT_115,BCC,2.0
+PAT_759_1433_973,pad_ufes20,0,74.0,0,male,torso,PAT_759,NEV,2.0
+PAT_782_1493_140,pad_ufes20,0,71.0,0,male,torso,PAT_782,ACK,3.0
+PAT_1942_3915_388,pad_ufes20,0,55.0,0,unknown,head/neck,PAT_1942,SEK,
+PAT_1125_492_523,pad_ufes20,0,55.0,0,unknown,upper extremity,PAT_1125,ACK,
+PAT_256_394_449,pad_ufes20,0,89.0,0,female,head/neck,PAT_256,BCC,1.0
+PAT_385_783_574,pad_ufes20,0,39.0,0,female,head/neck,PAT_385,BCC,2.0
+PAT_721_1365_142,pad_ufes20,0,62.0,0,female,head/neck,PAT_721,BCC,2.0
+PAT_940_1774_962,pad_ufes20,0,69.0,0,male,head/neck,PAT_940,SCC,2.0
+PAT_316_674_924,pad_ufes20,0,79.0,0,female,head/neck,PAT_316,BCC,3.0
+PAT_243_372_119,pad_ufes20,0,26.0,0,female,torso,PAT_243,BCC,3.0
+PAT_1094_381_446,pad_ufes20,0,41.0,0,unknown,upper extremity,PAT_1094,ACK,
+PAT_412_818_61,pad_ufes20,0,46.0,0,male,head/neck,PAT_412,ACK,2.0
+PAT_359_740_46,pad_ufes20,0,53.0,0,female,head/neck,PAT_359,BCC,3.0
+PAT_842_1606_720,pad_ufes20,0,40.0,0,female,torso,PAT_842,BCC,3.0
+PAT_1082_342_705,pad_ufes20,0,47.0,0,unknown,upper extremity,PAT_1082,ACK,
+PAT_1821_3575_920,pad_ufes20,0,79.0,0,unknown,lower extremity,PAT_1821,ACK,
+PAT_526_991_109,pad_ufes20,0,59.0,0,male,torso,PAT_526,BCC,2.0
+PAT_1460_1598_959,pad_ufes20,0,62.0,0,unknown,head/neck,PAT_1460,SEK,
+PAT_15_1001_749,pad_ufes20,0,57.0,0,female,upper extremity,PAT_15,BCC,2.0
+PAT_1547_1874_432,pad_ufes20,0,58.0,0,unknown,upper extremity,PAT_1547,ACK,
+PAT_880_1673_410,pad_ufes20,0,83.0,0,female,upper extremity,PAT_880,ACK,2.0
+PAT_730_1383_535,pad_ufes20,0,51.0,0,male,head/neck,PAT_730,BCC,3.0
+PAT_948_1801_993,pad_ufes20,0,58.0,0,female,head/neck,PAT_948,BCC,3.0
+PAT_962_1823_857,pad_ufes20,0,52.0,0,male,head/neck,PAT_962,BCC,3.0
+PAT_21_982_266,pad_ufes20,0,56.0,0,female,upper extremity,PAT_21,BCC,2.0
+PAT_839_1591_204,pad_ufes20,0,13.0,0,female,head/neck,PAT_839,NEV,1.0
+PAT_257_395_866,pad_ufes20,0,85.0,0,female,lower extremity,PAT_257,BCC,1.0
+PAT_1217_762_198,pad_ufes20,0,35.0,0,unknown,head/neck,PAT_1217,NEV,
+PAT_397_798_482,pad_ufes20,0,59.0,0,male,upper extremity,PAT_397,SCC,3.0
+PAT_1481_1674_735,pad_ufes20,0,60.0,0,unknown,head/neck,PAT_1481,ACK,
+PAT_665_1262_774,pad_ufes20,0,30.0,0,female,torso,PAT_665,NEV,3.0
+PAT_976_1837_861,pad_ufes20,0,85.0,0,female,head/neck,PAT_976,BCC,3.0
+PAT_827_1600_1000,pad_ufes20,0,67.0,0,male,upper extremity,PAT_827,BCC,2.0
+PAT_1764_3335_366,pad_ufes20,0,73.0,0,unknown,torso,PAT_1764,SEK,
+PAT_645_1223_124,pad_ufes20,0,57.0,0,female,torso,PAT_645,BCC,3.0
+PAT_185_285_862,pad_ufes20,0,62.0,0,male,upper extremity,PAT_185,BCC,2.0
+PAT_1333_1177_261,pad_ufes20,0,38.0,0,unknown,torso,PAT_1333,NEV,
+PAT_1461_1600_867,pad_ufes20,0,52.0,0,unknown,head/neck,PAT_1461,SEK,
+PAT_1658_2933_322,pad_ufes20,0,22.0,0,unknown,torso,PAT_1658,NEV,
+PAT_1013_82_876,pad_ufes20,0,43.0,0,unknown,torso,PAT_1013,ACK,
+PAT_2066_4417_201,pad_ufes20,0,53.0,0,unknown,head/neck,PAT_2066,SEK,
+PAT_1027_128_854,pad_ufes20,0,38.0,0,unknown,head/neck,PAT_1027,ACK,
+PAT_1307_1092_878,pad_ufes20,0,58.0,0,unknown,upper extremity,PAT_1307,ACK,
+PAT_1593_2651_122,pad_ufes20,0,75.0,0,unknown,upper extremity,PAT_1593,ACK,
+PAT_375_763_732,pad_ufes20,0,52.0,0,male,torso,PAT_375,BCC,2.0
+PAT_302_1633_845,pad_ufes20,0,64.0,0,male,head/neck,PAT_302,ACK,2.0
+PAT_495_941_26,pad_ufes20,1,58.0,0,male,torso,PAT_495,MEL,2.0
+PAT_535_1012_145,pad_ufes20,0,56.0,0,female,upper extremity,PAT_535,BCC,1.0
+PAT_1583_2607_628,pad_ufes20,0,71.0,0,unknown,head/neck,PAT_1583,SEK,
+PAT_121_184_502,pad_ufes20,0,68.0,0,female,torso,PAT_121,BCC,2.0
+PAT_614_1166_885,pad_ufes20,1,56.0,0,female,torso,PAT_614,MEL,3.0
+PAT_524_987_738,pad_ufes20,0,50.0,0,male,torso,PAT_524,BCC,2.0
+PAT_381_775_566,pad_ufes20,0,59.0,0,male,torso,PAT_381,BCC,3.0
+PAT_1774_3352_474,pad_ufes20,0,67.0,0,unknown,head/neck,PAT_1774,ACK,
+PAT_375_763_980,pad_ufes20,0,52.0,0,male,torso,PAT_375,BCC,2.0
+PAT_79_120_739,pad_ufes20,0,63.0,0,female,head/neck,PAT_79,BCC,2.0
+PAT_587_3431_6,pad_ufes20,0,67.0,0,male,upper extremity,PAT_587,ACK,3.0
+PAT_666_1268_870,pad_ufes20,0,57.0,0,male,upper extremity,PAT_666,BCC,3.0
+PAT_691_3994_671,pad_ufes20,0,56.0,0,male,upper extremity,PAT_691,ACK,1.0
+PAT_364_749_377,pad_ufes20,0,66.0,0,female,torso,PAT_364,BCC,2.0
+PAT_576_1089_435,pad_ufes20,0,53.0,0,female,lower extremity,PAT_576,BCC,3.0
+PAT_952_1807_58,pad_ufes20,0,57.0,0,male,torso,PAT_952,BCC,2.0
+PAT_1128_497_322,pad_ufes20,0,40.0,0,unknown,head/neck,PAT_1128,ACK,
+PAT_485_928_796,pad_ufes20,0,74.0,0,female,upper extremity,PAT_485,BCC,2.0
+PAT_39_55_233,pad_ufes20,0,53.0,0,male,torso,PAT_39,BCC,2.0
+PAT_340_714_68,pad_ufes20,1,54.0,0,female,torso,PAT_340,MEL,4.0
+PAT_1981_4023_673,pad_ufes20,0,79.0,0,unknown,torso,PAT_1981,ACK,
+PAT_315_673_227,pad_ufes20,0,22.0,0,female,torso,PAT_315,BCC,3.0
+PAT_1071_313_789,pad_ufes20,0,55.0,0,unknown,head/neck,PAT_1071,ACK,
+PAT_59_94_849,pad_ufes20,0,72.0,0,female,head/neck,PAT_59,ACK,2.0
+PAT_338_710_319,pad_ufes20,0,81.0,0,female,lower extremity,PAT_338,SCC,1.0
+PAT_1324_1145_309,pad_ufes20,0,67.0,0,unknown,upper extremity,PAT_1324,ACK,
+PAT_1914_3822_863,pad_ufes20,0,56.0,0,unknown,upper extremity,PAT_1914,SEK,
+PAT_672_1272_705,pad_ufes20,0,49.0,0,male,head/neck,PAT_672,NEV,3.0
+PAT_2122_4642_680,pad_ufes20,0,62.0,0,unknown,upper extremity,PAT_2122,ACK,
+PAT_886_1684_297,pad_ufes20,0,70.0,0,female,upper extremity,PAT_886,ACK,3.0
+PAT_93_361_203,pad_ufes20,0,65.0,0,male,head/neck,PAT_93,SEK,4.0
+PAT_270_1386_755,pad_ufes20,0,90.0,0,female,head/neck,PAT_270,ACK,1.0
+PAT_908_1726_939,pad_ufes20,0,63.0,0,male,torso,PAT_908,SCC,2.0
+PAT_666_1271_645,pad_ufes20,0,57.0,0,male,torso,PAT_666,BCC,3.0
+PAT_115_1138_870,pad_ufes20,1,70.0,0,male,torso,PAT_115,MEL,2.0
+PAT_585_1130_474,pad_ufes20,0,59.0,0,male,torso,PAT_585,ACK,3.0
+PAT_464_1794_78,pad_ufes20,0,75.0,0,female,head/neck,PAT_464,BCC,3.0
+PAT_380_773_542,pad_ufes20,0,59.0,0,male,torso,PAT_380,BCC,2.0
+PAT_587_1117_880,pad_ufes20,0,72.0,0,male,torso,PAT_587,BCC,3.0
+PAT_1665_2978_578,pad_ufes20,0,69.0,0,unknown,torso,PAT_1665,ACK,
+PAT_500_947_77,pad_ufes20,0,67.0,0,female,head/neck,PAT_500,SCC,3.0
+PAT_2011_4140_988,pad_ufes20,0,50.0,0,unknown,upper extremity,PAT_2011,ACK,
+PAT_600_1141_542,pad_ufes20,0,83.0,0,female,head/neck,PAT_600,SCC,2.0
+PAT_1661_2956_357,pad_ufes20,0,56.0,0,unknown,head/neck,PAT_1661,ACK,
+PAT_1428_1489_38,pad_ufes20,0,68.0,0,unknown,upper extremity,PAT_1428,ACK,
+PAT_1682_3050_600,pad_ufes20,0,48.0,0,unknown,upper extremity,PAT_1682,SEK,
+PAT_832_1569_413,pad_ufes20,0,63.0,0,female,head/neck,PAT_832,BCC,2.0
+PAT_131_197_974,pad_ufes20,0,90.0,0,female,upper extremity,PAT_131,SCC,2.0
+PAT_270_1382_561,pad_ufes20,0,90.0,0,female,head/neck,PAT_270,SEK,1.0
+PAT_170_264_785,pad_ufes20,0,60.0,0,female,head/neck,PAT_170,BCC,2.0
+PAT_1364_1246_420,pad_ufes20,0,17.0,0,unknown,torso,PAT_1364,NEV,
+PAT_192_295_164,pad_ufes20,0,74.0,0,male,head/neck,PAT_192,BCC,2.0
+PAT_93_142_269,pad_ufes20,0,90.0,0,male,upper extremity,PAT_93,SCC,4.0
+PAT_831_1570_991,pad_ufes20,0,72.0,0,female,upper extremity,PAT_831,ACK,3.0
+PAT_840_1595_981,pad_ufes20,0,50.0,0,male,head/neck,PAT_840,BCC,3.0
+PAT_792_1498_936,pad_ufes20,0,58.0,0,female,upper extremity,PAT_792,ACK,5.0
+PAT_2155_4784_483,pad_ufes20,0,39.0,0,unknown,torso,PAT_2155,SEK,
+PAT_291_446_704,pad_ufes20,0,58.0,0,male,head/neck,PAT_291,BCC,4.0
+PAT_1392_1353_161,pad_ufes20,0,68.0,0,unknown,head/neck,PAT_1392,ACK,
+PAT_551_1047_567,pad_ufes20,0,66.0,0,male,head/neck,PAT_551,BCC,1.0
+PAT_939_1791_329,pad_ufes20,0,84.0,0,female,head/neck,PAT_939,SEK,3.0
+PAT_1057_242_297,pad_ufes20,0,47.0,0,unknown,head/neck,PAT_1057,ACK,
+PAT_1760_3326_525,pad_ufes20,0,46.0,0,unknown,upper extremity,PAT_1760,ACK,
+PAT_346_720_265,pad_ufes20,0,63.0,0,male,torso,PAT_346,BCC,3.0
+PAT_259_399_801,pad_ufes20,0,92.0,0,female,head/neck,PAT_259,SCC,1.0
+PAT_838_1587_73,pad_ufes20,0,53.0,0,female,head/neck,PAT_838,BCC,3.0
+PAT_738_1397_966,pad_ufes20,0,58.0,0,female,head/neck,PAT_738,BCC,2.0
+PAT_728_1533_952,pad_ufes20,0,57.0,0,female,upper extremity,PAT_728,ACK,3.0
+PAT_372_760_267,pad_ufes20,0,88.0,0,female,head/neck,PAT_372,BCC,2.0
+PAT_1922_3848_451,pad_ufes20,0,67.0,0,unknown,torso,PAT_1922,SEK,
+PAT_286_1458_381,pad_ufes20,0,55.0,0,female,upper extremity,PAT_286,ACK,2.0
+PAT_161_250_338,pad_ufes20,0,86.0,0,female,upper extremity,PAT_161,BCC,2.0
+PAT_349_724_750,pad_ufes20,0,79.0,0,female,upper extremity,PAT_349,SCC,2.0
+PAT_522_986_305,pad_ufes20,0,53.0,0,male,upper extremity,PAT_522,BCC,2.0
+PAT_793_1512_513,pad_ufes20,0,36.0,0,male,torso,PAT_793,NEV,4.0
+PAT_462_896_893,pad_ufes20,0,62.0,0,male,head/neck,PAT_462,BCC,3.0
+PAT_895_1699_872,pad_ufes20,1,65.0,0,female,upper extremity,PAT_895,MEL,2.0
+PAT_545_1030_854,pad_ufes20,0,37.0,0,male,torso,PAT_545,BCC,2.0
+PAT_145_216_158,pad_ufes20,0,68.0,0,female,head/neck,PAT_145,BCC,2.0
+PAT_214_329_70,pad_ufes20,0,73.0,0,male,upper extremity,PAT_214,BCC,2.0
+PAT_1124_489_151,pad_ufes20,0,55.0,0,unknown,torso,PAT_1124,ACK,
+PAT_513_964_343,pad_ufes20,0,67.0,0,male,torso,PAT_513,BCC,1.0
+PAT_439_859_283,pad_ufes20,0,66.0,0,female,torso,PAT_439,NEV,4.0
+PAT_108_162_660,pad_ufes20,0,68.0,0,male,head/neck,PAT_108,ACK,2.0
+PAT_1031_148_29,pad_ufes20,0,35.0,0,unknown,upper extremity,PAT_1031,ACK,
+PAT_1826_3580_871,pad_ufes20,0,53.0,0,unknown,upper extremity,PAT_1826,SEK,
+PAT_354_1817_500,pad_ufes20,0,65.0,0,male,torso,PAT_354,SEK,2.0
+PAT_1619_2774_616,pad_ufes20,0,32.0,0,unknown,upper extremity,PAT_1619,SEK,
+PAT_1993_4076_174,pad_ufes20,0,47.0,0,unknown,head/neck,PAT_1993,ACK,
+PAT_1729_3235_909,pad_ufes20,0,69.0,0,unknown,head/neck,PAT_1729,ACK,
+PAT_1145_534_524,pad_ufes20,0,55.0,0,unknown,upper extremity,PAT_1145,ACK,
+PAT_510_959_174,pad_ufes20,0,62.0,0,male,head/neck,PAT_510,BCC,3.0
+PAT_974_1841_693,pad_ufes20,0,61.0,0,female,upper extremity,PAT_974,BCC,3.0
+PAT_580_1104_684,pad_ufes20,0,57.0,0,female,head/neck,PAT_580,BCC,3.0
+PAT_207_313_709,pad_ufes20,0,79.0,0,male,torso,PAT_207,BCC,3.0
+PAT_1945_3923_428,pad_ufes20,0,56.0,0,unknown,torso,PAT_1945,NEV,
+PAT_1875_3689_646,pad_ufes20,0,54.0,0,unknown,upper extremity,PAT_1875,ACK,
+PAT_935_1781_341,pad_ufes20,0,61.0,0,female,head/neck,PAT_935,BCC,2.0
+PAT_493_3016_512,pad_ufes20,0,46.0,0,male,upper extremity,PAT_493,ACK,2.0
+PAT_177_275_905,pad_ufes20,0,51.0,0,female,torso,PAT_177,BCC,1.0
+PAT_2157_4789_969,pad_ufes20,0,60.0,0,unknown,upper extremity,PAT_2157,ACK,
+PAT_631_1227_585,pad_ufes20,0,64.0,0,male,head/neck,PAT_631,BCC,2.0
+PAT_1393_1355_270,pad_ufes20,0,65.0,0,unknown,upper extremity,PAT_1393,ACK,
+PAT_2010_4136_318,pad_ufes20,0,39.0,0,unknown,upper extremity,PAT_2010,ACK,
+PAT_806_1520_708,pad_ufes20,0,54.0,0,male,upper extremity,PAT_806,BCC,2.0
+PAT_923_1753_706,pad_ufes20,0,66.0,0,female,head/neck,PAT_923,BCC,2.0
+PAT_497_943_580,pad_ufes20,0,81.0,0,female,torso,PAT_497,SCC,2.0
+PAT_1334_1178_413,pad_ufes20,0,16.0,0,unknown,torso,PAT_1334,NEV,
+PAT_521_984_412,pad_ufes20,0,32.0,0,male,head/neck,PAT_521,BCC,2.0
+PAT_2125_4653_497,pad_ufes20,0,10.0,0,unknown,upper extremity,PAT_2125,NEV,
+PAT_771_1491_390,pad_ufes20,0,69.0,0,male,head/neck,PAT_771,BCC,3.0
+PAT_1256_879_199,pad_ufes20,0,44.0,0,unknown,torso,PAT_1256,NEV,
+PAT_2009_4134_828,pad_ufes20,0,80.0,0,unknown,head/neck,PAT_2009,ACK,
+PAT_679_1286_677,pad_ufes20,0,75.0,0,male,head/neck,PAT_679,SCC,2.0
+PAT_1976_4000_701,pad_ufes20,0,53.0,0,unknown,upper extremity,PAT_1976,ACK,
+PAT_879_1676_668,pad_ufes20,0,71.0,0,male,head/neck,PAT_879,BCC,3.0
+PAT_561_1069_418,pad_ufes20,0,39.0,0,male,torso,PAT_561,SCC,2.0
+PAT_757_1431_696,pad_ufes20,0,77.0,0,male,head/neck,PAT_757,ACK,2.0
+PAT_731_1387_634,pad_ufes20,0,66.0,0,male,upper extremity,PAT_731,ACK,2.0
+PAT_372_760_355,pad_ufes20,0,88.0,0,female,head/neck,PAT_372,BCC,2.0
+PAT_770_1451_136,pad_ufes20,0,79.0,0,male,head/neck,PAT_770,SCC,5.0
+PAT_74_112_729,pad_ufes20,0,56.0,0,female,head/neck,PAT_74,BCC,3.0
+PAT_1472_1639_87,pad_ufes20,0,63.0,0,unknown,upper extremity,PAT_1472,ACK,
+PAT_354_731_155,pad_ufes20,0,65.0,0,male,head/neck,PAT_354,BCC,2.0
+PAT_1257_887_828,pad_ufes20,0,21.0,0,unknown,torso,PAT_1257,NEV,
+PAT_2048_4333_63,pad_ufes20,0,86.0,0,unknown,head/neck,PAT_2048,SEK,
+PAT_1304_3507_308,pad_ufes20,0,55.0,0,unknown,torso,PAT_1304,NEV,
+PAT_425_841_644,pad_ufes20,0,35.0,0,male,head/neck,PAT_425,NEV,2.0
+PAT_330_1438_323,pad_ufes20,0,72.0,0,male,head/neck,PAT_330,BCC,2.0
+PAT_264_405_118,pad_ufes20,0,83.0,0,female,head/neck,PAT_264,BCC,2.0
+PAT_1881_3711_217,pad_ufes20,0,44.0,0,unknown,upper extremity,PAT_1881,ACK,
+PAT_1818_3570_577,pad_ufes20,0,60.0,0,unknown,upper extremity,PAT_1818,ACK,
+PAT_128_194_144,pad_ufes20,0,56.0,0,female,torso,PAT_128,BCC,2.0
+PAT_666_1269_65,pad_ufes20,0,57.0,0,male,upper extremity,PAT_666,BCC,3.0
+PAT_1554_4170_992,pad_ufes20,0,82.0,0,unknown,head/neck,PAT_1554,SEK,
+PAT_307_659_85,pad_ufes20,0,77.0,0,female,head/neck,PAT_307,SCC,2.0
+PAT_1139_523_682,pad_ufes20,0,45.0,0,unknown,upper extremity,PAT_1139,ACK,
+PAT_106_158_249,pad_ufes20,0,71.0,0,female,upper extremity,PAT_106,BCC,1.0
+PAT_1063_269_755,pad_ufes20,0,65.0,0,unknown,upper extremity,PAT_1063,ACK,
+PAT_817_1537_643,pad_ufes20,0,85.0,0,male,lower extremity,PAT_817,BCC,2.0
+PAT_255_388_77,pad_ufes20,0,68.0,0,male,upper extremity,PAT_255,BCC,2.0
+PAT_390_790_505,pad_ufes20,0,43.0,0,male,head/neck,PAT_390,SCC,3.0
+PAT_1068_285_845,pad_ufes20,0,62.0,0,unknown,torso,PAT_1068,SEK,
+PAT_1947_3926_165,pad_ufes20,0,39.0,0,unknown,upper extremity,PAT_1947,NEV,
+PAT_92_141_551,pad_ufes20,0,69.0,0,male,upper extremity,PAT_92,ACK,4.0
+PAT_1733_3239_934,pad_ufes20,0,29.0,0,unknown,head/neck,PAT_1733,NEV,
+PAT_531_1004_189,pad_ufes20,0,62.0,0,male,head/neck,PAT_531,BCC,2.0
+PAT_1364_1246_927,pad_ufes20,0,17.0,0,unknown,torso,PAT_1364,NEV,
+PAT_981_1848_486,pad_ufes20,0,67.0,0,female,head/neck,PAT_981,BCC,3.0
+PAT_1402_1377_959,pad_ufes20,0,66.0,0,unknown,upper extremity,PAT_1402,ACK,
+PAT_233_354_935,pad_ufes20,1,58.0,0,female,upper extremity,PAT_233,MEL,2.0
+PAT_1042_187_746,pad_ufes20,0,40.0,0,unknown,upper extremity,PAT_1042,ACK,
+PAT_1813_3562_195,pad_ufes20,0,81.0,0,unknown,upper extremity,PAT_1813,SEK,
+PAT_1141_526_416,pad_ufes20,0,55.0,0,unknown,head/neck,PAT_1141,ACK,
+PAT_689_1306_772,pad_ufes20,0,55.0,0,male,upper extremity,PAT_689,SCC,2.0
+PAT_1769_3342_63,pad_ufes20,0,77.0,0,unknown,upper extremity,PAT_1769,ACK,
+PAT_853_1642_497,pad_ufes20,0,77.0,0,female,head/neck,PAT_853,BCC,3.0
+PAT_108_161_423,pad_ufes20,0,68.0,0,male,upper extremity,PAT_108,SCC,2.0
+PAT_1956_3949_217,pad_ufes20,0,60.0,0,unknown,head/neck,PAT_1956,SEK,
+PAT_1476_1657_788,pad_ufes20,0,68.0,0,unknown,torso,PAT_1476,ACK,
+PAT_1109_436_141,pad_ufes20,0,36.0,0,unknown,torso,PAT_1109,NEV,
+PAT_211_319_777,pad_ufes20,0,72.0,0,male,torso,PAT_211,BCC,3.0
+PAT_1393_1356_371,pad_ufes20,0,65.0,0,unknown,torso,PAT_1393,SEK,
+PAT_319_679_533,pad_ufes20,0,62.0,0,female,head/neck,PAT_319,BCC,2.0
+PAT_766_1444_52,pad_ufes20,0,63.0,0,male,head/neck,PAT_766,BCC,3.0
+PAT_408_811_808,pad_ufes20,0,62.0,0,male,upper extremity,PAT_408,ACK,2.0
+PAT_1639_2879_744,pad_ufes20,0,31.0,0,unknown,head/neck,PAT_1639,NEV,
+PAT_645_1222_140,pad_ufes20,0,57.0,0,female,upper extremity,PAT_645,BCC,3.0
+PAT_179_278_331,pad_ufes20,0,64.0,0,male,upper extremity,PAT_179,BCC,2.0
+PAT_726_1371_543,pad_ufes20,0,56.0,0,female,head/neck,PAT_726,BCC,2.0
+PAT_82_125_525,pad_ufes20,0,71.0,0,male,upper extremity,PAT_82,BCC,2.0
+PAT_975_4734_783,pad_ufes20,0,21.0,0,male,torso,PAT_975,NEV,2.0
+PAT_109_868_723,pad_ufes20,1,82.0,0,male,head/neck,PAT_109,MEL,2.0
+PAT_286_1459_926,pad_ufes20,0,55.0,0,female,torso,PAT_286,NEV,2.0
+PAT_851_4519_488,pad_ufes20,0,77.0,0,female,head/neck,PAT_851,ACK,3.0
+PAT_1243_836_47,pad_ufes20,0,57.0,0,unknown,upper extremity,PAT_1243,ACK,
+PAT_1329_1168_620,pad_ufes20,0,57.0,0,unknown,lower extremity,PAT_1329,SEK,
+PAT_115_176_455,pad_ufes20,0,69.0,0,male,head/neck,PAT_115,BCC,2.0
+PAT_1439_1521_868,pad_ufes20,0,59.0,0,unknown,head/neck,PAT_1439,ACK,
+PAT_2043_4308_681,pad_ufes20,0,72.0,0,unknown,upper extremity,PAT_2043,ACK,
+PAT_827_1599_248,pad_ufes20,0,67.0,0,male,upper extremity,PAT_827,BCC,2.0
+PAT_1181_659_231,pad_ufes20,0,55.0,0,unknown,upper extremity,PAT_1181,ACK,
+PAT_1326_1156_139,pad_ufes20,0,59.0,0,unknown,torso,PAT_1326,NEV,
+PAT_1074_322_174,pad_ufes20,0,45.0,0,unknown,upper extremity,PAT_1074,ACK,
+PAT_503_949_409,pad_ufes20,0,88.0,0,male,head/neck,PAT_503,SCC,2.0
+PAT_691_1310_780,pad_ufes20,0,56.0,0,male,upper extremity,PAT_691,BCC,1.0
+PAT_514_967_908,pad_ufes20,0,64.0,0,male,head/neck,PAT_514,BCC,3.0
+PAT_217_333_61,pad_ufes20,0,75.0,0,male,head/neck,PAT_217,BCC,1.0
+PAT_467_904_235,pad_ufes20,0,46.0,0,female,torso,PAT_467,BCC,2.0
+PAT_101_1041_651,pad_ufes20,0,59.0,0,male,head/neck,PAT_101,BCC,2.0
+PAT_1347_1226_928,pad_ufes20,0,64.0,0,unknown,head/neck,PAT_1347,ACK,
+PAT_2050_4350_36,pad_ufes20,0,71.0,0,unknown,upper extremity,PAT_2050,ACK,
+PAT_73_111_435,pad_ufes20,0,86.0,0,female,head/neck,PAT_73,BCC,2.0
+PAT_858_1633_926,pad_ufes20,0,73.0,0,female,head/neck,PAT_858,BCC,2.0
+PAT_652_1231_516,pad_ufes20,0,59.0,0,male,torso,PAT_652,BCC,2.0
+PAT_115_175_283,pad_ufes20,0,69.0,0,male,head/neck,PAT_115,BCC,2.0
+PAT_1330_1172_722,pad_ufes20,0,24.0,0,unknown,torso,PAT_1330,NEV,
+PAT_2061_4395_587,pad_ufes20,0,69.0,0,unknown,head/neck,PAT_2061,ACK,
+PAT_1374_1286_939,pad_ufes20,0,54.0,0,unknown,torso,PAT_1374,ACK,
+PAT_930_1760_560,pad_ufes20,0,72.0,0,male,upper extremity,PAT_930,BCC,2.0
+PAT_2071_4433_848,pad_ufes20,0,57.0,0,unknown,head/neck,PAT_2071,ACK,
+PAT_673_3928_888,pad_ufes20,0,70.0,0,female,head/neck,PAT_673,ACK,2.0
+PAT_597_1139_181,pad_ufes20,0,89.0,0,female,head/neck,PAT_597,BCC,1.0
+PAT_999_20_540,pad_ufes20,0,40.0,0,unknown,upper extremity,PAT_999,ACK,
+PAT_1762_3332_245,pad_ufes20,0,62.0,0,unknown,head/neck,PAT_1762,ACK,
+PAT_235_360_50,pad_ufes20,0,55.0,0,female,head/neck,PAT_235,BCC,2.0
+PAT_1070_304_845,pad_ufes20,0,63.0,0,unknown,upper extremity,PAT_1070,ACK,
+PAT_490_933_352,pad_ufes20,0,45.0,0,male,head/neck,PAT_490,SCC,2.0
+PAT_304_4186_458,pad_ufes20,0,81.0,0,male,head/neck,PAT_304,ACK,2.0
+PAT_655_1245_807,pad_ufes20,0,75.0,0,female,torso,PAT_655,SCC,2.0
+PAT_1652_2915_65,pad_ufes20,0,53.0,0,unknown,torso,PAT_1652,SEK,
+PAT_1397_1361_183,pad_ufes20,0,61.0,0,unknown,head/neck,PAT_1397,SEK,
+PAT_2143_4736_227,pad_ufes20,0,82.0,0,unknown,upper extremity,PAT_2143,ACK,
+PAT_1526_1792_482,pad_ufes20,0,59.0,0,unknown,upper extremity,PAT_1526,ACK,
+PAT_38_1002_34,pad_ufes20,0,53.0,0,male,head/neck,PAT_38,BCC,1.0
+PAT_677_1349_541,pad_ufes20,0,75.0,0,male,upper extremity,PAT_677,SCC,2.0
+PAT_191_294_629,pad_ufes20,0,85.0,0,female,head/neck,PAT_191,BCC,2.0
+PAT_171_265_757,pad_ufes20,0,78.0,0,female,upper extremity,PAT_171,BCC,2.0
+PAT_801_1518_78,pad_ufes20,1,43.0,0,female,head/neck,PAT_801,MEL,4.0
+PAT_333_1468_620,pad_ufes20,0,51.0,0,female,torso,PAT_333,NEV,3.0
+PAT_1145_534_529,pad_ufes20,0,55.0,0,unknown,upper extremity,PAT_1145,ACK,
+PAT_354_1814_726,pad_ufes20,0,65.0,0,male,head/neck,PAT_354,SEK,2.0
+PAT_1588_2629_296,pad_ufes20,0,42.0,0,unknown,head/neck,PAT_1588,NEV,
+PAT_224_1340_551,pad_ufes20,0,71.0,0,male,head/neck,PAT_224,ACK,2.0
+PAT_1550_1886_849,pad_ufes20,0,64.0,0,unknown,upper extremity,PAT_1550,ACK,
+PAT_397_797_742,pad_ufes20,0,59.0,0,male,head/neck,PAT_397,SCC,3.0
+PAT_289_442_43,pad_ufes20,0,56.0,0,male,head/neck,PAT_289,ACK,2.0
+PAT_1035_165_800,pad_ufes20,0,47.0,0,unknown,head/neck,PAT_1035,ACK,
+PAT_87_133_391,pad_ufes20,0,57.0,0,female,torso,PAT_87,SEK,3.0
+PAT_46_879_225,pad_ufes20,0,55.0,0,female,torso,PAT_46,BCC,3.0
+PAT_654_1244_16,pad_ufes20,0,22.0,0,female,head/neck,PAT_654,BCC,3.0
+PAT_996_6_886,pad_ufes20,0,50.0,0,unknown,torso,PAT_996,ACK,
+PAT_1036_169_687,pad_ufes20,0,45.0,0,unknown,upper extremity,PAT_1036,ACK,
+PAT_1350_1230_878,pad_ufes20,0,20.0,0,unknown,torso,PAT_1350,NEV,
+PAT_63_98_187,pad_ufes20,0,35.0,0,female,head/neck,PAT_63,BCC,2.0
+PAT_90_219_648,pad_ufes20,0,74.0,0,female,lower extremity,PAT_90,SEK,3.0
+PAT_1122_479_664,pad_ufes20,0,72.0,0,unknown,upper extremity,PAT_1122,SEK,
+PAT_378_770_302,pad_ufes20,0,71.0,0,male,head/neck,PAT_378,BCC,2.0
+PAT_1648_2904_523,pad_ufes20,0,31.0,0,unknown,torso,PAT_1648,NEV,
+PAT_194_298_945,pad_ufes20,0,63.0,0,female,head/neck,PAT_194,SEK,4.0
+PAT_1265_908_754,pad_ufes20,0,55.0,0,unknown,head/neck,PAT_1265,ACK,
+PAT_108_162_526,pad_ufes20,0,68.0,0,male,head/neck,PAT_108,ACK,2.0
+PAT_381_775_253,pad_ufes20,0,59.0,0,male,torso,PAT_381,BCC,3.0
+PAT_1197_713_520,pad_ufes20,0,54.0,0,unknown,head/neck,PAT_1197,NEV,
+PAT_2016_4160_868,pad_ufes20,0,67.0,0,unknown,head/neck,PAT_2016,SEK,
+PAT_467_904_776,pad_ufes20,0,46.0,0,female,torso,PAT_467,BCC,2.0
+PAT_723_1396_338,pad_ufes20,0,63.0,0,female,head/neck,PAT_723,BCC,2.0
+PAT_1866_3660_115,pad_ufes20,0,77.0,0,unknown,head/neck,PAT_1866,ACK,
+PAT_753_1427_658,pad_ufes20,0,61.0,0,female,head/neck,PAT_753,ACK,3.0
+PAT_1719_3203_18,pad_ufes20,0,83.0,0,unknown,head/neck,PAT_1719,SEK,
+PAT_279_429_142,pad_ufes20,0,51.0,0,male,torso,PAT_279,BCC,2.0
+PAT_1329_1167_230,pad_ufes20,0,57.0,0,unknown,lower extremity,PAT_1329,SEK,
+PAT_539_1023_878,pad_ufes20,0,65.0,0,male,head/neck,PAT_539,ACK,2.0
+PAT_1903_3791_14,pad_ufes20,0,23.0,0,unknown,head/neck,PAT_1903,NEV,
+PAT_1215_752_707,pad_ufes20,0,32.0,0,unknown,upper extremity,PAT_1215,NEV,
+PAT_270_416_398,pad_ufes20,0,90.0,0,female,head/neck,PAT_270,BCC,1.0
+PAT_179_277_436,pad_ufes20,0,64.0,0,male,torso,PAT_179,BCC,2.0
+PAT_974_1842_574,pad_ufes20,0,61.0,0,female,upper extremity,PAT_974,SCC,3.0
+PAT_35_48_43,pad_ufes20,0,55.0,0,male,head/neck,PAT_35,BCC,2.0
+PAT_527_1359_165,pad_ufes20,0,60.0,0,male,upper extremity,PAT_527,SCC,1.0
+PAT_319_680_166,pad_ufes20,0,62.0,0,female,torso,PAT_319,SCC,2.0
+PAT_1112_455_845,pad_ufes20,0,52.0,0,unknown,head/neck,PAT_1112,ACK,
+PAT_1715_3186_948,pad_ufes20,0,67.0,0,unknown,upper extremity,PAT_1715,ACK,
+PAT_1369_1269_370,pad_ufes20,0,62.0,0,unknown,upper extremity,PAT_1369,ACK,
+PAT_301_649_533,pad_ufes20,0,75.0,0,female,torso,PAT_301,BCC,2.0
+PAT_247_1293_449,pad_ufes20,0,58.0,0,male,head/neck,PAT_247,BCC,3.0
+PAT_645_1224_768,pad_ufes20,0,57.0,0,female,head/neck,PAT_645,BCC,3.0
+PAT_995_1867_165,pad_ufes20,1,49.0,0,female,lower extremity,PAT_995,MEL,2.0
+PAT_416_826_123,pad_ufes20,0,84.0,0,male,torso,PAT_416,BCC,2.0
+PAT_1014_85_22,pad_ufes20,0,41.0,0,unknown,upper extremity,PAT_1014,ACK,
+PAT_872_1707_638,pad_ufes20,0,71.0,0,female,head/neck,PAT_872,BCC,2.0
+PAT_919_1744_318,pad_ufes20,0,65.0,0,female,head/neck,PAT_919,BCC,2.0
+PAT_858_1631_427,pad_ufes20,0,73.0,0,female,head/neck,PAT_858,BCC,2.0
+PAT_1971_3984_534,pad_ufes20,0,76.0,0,unknown,torso,PAT_1971,SEK,
+PAT_822_1550_826,pad_ufes20,0,72.0,0,male,head/neck,PAT_822,BCC,3.0
+PAT_38_1003_68,pad_ufes20,0,53.0,0,male,upper extremity,PAT_38,ACK,1.0
+PAT_20_30_44,pad_ufes20,0,66.0,0,female,upper extremity,PAT_20,SCC,2.0
+PAT_48_74_402,pad_ufes20,0,73.0,0,female,upper extremity,PAT_48,SCC,3.0
+PAT_112_168_360,pad_ufes20,0,69.0,0,male,head/neck,PAT_112,BCC,1.0
+PAT_388_1590_518,pad_ufes20,0,51.0,0,female,torso,PAT_388,BCC,1.0
+PAT_746_1407_708,pad_ufes20,1,71.0,0,female,torso,PAT_746,MEL,3.0
+PAT_65_101_847,pad_ufes20,0,61.0,0,female,upper extremity,PAT_65,ACK,2.0
+PAT_69_1053_540,pad_ufes20,0,66.0,0,female,upper extremity,PAT_69,ACK,2.0
+PAT_1119_472_513,pad_ufes20,0,60.0,0,unknown,upper extremity,PAT_1119,ACK,
+PAT_517_972_845,pad_ufes20,0,94.0,0,female,head/neck,PAT_517,BCC,2.0
+PAT_44_63_151,pad_ufes20,0,60.0,0,female,lower extremity,PAT_44,ACK,1.0
+PAT_2126_4654_644,pad_ufes20,0,45.0,0,unknown,upper extremity,PAT_2126,ACK,
+PAT_712_1335_359,pad_ufes20,0,65.0,0,female,head/neck,PAT_712,SCC,3.0
+PAT_1849_3629_214,pad_ufes20,0,45.0,0,unknown,upper extremity,PAT_1849,ACK,
+PAT_708_1333_222,pad_ufes20,0,70.0,0,male,torso,PAT_708,BCC,2.0
+PAT_860_1641_440,pad_ufes20,0,57.0,0,female,upper extremity,PAT_860,SCC,3.0
+PAT_1420_1460_733,pad_ufes20,0,84.0,0,unknown,upper extremity,PAT_1420,SEK,
+PAT_2065_4413_298,pad_ufes20,0,88.0,0,unknown,torso,PAT_2065,SEK,
+PAT_882_1678_192,pad_ufes20,0,92.0,0,female,upper extremity,PAT_882,SCC,2.0
+PAT_532_3216_633,pad_ufes20,0,83.0,0,female,head/neck,PAT_532,SEK,2.0
+PAT_394_794_235,pad_ufes20,0,74.0,0,male,head/neck,PAT_394,BCC,2.0
+PAT_590_1121_504,pad_ufes20,0,57.0,0,female,upper extremity,PAT_590,SCC,5.0
+PAT_1933_3883_413,pad_ufes20,0,53.0,0,unknown,upper extremity,PAT_1933,SEK,
+PAT_1565_2432_808,pad_ufes20,0,45.0,0,unknown,upper extremity,PAT_1565,ACK,
+PAT_1904_3794_215,pad_ufes20,0,26.0,0,unknown,torso,PAT_1904,NEV,
+PAT_279_1393_118,pad_ufes20,0,52.0,0,male,torso,PAT_279,BCC,2.0
+PAT_211_319_810,pad_ufes20,0,72.0,0,male,torso,PAT_211,BCC,3.0
+PAT_864_1645_639,pad_ufes20,0,55.0,0,female,torso,PAT_864,BCC,3.0
+PAT_1783_3415_640,pad_ufes20,0,75.0,0,unknown,torso,PAT_1783,SEK,
+PAT_1699_3126_673,pad_ufes20,0,34.0,0,unknown,upper extremity,PAT_1699,NEV,
+PAT_1364_1246_447,pad_ufes20,0,17.0,0,unknown,torso,PAT_1364,NEV,
+PAT_512_962_998,pad_ufes20,0,67.0,0,male,head/neck,PAT_512,BCC,2.0
+PAT_924_1757_784,pad_ufes20,0,64.0,0,female,lower extremity,PAT_924,SCC,3.0
+PAT_809_1528_118,pad_ufes20,0,66.0,0,female,head/neck,PAT_809,ACK,3.0
+PAT_1483_1678_850,pad_ufes20,0,82.0,0,unknown,upper extremity,PAT_1483,ACK,
+PAT_400_801_376,pad_ufes20,0,76.0,0,female,upper extremity,PAT_400,SCC,2.0
+PAT_2102_4575_616,pad_ufes20,0,66.0,0,unknown,head/neck,PAT_2102,ACK,
+PAT_326_690_797,pad_ufes20,0,58.0,0,female,head/neck,PAT_326,BCC,3.0
+PAT_40_1026_312,pad_ufes20,0,43.0,0,female,torso,PAT_40,BCC,1.0
+PAT_957_1814_77,pad_ufes20,0,32.0,0,female,torso,PAT_957,NEV,2.0
+PAT_452_882_896,pad_ufes20,0,73.0,0,female,upper extremity,PAT_452,BCC,3.0
+PAT_948_1801_721,pad_ufes20,0,58.0,0,female,head/neck,PAT_948,BCC,3.0
+PAT_57_90_910,pad_ufes20,0,75.0,0,female,torso,PAT_57,ACK,2.0
+PAT_975_1834_152,pad_ufes20,1,21.0,0,male,torso,PAT_975,MEL,2.0
+PAT_128_194_28,pad_ufes20,0,56.0,0,female,torso,PAT_128,BCC,2.0
+PAT_155_240_211,pad_ufes20,0,84.0,0,female,upper extremity,PAT_155,SCC,2.0
+PAT_2107_4595_381,pad_ufes20,0,69.0,0,unknown,upper extremity,PAT_2107,ACK,
+PAT_53_82_940,pad_ufes20,0,78.0,0,male,torso,PAT_53,BCC,1.0
+PAT_596_1146_316,pad_ufes20,0,64.0,0,male,torso,PAT_596,BCC,4.0
+PAT_713_1336_159,pad_ufes20,0,75.0,0,male,upper extremity,PAT_713,SCC,2.0
+PAT_153_1200_541,pad_ufes20,0,71.0,0,female,head/neck,PAT_153,BCC,2.0
+PAT_1874_3687_799,pad_ufes20,0,38.0,0,unknown,torso,PAT_1874,SEK,
+PAT_230_351_720,pad_ufes20,0,73.0,0,female,upper extremity,PAT_230,ACK,2.0
+PAT_328_1738_890,pad_ufes20,0,81.0,0,male,upper extremity,PAT_328,ACK,4.0
+PAT_1498_1716_626,pad_ufes20,0,68.0,0,unknown,upper extremity,PAT_1498,ACK,
+PAT_366_752_782,pad_ufes20,0,71.0,0,male,torso,PAT_366,BCC,3.0
+PAT_433_852_20,pad_ufes20,1,30.0,0,male,head/neck,PAT_433,MEL,2.0
+PAT_1709_3159_935,pad_ufes20,0,63.0,0,unknown,torso,PAT_1709,SEK,
+PAT_431_850_472,pad_ufes20,0,70.0,0,female,head/neck,PAT_431,BCC,2.0
+PAT_1611_2725_680,pad_ufes20,0,26.0,0,unknown,torso,PAT_1611,NEV,
+PAT_849_1612_143,pad_ufes20,0,63.0,0,male,head/neck,PAT_849,BCC,2.0
+PAT_1399_1367_121,pad_ufes20,0,65.0,0,unknown,head/neck,PAT_1399,ACK,
+PAT_1704_3142_702,pad_ufes20,0,65.0,0,unknown,upper extremity,PAT_1704,ACK,
+PAT_227_347_19,pad_ufes20,0,82.0,0,male,head/neck,PAT_227,SCC,2.0
+PAT_1799_3457_209,pad_ufes20,0,54.0,0,unknown,head/neck,PAT_1799,ACK,
+PAT_430_847_315,pad_ufes20,0,75.0,0,female,head/neck,PAT_430,BCC,2.0
+PAT_903_1719_943,pad_ufes20,0,66.0,0,female,head/neck,PAT_903,BCC,2.0
+PAT_749_1414_770,pad_ufes20,0,39.0,0,male,upper extremity,PAT_749,ACK,2.0
+PAT_1065_277_768,pad_ufes20,0,52.0,0,unknown,torso,PAT_1065,ACK,
+PAT_202_307_424,pad_ufes20,0,77.0,0,female,head/neck,PAT_202,BCC,3.0
+PAT_1812_3492_670,pad_ufes20,0,54.0,0,unknown,upper extremity,PAT_1812,ACK,
+PAT_1554_2393_96,pad_ufes20,0,81.0,0,unknown,head/neck,PAT_1554,SEK,
+PAT_1369_1270_496,pad_ufes20,0,62.0,0,unknown,upper extremity,PAT_1369,ACK,
+PAT_761_1435_561,pad_ufes20,0,80.0,0,female,head/neck,PAT_761,BCC,3.0
+PAT_1738_3260_304,pad_ufes20,0,73.0,0,unknown,head/neck,PAT_1738,ACK,
+PAT_1019_110_194,pad_ufes20,0,48.0,0,unknown,upper extremity,PAT_1019,ACK,
+PAT_49_75_326,pad_ufes20,0,69.0,0,male,upper extremity,PAT_49,SCC,3.0
+PAT_999_20_583,pad_ufes20,0,40.0,0,unknown,upper extremity,PAT_999,ACK,
+PAT_1733_3239_389,pad_ufes20,0,29.0,0,unknown,head/neck,PAT_1733,NEV,
+PAT_247_378_484,pad_ufes20,0,57.0,0,male,upper extremity,PAT_247,BCC,3.0
+PAT_456_887_499,pad_ufes20,0,53.0,0,female,torso,PAT_456,BCC,2.0
+PAT_637_1434_570,pad_ufes20,0,69.0,0,male,torso,PAT_637,SCC,2.0
+PAT_571_1097_652,pad_ufes20,0,47.0,0,female,head/neck,PAT_571,ACK,3.0
+PAT_1198_715_648,pad_ufes20,0,45.0,0,unknown,torso,PAT_1198,SEK,
+PAT_1731_3237_197,pad_ufes20,0,60.0,0,unknown,torso,PAT_1731,NEV,
+PAT_1593_2652_422,pad_ufes20,0,75.0,0,unknown,head/neck,PAT_1593,SEK,
+PAT_388_2452_548,pad_ufes20,0,50.0,0,female,upper extremity,PAT_388,ACK,1.0
+PAT_202_916_612,pad_ufes20,0,78.0,0,female,upper extremity,PAT_202,ACK,3.0
+PAT_1170_608_367,pad_ufes20,0,41.0,0,unknown,upper extremity,PAT_1170,ACK,
+PAT_1065_275_136,pad_ufes20,0,52.0,0,unknown,head/neck,PAT_1065,ACK,
+PAT_704_1323_974,pad_ufes20,0,82.0,0,male,upper extremity,PAT_704,ACK,2.0
+PAT_753_1428_451,pad_ufes20,0,61.0,0,female,head/neck,PAT_753,BCC,3.0
+PAT_715_4072_827,pad_ufes20,0,80.0,0,male,upper extremity,PAT_715,ACK,2.0
+PAT_639_3674_452,pad_ufes20,0,66.0,0,female,upper extremity,PAT_639,ACK,2.0
+PAT_1072_318_856,pad_ufes20,0,57.0,0,unknown,head/neck,PAT_1072,SEK,
+PAT_349_724_133,pad_ufes20,0,79.0,0,female,upper extremity,PAT_349,SCC,2.0
+PAT_1420_1461_93,pad_ufes20,0,84.0,0,unknown,upper extremity,PAT_1420,SEK,
+PAT_237_362_909,pad_ufes20,0,77.0,0,male,head/neck,PAT_237,BCC,2.0
+PAT_646_1225_590,pad_ufes20,0,71.0,0,male,head/neck,PAT_646,BCC,2.0
+PAT_630_1196_710,pad_ufes20,0,63.0,0,male,upper extremity,PAT_630,SCC,2.0
+PAT_2041_4298_408,pad_ufes20,0,67.0,0,unknown,upper extremity,PAT_2041,ACK,
+PAT_1600_2685_445,pad_ufes20,0,69.0,0,unknown,upper extremity,PAT_1600,ACK,
+PAT_1460_1598_708,pad_ufes20,0,62.0,0,unknown,head/neck,PAT_1460,SEK,
+PAT_2131_4683_112,pad_ufes20,0,69.0,0,unknown,upper extremity,PAT_2131,ACK,
+PAT_492_1782_752,pad_ufes20,0,71.0,0,male,upper extremity,PAT_492,ACK,2.0
+PAT_757_4220_942,pad_ufes20,0,77.0,0,male,head/neck,PAT_757,ACK,2.0
+PAT_412_817_232,pad_ufes20,0,46.0,0,male,head/neck,PAT_412,BCC,2.0
+PAT_1070_308_751,pad_ufes20,0,63.0,0,unknown,head/neck,PAT_1070,SEK,
+PAT_365_750_854,pad_ufes20,0,70.0,0,male,torso,PAT_365,SCC,2.0
+PAT_2011_4140_787,pad_ufes20,0,50.0,0,unknown,upper extremity,PAT_2011,ACK,
+PAT_330_696_894,pad_ufes20,0,71.0,0,male,head/neck,PAT_330,BCC,2.0
+PAT_582_1363_358,pad_ufes20,0,60.0,0,female,head/neck,PAT_582,BCC,1.0
+PAT_1280_972_727,pad_ufes20,0,60.0,0,unknown,upper extremity,PAT_1280,ACK,
+PAT_393_793_852,pad_ufes20,0,57.0,0,female,head/neck,PAT_393,ACK,3.0
+PAT_61_299_74,pad_ufes20,0,50.0,0,female,lower extremity,PAT_61,NEV,3.0
+PAT_432_851_560,pad_ufes20,0,55.0,0,female,head/neck,PAT_432,BCC,2.0
+PAT_2106_4590_227,pad_ufes20,0,60.0,0,unknown,upper extremity,PAT_2106,ACK,
+PAT_85_129_225,pad_ufes20,0,71.0,0,female,torso,PAT_85,ACK,3.0
+PAT_1790_3427_355,pad_ufes20,0,67.0,0,unknown,head/neck,PAT_1790,ACK,
+PAT_180_279_377,pad_ufes20,0,54.0,0,female,upper extremity,PAT_180,BCC,3.0
+PAT_219_336_376,pad_ufes20,0,85.0,0,female,head/neck,PAT_219,SCC,2.0
+PAT_1286_999_824,pad_ufes20,0,73.0,0,unknown,head/neck,PAT_1286,SEK,
+PAT_529_994_419,pad_ufes20,0,75.0,0,male,head/neck,PAT_529,BCC,1.0
+PAT_188_289_908,pad_ufes20,0,57.0,0,male,torso,PAT_188,BCC,4.0
+PAT_356_736_188,pad_ufes20,0,58.0,0,male,upper extremity,PAT_356,BCC,2.0
+PAT_1432_1497_328,pad_ufes20,0,52.0,0,unknown,upper extremity,PAT_1432,ACK,
+PAT_951_1836_991,pad_ufes20,0,52.0,0,male,upper extremity,PAT_951,ACK,2.0
+PAT_1448_1551_366,pad_ufes20,0,23.0,0,unknown,torso,PAT_1448,NEV,
+PAT_911_1728_101,pad_ufes20,0,55.0,0,male,head/neck,PAT_911,BCC,2.0
+PAT_697_1317_892,pad_ufes20,0,70.0,0,female,torso,PAT_697,BCC,2.0
+PAT_1832_3597_594,pad_ufes20,0,65.0,0,unknown,torso,PAT_1832,SEK,
+PAT_856_1626_523,pad_ufes20,0,51.0,0,male,torso,PAT_856,BCC,3.0
+PAT_1914_3821_427,pad_ufes20,0,56.0,0,unknown,torso,PAT_1914,NEV,
+PAT_835_1577_938,pad_ufes20,0,69.0,0,male,head/neck,PAT_835,BCC,2.0
+PAT_1914_3823_180,pad_ufes20,0,56.0,0,unknown,torso,PAT_1914,NEV,
+PAT_1978_4004_82,pad_ufes20,0,75.0,0,unknown,torso,PAT_1978,SEK,
+PAT_627_1188_755,pad_ufes20,0,32.0,0,female,lower extremity,PAT_627,NEV,2.0
+PAT_531_3079_652,pad_ufes20,0,62.0,0,male,upper extremity,PAT_531,ACK,2.0
+PAT_1720_3208_130,pad_ufes20,0,77.0,0,unknown,head/neck,PAT_1720,ACK,
+PAT_115_177_575,pad_ufes20,0,69.0,0,male,upper extremity,PAT_115,BCC,2.0
+PAT_570_1085_429,pad_ufes20,0,43.0,0,male,head/neck,PAT_570,BCC,2.0
+PAT_337_706_254,pad_ufes20,0,50.0,0,male,torso,PAT_337,BCC,2.0
+PAT_1597_2666_130,pad_ufes20,0,28.0,0,unknown,torso,PAT_1597,NEV,
+PAT_923_1753_496,pad_ufes20,0,66.0,0,female,head/neck,PAT_923,BCC,2.0
+PAT_1682_3052_873,pad_ufes20,0,48.0,0,unknown,torso,PAT_1682,NEV,
+PAT_207_1280_15,pad_ufes20,0,80.0,0,male,head/neck,PAT_207,BCC,3.0
+PAT_242_368_261,pad_ufes20,0,45.0,0,female,torso,PAT_242,BCC,2.0
+PAT_806_1519_527,pad_ufes20,0,54.0,0,male,head/neck,PAT_806,BCC,2.0
+PAT_1491_1703_637,pad_ufes20,0,80.0,0,unknown,upper extremity,PAT_1491,ACK,
+PAT_1379_4145_486,pad_ufes20,0,31.0,0,unknown,lower extremity,PAT_1379,NEV,
+PAT_703_1329_112,pad_ufes20,0,67.0,0,female,upper extremity,PAT_703,BCC,1.0
+PAT_468_905_765,pad_ufes20,0,40.0,0,male,torso,PAT_468,BCC,2.0
+PAT_1449_1554_932,pad_ufes20,0,67.0,0,unknown,upper extremity,PAT_1449,ACK,
+PAT_1666_2985_968,pad_ufes20,0,61.0,0,unknown,upper extremity,PAT_1666,ACK,
+PAT_305_655_30,pad_ufes20,0,79.0,0,male,head/neck,PAT_305,BCC,2.0
+PAT_493_1862_360,pad_ufes20,0,47.0,0,male,head/neck,PAT_493,BCC,2.0
+PAT_401_4594_970,pad_ufes20,0,80.0,0,female,upper extremity,PAT_401,ACK,3.0
+PAT_36_49_935,pad_ufes20,0,46.0,0,male,head/neck,PAT_36,BCC,2.0
+PAT_204_310_975,pad_ufes20,0,62.0,0,male,head/neck,PAT_204,BCC,2.0
+PAT_788_1503_168,pad_ufes20,0,60.0,0,female,head/neck,PAT_788,BCC,4.0
+PAT_217_963_806,pad_ufes20,0,76.0,0,male,upper extremity,PAT_217,ACK,1.0
+PAT_1298_1050_519,pad_ufes20,0,43.0,0,unknown,head/neck,PAT_1298,NEV,
+PAT_514_969_187,pad_ufes20,0,64.0,0,male,head/neck,PAT_514,BCC,3.0
+PAT_86_1109_306,pad_ufes20,0,53.0,0,female,upper extremity,PAT_86,BCC,2.0
+PAT_1585_2619_396,pad_ufes20,0,57.0,0,unknown,upper extremity,PAT_1585,SEK,
+PAT_812_1625_430,pad_ufes20,0,61.0,0,female,head/neck,PAT_812,BCC,2.0
+PAT_86_1082_41,pad_ufes20,0,53.0,0,female,upper extremity,PAT_86,ACK,2.0
+PAT_886_4635_304,pad_ufes20,0,70.0,0,female,upper extremity,PAT_886,ACK,3.0
+PAT_1451_1562_545,pad_ufes20,0,36.0,0,unknown,torso,PAT_1451,NEV,
+PAT_791_1487_906,pad_ufes20,0,27.0,0,female,torso,PAT_791,NEV,3.0
+PAT_223_341_187,pad_ufes20,0,73.0,0,female,head/neck,PAT_223,BCC,3.0
+PAT_267_1061_152,pad_ufes20,0,79.0,0,male,head/neck,PAT_267,BCC,2.0
+PAT_1314_1108_442,pad_ufes20,0,61.0,0,unknown,head/neck,PAT_1314,SEK,
+PAT_15_23_240,pad_ufes20,0,56.0,0,female,torso,PAT_15,BCC,2.0
+PAT_2006_4123_719,pad_ufes20,0,17.0,0,unknown,torso,PAT_2006,NEV,
+PAT_196_300_749,pad_ufes20,0,68.0,0,female,upper extremity,PAT_196,BCC,3.0
+PAT_499_945_878,pad_ufes20,0,74.0,0,male,upper extremity,PAT_499,BCC,2.0
+PAT_1575_2516_23,pad_ufes20,0,75.0,0,unknown,head/neck,PAT_1575,ACK,
+PAT_230_1008_673,pad_ufes20,0,73.0,0,female,upper extremity,PAT_230,ACK,2.0
+PAT_470_908_103,pad_ufes20,0,49.0,0,male,head/neck,PAT_470,BCC,2.0
+PAT_1403_1392_407,pad_ufes20,0,50.0,0,unknown,head/neck,PAT_1403,ACK,
+PAT_813_1619_543,pad_ufes20,0,74.0,0,female,head/neck,PAT_813,BCC,2.0
+PAT_905_1721_327,pad_ufes20,0,76.0,0,male,head/neck,PAT_905,BCC,3.0
+PAT_294_638_564,pad_ufes20,0,78.0,0,male,head/neck,PAT_294,BCC,4.0
+PAT_621_1182_456,pad_ufes20,0,34.0,0,male,torso,PAT_621,NEV,3.0
+PAT_220_1343_489,pad_ufes20,0,68.0,0,female,head/neck,PAT_220,NEV,2.0
+PAT_1460_1598_746,pad_ufes20,0,62.0,0,unknown,head/neck,PAT_1460,SEK,
+PAT_537_1014_961,pad_ufes20,0,62.0,0,male,upper extremity,PAT_537,SCC,2.0
+PAT_388_4500_67,pad_ufes20,0,51.0,0,female,upper extremity,PAT_388,ACK,1.0
+PAT_311_666_191,pad_ufes20,0,66.0,0,female,torso,PAT_311,SCC,2.0
+PAT_382_776_986,pad_ufes20,0,36.0,0,female,torso,PAT_382,BCC,1.0
+PAT_735_1391_683,pad_ufes20,0,68.0,0,male,upper extremity,PAT_735,ACK,2.0
+PAT_221_339_951,pad_ufes20,0,66.0,0,female,head/neck,PAT_221,BCC,3.0
+PAT_1591_2648_855,pad_ufes20,0,31.0,0,unknown,torso,PAT_1591,NEV,
+PAT_286_1459_666,pad_ufes20,0,55.0,0,female,torso,PAT_286,NEV,2.0
+PAT_1065_278_954,pad_ufes20,0,52.0,0,unknown,torso,PAT_1065,ACK,
+PAT_924_1757_704,pad_ufes20,0,64.0,0,female,lower extremity,PAT_924,SCC,3.0
+PAT_846_1607_895,pad_ufes20,0,63.0,0,female,upper extremity,PAT_846,ACK,2.0
+PAT_168_262_74,pad_ufes20,0,50.0,0,male,head/neck,PAT_168,BCC,2.0
+PAT_1171_615_468,pad_ufes20,0,47.0,0,unknown,lower extremity,PAT_1171,ACK,
+PAT_1477_1660_226,pad_ufes20,0,40.0,0,unknown,head/neck,PAT_1477,NEV,
+PAT_776_1466_241,pad_ufes20,0,51.0,0,female,head/neck,PAT_776,BCC,2.0
+PAT_356_735_568,pad_ufes20,0,58.0,0,male,head/neck,PAT_356,BCC,2.0
+PAT_109_868_113,pad_ufes20,1,82.0,0,male,head/neck,PAT_109,MEL,2.0
+PAT_755_1430_681,pad_ufes20,0,70.0,0,male,head/neck,PAT_755,ACK,2.0
+PAT_549_1043_36,pad_ufes20,0,85.0,0,male,head/neck,PAT_549,SCC,2.0
+PAT_917_1735_936,pad_ufes20,0,59.0,0,female,torso,PAT_917,NEV,2.0
+PAT_1074_322_242,pad_ufes20,0,45.0,0,unknown,upper extremity,PAT_1074,ACK,
+PAT_2034_4268_141,pad_ufes20,0,65.0,0,unknown,upper extremity,PAT_2034,ACK,
+PAT_8_15_820,pad_ufes20,0,53.0,0,male,torso,PAT_8,BCC,2.0
+PAT_86_1109_164,pad_ufes20,0,53.0,0,female,upper extremity,PAT_86,BCC,2.0
+PAT_540_1016_644,pad_ufes20,0,70.0,0,female,head/neck,PAT_540,BCC,1.0
+PAT_166_3672_759,pad_ufes20,0,59.0,0,male,torso,PAT_166,SEK,2.0
+PAT_749_1415_164,pad_ufes20,0,39.0,0,male,upper extremity,PAT_749,ACK,2.0
+PAT_1402_1377_799,pad_ufes20,0,66.0,0,unknown,upper extremity,PAT_1402,ACK,
+PAT_1479_1669_376,pad_ufes20,0,39.0,0,unknown,upper extremity,PAT_1479,ACK,
+PAT_744_1405_742,pad_ufes20,0,90.0,0,male,head/neck,PAT_744,BCC,2.0
+PAT_1942_3917_379,pad_ufes20,0,55.0,0,unknown,torso,PAT_1942,SEK,
+PAT_677_1349_851,pad_ufes20,0,75.0,0,male,upper extremity,PAT_677,SCC,2.0
+PAT_71_108_56,pad_ufes20,0,57.0,0,female,torso,PAT_71,ACK,3.0
+PAT_337_706_944,pad_ufes20,0,50.0,0,male,torso,PAT_337,BCC,2.0
+PAT_388_787_818,pad_ufes20,0,50.0,0,female,torso,PAT_388,BCC,1.0
+PAT_287_440_729,pad_ufes20,0,70.0,0,female,upper extremity,PAT_287,ACK,2.0
+PAT_1764_3335_803,pad_ufes20,0,73.0,0,unknown,torso,PAT_1764,SEK,
+PAT_771_1489_345,pad_ufes20,0,69.0,0,male,upper extremity,PAT_771,SCC,3.0
+PAT_814_1532_265,pad_ufes20,0,63.0,0,male,torso,PAT_814,BCC,2.0
+PAT_2021_4180_381,pad_ufes20,0,39.0,0,unknown,head/neck,PAT_2021,ACK,
+PAT_419_2768_910,pad_ufes20,0,80.0,0,female,head/neck,PAT_419,SEK,2.0
+PAT_664_1263_781,pad_ufes20,0,69.0,0,female,torso,PAT_664,SCC,2.0
+PAT_1591_2648_723,pad_ufes20,0,31.0,0,unknown,torso,PAT_1591,NEV,
+PAT_1641_2886_284,pad_ufes20,0,70.0,0,unknown,head/neck,PAT_1641,SEK,
+PAT_1322_1137_201,pad_ufes20,0,70.0,0,unknown,torso,PAT_1322,ACK,
+PAT_413_819_550,pad_ufes20,0,58.0,0,male,upper extremity,PAT_413,BCC,2.0
+PAT_1404_1393_540,pad_ufes20,0,52.0,0,unknown,head/neck,PAT_1404,SEK,
+PAT_253_384_607,pad_ufes20,0,47.0,0,male,head/neck,PAT_253,BCC,2.0
+PAT_837_1582_714,pad_ufes20,0,53.0,0,female,torso,PAT_837,BCC,3.0
+PAT_522_986_800,pad_ufes20,0,53.0,0,male,upper extremity,PAT_522,BCC,2.0
+PAT_53_1370_288,pad_ufes20,0,80.0,0,male,torso,PAT_53,BCC,1.0
+PAT_938_1789_693,pad_ufes20,0,75.0,0,male,torso,PAT_938,BCC,2.0
+PAT_854_1635_103,pad_ufes20,0,55.0,0,male,head/neck,PAT_854,BCC,3.0
+PAT_1690_3082_117,pad_ufes20,0,74.0,0,unknown,torso,PAT_1690,ACK,
+PAT_595_1142_142,pad_ufes20,0,76.0,0,male,head/neck,PAT_595,ACK,2.0
+PAT_1993_4077_139,pad_ufes20,0,47.0,0,unknown,head/neck,PAT_1993,ACK,
+PAT_835_1578_592,pad_ufes20,0,69.0,0,male,torso,PAT_835,BCC,2.0
+PAT_492_1784_50,pad_ufes20,0,71.0,0,male,upper extremity,PAT_492,ACK,2.0
+PAT_492_4723_890,pad_ufes20,0,71.0,0,male,upper extremity,PAT_492,ACK,2.0
+PAT_528_992_124,pad_ufes20,0,75.0,0,female,upper extremity,PAT_528,ACK,2.0
+PAT_709_1331_253,pad_ufes20,0,61.0,0,male,head/neck,PAT_709,BCC,2.0
+PAT_1392_1352_778,pad_ufes20,0,68.0,0,unknown,head/neck,PAT_1392,SEK,
+PAT_1547_4232_115,pad_ufes20,0,57.0,0,unknown,upper extremity,PAT_1547,ACK,
+PAT_184_284_721,pad_ufes20,0,71.0,0,male,upper extremity,PAT_184,ACK,3.0
+PAT_640_1210_293,pad_ufes20,0,57.0,0,male,upper extremity,PAT_640,BCC,2.0
+PAT_1067_284_533,pad_ufes20,0,55.0,0,unknown,head/neck,PAT_1067,ACK,
+PAT_354_1814_619,pad_ufes20,0,65.0,0,male,head/neck,PAT_354,SEK,2.0
+PAT_1708_3153_799,pad_ufes20,0,73.0,0,unknown,head/neck,PAT_1708,ACK,
+PAT_224_1340_142,pad_ufes20,0,71.0,0,male,head/neck,PAT_224,ACK,2.0
+PAT_198_302_44,pad_ufes20,0,53.0,0,female,torso,PAT_198,BCC,2.0
+PAT_407_810_390,pad_ufes20,0,47.0,0,male,head/neck,PAT_407,BCC,2.0
+PAT_63_99_189,pad_ufes20,0,35.0,0,female,head/neck,PAT_63,BCC,2.0
+PAT_138_205_296,pad_ufes20,0,61.0,0,male,head/neck,PAT_138,BCC,2.0
+PAT_90_138_369,pad_ufes20,0,73.0,0,female,head/neck,PAT_90,BCC,3.0
+PAT_297_4307_924,pad_ufes20,0,62.0,0,female,torso,PAT_297,NEV,3.0
+PAT_1439_1522_211,pad_ufes20,0,69.0,0,unknown,head/neck,PAT_1439,SEK,
+PAT_705_1326_82,pad_ufes20,0,58.0,0,female,upper extremity,PAT_705,SCC,1.0
+PAT_1805_3477_772,pad_ufes20,0,55.0,0,unknown,upper extremity,PAT_1805,ACK,
+PAT_1273_953_510,pad_ufes20,0,32.0,0,unknown,torso,PAT_1273,NEV,
+PAT_715_4073_115,pad_ufes20,0,80.0,0,male,upper extremity,PAT_715,ACK,2.0
+PAT_1572_2495_335,pad_ufes20,0,72.0,0,unknown,upper extremity,PAT_1572,ACK,
+PAT_68_105_871,pad_ufes20,0,59.0,0,female,head/neck,PAT_68,BCC,2.0
+PAT_577_1107_61,pad_ufes20,0,33.0,0,female,torso,PAT_577,NEV,2.0
+PAT_1506_1735_733,pad_ufes20,0,71.0,0,unknown,head/neck,PAT_1506,ACK,
+PAT_154_237_625,pad_ufes20,0,78.0,0,male,upper extremity,PAT_154,BCC,3.0
+PAT_1252_866_852,pad_ufes20,0,65.0,0,unknown,torso,PAT_1252,SEK,
+PAT_1689_3075_38,pad_ufes20,0,42.0,0,unknown,upper extremity,PAT_1689,ACK,
+PAT_1415_1439_295,pad_ufes20,0,77.0,0,unknown,upper extremity,PAT_1415,ACK,
+PAT_63_99_736,pad_ufes20,0,35.0,0,female,head/neck,PAT_63,BCC,2.0
+PAT_464_899_646,pad_ufes20,0,74.0,0,female,head/neck,PAT_464,BCC,3.0
+PAT_330_695_90,pad_ufes20,0,71.0,0,male,head/neck,PAT_330,BCC,2.0
+PAT_1707_3148_835,pad_ufes20,0,75.0,0,unknown,torso,PAT_1707,ACK,
+PAT_181_832_158,pad_ufes20,0,59.0,0,male,head/neck,PAT_181,SEK,4.0
+PAT_961_1818_992,pad_ufes20,0,71.0,0,male,lower extremity,PAT_961,ACK,4.0
+PAT_126_191_304,pad_ufes20,0,48.0,0,male,head/neck,PAT_126,BCC,1.0
+PAT_683_1296_237,pad_ufes20,0,74.0,0,male,head/neck,PAT_683,BCC,2.0
+PAT_108_424_944,pad_ufes20,0,69.0,0,male,upper extremity,PAT_108,ACK,2.0
+PAT_558_1072_486,pad_ufes20,0,57.0,0,female,head/neck,PAT_558,BCC,3.0
+PAT_834_4490_317,pad_ufes20,0,81.0,0,male,upper extremity,PAT_834,ACK,2.0
+PAT_1503_1728_65,pad_ufes20,0,41.0,0,unknown,torso,PAT_1503,NEV,
+PAT_927_1759_749,pad_ufes20,0,64.0,0,female,torso,PAT_927,BCC,2.0
+PAT_97_151_503,pad_ufes20,0,47.0,0,male,torso,PAT_97,BCC,2.0
+PAT_876_1664_579,pad_ufes20,0,57.0,0,female,head/neck,PAT_876,BCC,2.0
+PAT_690_1309_217,pad_ufes20,0,58.0,0,female,head/neck,PAT_690,BCC,3.0
+PAT_122_185_957,pad_ufes20,0,79.0,0,female,head/neck,PAT_122,BCC,1.0
+PAT_1881_3717_785,pad_ufes20,0,44.0,0,unknown,head/neck,PAT_1881,NEV,
+PAT_884_1683_538,pad_ufes20,1,50.0,0,male,torso,PAT_884,MEL,3.0
+PAT_2011_4141_862,pad_ufes20,0,50.0,0,unknown,upper extremity,PAT_2011,ACK,
+PAT_463_897_440,pad_ufes20,0,67.0,0,female,head/neck,PAT_463,BCC,2.0
+PAT_824_1561_796,pad_ufes20,0,83.0,0,male,upper extremity,PAT_824,ACK,2.0
+PAT_1586_2624_615,pad_ufes20,0,68.0,0,unknown,upper extremity,PAT_1586,SEK,
+PAT_859_1638_598,pad_ufes20,0,81.0,0,female,upper extremity,PAT_859,SCC,3.0
+PAT_535_1011_567,pad_ufes20,0,56.0,0,female,upper extremity,PAT_535,BCC,1.0
+PAT_793_1512_382,pad_ufes20,0,36.0,0,male,torso,PAT_793,NEV,4.0
+PAT_153_233_45,pad_ufes20,0,70.0,0,female,head/neck,PAT_153,BCC,2.0
+PAT_1736_3246_166,pad_ufes20,0,70.0,0,unknown,upper extremity,PAT_1736,ACK,
+PAT_338_709_306,pad_ufes20,0,81.0,0,female,head/neck,PAT_338,SCC,1.0
+PAT_950_1804_64,pad_ufes20,0,53.0,0,male,head/neck,PAT_950,BCC,4.0
+PAT_246_377_159,pad_ufes20,0,33.0,0,male,upper extremity,PAT_246,ACK,2.0
+PAT_796_1509_459,pad_ufes20,0,83.0,0,male,upper extremity,PAT_796,BCC,2.0
+PAT_1608_2720_196,pad_ufes20,0,46.0,0,unknown,head/neck,PAT_1608,ACK,
+PAT_819_1541_727,pad_ufes20,0,77.0,0,female,head/neck,PAT_819,SEK,3.0
+PAT_621_3591_171,pad_ufes20,0,34.0,0,male,torso,PAT_621,NEV,3.0
+PAT_16_24_691,pad_ufes20,0,51.0,0,male,head/neck,PAT_16,BCC,2.0
+PAT_834_1572_973,pad_ufes20,0,81.0,0,male,head/neck,PAT_834,SCC,2.0
+PAT_72_110_647,pad_ufes20,0,36.0,0,female,torso,PAT_72,NEV,2.0
+PAT_152_230_934,pad_ufes20,0,68.0,0,male,torso,PAT_152,BCC,2.0
+PAT_356_4511_960,pad_ufes20,0,68.0,0,male,torso,PAT_356,ACK,2.0
+PAT_1388_3513_146,pad_ufes20,0,29.0,0,unknown,upper extremity,PAT_1388,NEV,
+PAT_1406_1397_669,pad_ufes20,0,62.0,0,unknown,upper extremity,PAT_1406,ACK,
+PAT_75_114_73,pad_ufes20,0,50.0,0,male,head/neck,PAT_75,BCC,2.0
+PAT_50_76_296,pad_ufes20,0,81.0,0,female,torso,PAT_50,BCC,2.0
+PAT_600_1141_988,pad_ufes20,0,83.0,0,female,head/neck,PAT_600,SCC,2.0
+PAT_624_1180_803,pad_ufes20,0,75.0,0,female,head/neck,PAT_624,BCC,2.0
+PAT_691_1311_2,pad_ufes20,0,56.0,0,male,upper extremity,PAT_691,BCC,1.0
+PAT_1770_3344_274,pad_ufes20,0,33.0,0,unknown,head/neck,PAT_1770,NEV,
+PAT_362_744_283,pad_ufes20,0,83.0,0,male,head/neck,PAT_362,BCC,2.0
+PAT_198_853_778,pad_ufes20,0,54.0,0,female,upper extremity,PAT_198,NEV,2.0
+PAT_649_1233_229,pad_ufes20,0,67.0,0,female,upper extremity,PAT_649,SEK,6.0
+PAT_386_1554_362,pad_ufes20,0,67.0,0,male,upper extremity,PAT_386,BCC,2.0
+PAT_641_1211_321,pad_ufes20,0,20.0,0,female,torso,PAT_641,NEV,2.0
+PAT_966_1826_587,pad_ufes20,0,46.0,0,female,upper extremity,PAT_966,ACK,3.0
+PAT_1521_1778_763,pad_ufes20,0,43.0,0,unknown,head/neck,PAT_1521,SEK,
+PAT_800_1514_512,pad_ufes20,0,66.0,0,male,head/neck,PAT_800,SCC,2.0
+PAT_1618_2771_628,pad_ufes20,0,70.0,0,unknown,head/neck,PAT_1618,SEK,
+PAT_601_1147_943,pad_ufes20,0,84.0,0,female,torso,PAT_601,BCC,4.0
+PAT_994_1866_913,pad_ufes20,0,52.0,0,female,lower extremity,PAT_994,BCC,3.0
+PAT_277_426_825,pad_ufes20,0,65.0,0,female,head/neck,PAT_277,SCC,2.0
+PAT_557_1058_309,pad_ufes20,0,65.0,0,female,head/neck,PAT_557,BCC,2.0
+PAT_67_104_730,pad_ufes20,0,37.0,0,male,head/neck,PAT_67,BCC,5.0
+PAT_403_804_994,pad_ufes20,0,58.0,0,male,upper extremity,PAT_403,NEV,4.0
+PAT_465_901_106,pad_ufes20,0,14.0,0,female,lower extremity,PAT_465,NEV,2.0
+PAT_526_3205_611,pad_ufes20,0,59.0,0,male,torso,PAT_526,ACK,2.0
+PAT_1414_1431_754,pad_ufes20,0,75.0,0,unknown,head/neck,PAT_1414,ACK,
+PAT_1130_501_181,pad_ufes20,0,42.0,0,unknown,upper extremity,PAT_1130,ACK,
+PAT_841_1603_667,pad_ufes20,0,54.0,0,male,head/neck,PAT_841,BCC,3.0
+PAT_1022_115_132,pad_ufes20,0,39.0,0,unknown,head/neck,PAT_1022,ACK,
+PAT_1020_111_593,pad_ufes20,0,41.0,0,unknown,torso,PAT_1020,ACK,
+PAT_1709_3159_144,pad_ufes20,0,63.0,0,unknown,torso,PAT_1709,SEK,
+PAT_1735_3242_27,pad_ufes20,0,21.0,0,unknown,head/neck,PAT_1735,NEV,
+PAT_926_1758_714,pad_ufes20,0,67.0,0,female,head/neck,PAT_926,BCC,3.0
+PAT_154_235_162,pad_ufes20,0,78.0,0,male,head/neck,PAT_154,BCC,3.0
+PAT_831_1570_637,pad_ufes20,0,72.0,0,female,upper extremity,PAT_831,ACK,3.0
+PAT_1249_862_658,pad_ufes20,0,52.0,0,unknown,torso,PAT_1249,NEV,
+PAT_759_1433_914,pad_ufes20,0,74.0,0,male,torso,PAT_759,NEV,2.0
+PAT_183_283_602,pad_ufes20,0,76.0,0,male,torso,PAT_183,SCC,3.0
+PAT_764_1448_499,pad_ufes20,0,69.0,0,male,torso,PAT_764,BCC,3.0
+PAT_934_1778_140,pad_ufes20,0,68.0,0,male,upper extremity,PAT_934,SCC,2.0
+PAT_1531_1800_683,pad_ufes20,0,64.0,0,unknown,upper extremity,PAT_1531,ACK,
+PAT_2144_4738_120,pad_ufes20,0,35.0,0,unknown,torso,PAT_2144,NEV,
+PAT_1370_1274_515,pad_ufes20,0,57.0,0,unknown,torso,PAT_1370,ACK,
+PAT_251_382_164,pad_ufes20,0,91.0,0,female,head/neck,PAT_251,BCC,2.0
+PAT_862_1643_386,pad_ufes20,0,57.0,0,female,head/neck,PAT_862,ACK,3.0
+PAT_1418_1447_360,pad_ufes20,0,86.0,0,unknown,torso,PAT_1418,SEK,
+PAT_56_86_802,pad_ufes20,0,70.0,0,female,upper extremity,PAT_56,SCC,2.0
+PAT_2103_4581_72,pad_ufes20,0,18.0,0,unknown,lower extremity,PAT_2103,NEV,
+PAT_1846_3622_35,pad_ufes20,0,48.0,0,unknown,head/neck,PAT_1846,NEV,
+PAT_1365_1253_912,pad_ufes20,0,48.0,0,unknown,upper extremity,PAT_1365,ACK,
+PAT_1509_1742_422,pad_ufes20,0,80.0,0,unknown,head/neck,PAT_1509,ACK,
+PAT_625_1184_994,pad_ufes20,0,64.0,0,female,head/neck,PAT_625,SEK,2.0
+PAT_522_985_991,pad_ufes20,0,53.0,0,male,head/neck,PAT_522,ACK,2.0
+PAT_43_1017_483,pad_ufes20,0,77.0,0,female,head/neck,PAT_43,BCC,2.0
+PAT_1349_1229_828,pad_ufes20,0,58.0,0,unknown,lower extremity,PAT_1349,NEV,
+PAT_1374_1284_208,pad_ufes20,0,54.0,0,unknown,head/neck,PAT_1374,ACK,
+PAT_609_1159_932,pad_ufes20,0,61.0,0,male,head/neck,PAT_609,BCC,2.0
+PAT_1090_376_384,pad_ufes20,0,45.0,0,unknown,head/neck,PAT_1090,ACK,
+PAT_370_2558_175,pad_ufes20,0,62.0,0,male,upper extremity,PAT_370,ACK,3.0
+PAT_225_345_903,pad_ufes20,0,68.0,0,male,torso,PAT_225,ACK,4.0
+PAT_1371_1276_145,pad_ufes20,0,53.0,0,unknown,torso,PAT_1371,ACK,
+PAT_71_108_617,pad_ufes20,0,57.0,0,female,torso,PAT_71,ACK,3.0
+PAT_475_913_874,pad_ufes20,0,52.0,0,female,head/neck,PAT_475,BCC,2.0
+PAT_1273_952_89,pad_ufes20,0,32.0,0,unknown,head/neck,PAT_1273,NEV,
+PAT_1712_3173_684,pad_ufes20,0,66.0,0,unknown,upper extremity,PAT_1712,ACK,
+PAT_212_327_532,pad_ufes20,0,70.0,0,female,head/neck,PAT_212,BCC,2.0
+PAT_1340_1208_931,pad_ufes20,0,62.0,0,unknown,upper extremity,PAT_1340,SEK,
+PAT_1420_1460_951,pad_ufes20,0,84.0,0,unknown,upper extremity,PAT_1420,SEK,
+PAT_935_1786_482,pad_ufes20,0,61.0,0,female,head/neck,PAT_935,SCC,2.0
+PAT_258_397_198,pad_ufes20,0,62.0,0,male,torso,PAT_258,BCC,2.0
+PAT_168_260_654,pad_ufes20,0,50.0,0,male,torso,PAT_168,BCC,2.0
+PAT_439_2887_834,pad_ufes20,0,36.0,0,female,torso,PAT_439,NEV,4.0
+PAT_596_1146_294,pad_ufes20,0,64.0,0,male,torso,PAT_596,BCC,4.0
+PAT_314_672_909,pad_ufes20,0,73.0,0,male,torso,PAT_314,BCC,2.0
+PAT_255_388_231,pad_ufes20,0,68.0,0,male,upper extremity,PAT_255,BCC,2.0
+PAT_809_1527_202,pad_ufes20,0,66.0,0,female,head/neck,PAT_809,SCC,3.0
+PAT_224_343_782,pad_ufes20,0,70.0,0,male,head/neck,PAT_224,BCC,2.0
+PAT_959_1813_1000,pad_ufes20,0,46.0,0,male,torso,PAT_959,BCC,2.0
+PAT_1551_1889_948,pad_ufes20,0,53.0,0,unknown,upper extremity,PAT_1551,ACK,
+PAT_1944_3921_281,pad_ufes20,0,42.0,0,unknown,head/neck,PAT_1944,SEK,
+PAT_1741_3273_34,pad_ufes20,0,44.0,0,unknown,upper extremity,PAT_1741,ACK,
+PAT_1065_276_231,pad_ufes20,0,52.0,0,unknown,head/neck,PAT_1065,ACK,
+PAT_2034_4269_670,pad_ufes20,0,65.0,0,unknown,upper extremity,PAT_2034,ACK,
+PAT_448_875_81,pad_ufes20,0,66.0,0,female,head/neck,PAT_448,SCC,2.0
+PAT_773_1459_554,pad_ufes20,0,55.0,0,male,head/neck,PAT_773,BCC,3.0
+PAT_1415_1437_527,pad_ufes20,0,77.0,0,unknown,torso,PAT_1415,SEK,
+PAT_1735_3241_207,pad_ufes20,0,21.0,0,unknown,head/neck,PAT_1735,NEV,
+PAT_2053_4360_281,pad_ufes20,0,78.0,0,unknown,head/neck,PAT_2053,SEK,
+PAT_90_139_57,pad_ufes20,0,73.0,0,female,head/neck,PAT_90,BCC,3.0
+PAT_827_1598_85,pad_ufes20,0,67.0,0,male,upper extremity,PAT_827,BCC,2.0
+PAT_1780_3380_542,pad_ufes20,0,61.0,0,unknown,torso,PAT_1780,SEK,
+PAT_1529_1798_206,pad_ufes20,0,59.0,0,unknown,head/neck,PAT_1529,SEK,
+PAT_954_1808_415,pad_ufes20,0,52.0,0,female,head/neck,PAT_954,BCC,2.0
+PAT_471_909_394,pad_ufes20,0,13.0,0,female,lower extremity,PAT_471,NEV,2.0
+PAT_1288_1003_553,pad_ufes20,0,39.0,0,unknown,head/neck,PAT_1288,NEV,
+PAT_337_706_598,pad_ufes20,0,50.0,0,male,torso,PAT_337,BCC,2.0
+PAT_817_4471_179,pad_ufes20,0,85.0,0,male,head/neck,PAT_817,ACK,2.0
+PAT_1892_3760_713,pad_ufes20,0,39.0,0,unknown,head/neck,PAT_1892,ACK,
+PAT_1326_1156_163,pad_ufes20,0,59.0,0,unknown,torso,PAT_1326,NEV,
+PAT_771_1488_922,pad_ufes20,0,69.0,0,male,upper extremity,PAT_771,SCC,3.0
+PAT_379_1531_17,pad_ufes20,0,60.0,0,male,torso,PAT_379,BCC,1.0
+PAT_2065_4412_407,pad_ufes20,0,88.0,0,unknown,torso,PAT_2065,SEK,
+PAT_921_1750_313,pad_ufes20,0,62.0,0,male,head/neck,PAT_921,ACK,2.0
+PAT_392_792_712,pad_ufes20,0,48.0,0,male,head/neck,PAT_392,BCC,3.0
+PAT_768_1449_842,pad_ufes20,0,88.0,0,male,upper extremity,PAT_768,SCC,3.0
+PAT_1764_3336_981,pad_ufes20,0,73.0,0,unknown,head/neck,PAT_1764,SEK,
+PAT_633_1199_218,pad_ufes20,0,61.0,0,male,torso,PAT_633,SCC,1.0
+PAT_53_1144_892,pad_ufes20,0,80.0,0,male,upper extremity,PAT_53,BCC,1.0
+PAT_528_3072_615,pad_ufes20,0,75.0,0,female,upper extremity,PAT_528,ACK,2.0
+PAT_2119_4625_733,pad_ufes20,0,58.0,0,unknown,torso,PAT_2119,ACK,
+PAT_473_911_610,pad_ufes20,0,33.0,0,male,torso,PAT_473,BCC,2.0
+PAT_816_1544_933,pad_ufes20,0,60.0,0,male,torso,PAT_816,BCC,3.0
+PAT_330_698_302,pad_ufes20,0,71.0,0,male,torso,PAT_330,BCC,2.0
+PAT_159_246_630,pad_ufes20,0,73.0,0,female,head/neck,PAT_159,BCC,2.0
+PAT_571_1096_10,pad_ufes20,0,47.0,0,female,upper extremity,PAT_571,BCC,3.0
+PAT_1481_1675_371,pad_ufes20,0,60.0,0,unknown,upper extremity,PAT_1481,ACK,
+PAT_510_959_985,pad_ufes20,0,62.0,0,male,head/neck,PAT_510,BCC,3.0
+PAT_409_2614_805,pad_ufes20,0,46.0,0,female,upper extremity,PAT_409,ACK,3.0
+PAT_768_1450_402,pad_ufes20,0,88.0,0,male,torso,PAT_768,BCC,3.0
+PAT_1216_759_542,pad_ufes20,0,41.0,0,unknown,head/neck,PAT_1216,NEV,
+PAT_123_186_718,pad_ufes20,0,56.0,0,female,upper extremity,PAT_123,BCC,1.0
+PAT_1626_2811_850,pad_ufes20,0,64.0,0,unknown,head/neck,PAT_1626,SEK,
+PAT_1133_510_956,pad_ufes20,0,52.0,0,unknown,upper extremity,PAT_1133,ACK,
+PAT_59_93_342,pad_ufes20,0,72.0,0,female,upper extremity,PAT_59,BCC,2.0
+PAT_330_1440_532,pad_ufes20,0,72.0,0,male,head/neck,PAT_330,SCC,2.0
+PAT_1934_3890_306,pad_ufes20,0,39.0,0,unknown,upper extremity,PAT_1934,NEV,
+PAT_1203_724_762,pad_ufes20,0,49.0,0,unknown,upper extremity,PAT_1203,SEK,
+PAT_2098_4559_436,pad_ufes20,0,67.0,0,unknown,torso,PAT_2098,ACK,
+PAT_1275_955_131,pad_ufes20,0,37.0,0,unknown,upper extremity,PAT_1275,ACK,
+PAT_798_1529_282,pad_ufes20,0,56.0,0,female,torso,PAT_798,NEV,3.0
+PAT_796_1509_400,pad_ufes20,0,83.0,0,male,upper extremity,PAT_796,BCC,2.0
+PAT_373_2598_514,pad_ufes20,0,80.0,0,male,upper extremity,PAT_373,SEK,4.0
+PAT_1221_766_430,pad_ufes20,0,54.0,0,unknown,upper extremity,PAT_1221,SEK,
+PAT_167_684_365,pad_ufes20,0,59.0,0,male,upper extremity,PAT_167,ACK,1.0
+PAT_535_1010_303,pad_ufes20,0,56.0,0,female,head/neck,PAT_535,BCC,1.0
+PAT_798_1771_240,pad_ufes20,0,55.0,0,female,torso,PAT_798,ACK,3.0
+PAT_150_1799_644,pad_ufes20,0,50.0,0,female,upper extremity,PAT_150,SCC,2.0
+PAT_192_296_824,pad_ufes20,0,74.0,0,male,head/neck,PAT_192,SCC,2.0
+PAT_142_210_904,pad_ufes20,0,78.0,0,female,head/neck,PAT_142,BCC,1.0
+PAT_1555_2396_71,pad_ufes20,0,55.0,0,unknown,head/neck,PAT_1555,SEK,
+PAT_528_993_589,pad_ufes20,0,75.0,0,female,upper extremity,PAT_528,ACK,2.0
+PAT_722_1376_280,pad_ufes20,0,65.0,0,male,torso,PAT_722,BCC,2.0
+PAT_953_1806_845,pad_ufes20,0,53.0,0,female,upper extremity,PAT_953,SCC,3.0
+PAT_340_714_314,pad_ufes20,1,54.0,0,female,torso,PAT_340,MEL,4.0
+PAT_1170_609_378,pad_ufes20,0,41.0,0,unknown,torso,PAT_1170,ACK,
+PAT_845_1604_313,pad_ufes20,0,56.0,0,female,head/neck,PAT_845,BCC,3.0
+PAT_996_6_367,pad_ufes20,0,50.0,0,unknown,torso,PAT_996,ACK,
+PAT_2122_4642_204,pad_ufes20,0,62.0,0,unknown,upper extremity,PAT_2122,ACK,
+PAT_168_262_292,pad_ufes20,0,50.0,0,male,head/neck,PAT_168,BCC,2.0
+PAT_277_427_658,pad_ufes20,0,65.0,0,female,head/neck,PAT_277,ACK,2.0
+PAT_38_1003_226,pad_ufes20,0,53.0,0,male,upper extremity,PAT_38,ACK,1.0
+PAT_903_1720_647,pad_ufes20,0,66.0,0,female,head/neck,PAT_903,BCC,2.0
+PAT_2039_4290_273,pad_ufes20,0,58.0,0,unknown,upper extremity,PAT_2039,ACK,
+PAT_1727_3233_399,pad_ufes20,0,89.0,0,unknown,upper extremity,PAT_1727,ACK,
+PAT_272_419_906,pad_ufes20,0,83.0,0,female,head/neck,PAT_272,BCC,2.0
+PAT_29_40_561,pad_ufes20,0,41.0,0,female,torso,PAT_29,NEV,2.0
+PAT_164_255_119,pad_ufes20,0,77.0,0,female,lower extremity,PAT_164,SCC,2.0
+PAT_238_364_387,pad_ufes20,0,81.0,0,female,lower extremity,PAT_238,ACK,2.0
+PAT_1955_3946_319,pad_ufes20,0,58.0,0,unknown,head/neck,PAT_1955,ACK,
+PAT_944_1795_666,pad_ufes20,0,31.0,0,male,head/neck,PAT_944,BCC,3.0
+PAT_490_933_17,pad_ufes20,0,45.0,0,male,head/neck,PAT_490,SCC,2.0
+PAT_180_279_746,pad_ufes20,0,54.0,0,female,upper extremity,PAT_180,BCC,3.0
+PAT_789_1483_793,pad_ufes20,0,70.0,0,male,torso,PAT_789,BCC,3.0
+PAT_1767_3340_959,pad_ufes20,0,59.0,0,unknown,head/neck,PAT_1767,ACK,
+PAT_1408_1404_929,pad_ufes20,0,68.0,0,unknown,head/neck,PAT_1408,SEK,
+PAT_1951_3934_98,pad_ufes20,0,79.0,0,unknown,upper extremity,PAT_1951,ACK,
+PAT_177_775_786,pad_ufes20,0,52.0,0,female,head/neck,PAT_177,ACK,1.0
+PAT_1483_1678_538,pad_ufes20,0,82.0,0,unknown,upper extremity,PAT_1483,ACK,
+PAT_711_4067_260,pad_ufes20,0,50.0,0,male,upper extremity,PAT_711,ACK,2.0
+PAT_914_1740_932,pad_ufes20,0,74.0,0,female,upper extremity,PAT_914,ACK,2.0
+PAT_53_81_522,pad_ufes20,0,78.0,0,male,head/neck,PAT_53,BCC,1.0
+PAT_1370_1273_41,pad_ufes20,0,57.0,0,unknown,head/neck,PAT_1370,ACK,
+PAT_457_890_255,pad_ufes20,0,77.0,0,female,upper extremity,PAT_457,ACK,2.0
+PAT_494_939_518,pad_ufes20,0,53.0,0,female,head/neck,PAT_494,BCC,2.0
+PAT_835_1578_52,pad_ufes20,0,69.0,0,male,torso,PAT_835,BCC,2.0
+PAT_325_689_528,pad_ufes20,0,55.0,0,female,torso,PAT_325,SCC,3.0
+PAT_344_718_206,pad_ufes20,0,52.0,0,female,torso,PAT_344,NEV,2.0
+PAT_1088_373_781,pad_ufes20,0,44.0,0,unknown,upper extremity,PAT_1088,ACK,
+PAT_1061_254_813,pad_ufes20,0,42.0,0,unknown,torso,PAT_1061,ACK,
+PAT_432_851_386,pad_ufes20,0,55.0,0,female,head/neck,PAT_432,BCC,2.0
+PAT_27_38_240,pad_ufes20,0,70.0,0,female,upper extremity,PAT_27,ACK,2.0
+PAT_2036_4280_90,pad_ufes20,0,72.0,0,unknown,head/neck,PAT_2036,ACK,
+PAT_147_219_544,pad_ufes20,0,39.0,0,male,head/neck,PAT_147,BCC,2.0
+PAT_2150_4766_754,pad_ufes20,0,40.0,0,unknown,upper extremity,PAT_2150,ACK,
+PAT_267_1062_418,pad_ufes20,0,79.0,0,male,upper extremity,PAT_267,BCC,2.0
+PAT_2090_4532_178,pad_ufes20,0,60.0,0,unknown,head/neck,PAT_2090,ACK,
+PAT_2049_4348_485,pad_ufes20,0,51.0,0,unknown,upper extremity,PAT_2049,SEK,
+PAT_753_1833_710,pad_ufes20,0,59.0,0,female,upper extremity,PAT_753,ACK,3.0
+PAT_968_1835_721,pad_ufes20,0,56.0,0,male,head/neck,PAT_968,BCC,2.0
+PAT_717_1347_899,pad_ufes20,1,61.0,0,female,upper extremity,PAT_717,MEL,2.0
+PAT_1605_2715_845,pad_ufes20,0,81.0,0,unknown,torso,PAT_1605,ACK,
+PAT_1650_2913_374,pad_ufes20,0,68.0,0,unknown,upper extremity,PAT_1650,ACK,
+PAT_354_1814_153,pad_ufes20,0,65.0,0,male,head/neck,PAT_354,SEK,2.0
+PAT_1208_736_599,pad_ufes20,0,37.0,0,unknown,head/neck,PAT_1208,NEV,
+PAT_852_1629_265,pad_ufes20,0,56.0,0,male,head/neck,PAT_852,BCC,3.0
+PAT_2105_4587_204,pad_ufes20,0,55.0,0,unknown,upper extremity,PAT_2105,ACK,
+PAT_1066_281_698,pad_ufes20,0,47.0,0,unknown,upper extremity,PAT_1066,ACK,
+PAT_1308_1095_117,pad_ufes20,0,46.0,0,unknown,torso,PAT_1308,NEV,
+PAT_379_4405_969,pad_ufes20,0,60.0,0,male,upper extremity,PAT_379,ACK,1.0
+PAT_677_1350_67,pad_ufes20,0,75.0,0,male,lower extremity,PAT_677,ACK,2.0
+PAT_217_1290_283,pad_ufes20,0,77.0,0,male,torso,PAT_217,BCC,1.0
+PAT_742_1402_818,pad_ufes20,0,78.0,0,female,upper extremity,PAT_742,ACK,2.0
+PAT_1288_1003_969,pad_ufes20,0,39.0,0,unknown,head/neck,PAT_1288,NEV,
+PAT_1780_3381_999,pad_ufes20,0,61.0,0,unknown,upper extremity,PAT_1780,NEV,
+PAT_846_4421_153,pad_ufes20,0,63.0,0,female,upper extremity,PAT_846,ACK,2.0
+PAT_605_1152_536,pad_ufes20,0,65.0,0,female,upper extremity,PAT_605,SCC,3.0
+PAT_613_1164_827,pad_ufes20,0,75.0,0,female,lower extremity,PAT_613,BCC,1.0
+PAT_1819_3569_217,pad_ufes20,0,48.0,0,unknown,upper extremity,PAT_1819,ACK,
+PAT_881_1681_462,pad_ufes20,0,45.0,0,female,lower extremity,PAT_881,SCC,2.0
+PAT_1636_2869_595,pad_ufes20,0,50.0,0,unknown,upper extremity,PAT_1636,SEK,
+PAT_75_113_165,pad_ufes20,0,50.0,0,male,head/neck,PAT_75,SCC,2.0
+PAT_817_1537_943,pad_ufes20,0,85.0,0,male,lower extremity,PAT_817,BCC,2.0
+PAT_1772_3346_66,pad_ufes20,0,50.0,0,unknown,head/neck,PAT_1772,NEV,
+PAT_786_1480_914,pad_ufes20,0,75.0,0,male,head/neck,PAT_786,BCC,2.0
+PAT_269_415_103,pad_ufes20,0,58.0,0,male,torso,PAT_269,BCC,2.0
+PAT_788_1503_541,pad_ufes20,0,60.0,0,female,head/neck,PAT_788,BCC,4.0
+PAT_823_1558_67,pad_ufes20,0,64.0,0,male,upper extremity,PAT_823,BCC,2.0
+PAT_1988_4052_897,pad_ufes20,0,45.0,0,unknown,head/neck,PAT_1988,SEK,
+PAT_492_937_126,pad_ufes20,0,70.0,0,male,torso,PAT_492,SCC,2.0
+PAT_386_1554_455,pad_ufes20,0,67.0,0,male,upper extremity,PAT_386,BCC,2.0
+PAT_1307_1088_252,pad_ufes20,0,58.0,0,unknown,torso,PAT_1307,SEK,
+PAT_1557_2399_681,pad_ufes20,0,49.0,0,unknown,upper extremity,PAT_1557,ACK,
+PAT_40_56_160,pad_ufes20,0,42.0,0,female,upper extremity,PAT_40,BCC,1.0
+PAT_1837_3608_851,pad_ufes20,0,45.0,0,unknown,torso,PAT_1837,NEV,
+PAT_313_669_908,pad_ufes20,0,85.0,0,female,head/neck,PAT_313,BCC,2.0
+PAT_464_900_548,pad_ufes20,0,74.0,0,female,upper extremity,PAT_464,BCC,3.0
+PAT_658_1266_149,pad_ufes20,0,59.0,0,male,head/neck,PAT_658,BCC,4.0
+PAT_1801_3459_857,pad_ufes20,0,56.0,0,unknown,torso,PAT_1801,NEV,
+PAT_657_1247_455,pad_ufes20,0,46.0,0,female,torso,PAT_657,BCC,2.0
+PAT_154_235_30,pad_ufes20,0,78.0,0,male,head/neck,PAT_154,BCC,3.0
+PAT_1505_1733_128,pad_ufes20,0,83.0,0,unknown,upper extremity,PAT_1505,ACK,
+PAT_1377_3512_370,pad_ufes20,0,71.0,0,unknown,head/neck,PAT_1377,SEK,
+PAT_810_1526_67,pad_ufes20,0,51.0,0,male,head/neck,PAT_810,BCC,3.0
+PAT_1186_680_578,pad_ufes20,0,39.0,0,unknown,lower extremity,PAT_1186,NEV,
+PAT_270_1387_430,pad_ufes20,0,90.0,0,female,lower extremity,PAT_270,SEK,1.0
+PAT_419_2767_323,pad_ufes20,0,80.0,0,female,upper extremity,PAT_419,ACK,2.0
+PAT_2030_4246_973,pad_ufes20,0,65.0,0,unknown,upper extremity,PAT_2030,NEV,
+PAT_2092_4537_438,pad_ufes20,0,68.0,0,unknown,torso,PAT_2092,SEK,
+PAT_343_717_927,pad_ufes20,0,21.0,0,female,head/neck,PAT_343,SEK,2.0
+PAT_1364_1246_143,pad_ufes20,0,17.0,0,unknown,torso,PAT_1364,NEV,
+PAT_2016_4156_941,pad_ufes20,0,67.0,0,unknown,head/neck,PAT_2016,SEK,
+PAT_1573_2497_736,pad_ufes20,0,45.0,0,unknown,head/neck,PAT_1573,ACK,
+PAT_935_1785_530,pad_ufes20,0,61.0,0,female,head/neck,PAT_935,SCC,2.0
+PAT_1034_161_203,pad_ufes20,0,55.0,0,unknown,upper extremity,PAT_1034,ACK,
+PAT_637_1434_684,pad_ufes20,0,69.0,0,male,torso,PAT_637,SCC,2.0
+PAT_610_1156_461,pad_ufes20,0,74.0,0,male,torso,PAT_610,BCC,1.0
+PAT_252_383_31,pad_ufes20,0,75.0,0,female,upper extremity,PAT_252,BCC,2.0
+PAT_890_1694_29,pad_ufes20,0,55.0,0,female,upper extremity,PAT_890,NEV,2.0
+PAT_96_150_743,pad_ufes20,0,42.0,0,male,torso,PAT_96,BCC,2.0
+PAT_1708_3155_581,pad_ufes20,0,73.0,0,unknown,upper extremity,PAT_1708,ACK,
+PAT_756_1496_480,pad_ufes20,0,27.0,0,female,torso,PAT_756,NEV,4.0
+PAT_745_1406_409,pad_ufes20,0,74.0,0,male,upper extremity,PAT_745,BCC,2.0
+PAT_1723_3218_111,pad_ufes20,0,39.0,0,unknown,head/neck,PAT_1723,SEK,
+PAT_1350_1230_925,pad_ufes20,0,20.0,0,unknown,torso,PAT_1350,NEV,
+PAT_309_663_812,pad_ufes20,0,89.0,0,female,head/neck,PAT_309,ACK,2.0
+PAT_104_1754_276,pad_ufes20,0,79.0,0,female,upper extremity,PAT_104,ACK,2.0
+PAT_797_1511_805,pad_ufes20,0,71.0,0,male,head/neck,PAT_797,BCC,3.0
+PAT_928_1764_426,pad_ufes20,0,64.0,0,female,head/neck,PAT_928,BCC,3.0
+PAT_397_797_638,pad_ufes20,0,59.0,0,male,head/neck,PAT_397,SCC,3.0
+PAT_818_1539_859,pad_ufes20,0,64.0,0,male,head/neck,PAT_818,BCC,2.0
+PAT_1405_1395_96,pad_ufes20,0,51.0,0,unknown,head/neck,PAT_1405,ACK,
+PAT_260_1289_396,pad_ufes20,0,78.0,0,female,head/neck,PAT_260,ACK,1.0
+PAT_506_957_377,pad_ufes20,0,67.0,0,male,upper extremity,PAT_506,BCC,2.0
+PAT_579_1099_837,pad_ufes20,0,45.0,0,male,upper extremity,PAT_579,ACK,3.0
+PAT_1570_2472_418,pad_ufes20,0,37.0,0,unknown,torso,PAT_1570,NEV,
+PAT_918_1742_456,pad_ufes20,0,91.0,0,female,head/neck,PAT_918,BCC,2.0
+PAT_1246_846_899,pad_ufes20,0,51.0,0,unknown,upper extremity,PAT_1246,ACK,
+PAT_579_1100_988,pad_ufes20,0,45.0,0,male,upper extremity,PAT_579,ACK,3.0
+PAT_1367_1264_801,pad_ufes20,0,77.0,0,unknown,upper extremity,PAT_1367,ACK,
+PAT_993_1865_559,pad_ufes20,0,82.0,0,male,head/neck,PAT_993,BCC,2.0
+PAT_268_413_643,pad_ufes20,0,81.0,0,female,upper extremity,PAT_268,BCC,2.0
+PAT_207_313_1,pad_ufes20,0,79.0,0,male,torso,PAT_207,BCC,3.0
+PAT_1374_1285_735,pad_ufes20,0,54.0,0,unknown,head/neck,PAT_1374,ACK,
+PAT_1406_1396_511,pad_ufes20,0,62.0,0,unknown,head/neck,PAT_1406,SEK,
+PAT_173_268_1000,pad_ufes20,0,17.0,0,female,upper extremity,PAT_173,NEV,1.0
+PAT_342_716_316,pad_ufes20,0,44.0,0,female,torso,PAT_342,BCC,2.0
+PAT_970_1833_270,pad_ufes20,0,44.0,0,female,head/neck,PAT_970,BCC,2.0
+PAT_996_6_622,pad_ufes20,0,50.0,0,unknown,torso,PAT_996,ACK,
+PAT_651_1232_950,pad_ufes20,0,78.0,0,female,upper extremity,PAT_651,ACK,2.0
+PAT_1600_2685_164,pad_ufes20,0,69.0,0,unknown,upper extremity,PAT_1600,ACK,
+PAT_1807_3481_801,pad_ufes20,0,51.0,0,unknown,upper extremity,PAT_1807,ACK,
+PAT_960_1816_662,pad_ufes20,0,59.0,0,male,head/neck,PAT_960,ACK,3.0
+PAT_245_376_24,pad_ufes20,0,71.0,0,male,torso,PAT_245,BCC,3.0
+PAT_1755_3310_986,pad_ufes20,0,32.0,0,unknown,torso,PAT_1755,NEV,
+PAT_1006_53_385,pad_ufes20,0,63.0,0,unknown,upper extremity,PAT_1006,ACK,
+PAT_1569_2456_393,pad_ufes20,0,78.0,0,unknown,head/neck,PAT_1569,SEK,
+PAT_380_773_362,pad_ufes20,0,59.0,0,male,torso,PAT_380,BCC,2.0
+PAT_834_1574_276,pad_ufes20,0,81.0,0,male,torso,PAT_834,SCC,2.0
+PAT_163_254_719,pad_ufes20,0,51.0,0,female,head/neck,PAT_163,ACK,3.0
+PAT_265_407_421,pad_ufes20,0,44.0,0,male,head/neck,PAT_265,BCC,2.0
+PAT_674_1277_9,pad_ufes20,0,49.0,0,female,head/neck,PAT_674,BCC,3.0
+PAT_1800_3460_206,pad_ufes20,0,38.0,0,unknown,head/neck,PAT_1800,SEK,
+PAT_534_1009_924,pad_ufes20,0,55.0,0,male,torso,PAT_534,BCC,3.0
+PAT_585_1130_552,pad_ufes20,0,59.0,0,male,torso,PAT_585,ACK,3.0
+PAT_690_1309_154,pad_ufes20,0,58.0,0,female,head/neck,PAT_690,BCC,3.0
+PAT_1577_2543_510,pad_ufes20,0,83.0,0,unknown,head/neck,PAT_1577,SEK,
+PAT_2024_4224_141,pad_ufes20,0,73.0,0,unknown,upper extremity,PAT_2024,ACK,
+PAT_2034_4266_880,pad_ufes20,0,65.0,0,unknown,head/neck,PAT_2034,ACK,
+PAT_505_951_710,pad_ufes20,0,71.0,0,female,head/neck,PAT_505,BCC,2.0
+PAT_1475_1651_727,pad_ufes20,0,69.0,0,unknown,upper extremity,PAT_1475,ACK,
+PAT_1761_3329_837,pad_ufes20,0,70.0,0,unknown,head/neck,PAT_1761,SEK,
+PAT_564_1079_430,pad_ufes20,0,73.0,0,female,upper extremity,PAT_564,BCC,2.0
+PAT_747_1409_116,pad_ufes20,0,55.0,0,male,upper extremity,PAT_747,ACK,3.0
+PAT_566_179_23,pad_ufes20,0,54.0,0,male,upper extremity,PAT_566,ACK,3.0
+PAT_719_1361_234,pad_ufes20,1,66.0,0,female,upper extremity,PAT_719,MEL,2.0
+PAT_1893_3761_666,pad_ufes20,0,61.0,0,unknown,upper extremity,PAT_1893,ACK,
+PAT_1486_1684_182,pad_ufes20,0,73.0,0,unknown,upper extremity,PAT_1486,ACK,
+PAT_2129_4680_110,pad_ufes20,0,47.0,0,unknown,torso,PAT_2129,NEV,
+PAT_1739_3261_325,pad_ufes20,0,51.0,0,unknown,upper extremity,PAT_1739,ACK,
+PAT_1034_160_819,pad_ufes20,0,55.0,0,unknown,head/neck,PAT_1034,ACK,
+PAT_950_1804_334,pad_ufes20,0,53.0,0,male,head/neck,PAT_950,BCC,4.0
+PAT_1536_1819_91,pad_ufes20,0,71.0,0,unknown,upper extremity,PAT_1536,ACK,
+PAT_1402_1376_507,pad_ufes20,0,66.0,0,unknown,upper extremity,PAT_1402,ACK,
+PAT_406_808_975,pad_ufes20,0,62.0,0,male,upper extremity,PAT_406,BCC,3.0
+PAT_237_362_52,pad_ufes20,0,77.0,0,male,head/neck,PAT_237,BCC,2.0
+PAT_900_1711_622,pad_ufes20,0,39.0,0,female,lower extremity,PAT_900,NEV,3.0
+PAT_504_953_569,pad_ufes20,0,78.0,0,female,head/neck,PAT_504,SEK,2.0
+PAT_2153_4782_321,pad_ufes20,0,66.0,0,unknown,head/neck,PAT_2153,ACK,
+PAT_1729_3235_712,pad_ufes20,0,69.0,0,unknown,head/neck,PAT_1729,ACK,
+PAT_593_1127_823,pad_ufes20,0,72.0,0,male,torso,PAT_593,BCC,2.0
+PAT_1670_3007_105,pad_ufes20,0,54.0,0,unknown,upper extremity,PAT_1670,ACK,
+PAT_673_1276_752,pad_ufes20,0,69.0,0,female,upper extremity,PAT_673,ACK,2.0
+PAT_487_930_973,pad_ufes20,0,70.0,0,female,lower extremity,PAT_487,SCC,2.0
+PAT_15_3138_959,pad_ufes20,0,57.0,0,female,torso,PAT_15,ACK,2.0
+PAT_1180_651_559,pad_ufes20,0,56.0,0,unknown,torso,PAT_1180,NEV,
+PAT_1261_896_349,pad_ufes20,0,68.0,0,unknown,head/neck,PAT_1261,SEK,
+PAT_931_1762_69,pad_ufes20,0,71.0,0,female,upper extremity,PAT_931,ACK,2.0
+PAT_678_1298_396,pad_ufes20,0,59.0,0,male,head/neck,PAT_678,SCC,2.0
+PAT_810_1526_639,pad_ufes20,0,51.0,0,male,head/neck,PAT_810,BCC,3.0
+PAT_83_126_820,pad_ufes20,0,64.0,0,female,upper extremity,PAT_83,BCC,2.0
+PAT_1220_765_464,pad_ufes20,0,67.0,0,unknown,torso,PAT_1220,SEK,
+PAT_987_1859_859,pad_ufes20,0,47.0,0,female,head/neck,PAT_987,ACK,3.0
+PAT_638_3680_891,pad_ufes20,0,73.0,0,female,upper extremity,PAT_638,ACK,2.0
+PAT_901_1716_497,pad_ufes20,0,60.0,0,male,head/neck,PAT_901,BCC,2.0
+PAT_735_1391_261,pad_ufes20,0,68.0,0,male,upper extremity,PAT_735,ACK,2.0
+PAT_787_1482_328,pad_ufes20,0,77.0,0,female,lower extremity,PAT_787,SCC,4.0
+PAT_467_904_535,pad_ufes20,0,46.0,0,female,torso,PAT_467,BCC,2.0
+PAT_684_1303_178,pad_ufes20,0,79.0,0,male,upper extremity,PAT_684,BCC,1.0
+PAT_822_1550_132,pad_ufes20,0,72.0,0,male,head/neck,PAT_822,BCC,3.0
+PAT_1296_1038_1,pad_ufes20,0,56.0,0,unknown,upper extremity,PAT_1296,ACK,
+PAT_629_1192_362,pad_ufes20,0,65.0,0,male,upper extremity,PAT_629,SCC,2.0
+PAT_1286_1000_276,pad_ufes20,0,73.0,0,unknown,head/neck,PAT_1286,SEK,
+PAT_1603_2704_969,pad_ufes20,0,12.0,0,unknown,torso,PAT_1603,NEV,
+PAT_919_1744_451,pad_ufes20,0,65.0,0,female,head/neck,PAT_919,BCC,2.0
+PAT_1305_1082_88,pad_ufes20,0,53.0,0,unknown,torso,PAT_1305,NEV,
+PAT_1452_1564_377,pad_ufes20,0,67.0,0,unknown,head/neck,PAT_1452,ACK,
+PAT_650_1241_329,pad_ufes20,0,73.0,0,female,torso,PAT_650,BCC,2.0
+PAT_625_1184_412,pad_ufes20,0,64.0,0,female,head/neck,PAT_625,SEK,2.0
+PAT_460_894_242,pad_ufes20,0,73.0,0,female,head/neck,PAT_460,BCC,2.0
+PAT_1534_1809_366,pad_ufes20,0,14.0,0,unknown,head/neck,PAT_1534,NEV,
+PAT_2099_4562_100,pad_ufes20,0,27.0,0,unknown,head/neck,PAT_2099,NEV,
+PAT_352_729_947,pad_ufes20,0,21.0,0,female,head/neck,PAT_352,NEV,5.0
+PAT_126_190_376,pad_ufes20,0,48.0,0,male,torso,PAT_126,ACK,1.0
+PAT_626_1187_34,pad_ufes20,0,85.0,0,female,head/neck,PAT_626,BCC,2.0
+PAT_633_1199_745,pad_ufes20,0,61.0,0,male,torso,PAT_633,SCC,1.0
+PAT_902_1718_852,pad_ufes20,1,58.0,0,female,lower extremity,PAT_902,MEL,2.0
+PAT_1412_1421_512,pad_ufes20,0,75.0,0,unknown,upper extremity,PAT_1412,ACK,
+PAT_877_1667_118,pad_ufes20,0,62.0,0,male,torso,PAT_877,BCC,2.0
+PAT_210_316_401,pad_ufes20,0,38.0,0,male,head/neck,PAT_210,ACK,3.0
+PAT_645_1222_860,pad_ufes20,0,57.0,0,female,upper extremity,PAT_645,BCC,3.0
+PAT_478_916_979,pad_ufes20,0,47.0,0,male,torso,PAT_478,BCC,2.0
+PAT_377_1580_429,pad_ufes20,0,66.0,0,male,lower extremity,PAT_377,SCC,2.0
+PAT_873_1661_178,pad_ufes20,0,69.0,0,male,upper extremity,PAT_873,ACK,2.0
+PAT_565_1073_749,pad_ufes20,0,51.0,0,male,head/neck,PAT_565,BCC,2.0
+PAT_386_784_470,pad_ufes20,0,66.0,0,male,head/neck,PAT_386,SCC,2.0
+PAT_1393_1355_316,pad_ufes20,0,65.0,0,unknown,upper extremity,PAT_1393,ACK,
+PAT_108_161_878,pad_ufes20,0,68.0,0,male,upper extremity,PAT_108,SCC,2.0
+PAT_1940_3902_876,pad_ufes20,0,31.0,0,unknown,torso,PAT_1940,NEV,
+PAT_545_1029_650,pad_ufes20,0,37.0,0,male,torso,PAT_545,BCC,2.0
+PAT_1746_3284_798,pad_ufes20,0,68.0,0,unknown,upper extremity,PAT_1746,ACK,
+PAT_704_1324_359,pad_ufes20,0,82.0,0,male,upper extremity,PAT_704,ACK,2.0
+PAT_2020_4176_865,pad_ufes20,0,74.0,0,unknown,lower extremity,PAT_2020,ACK,
+PAT_1138_520_154,pad_ufes20,0,35.0,0,unknown,head/neck,PAT_1138,NEV,
+PAT_380_774_185,pad_ufes20,0,59.0,0,male,torso,PAT_380,ACK,2.0
+PAT_559_1093_774,pad_ufes20,0,54.0,0,male,torso,PAT_559,BCC,1.0
+PAT_2093_4542_192,pad_ufes20,0,81.0,0,unknown,upper extremity,PAT_2093,ACK,
+PAT_1468_1622_219,pad_ufes20,0,73.0,0,unknown,upper extremity,PAT_1468,ACK,
+PAT_387_786_213,pad_ufes20,0,57.0,0,male,torso,PAT_387,SCC,2.0
+PAT_1975_3999_453,pad_ufes20,0,66.0,0,unknown,lower extremity,PAT_1975,SEK,
+PAT_1728_3234_404,pad_ufes20,0,79.0,0,unknown,head/neck,PAT_1728,ACK,
+PAT_1563_2426_436,pad_ufes20,0,70.0,0,unknown,upper extremity,PAT_1563,ACK,
+PAT_366_2448_563,pad_ufes20,0,70.0,0,male,upper extremity,PAT_366,ACK,3.0
+PAT_711_1334_480,pad_ufes20,0,50.0,0,male,torso,PAT_711,BCC,2.0
+PAT_428_845_189,pad_ufes20,0,73.0,0,female,head/neck,PAT_428,ACK,3.0
+PAT_1186_681_457,pad_ufes20,0,38.0,0,unknown,upper extremity,PAT_1186,NEV,
+PAT_802_1516_510,pad_ufes20,0,60.0,0,male,head/neck,PAT_802,ACK,3.0
+PAT_2003_4107_766,pad_ufes20,0,46.0,0,unknown,torso,PAT_2003,ACK,
+PAT_2116_4614_671,pad_ufes20,0,43.0,0,unknown,upper extremity,PAT_2116,ACK,
+PAT_211_318_942,pad_ufes20,0,72.0,0,male,head/neck,PAT_211,BCC,3.0
+PAT_316_674_318,pad_ufes20,0,79.0,0,female,head/neck,PAT_316,BCC,3.0
+PAT_1351_1231_203,pad_ufes20,0,25.0,0,unknown,torso,PAT_1351,NEV,
+PAT_806_1520_60,pad_ufes20,0,54.0,0,male,upper extremity,PAT_806,BCC,2.0
+PAT_88_133_64,pad_ufes20,0,65.0,0,male,head/neck,PAT_88,BCC,2.0
+PAT_1177_633_705,pad_ufes20,0,62.0,0,unknown,upper extremity,PAT_1177,ACK,
+PAT_1113_458_387,pad_ufes20,0,47.0,0,unknown,head/neck,PAT_1113,NEV,
+PAT_1698_3122_83,pad_ufes20,0,55.0,0,unknown,head/neck,PAT_1698,NEV,
+PAT_2085_4506_726,pad_ufes20,0,63.0,0,unknown,head/neck,PAT_2085,SEK,
+PAT_1243_837_806,pad_ufes20,0,57.0,0,unknown,upper extremity,PAT_1243,ACK,
+PAT_688_1305_242,pad_ufes20,0,54.0,0,female,torso,PAT_688,BCC,2.0
+PAT_67_104_695,pad_ufes20,0,37.0,0,male,head/neck,PAT_67,BCC,5.0
+PAT_2108_4596_837,pad_ufes20,0,65.0,0,unknown,upper extremity,PAT_2108,SEK,
+PAT_471_909_353,pad_ufes20,0,13.0,0,female,lower extremity,PAT_471,NEV,2.0
+PAT_621_3592_955,pad_ufes20,0,34.0,0,male,torso,PAT_621,NEV,3.0
+PAT_1118_470_710,pad_ufes20,0,55.0,0,unknown,head/neck,PAT_1118,ACK,
+PAT_1286_999_846,pad_ufes20,0,73.0,0,unknown,head/neck,PAT_1286,SEK,
+PAT_1046_203_511,pad_ufes20,0,36.0,0,unknown,upper extremity,PAT_1046,SEK,
+PAT_202_917_942,pad_ufes20,0,78.0,0,female,upper extremity,PAT_202,ACK,3.0
+PAT_456_888_961,pad_ufes20,0,53.0,0,female,torso,PAT_456,BCC,2.0
+PAT_316_1457_353,pad_ufes20,0,80.0,0,female,upper extremity,PAT_316,ACK,3.0
+PAT_177_274_865,pad_ufes20,0,51.0,0,female,torso,PAT_177,BCC,1.0
+PAT_93_361_53,pad_ufes20,0,65.0,0,male,head/neck,PAT_93,SEK,4.0
+PAT_330_1437_458,pad_ufes20,0,72.0,0,male,torso,PAT_330,BCC,2.0
+PAT_615_1167_722,pad_ufes20,0,16.0,0,female,torso,PAT_615,NEV,2.0
+PAT_1340_1207_304,pad_ufes20,0,62.0,0,unknown,upper extremity,PAT_1340,SEK,
+PAT_988_1858_453,pad_ufes20,0,78.0,0,female,head/neck,PAT_988,BCC,3.0
+PAT_2024_4225_170,pad_ufes20,0,73.0,0,unknown,upper extremity,PAT_2024,ACK,
+PAT_947_1798_946,pad_ufes20,0,55.0,0,male,torso,PAT_947,BCC,3.0
+PAT_782_1492_890,pad_ufes20,0,71.0,0,male,torso,PAT_782,BCC,3.0
+PAT_299_1452_1,pad_ufes20,0,78.0,0,male,head/neck,PAT_299,BCC,2.0
+PAT_874_1672_287,pad_ufes20,0,84.0,0,female,head/neck,PAT_874,SCC,2.0
+PAT_893_1697_613,pad_ufes20,0,67.0,0,male,torso,PAT_893,SEK,5.0
+PAT_351_728_683,pad_ufes20,0,54.0,0,male,head/neck,PAT_351,BCC,3.0
+PAT_402_803_739,pad_ufes20,0,45.0,0,female,torso,PAT_402,BCC,2.0
+PAT_1179_641_735,pad_ufes20,0,43.0,0,unknown,torso,PAT_1179,NEV,
+PAT_282_433_934,pad_ufes20,0,55.0,0,male,head/neck,PAT_282,BCC,2.0
+PAT_156_241_538,pad_ufes20,0,81.0,0,male,torso,PAT_156,BCC,2.0
+PAT_1153_555_98,pad_ufes20,0,32.0,0,unknown,torso,PAT_1153,NEV,
+PAT_660_1249_469,pad_ufes20,0,42.0,0,female,head/neck,PAT_660,BCC,3.0
+PAT_762_1436_414,pad_ufes20,0,61.0,0,female,upper extremity,PAT_762,BCC,3.0
+PAT_1373_1283_85,pad_ufes20,0,39.0,0,unknown,upper extremity,PAT_1373,ACK,
+PAT_1689_3077_411,pad_ufes20,0,36.0,0,unknown,torso,PAT_1689,NEV,
+PAT_669_1265_76,pad_ufes20,0,79.0,0,female,head/neck,PAT_669,BCC,2.0
+PAT_1414_1433_806,pad_ufes20,0,75.0,0,unknown,upper extremity,PAT_1414,ACK,
+PAT_861_1639_823,pad_ufes20,0,46.0,0,male,torso,PAT_861,ACK,3.0
+PAT_1031_148_292,pad_ufes20,0,35.0,0,unknown,upper extremity,PAT_1031,ACK,
+PAT_261_401_911,pad_ufes20,0,43.0,0,male,head/neck,PAT_261,BCC,1.0
+PAT_110_165_583,pad_ufes20,0,62.0,0,female,head/neck,PAT_110,BCC,3.0
+PAT_281_1517_293,pad_ufes20,0,61.0,0,male,torso,PAT_281,NEV,3.0
+PAT_880_1675_704,pad_ufes20,0,83.0,0,female,head/neck,PAT_880,ACK,2.0
+PAT_2017_4164_500,pad_ufes20,0,17.0,0,unknown,torso,PAT_2017,NEV,
+PAT_197_301_449,pad_ufes20,0,79.0,0,female,head/neck,PAT_197,BCC,4.0
+PAT_486_929_274,pad_ufes20,1,57.0,0,male,torso,PAT_486,MEL,2.0
+PAT_955_1810_892,pad_ufes20,0,52.0,0,male,head/neck,PAT_955,BCC,2.0
+PAT_1093_379_273,pad_ufes20,0,53.0,0,unknown,head/neck,PAT_1093,ACK,
+PAT_481_923_186,pad_ufes20,0,54.0,0,female,torso,PAT_481,BCC,2.0
+PAT_938_1790_977,pad_ufes20,0,75.0,0,male,head/neck,PAT_938,BCC,2.0
+PAT_645_1223_443,pad_ufes20,0,57.0,0,female,torso,PAT_645,BCC,3.0
+PAT_86_1082_220,pad_ufes20,0,53.0,0,female,upper extremity,PAT_86,ACK,2.0
+PAT_477_915_389,pad_ufes20,0,43.0,0,female,head/neck,PAT_477,BCC,2.0
+PAT_1946_3924_24,pad_ufes20,0,73.0,0,unknown,upper extremity,PAT_1946,SEK,
+PAT_885_1687_204,pad_ufes20,0,51.0,0,female,head/neck,PAT_885,BCC,2.0
+PAT_1931_3879_727,pad_ufes20,0,53.0,0,unknown,head/neck,PAT_1931,ACK,
+PAT_904_1736_851,pad_ufes20,0,70.0,0,male,head/neck,PAT_904,BCC,2.0
+PAT_32_44_211,pad_ufes20,0,64.0,0,female,head/neck,PAT_32,BCC,2.0
+PAT_815_1536_963,pad_ufes20,0,59.0,0,female,head/neck,PAT_815,BCC,2.0
+PAT_303_652_342,pad_ufes20,0,64.0,0,male,upper extremity,PAT_303,BCC,2.0
+PAT_330_695_296,pad_ufes20,0,71.0,0,male,head/neck,PAT_330,BCC,2.0
+PAT_363_746_18,pad_ufes20,0,63.0,0,male,head/neck,PAT_363,BCC,3.0
+PAT_645_4042_489,pad_ufes20,0,57.0,0,female,upper extremity,PAT_645,ACK,3.0
+PAT_388_1590_328,pad_ufes20,0,51.0,0,female,torso,PAT_388,BCC,1.0
+PAT_747_1410_622,pad_ufes20,0,55.0,0,male,upper extremity,PAT_747,ACK,3.0
+PAT_983_1853_985,pad_ufes20,0,78.0,0,female,upper extremity,PAT_983,ACK,2.0
+PAT_110_397_52,pad_ufes20,0,63.0,0,female,upper extremity,PAT_110,ACK,3.0
+PAT_191_294_419,pad_ufes20,0,85.0,0,female,head/neck,PAT_191,BCC,2.0
+PAT_1450_1556_114,pad_ufes20,0,49.0,0,unknown,head/neck,PAT_1450,ACK,
+PAT_451_878_890,pad_ufes20,0,64.0,0,female,head/neck,PAT_451,BCC,2.0
+PAT_691_3994_791,pad_ufes20,0,56.0,0,male,upper extremity,PAT_691,ACK,1.0
+PAT_1918_3836_82,pad_ufes20,0,63.0,0,unknown,upper extremity,PAT_1918,ACK,
+PAT_430_848_550,pad_ufes20,0,75.0,0,female,head/neck,PAT_430,BCC,2.0
+PAT_1184_676_303,pad_ufes20,0,49.0,0,unknown,upper extremity,PAT_1184,ACK,
+PAT_2161_4818_501,pad_ufes20,0,6.0,0,unknown,torso,PAT_2161,NEV,
+PAT_876_1666_961,pad_ufes20,0,57.0,0,female,upper extremity,PAT_876,BCC,2.0
+PAT_1790_3427_723,pad_ufes20,0,67.0,0,unknown,head/neck,PAT_1790,ACK,
+PAT_1453_1566_310,pad_ufes20,0,52.0,0,unknown,upper extremity,PAT_1453,SEK,
+PAT_1176_631_36,pad_ufes20,0,69.0,0,unknown,upper extremity,PAT_1176,ACK,
+PAT_523_988_900,pad_ufes20,0,52.0,0,female,head/neck,PAT_523,BCC,2.0
+PAT_1545_1865_519,pad_ufes20,0,77.0,0,unknown,upper extremity,PAT_1545,ACK,
+PAT_637_1217_274,pad_ufes20,0,69.0,0,male,lower extremity,PAT_637,SCC,2.0
+PAT_887_1688_436,pad_ufes20,0,52.0,0,female,torso,PAT_887,BCC,2.0
+PAT_1469_1627_109,pad_ufes20,0,71.0,0,unknown,upper extremity,PAT_1469,ACK,
+PAT_447_873_329,pad_ufes20,0,62.0,0,female,head/neck,PAT_447,SCC,2.0
+PAT_1840_3612_959,pad_ufes20,0,48.0,0,unknown,head/neck,PAT_1840,ACK,
+PAT_1587_2625_226,pad_ufes20,0,37.0,0,unknown,torso,PAT_1587,NEV,
+PAT_897_1710_793,pad_ufes20,0,49.0,0,female,torso,PAT_897,BCC,2.0
+PAT_931_1761_380,pad_ufes20,0,71.0,0,female,upper extremity,PAT_931,ACK,2.0
+PAT_1937_3897_131,pad_ufes20,0,62.0,0,unknown,upper extremity,PAT_1937,ACK,
+PAT_936_1772_886,pad_ufes20,1,63.0,0,male,torso,PAT_936,MEL,2.0
+PAT_691_1311_890,pad_ufes20,0,56.0,0,male,upper extremity,PAT_691,BCC,1.0
+PAT_359_1596_68,pad_ufes20,0,54.0,0,female,lower extremity,PAT_359,ACK,3.0
+PAT_1528_1795_12,pad_ufes20,0,62.0,0,unknown,head/neck,PAT_1528,ACK,
+PAT_270_417_257,pad_ufes20,1,90.0,0,female,upper extremity,PAT_270,MEL,1.0
+PAT_1998_4095_438,pad_ufes20,0,69.0,0,unknown,upper extremity,PAT_1998,ACK,
+PAT_894_1680_410,pad_ufes20,0,65.0,0,male,head/neck,PAT_894,BCC,2.0
+PAT_827_1601_859,pad_ufes20,0,67.0,0,male,upper extremity,PAT_827,BCC,2.0
+PAT_1390_1346_709,pad_ufes20,0,55.0,0,unknown,head/neck,PAT_1390,ACK,
+PAT_1433_1499_29,pad_ufes20,0,51.0,0,unknown,upper extremity,PAT_1433,ACK,
+PAT_801_1518_574,pad_ufes20,1,43.0,0,female,head/neck,PAT_801,MEL,4.0
+PAT_1777_3370_697,pad_ufes20,0,67.0,0,unknown,torso,PAT_1777,ACK,
+PAT_782_1494_418,pad_ufes20,0,71.0,0,male,upper extremity,PAT_782,BCC,3.0
+PAT_236_1071_810,pad_ufes20,0,55.0,0,male,upper extremity,PAT_236,ACK,3.0
+PAT_1550_1888_216,pad_ufes20,0,64.0,0,unknown,head/neck,PAT_1550,SEK,
+PAT_457_889_346,pad_ufes20,0,77.0,0,female,head/neck,PAT_457,BCC,2.0
+PAT_1284_995_150,pad_ufes20,0,75.0,0,unknown,upper extremity,PAT_1284,ACK,
+PAT_2081_4488_57,pad_ufes20,0,61.0,0,unknown,upper extremity,PAT_2081,ACK,
+PAT_1364_1246_583,pad_ufes20,0,17.0,0,unknown,torso,PAT_1364,NEV,
+PAT_701_1321_156,pad_ufes20,0,69.0,0,male,head/neck,PAT_701,SEK,2.0
+PAT_891_1700_180,pad_ufes20,0,57.0,0,female,upper extremity,PAT_891,ACK,2.0
+PAT_940_1775_513,pad_ufes20,0,69.0,0,male,head/neck,PAT_940,BCC,2.0
+PAT_306_1646_971,pad_ufes20,0,87.0,0,male,upper extremity,PAT_306,ACK,2.0
+PAT_1705_3143_139,pad_ufes20,0,71.0,0,unknown,head/neck,PAT_1705,ACK,
+PAT_357_737_77,pad_ufes20,0,71.0,0,male,head/neck,PAT_357,BCC,2.0
+PAT_176_273_423,pad_ufes20,0,73.0,0,female,upper extremity,PAT_176,ACK,2.0
+PAT_815_1535_536,pad_ufes20,0,59.0,0,female,head/neck,PAT_815,BCC,2.0
+PAT_1431_1495_931,pad_ufes20,0,58.0,0,unknown,upper extremity,PAT_1431,ACK,
+PAT_160_248_254,pad_ufes20,0,78.0,0,male,torso,PAT_160,BCC,2.0
+PAT_211_317_649,pad_ufes20,0,72.0,0,male,head/neck,PAT_211,BCC,3.0
+PAT_906_1723_560,pad_ufes20,0,65.0,0,male,head/neck,PAT_906,BCC,2.0
+PAT_1269_936_965,pad_ufes20,0,72.0,0,unknown,torso,PAT_1269,SEK,
+PAT_201_946_262,pad_ufes20,0,60.0,0,male,upper extremity,PAT_201,ACK,3.0
+PAT_822_1551_642,pad_ufes20,0,72.0,0,male,head/neck,PAT_822,BCC,3.0
+PAT_1229_794_274,pad_ufes20,0,25.0,0,unknown,upper extremity,PAT_1229,NEV,
+PAT_119_181_684,pad_ufes20,0,77.0,0,female,head/neck,PAT_119,BCC,2.0
+PAT_46_880_308,pad_ufes20,0,55.0,0,female,torso,PAT_46,BCC,3.0
+PAT_896_1705_582,pad_ufes20,0,63.0,0,female,head/neck,PAT_896,BCC,2.0
+PAT_1017_97_577,pad_ufes20,0,67.0,0,unknown,head/neck,PAT_1017,ACK,
+PAT_417_3537_45,pad_ufes20,0,27.0,0,male,lower extremity,PAT_417,NEV,3.0
+PAT_632_3700_890,pad_ufes20,0,73.0,0,female,upper extremity,PAT_632,ACK,2.0
+PAT_530_999_696,pad_ufes20,0,46.0,0,female,head/neck,PAT_530,BCC,3.0
+PAT_935_1783_687,pad_ufes20,0,61.0,0,female,head/neck,PAT_935,BCC,2.0
+PAT_473_911_630,pad_ufes20,0,33.0,0,male,torso,PAT_473,BCC,2.0
+PAT_805_1517_647,pad_ufes20,0,58.0,0,female,upper extremity,PAT_805,SCC,3.0
+PAT_834_1574_397,pad_ufes20,0,81.0,0,male,torso,PAT_834,SCC,2.0
+PAT_864_1646_822,pad_ufes20,0,55.0,0,female,torso,PAT_864,BCC,3.0
+PAT_151_227_63,pad_ufes20,0,62.0,0,female,head/neck,PAT_151,BCC,2.0
+PAT_263_403_966,pad_ufes20,0,83.0,0,male,torso,PAT_263,SCC,1.0
+PAT_197_301_198,pad_ufes20,0,79.0,0,female,head/neck,PAT_197,BCC,4.0
+PAT_2088_4523_400,pad_ufes20,0,9.0,0,unknown,head/neck,PAT_2088,NEV,
+PAT_1391_1351_396,pad_ufes20,0,53.0,0,unknown,lower extremity,PAT_1391,NEV,
+PAT_1615_2749_350,pad_ufes20,0,60.0,0,unknown,upper extremity,PAT_1615,ACK,
+PAT_1385_1323_100,pad_ufes20,0,69.0,0,unknown,head/neck,PAT_1385,ACK,
+PAT_550_1045_81,pad_ufes20,0,81.0,0,male,upper extremity,PAT_550,BCC,2.0
+PAT_1535_1812_660,pad_ufes20,0,32.0,0,unknown,upper extremity,PAT_1535,NEV,
+PAT_679_1286_933,pad_ufes20,0,75.0,0,male,head/neck,PAT_679,SCC,2.0
+PAT_2089_4529_762,pad_ufes20,0,68.0,0,unknown,head/neck,PAT_2089,ACK,
+PAT_122_869_60,pad_ufes20,0,79.0,0,female,torso,PAT_122,BCC,1.0
+PAT_1497_1712_633,pad_ufes20,0,76.0,0,unknown,upper extremity,PAT_1497,ACK,
+PAT_851_1623_815,pad_ufes20,0,77.0,0,female,head/neck,PAT_851,ACK,3.0
+PAT_2026_4230_141,pad_ufes20,0,77.0,0,unknown,head/neck,PAT_2026,ACK,
+PAT_355_732_625,pad_ufes20,0,80.0,0,male,head/neck,PAT_355,BCC,2.0
+PAT_86_131_107,pad_ufes20,0,52.0,0,female,upper extremity,PAT_86,ACK,2.0
+PAT_472_910_453,pad_ufes20,0,45.0,0,male,head/neck,PAT_472,BCC,2.0
+PAT_99_153_636,pad_ufes20,0,78.0,0,female,head/neck,PAT_99,BCC,2.0
+PAT_678_1287_652,pad_ufes20,0,59.0,0,male,torso,PAT_678,BCC,2.0
+PAT_1129_498_930,pad_ufes20,0,51.0,0,unknown,head/neck,PAT_1129,NEV,
+PAT_158_621_68,pad_ufes20,0,70.0,0,female,upper extremity,PAT_158,ACK,1.0
+PAT_1407_1402_734,pad_ufes20,0,81.0,0,unknown,upper extremity,PAT_1407,ACK,
+PAT_1407_1402_500,pad_ufes20,0,81.0,0,unknown,upper extremity,PAT_1407,ACK,
+PAT_1861_3648_959,pad_ufes20,0,72.0,0,unknown,head/neck,PAT_1861,SEK,
+PAT_823_1558_870,pad_ufes20,0,64.0,0,male,upper extremity,PAT_823,BCC,2.0
+PAT_532_1007_854,pad_ufes20,0,85.0,0,female,head/neck,PAT_532,BCC,2.0
+PAT_1315_1110_317,pad_ufes20,0,80.0,0,unknown,upper extremity,PAT_1315,ACK,
+PAT_89_135_11,pad_ufes20,0,64.0,0,female,head/neck,PAT_89,BCC,2.0
+PAT_2022_4184_111,pad_ufes20,0,55.0,0,unknown,upper extremity,PAT_2022,ACK,
+PAT_598_1137_888,pad_ufes20,0,88.0,0,female,head/neck,PAT_598,BCC,2.0
+PAT_252_383_389,pad_ufes20,0,75.0,0,female,upper extremity,PAT_252,BCC,2.0
+PAT_230_1007_645,pad_ufes20,0,73.0,0,female,upper extremity,PAT_230,ACK,2.0
+PAT_338_707_774,pad_ufes20,0,81.0,0,female,head/neck,PAT_338,BCC,1.0
+PAT_1029_135_983,pad_ufes20,0,47.0,0,unknown,head/neck,PAT_1029,ACK,
+PAT_667_1264_8,pad_ufes20,0,74.0,0,female,head/neck,PAT_667,BCC,3.0
+PAT_143_213_489,pad_ufes20,0,71.0,0,male,torso,PAT_143,BCC,2.0
+PAT_914_1732_136,pad_ufes20,0,74.0,0,female,head/neck,PAT_914,ACK,2.0
+PAT_1418_1449_580,pad_ufes20,0,86.0,0,unknown,upper extremity,PAT_1418,ACK,
+PAT_622_1185_922,pad_ufes20,1,71.0,0,male,torso,PAT_622,MEL,2.0
+PAT_442_863_795,pad_ufes20,0,56.0,0,female,head/neck,PAT_442,BCC,2.0
+PAT_665_1260_16,pad_ufes20,0,30.0,0,female,torso,PAT_665,NEV,3.0
+PAT_1031_148_66,pad_ufes20,0,35.0,0,unknown,upper extremity,PAT_1031,ACK,
+PAT_1452_1564_509,pad_ufes20,0,67.0,0,unknown,head/neck,PAT_1452,ACK,
+PAT_1280_972_605,pad_ufes20,0,60.0,0,unknown,upper extremity,PAT_1280,ACK,
+PAT_738_1397_195,pad_ufes20,0,58.0,0,female,head/neck,PAT_738,BCC,2.0
+PAT_747_1408_965,pad_ufes20,0,55.0,0,male,torso,PAT_747,BCC,3.0
+PAT_1514_1760_35,pad_ufes20,0,28.0,0,unknown,head/neck,PAT_1514,NEV,
+PAT_760_1456_878,pad_ufes20,0,66.0,0,female,head/neck,PAT_760,BCC,3.0
+PAT_2128_4676_965,pad_ufes20,0,53.0,0,unknown,lower extremity,PAT_2128,ACK,
+PAT_243_372_640,pad_ufes20,0,26.0,0,female,torso,PAT_243,BCC,3.0
+PAT_727_1373_718,pad_ufes20,0,87.0,0,male,head/neck,PAT_727,BCC,2.0
+PAT_135_202_105,pad_ufes20,0,53.0,0,female,torso,PAT_135,BCC,2.0
+PAT_899_1702_32,pad_ufes20,0,63.0,0,female,head/neck,PAT_899,BCC,3.0
+PAT_2068_4424_995,pad_ufes20,0,73.0,0,unknown,upper extremity,PAT_2068,ACK,
+PAT_330_1437_506,pad_ufes20,0,72.0,0,male,torso,PAT_330,BCC,2.0
+PAT_2046_4323_394,pad_ufes20,0,74.0,0,unknown,head/neck,PAT_2046,SEK,
+PAT_824_1560_801,pad_ufes20,0,83.0,0,male,torso,PAT_824,SCC,2.0
+PAT_378_769_36,pad_ufes20,0,71.0,0,male,head/neck,PAT_378,BCC,2.0
+PAT_251_382_240,pad_ufes20,0,91.0,0,female,head/neck,PAT_251,BCC,2.0
+PAT_388_1590_169,pad_ufes20,0,51.0,0,female,torso,PAT_388,BCC,1.0
+PAT_159_244_102,pad_ufes20,0,73.0,0,female,head/neck,PAT_159,BCC,2.0
+PAT_482_924_134,pad_ufes20,0,63.0,0,female,torso,PAT_482,SCC,2.0
+PAT_874_1671_938,pad_ufes20,0,84.0,0,female,upper extremity,PAT_874,BCC,2.0
+PAT_1008_59_297,pad_ufes20,0,64.0,0,unknown,head/neck,PAT_1008,SEK,
+PAT_265_407_137,pad_ufes20,0,44.0,0,male,head/neck,PAT_265,BCC,2.0
+PAT_265_1371_303,pad_ufes20,0,67.0,0,male,torso,PAT_265,SEK,2.0
+PAT_1451_1560_616,pad_ufes20,0,36.0,0,unknown,head/neck,PAT_1451,NEV,
+PAT_752_1426_714,pad_ufes20,0,64.0,0,male,head/neck,PAT_752,BCC,2.0
+PAT_202_307_927,pad_ufes20,0,77.0,0,female,head/neck,PAT_202,BCC,3.0
+PAT_53_81_194,pad_ufes20,0,78.0,0,male,head/neck,PAT_53,BCC,1.0
+PAT_1313_1105_284,pad_ufes20,0,33.0,0,unknown,upper extremity,PAT_1313,ACK,
+PAT_609_1159_942,pad_ufes20,0,61.0,0,male,head/neck,PAT_609,BCC,2.0
+PAT_507_954_812,pad_ufes20,0,69.0,0,female,head/neck,PAT_507,BCC,1.0
+PAT_1418_1447_334,pad_ufes20,0,86.0,0,unknown,torso,PAT_1418,SEK,
+PAT_1393_1354_535,pad_ufes20,0,65.0,0,unknown,head/neck,PAT_1393,ACK,
+PAT_656_1246_483,pad_ufes20,1,58.0,0,male,torso,PAT_656,MEL,2.0
+PAT_264_1368_868,pad_ufes20,0,84.0,0,female,head/neck,PAT_264,BCC,2.0
+PAT_567_1076_545,pad_ufes20,0,44.0,0,male,torso,PAT_567,BCC,1.0
+PAT_2113_4607_329,pad_ufes20,0,62.0,0,unknown,torso,PAT_2113,SEK,
+PAT_668_1259_681,pad_ufes20,0,70.0,0,female,head/neck,PAT_668,BCC,2.0
+PAT_186_286_109,pad_ufes20,0,74.0,0,male,upper extremity,PAT_186,ACK,2.0
+PAT_212_326_597,pad_ufes20,0,70.0,0,female,head/neck,PAT_212,BCC,2.0
+PAT_48_74_309,pad_ufes20,0,73.0,0,female,upper extremity,PAT_48,SCC,3.0
+PAT_290_445_988,pad_ufes20,0,54.0,0,male,upper extremity,PAT_290,BCC,2.0
+PAT_751_1497_215,pad_ufes20,0,62.0,0,male,torso,PAT_751,SCC,2.0
+PAT_422_837_683,pad_ufes20,0,64.0,0,male,head/neck,PAT_422,BCC,3.0
+PAT_682_1292_978,pad_ufes20,0,75.0,0,female,torso,PAT_682,BCC,2.0
+PAT_2124_4650_575,pad_ufes20,0,64.0,0,unknown,head/neck,PAT_2124,ACK,
+PAT_1344_1222_456,pad_ufes20,0,41.0,0,unknown,head/neck,PAT_1344,NEV,
+PAT_1105_420_520,pad_ufes20,0,75.0,0,unknown,head/neck,PAT_1105,SEK,
+PAT_516_966_57,pad_ufes20,0,85.0,0,female,head/neck,PAT_516,BCC,1.0
+PAT_1543_4346_860,pad_ufes20,0,74.0,0,unknown,upper extremity,PAT_1543,ACK,
+PAT_519_979_104,pad_ufes20,0,49.0,0,male,head/neck,PAT_519,BCC,3.0
+PAT_1335_1181_21,pad_ufes20,0,12.0,0,unknown,torso,PAT_1335,NEV,
+PAT_1907_3801_88,pad_ufes20,0,10.0,0,unknown,torso,PAT_1907,NEV,
+PAT_680_1289_585,pad_ufes20,1,78.0,0,male,torso,PAT_680,MEL,2.0
+PAT_738_1552_843,pad_ufes20,0,57.0,0,female,torso,PAT_738,SEK,2.0
+PAT_270_1384_995,pad_ufes20,0,90.0,0,female,upper extremity,PAT_270,ACK,1.0
+PAT_307_1458_363,pad_ufes20,0,78.0,0,female,upper extremity,PAT_307,ACK,2.0
+PAT_1402_1376_160,pad_ufes20,0,66.0,0,unknown,upper extremity,PAT_1402,ACK,
+PAT_639_3676_760,pad_ufes20,0,66.0,0,female,upper extremity,PAT_639,ACK,2.0
+PAT_1063_268_704,pad_ufes20,0,65.0,0,unknown,upper extremity,PAT_1063,ACK,
+PAT_554_1051_301,pad_ufes20,0,62.0,0,female,head/neck,PAT_554,BCC,1.0
+PAT_123_187_164,pad_ufes20,0,56.0,0,female,head/neck,PAT_123,BCC,1.0
+PAT_1127_496_945,pad_ufes20,0,40.0,0,unknown,upper extremity,PAT_1127,ACK,
+PAT_420_834_948,pad_ufes20,0,37.0,0,female,head/neck,PAT_420,ACK,4.0
+PAT_583_1112_886,pad_ufes20,0,43.0,0,male,head/neck,PAT_583,BCC,2.0
+PAT_384_782_292,pad_ufes20,0,59.0,0,female,lower extremity,PAT_384,ACK,3.0
+PAT_741_1400_780,pad_ufes20,0,77.0,0,male,head/neck,PAT_741,BCC,2.0
+PAT_948_1800_310,pad_ufes20,0,58.0,0,female,head/neck,PAT_948,BCC,3.0
+PAT_1278_967_599,pad_ufes20,0,65.0,0,unknown,upper extremity,PAT_1278,ACK,
+PAT_300_1478_445,pad_ufes20,0,63.0,0,female,upper extremity,PAT_300,ACK,2.0
+PAT_570_1084_939,pad_ufes20,0,43.0,0,male,head/neck,PAT_570,SCC,2.0
+PAT_138_206_507,pad_ufes20,0,61.0,0,male,torso,PAT_138,BCC,2.0
+PAT_1441_1531_670,pad_ufes20,0,52.0,0,unknown,upper extremity,PAT_1441,ACK,
+PAT_1128_497_29,pad_ufes20,0,40.0,0,unknown,head/neck,PAT_1128,ACK,
+PAT_437_857_425,pad_ufes20,0,63.0,0,male,head/neck,PAT_437,ACK,2.0
+PAT_698_1150_510,pad_ufes20,0,82.0,0,female,upper extremity,PAT_698,ACK,2.0
+PAT_1427_1485_15,pad_ufes20,0,47.0,0,unknown,upper extremity,PAT_1427,ACK,
+PAT_520_983_221,pad_ufes20,0,68.0,0,male,torso,PAT_520,BCC,2.0
+PAT_406_809_581,pad_ufes20,0,62.0,0,male,head/neck,PAT_406,BCC,3.0
+PAT_778_1471_911,pad_ufes20,0,52.0,0,female,head/neck,PAT_778,BCC,3.0
+PAT_514_968_269,pad_ufes20,0,64.0,0,male,head/neck,PAT_514,BCC,3.0
+PAT_2151_4779_515,pad_ufes20,0,69.0,0,unknown,head/neck,PAT_2151,SEK,
+PAT_1546_1872_824,pad_ufes20,0,75.0,0,unknown,torso,PAT_1546,ACK,
+PAT_361_1567_487,pad_ufes20,0,71.0,0,male,head/neck,PAT_361,BCC,3.0
+PAT_194_298_367,pad_ufes20,0,63.0,0,female,head/neck,PAT_194,SEK,4.0
+PAT_260_400_842,pad_ufes20,0,78.0,0,female,head/neck,PAT_260,ACK,1.0
+PAT_345_719_815,pad_ufes20,0,53.0,0,male,torso,PAT_345,NEV,2.0
+PAT_737_1394_936,pad_ufes20,0,51.0,0,female,head/neck,PAT_737,BCC,2.0
+PAT_244_374_726,pad_ufes20,0,35.0,0,male,torso,PAT_244,NEV,4.0
+PAT_1451_1561_100,pad_ufes20,0,36.0,0,unknown,head/neck,PAT_1451,NEV,
+PAT_1066_281_99,pad_ufes20,0,47.0,0,unknown,upper extremity,PAT_1066,ACK,
+PAT_612_1163_833,pad_ufes20,0,90.0,0,female,upper extremity,PAT_612,SCC,1.0
+PAT_1172_622_420,pad_ufes20,0,35.0,0,unknown,head/neck,PAT_1172,ACK,
+PAT_63_98_127,pad_ufes20,0,35.0,0,female,head/neck,PAT_63,BCC,2.0
+PAT_877_1667_667,pad_ufes20,0,62.0,0,male,torso,PAT_877,BCC,2.0
+PAT_1306_1086_762,pad_ufes20,0,52.0,0,unknown,torso,PAT_1306,SEK,
+PAT_1484_1682_240,pad_ufes20,0,28.0,0,unknown,upper extremity,PAT_1484,NEV,
+PAT_945_1796_583,pad_ufes20,0,83.0,0,female,upper extremity,PAT_945,SCC,3.0
+PAT_240_366_768,pad_ufes20,0,79.0,0,male,torso,PAT_240,SCC,2.0
+PAT_87_133_810,pad_ufes20,0,57.0,0,female,torso,PAT_87,SEK,3.0
+PAT_1100_402_375,pad_ufes20,0,57.0,0,unknown,torso,PAT_1100,SEK,
+PAT_1844_3618_373,pad_ufes20,0,68.0,0,unknown,head/neck,PAT_1844,SEK,
+PAT_536_3227_442,pad_ufes20,0,52.0,0,female,upper extremity,PAT_536,ACK,2.0
+PAT_368_2427_803,pad_ufes20,0,50.0,0,male,upper extremity,PAT_368,ACK,2.0
+PAT_1960_3957_864,pad_ufes20,0,34.0,0,unknown,torso,PAT_1960,NEV,
+PAT_300_647_501,pad_ufes20,0,62.0,0,female,head/neck,PAT_300,BCC,2.0
+PAT_242_369_337,pad_ufes20,0,45.0,0,female,torso,PAT_242,BCC,2.0
+PAT_780_1473_791,pad_ufes20,0,56.0,0,female,upper extremity,PAT_780,SCC,3.0
+PAT_58_91_143,pad_ufes20,0,63.0,0,male,head/neck,PAT_58,BCC,2.0
+PAT_320_681_724,pad_ufes20,1,70.0,0,male,head/neck,PAT_320,MEL,3.0
+PAT_368_1652_525,pad_ufes20,0,51.0,0,male,torso,PAT_368,BCC,2.0
+PAT_152_230_707,pad_ufes20,0,68.0,0,male,torso,PAT_152,BCC,2.0
+PAT_108_161_575,pad_ufes20,0,68.0,0,male,upper extremity,PAT_108,SCC,2.0
+PAT_1754_3308_783,pad_ufes20,0,10.0,0,unknown,torso,PAT_1754,NEV,
+PAT_1071_314_500,pad_ufes20,0,55.0,0,unknown,head/neck,PAT_1071,ACK,
+PAT_573_1090_660,pad_ufes20,0,51.0,0,female,head/neck,PAT_573,BCC,4.0
+PAT_753_1427_496,pad_ufes20,0,61.0,0,female,head/neck,PAT_753,ACK,3.0
+PAT_988_1858_944,pad_ufes20,0,78.0,0,female,head/neck,PAT_988,BCC,3.0
+PAT_1624_2807_679,pad_ufes20,0,22.0,0,unknown,upper extremity,PAT_1624,NEV,
+PAT_1264_907_674,pad_ufes20,0,31.0,0,unknown,torso,PAT_1264,NEV,
+PAT_1882_3718_982,pad_ufes20,0,58.0,0,unknown,torso,PAT_1882,SEK,
+PAT_1300_1056_532,pad_ufes20,0,75.0,0,unknown,head/neck,PAT_1300,ACK,
+PAT_897_1704_988,pad_ufes20,0,49.0,0,female,lower extremity,PAT_897,NEV,2.0
+PAT_72_110_944,pad_ufes20,0,36.0,0,female,torso,PAT_72,NEV,2.0
+PAT_1396_1360_4,pad_ufes20,0,52.0,0,unknown,upper extremity,PAT_1396,SEK,
+PAT_321_682_236,pad_ufes20,0,85.0,0,female,head/neck,PAT_321,SCC,2.0
+PAT_1259_892_793,pad_ufes20,0,72.0,0,unknown,head/neck,PAT_1259,ACK,
+PAT_200_304_139,pad_ufes20,0,80.0,0,male,head/neck,PAT_200,BCC,3.0
+PAT_601_1147_889,pad_ufes20,0,84.0,0,female,torso,PAT_601,BCC,4.0
+PAT_1950_3932_655,pad_ufes20,0,68.0,0,unknown,head/neck,PAT_1950,ACK,
+PAT_934_1777_423,pad_ufes20,0,68.0,0,male,head/neck,PAT_934,ACK,2.0
+PAT_898_1706_496,pad_ufes20,0,50.0,0,male,torso,PAT_898,NEV,3.0
+PAT_1631_2837_667,pad_ufes20,0,63.0,0,unknown,head/neck,PAT_1631,ACK,
+PAT_1267_912_371,pad_ufes20,0,54.0,0,unknown,upper extremity,PAT_1267,ACK,
+PAT_616_1169_3,pad_ufes20,0,52.0,0,female,torso,PAT_616,SEK,4.0
+PAT_1582_2574_905,pad_ufes20,0,76.0,0,unknown,head/neck,PAT_1582,SEK,
+PAT_324_1464_266,pad_ufes20,0,46.0,0,female,upper extremity,PAT_324,BCC,2.0
+PAT_1064_273_980,pad_ufes20,0,44.0,0,unknown,upper extremity,PAT_1064,ACK,
+PAT_313_669_935,pad_ufes20,0,85.0,0,female,head/neck,PAT_313,BCC,2.0
+PAT_729_1382_390,pad_ufes20,0,49.0,0,female,head/neck,PAT_729,BCC,2.0
+PAT_245_376_197,pad_ufes20,0,71.0,0,male,torso,PAT_245,BCC,3.0
+PAT_1158_570_376,pad_ufes20,0,44.0,0,unknown,torso,PAT_1158,ACK,
+PAT_115_177_622,pad_ufes20,0,69.0,0,male,upper extremity,PAT_115,BCC,2.0
+PAT_544_1028_226,pad_ufes20,0,87.0,0,female,head/neck,PAT_544,BCC,2.0
+PAT_1708_3157_518,pad_ufes20,0,73.0,0,unknown,upper extremity,PAT_1708,SEK,
+PAT_53_82_657,pad_ufes20,0,78.0,0,male,torso,PAT_53,BCC,1.0
+PAT_1547_1875_436,pad_ufes20,0,58.0,0,unknown,upper extremity,PAT_1547,ACK,
+PAT_611_1158_156,pad_ufes20,1,68.0,0,female,lower extremity,PAT_611,MEL,2.0
+PAT_185_285_97,pad_ufes20,0,62.0,0,male,upper extremity,PAT_185,BCC,2.0
+PAT_267_1258_693,pad_ufes20,0,79.0,0,male,head/neck,PAT_267,SEK,2.0
+PAT_112_171_863,pad_ufes20,0,69.0,0,male,head/neck,PAT_112,BCC,1.0
+PAT_1480_1673_701,pad_ufes20,0,76.0,0,unknown,head/neck,PAT_1480,SEK,
+PAT_1494_1707_125,pad_ufes20,0,68.0,0,unknown,torso,PAT_1494,SEK,
+PAT_1527_1794_662,pad_ufes20,0,70.0,0,unknown,torso,PAT_1527,SEK,
+PAT_1946_3924_627,pad_ufes20,0,73.0,0,unknown,upper extremity,PAT_1946,SEK,
+PAT_522_3174_761,pad_ufes20,0,53.0,0,male,head/neck,PAT_522,ACK,2.0
+PAT_2162_4820_913,pad_ufes20,0,32.0,0,unknown,torso,PAT_2162,NEV,
+PAT_229_349_256,pad_ufes20,0,74.0,0,male,head/neck,PAT_229,BCC,3.0
+PAT_338_710_93,pad_ufes20,0,81.0,0,female,lower extremity,PAT_338,SCC,1.0
+PAT_830_1564_54,pad_ufes20,0,84.0,0,male,head/neck,PAT_830,BCC,2.0
+PAT_1374_1286_494,pad_ufes20,0,54.0,0,unknown,torso,PAT_1374,ACK,
+PAT_1572_2496_418,pad_ufes20,0,72.0,0,unknown,upper extremity,PAT_1572,ACK,
+PAT_1404_1393_369,pad_ufes20,0,52.0,0,unknown,head/neck,PAT_1404,SEK,
+PAT_707_1327_245,pad_ufes20,0,55.0,0,female,head/neck,PAT_707,ACK,5.0
+PAT_639_1208_986,pad_ufes20,0,66.0,0,female,upper extremity,PAT_639,BCC,2.0
+PAT_271_418_92,pad_ufes20,0,79.0,0,female,torso,PAT_271,SCC,2.0
+PAT_1376_1297_686,pad_ufes20,0,75.0,0,unknown,upper extremity,PAT_1376,ACK,
+PAT_566_178_625,pad_ufes20,0,57.0,0,male,upper extremity,PAT_566,ACK,3.0
+PAT_309_662_76,pad_ufes20,0,89.0,0,female,torso,PAT_309,BCC,2.0
+PAT_1749_3288_409,pad_ufes20,0,66.0,0,unknown,torso,PAT_1749,ACK,
+PAT_572_1086_130,pad_ufes20,0,39.0,0,female,head/neck,PAT_572,BCC,3.0
+PAT_459_892_804,pad_ufes20,0,84.0,0,male,head/neck,PAT_459,BCC,2.0
+PAT_386_1554_280,pad_ufes20,0,67.0,0,male,upper extremity,PAT_386,BCC,2.0
+PAT_330_697_575,pad_ufes20,0,71.0,0,male,head/neck,PAT_330,BCC,2.0
+PAT_2160_4814_243,pad_ufes20,0,76.0,0,unknown,torso,PAT_2160,ACK,
+PAT_2036_4281_271,pad_ufes20,0,72.0,0,unknown,upper extremity,PAT_2036,ACK,
+PAT_1918_3837_15,pad_ufes20,0,63.0,0,unknown,upper extremity,PAT_1918,ACK,
+PAT_262_402_14,pad_ufes20,1,41.0,0,female,upper extremity,PAT_262,MEL,2.0
+PAT_1075_324_177,pad_ufes20,0,70.0,0,unknown,head/neck,PAT_1075,SEK,
+PAT_388_1592_850,pad_ufes20,0,51.0,0,female,torso,PAT_388,BCC,1.0
+PAT_918_1742_629,pad_ufes20,0,91.0,0,female,head/neck,PAT_918,BCC,2.0
+PAT_888_1685_268,pad_ufes20,0,46.0,0,female,lower extremity,PAT_888,SCC,2.0
+PAT_1866_3659_398,pad_ufes20,0,77.0,0,unknown,upper extremity,PAT_1866,ACK,
+PAT_460_893_883,pad_ufes20,0,73.0,0,female,head/neck,PAT_460,BCC,2.0
+PAT_304_653_446,pad_ufes20,0,80.0,0,male,head/neck,PAT_304,SCC,2.0
+PAT_851_1623_506,pad_ufes20,0,77.0,0,female,head/neck,PAT_851,ACK,3.0
+PAT_359_741_973,pad_ufes20,0,53.0,0,female,head/neck,PAT_359,SCC,3.0
+PAT_1754_3306_816,pad_ufes20,0,10.0,0,unknown,torso,PAT_1754,NEV,
+PAT_766_1670_458,pad_ufes20,0,62.0,0,male,upper extremity,PAT_766,ACK,3.0
+PAT_281_432_813,pad_ufes20,0,61.0,0,male,upper extremity,PAT_281,BCC,3.0
+PAT_20_29_850,pad_ufes20,0,66.0,0,female,head/neck,PAT_20,BCC,2.0
+PAT_479_917_41,pad_ufes20,0,48.0,0,male,head/neck,PAT_479,BCC,2.0
+PAT_904_1739_546,pad_ufes20,0,70.0,0,male,upper extremity,PAT_904,ACK,2.0
+PAT_1620_2779_319,pad_ufes20,0,68.0,0,unknown,upper extremity,PAT_1620,ACK,
+PAT_206_312_595,pad_ufes20,0,47.0,0,male,torso,PAT_206,BCC,2.0
+PAT_290_445_686,pad_ufes20,0,54.0,0,male,upper extremity,PAT_290,BCC,2.0
+PAT_698_1150_881,pad_ufes20,0,82.0,0,female,upper extremity,PAT_698,ACK,2.0
+PAT_154_237_2,pad_ufes20,0,78.0,0,male,upper extremity,PAT_154,BCC,3.0
+PAT_523_988_851,pad_ufes20,0,52.0,0,female,head/neck,PAT_523,BCC,2.0
+PAT_70_107_591,pad_ufes20,1,67.0,0,male,lower extremity,PAT_70,MEL,2.0
+PAT_155_238_413,pad_ufes20,0,84.0,0,female,head/neck,PAT_155,ACK,2.0
+PAT_2109_4598_112,pad_ufes20,0,55.0,0,unknown,head/neck,PAT_2109,SEK,
+PAT_892_1691_881,pad_ufes20,0,24.0,0,female,torso,PAT_892,NEV,2.0
+PAT_135_202_695,pad_ufes20,0,53.0,0,female,torso,PAT_135,BCC,2.0
+PAT_311_667_416,pad_ufes20,0,66.0,0,female,upper extremity,PAT_311,BCC,2.0
+PAT_147_219_206,pad_ufes20,0,39.0,0,male,head/neck,PAT_147,BCC,2.0
+PAT_885_1687_823,pad_ufes20,0,51.0,0,female,head/neck,PAT_885,BCC,2.0
+PAT_1942_3918_497,pad_ufes20,0,55.0,0,unknown,upper extremity,PAT_1942,SEK,
+PAT_734_1390_631,pad_ufes20,0,41.0,0,male,head/neck,PAT_734,BCC,2.0
+PAT_10_18_830,pad_ufes20,0,69.0,0,male,upper extremity,PAT_10,SCC,1.0
+PAT_877_4672_612,pad_ufes20,0,62.0,0,male,upper extremity,PAT_877,ACK,2.0
+PAT_1026_124_346,pad_ufes20,0,52.0,0,unknown,head/neck,PAT_1026,ACK,
+PAT_728_1381_63,pad_ufes20,0,59.0,0,female,head/neck,PAT_728,BCC,3.0
+PAT_271_418_14,pad_ufes20,0,79.0,0,female,torso,PAT_271,SCC,2.0
+PAT_208_314_741,pad_ufes20,0,66.0,0,female,head/neck,PAT_208,BCC,2.0
+PAT_2097_4557_241,pad_ufes20,0,37.0,0,unknown,head/neck,PAT_2097,NEV,
+PAT_420_834_450,pad_ufes20,0,37.0,0,female,head/neck,PAT_420,ACK,4.0
+PAT_1277_964_77,pad_ufes20,0,61.0,0,unknown,torso,PAT_1277,ACK,
+PAT_505_3200_856,pad_ufes20,0,71.0,0,female,torso,PAT_505,ACK,2.0
+PAT_826_1615_908,pad_ufes20,0,77.0,0,female,head/neck,PAT_826,BCC,2.0
+PAT_998_17_641,pad_ufes20,0,50.0,0,unknown,head/neck,PAT_998,SEK,
+PAT_809_1527_902,pad_ufes20,0,66.0,0,female,head/neck,PAT_809,SCC,3.0
+PAT_205_311_255,pad_ufes20,0,50.0,0,male,head/neck,PAT_205,NEV,2.0
+PAT_1568_2454_468,pad_ufes20,0,34.0,0,unknown,head/neck,PAT_1568,NEV,
+PAT_85_129_980,pad_ufes20,0,71.0,0,female,torso,PAT_85,ACK,3.0
+PAT_1722_3214_672,pad_ufes20,0,53.0,0,unknown,upper extremity,PAT_1722,ACK,
+PAT_837_1584_745,pad_ufes20,0,53.0,0,female,torso,PAT_837,BCC,3.0
+PAT_1021_112_40,pad_ufes20,0,37.0,0,unknown,head/neck,PAT_1021,ACK,
+PAT_363_745_516,pad_ufes20,0,63.0,0,male,head/neck,PAT_363,BCC,3.0
+PAT_178_276_465,pad_ufes20,0,44.0,0,male,torso,PAT_178,BCC,3.0
+PAT_2142_4733_13,pad_ufes20,0,41.0,0,unknown,torso,PAT_2142,NEV,
+PAT_1582_2574_989,pad_ufes20,0,76.0,0,unknown,head/neck,PAT_1582,SEK,
+PAT_563_1070_63,pad_ufes20,0,72.0,0,female,head/neck,PAT_563,BCC,2.0
+PAT_423_839_596,pad_ufes20,0,71.0,0,female,head/neck,PAT_423,BCC,2.0
+PAT_1064_272_668,pad_ufes20,0,64.0,0,unknown,head/neck,PAT_1064,SEK,
+PAT_742_1470_425,pad_ufes20,0,79.0,0,female,upper extremity,PAT_742,ACK,2.0
+PAT_1071_312_841,pad_ufes20,0,72.0,0,unknown,head/neck,PAT_1071,SEK,
+PAT_433_2650_417,pad_ufes20,0,30.0,0,male,head/neck,PAT_433,NEV,2.0
+PAT_980_1851_351,pad_ufes20,0,65.0,0,male,head/neck,PAT_980,BCC,2.0
+PAT_513_964_447,pad_ufes20,0,67.0,0,male,torso,PAT_513,BCC,1.0
+PAT_233_986_663,pad_ufes20,0,58.0,0,female,upper extremity,PAT_233,ACK,2.0
+PAT_1707_3146_743,pad_ufes20,0,75.0,0,unknown,head/neck,PAT_1707,ACK,
+PAT_262_402_265,pad_ufes20,1,41.0,0,female,upper extremity,PAT_262,MEL,2.0
+PAT_718_1358_919,pad_ufes20,0,61.0,0,male,head/neck,PAT_718,BCC,3.0
+PAT_758_1441_891,pad_ufes20,0,68.0,0,male,head/neck,PAT_758,BCC,3.0
+PAT_1244_840_975,pad_ufes20,0,69.0,0,unknown,upper extremity,PAT_1244,ACK,
+PAT_1174_628_915,pad_ufes20,0,57.0,0,unknown,upper extremity,PAT_1174,ACK,
+PAT_46_881_14,pad_ufes20,0,55.0,0,female,head/neck,PAT_46,BCC,3.0
+PAT_1306_1086_124,pad_ufes20,0,52.0,0,unknown,torso,PAT_1306,SEK,
+PAT_83_126_513,pad_ufes20,0,64.0,0,female,upper extremity,PAT_83,BCC,2.0
+PAT_994_1866_730,pad_ufes20,0,52.0,0,female,lower extremity,PAT_994,BCC,3.0
+PAT_132_198_114,pad_ufes20,0,58.0,0,female,head/neck,PAT_132,BCC,2.0
+PAT_737_1394_308,pad_ufes20,0,51.0,0,female,head/neck,PAT_737,BCC,2.0
+PAT_45_65_551,pad_ufes20,0,73.0,0,male,upper extremity,PAT_45,ACK,2.0
+PAT_1715_3184_989,pad_ufes20,0,67.0,0,unknown,lower extremity,PAT_1715,SEK,
+PAT_141_209_438,pad_ufes20,0,71.0,0,female,head/neck,PAT_141,BCC,2.0
+PAT_964_1821_83,pad_ufes20,0,49.0,0,male,head/neck,PAT_964,BCC,2.0
+PAT_489_932_138,pad_ufes20,0,30.0,0,female,head/neck,PAT_489,BCC,2.0
+PAT_1022_114_756,pad_ufes20,0,39.0,0,unknown,torso,PAT_1022,ACK,
+PAT_815_1534_411,pad_ufes20,0,59.0,0,female,head/neck,PAT_815,BCC,2.0
+PAT_547_1033_445,pad_ufes20,0,56.0,0,female,head/neck,PAT_547,BCC,3.0
+PAT_1913_3816_335,pad_ufes20,0,39.0,0,unknown,head/neck,PAT_1913,ACK,
+PAT_1063_270_593,pad_ufes20,0,65.0,0,unknown,upper extremity,PAT_1063,ACK,
+PAT_319_678_357,pad_ufes20,0,62.0,0,female,head/neck,PAT_319,BCC,2.0
+PAT_1822_3576_145,pad_ufes20,0,77.0,0,unknown,upper extremity,PAT_1822,ACK,
+PAT_978_1844_599,pad_ufes20,0,72.0,0,male,upper extremity,PAT_978,SCC,2.0
+PAT_1614_2747_533,pad_ufes20,0,25.0,0,unknown,upper extremity,PAT_1614,NEV,
+PAT_191_293_391,pad_ufes20,0,85.0,0,female,upper extremity,PAT_191,BCC,2.0
+PAT_1427_1485_119,pad_ufes20,0,47.0,0,unknown,upper extremity,PAT_1427,ACK,
+PAT_272_420_25,pad_ufes20,0,83.0,0,female,torso,PAT_272,BCC,2.0
+PAT_1673_3011_440,pad_ufes20,0,31.0,0,unknown,upper extremity,PAT_1673,ACK,
+PAT_154_236_800,pad_ufes20,0,78.0,0,male,head/neck,PAT_154,BCC,3.0
+PAT_1453_1565_529,pad_ufes20,0,52.0,0,unknown,torso,PAT_1453,SEK,
+PAT_114_173_213,pad_ufes20,0,82.0,0,male,head/neck,PAT_114,BCC,1.0
+PAT_441_861_542,pad_ufes20,0,55.0,0,female,torso,PAT_441,BCC,2.0
+PAT_1899_3779_475,pad_ufes20,0,80.0,0,unknown,upper extremity,PAT_1899,ACK,
+PAT_120_183_623,pad_ufes20,0,53.0,0,female,head/neck,PAT_120,BCC,2.0
+PAT_228_348_2,pad_ufes20,0,43.0,0,female,torso,PAT_228,BCC,3.0
+PAT_275_424_966,pad_ufes20,0,71.0,0,female,head/neck,PAT_275,BCC,2.0
+PAT_711_1334_344,pad_ufes20,0,50.0,0,male,torso,PAT_711,BCC,2.0
+PAT_62_97_868,pad_ufes20,0,55.0,0,female,head/neck,PAT_62,BCC,1.0
+PAT_9_17_80,pad_ufes20,0,54.0,0,male,torso,PAT_9,ACK,2.0
+PAT_1190_700_663,pad_ufes20,0,56.0,0,unknown,head/neck,PAT_1190,SEK,
+PAT_328_692_681,pad_ufes20,0,81.0,0,male,head/neck,PAT_328,BCC,4.0
+PAT_59_46_537,pad_ufes20,0,73.0,0,female,head/neck,PAT_59,SEK,2.0
+PAT_989_1861_156,pad_ufes20,0,41.0,0,male,head/neck,PAT_989,SCC,2.0
+PAT_1482_1677_382,pad_ufes20,0,79.0,0,unknown,upper extremity,PAT_1482,ACK,
+PAT_1753_3305_385,pad_ufes20,0,8.0,0,unknown,torso,PAT_1753,NEV,
+PAT_971_1847_99,pad_ufes20,0,64.0,0,female,upper extremity,PAT_971,ACK,2.0
+PAT_618_1174_596,pad_ufes20,0,70.0,0,male,head/neck,PAT_618,BCC,1.0
+PAT_1814_3564_609,pad_ufes20,0,87.0,0,unknown,upper extremity,PAT_1814,ACK,
+PAT_1309_1096_393,pad_ufes20,0,67.0,0,unknown,upper extremity,PAT_1309,ACK,
+PAT_341_715_180,pad_ufes20,0,27.0,0,female,upper extremity,PAT_341,NEV,4.0
+PAT_1586_2623_989,pad_ufes20,0,68.0,0,unknown,upper extremity,PAT_1586,ACK,
+PAT_312_668_480,pad_ufes20,0,80.0,0,female,head/neck,PAT_312,BCC,2.0
+PAT_799_1515_723,pad_ufes20,0,73.0,0,female,head/neck,PAT_799,ACK,3.0
+PAT_1331_1173_380,pad_ufes20,0,31.0,0,unknown,torso,PAT_1331,NEV,
+PAT_1371_1278_533,pad_ufes20,0,53.0,0,unknown,upper extremity,PAT_1371,SEK,
+PAT_1498_1719_816,pad_ufes20,0,68.0,0,unknown,upper extremity,PAT_1498,ACK,
+PAT_1648_2902_292,pad_ufes20,0,61.0,0,unknown,torso,PAT_1648,NEV,
+PAT_1881_3713_718,pad_ufes20,0,44.0,0,unknown,torso,PAT_1881,ACK,
+PAT_796_1510_361,pad_ufes20,0,83.0,0,male,upper extremity,PAT_796,BCC,2.0
+PAT_230_350_872,pad_ufes20,0,73.0,0,female,upper extremity,PAT_230,ACK,2.0
+PAT_158_243_947,pad_ufes20,0,69.0,0,female,head/neck,PAT_158,BCC,1.0
+PAT_1418_1448_307,pad_ufes20,0,86.0,0,unknown,head/neck,PAT_1418,SEK,
+PAT_872_1708_841,pad_ufes20,0,71.0,0,female,upper extremity,PAT_872,ACK,2.0
+PAT_1102_408_613,pad_ufes20,0,57.0,0,unknown,head/neck,PAT_1102,ACK,
+PAT_180_756_831,pad_ufes20,0,54.0,0,female,upper extremity,PAT_180,ACK,3.0
+PAT_478_1829_281,pad_ufes20,0,47.0,0,male,torso,PAT_478,BCC,2.0
+PAT_1374_1286_775,pad_ufes20,0,54.0,0,unknown,torso,PAT_1374,ACK,
+PAT_1584_2610_223,pad_ufes20,0,46.0,0,unknown,head/neck,PAT_1584,ACK,
+PAT_1000_31_620,pad_ufes20,0,65.0,0,unknown,head/neck,PAT_1000,SEK,
+PAT_683_1297_839,pad_ufes20,0,74.0,0,male,torso,PAT_683,BCC,2.0
+PAT_1731_3237_919,pad_ufes20,0,60.0,0,unknown,torso,PAT_1731,NEV,
+PAT_267_411_513,pad_ufes20,0,79.0,0,male,head/neck,PAT_267,BCC,2.0
+PAT_101_1041_658,pad_ufes20,0,59.0,0,male,head/neck,PAT_101,BCC,2.0
+PAT_1633_2855_594,pad_ufes20,0,51.0,0,unknown,torso,PAT_1633,ACK,
+PAT_1765_3337_365,pad_ufes20,0,79.0,0,unknown,head/neck,PAT_1765,SEK,
+PAT_1721_3219_130,pad_ufes20,0,53.0,0,unknown,torso,PAT_1721,SEK,
+PAT_1468_3656_337,pad_ufes20,0,74.0,0,unknown,upper extremity,PAT_1468,ACK,
+PAT_1092_378_922,pad_ufes20,0,41.0,0,unknown,upper extremity,PAT_1092,ACK,
+PAT_561_1068_909,pad_ufes20,0,39.0,0,male,head/neck,PAT_561,BCC,2.0
+PAT_380_1540_432,pad_ufes20,0,60.0,0,male,head/neck,PAT_380,SCC,2.0
+PAT_91_354_332,pad_ufes20,0,65.0,0,male,head/neck,PAT_91,ACK,2.0
+PAT_164_255_130,pad_ufes20,0,77.0,0,female,lower extremity,PAT_164,SCC,2.0
+PAT_302_650_477,pad_ufes20,0,64.0,0,male,head/neck,PAT_302,SCC,2.0
+PAT_177_274_371,pad_ufes20,0,51.0,0,female,torso,PAT_177,BCC,1.0
+PAT_874_1671_176,pad_ufes20,0,84.0,0,female,upper extremity,PAT_874,BCC,2.0
+PAT_274_423_374,pad_ufes20,0,84.0,0,female,head/neck,PAT_274,BCC,3.0
+PAT_727_1373_776,pad_ufes20,0,87.0,0,male,head/neck,PAT_727,BCC,2.0
+PAT_933_1766_191,pad_ufes20,0,61.0,0,male,torso,PAT_933,SCC,3.0
+PAT_1554_2393_541,pad_ufes20,0,81.0,0,unknown,head/neck,PAT_1554,SEK,
+PAT_1317_1130_656,pad_ufes20,0,72.0,0,unknown,upper extremity,PAT_1317,ACK,
+PAT_615_1168_968,pad_ufes20,0,16.0,0,female,head/neck,PAT_615,NEV,2.0
+PAT_406_1542_301,pad_ufes20,0,63.0,0,male,torso,PAT_406,BCC,3.0
+PAT_976_1837_503,pad_ufes20,0,85.0,0,female,head/neck,PAT_976,BCC,3.0
+PAT_677_1348_51,pad_ufes20,0,75.0,0,male,torso,PAT_677,BCC,2.0
+PAT_296_640_206,pad_ufes20,0,68.0,0,female,head/neck,PAT_296,SCC,2.0
+PAT_794_1507_723,pad_ufes20,0,64.0,0,female,head/neck,PAT_794,BCC,3.0
+PAT_91_356_273,pad_ufes20,0,65.0,0,male,torso,PAT_91,ACK,2.0
+PAT_2018_4167_11,pad_ufes20,0,68.0,0,unknown,head/neck,PAT_2018,ACK,
+PAT_237_363_344,pad_ufes20,0,77.0,0,male,head/neck,PAT_237,BCC,2.0
+PAT_858_1632_977,pad_ufes20,0,73.0,0,female,torso,PAT_858,BCC,2.0
+PAT_1299_1055_591,pad_ufes20,0,57.0,0,unknown,upper extremity,PAT_1299,ACK,
+PAT_306_658_825,pad_ufes20,0,87.0,0,male,head/neck,PAT_306,BCC,2.0
+PAT_104_1755_320,pad_ufes20,0,79.0,0,female,upper extremity,PAT_104,ACK,2.0
+PAT_55_85_884,pad_ufes20,0,66.0,0,female,head/neck,PAT_55,BCC,1.0
+PAT_1247_852_178,pad_ufes20,0,52.0,0,unknown,upper extremity,PAT_1247,ACK,
+PAT_342_716_845,pad_ufes20,0,44.0,0,female,torso,PAT_342,BCC,2.0
+PAT_41_57_2,pad_ufes20,0,81.0,0,male,head/neck,PAT_41,BCC,1.0
+PAT_168_261_38,pad_ufes20,0,50.0,0,male,torso,PAT_168,BCC,2.0
+PAT_1596_2664_323,pad_ufes20,0,50.0,0,unknown,upper extremity,PAT_1596,ACK,
+PAT_946_1809_687,pad_ufes20,0,52.0,0,female,head/neck,PAT_946,BCC,3.0
+PAT_2115_4613_260,pad_ufes20,0,33.0,0,unknown,upper extremity,PAT_2115,ACK,
+PAT_1784_3416_507,pad_ufes20,0,25.0,0,unknown,head/neck,PAT_1784,NEV,
+PAT_460_894_401,pad_ufes20,0,73.0,0,female,head/neck,PAT_460,BCC,2.0
+PAT_1783_3413_850,pad_ufes20,0,75.0,0,unknown,torso,PAT_1783,SEK,
+PAT_2080_4484_997,pad_ufes20,0,13.0,0,unknown,head/neck,PAT_2080,NEV,
+PAT_468_4775_268,pad_ufes20,0,42.0,0,male,upper extremity,PAT_468,ACK,2.0
+PAT_308_661_184,pad_ufes20,0,83.0,0,male,head/neck,PAT_308,BCC,2.0
+PAT_145_216_924,pad_ufes20,0,68.0,0,female,head/neck,PAT_145,BCC,2.0
+PAT_891_1701_36,pad_ufes20,0,57.0,0,female,upper extremity,PAT_891,SCC,2.0
+PAT_978_1844_715,pad_ufes20,0,72.0,0,male,upper extremity,PAT_978,SCC,2.0
+PAT_1940_3901_900,pad_ufes20,0,31.0,0,unknown,head/neck,PAT_1940,NEV,
+PAT_1680_3038_587,pad_ufes20,0,42.0,0,unknown,torso,PAT_1680,NEV,
+PAT_604_1150_336,pad_ufes20,0,76.0,0,female,head/neck,PAT_604,BCC,3.0
+PAT_1810_3484_347,pad_ufes20,0,44.0,0,unknown,head/neck,PAT_1810,NEV,
+PAT_684_1302_934,pad_ufes20,0,79.0,0,male,upper extremity,PAT_684,BCC,1.0
+PAT_906_1722_328,pad_ufes20,0,65.0,0,male,torso,PAT_906,BCC,2.0
+PAT_541_3303_228,pad_ufes20,0,69.0,0,male,head/neck,PAT_541,ACK,1.0
+PAT_325_1506_999,pad_ufes20,0,56.0,0,female,head/neck,PAT_325,ACK,3.0
+PAT_1443_1536_166,pad_ufes20,0,58.0,0,unknown,head/neck,PAT_1443,ACK,
+PAT_1594_2656_679,pad_ufes20,0,81.0,0,unknown,upper extremity,PAT_1594,ACK,
+PAT_677_1350_358,pad_ufes20,0,75.0,0,male,lower extremity,PAT_677,ACK,2.0
+PAT_217_1291_419,pad_ufes20,0,77.0,0,male,head/neck,PAT_217,BCC,1.0
+PAT_567_1077_64,pad_ufes20,0,44.0,0,male,torso,PAT_567,BCC,1.0
+PAT_165_256_460,pad_ufes20,0,39.0,0,male,lower extremity,PAT_165,BCC,2.0
+PAT_1222_767_519,pad_ufes20,0,40.0,0,unknown,upper extremity,PAT_1222,ACK,
+PAT_990_1860_636,pad_ufes20,0,77.0,0,male,lower extremity,PAT_990,SCC,2.0
+PAT_1018_107_68,pad_ufes20,0,37.0,0,unknown,upper extremity,PAT_1018,ACK,
+PAT_1869_3663_335,pad_ufes20,0,54.0,0,unknown,upper extremity,PAT_1869,ACK,
+PAT_2046_4323_762,pad_ufes20,0,74.0,0,unknown,head/neck,PAT_2046,SEK,
+PAT_579_1099_551,pad_ufes20,0,45.0,0,male,upper extremity,PAT_579,ACK,3.0
+PAT_513_965_496,pad_ufes20,0,67.0,0,male,head/neck,PAT_513,BCC,1.0
+PAT_303_652_943,pad_ufes20,0,64.0,0,male,upper extremity,PAT_303,BCC,2.0
+PAT_385_783_22,pad_ufes20,0,39.0,0,female,head/neck,PAT_385,BCC,2.0
+PAT_31_42_680,pad_ufes20,0,77.0,0,male,upper extremity,PAT_31,BCC,1.0
+PAT_779_1472_741,pad_ufes20,0,50.0,0,male,head/neck,PAT_779,BCC,2.0
+PAT_2016_4155_600,pad_ufes20,0,67.0,0,unknown,head/neck,PAT_2016,SEK,
+PAT_460_893_307,pad_ufes20,0,73.0,0,female,head/neck,PAT_460,BCC,2.0
+PAT_380_1540_525,pad_ufes20,0,60.0,0,male,head/neck,PAT_380,SCC,2.0
+PAT_91_356_74,pad_ufes20,0,65.0,0,male,torso,PAT_91,ACK,2.0
+PAT_1798_3455_379,pad_ufes20,0,68.0,0,unknown,head/neck,PAT_1798,SEK,
+PAT_867_1650_825,pad_ufes20,0,47.0,0,female,torso,PAT_867,BCC,3.0
+PAT_503_950_552,pad_ufes20,0,88.0,0,male,head/neck,PAT_503,BCC,2.0
+PAT_591_1126_21,pad_ufes20,0,79.0,0,female,upper extremity,PAT_591,SCC,3.0
+PAT_1572_2494_224,pad_ufes20,0,72.0,0,unknown,upper extremity,PAT_1572,ACK,
+PAT_2056_4364_112,pad_ufes20,0,79.0,0,unknown,head/neck,PAT_2056,SEK,
+PAT_1538_1830_693,pad_ufes20,0,50.0,0,unknown,head/neck,PAT_1538,ACK,
+PAT_270_417_728,pad_ufes20,1,90.0,0,female,upper extremity,PAT_270,MEL,1.0
+PAT_1833_3599_827,pad_ufes20,0,44.0,0,unknown,upper extremity,PAT_1833,ACK,
+PAT_714_1337_914,pad_ufes20,0,67.0,0,male,head/neck,PAT_714,SCC,3.0
+PAT_1379_1300_924,pad_ufes20,0,30.0,0,unknown,lower extremity,PAT_1379,NEV,
+PAT_1151_551_241,pad_ufes20,0,60.0,0,unknown,upper extremity,PAT_1151,ACK,
+PAT_295_639_240,pad_ufes20,0,62.0,0,female,torso,PAT_295,BCC,2.0
+PAT_539_1023_928,pad_ufes20,0,65.0,0,male,head/neck,PAT_539,ACK,2.0
+PAT_747_1408_742,pad_ufes20,0,55.0,0,male,torso,PAT_747,BCC,3.0
+PAT_323_686_356,pad_ufes20,0,73.0,0,male,upper extremity,PAT_323,BCC,2.0
+PAT_798_1772_469,pad_ufes20,0,55.0,0,female,torso,PAT_798,ACK,3.0
+PAT_631_1207_982,pad_ufes20,0,64.0,0,male,head/neck,PAT_631,BCC,2.0
+PAT_334_703_907,pad_ufes20,0,31.0,0,male,torso,PAT_334,BCC,2.0
+PAT_1906_3798_588,pad_ufes20,0,50.0,0,unknown,upper extremity,PAT_1906,ACK,
+PAT_38_53_198,pad_ufes20,0,52.0,0,male,head/neck,PAT_38,BCC,1.0
+PAT_721_1365_819,pad_ufes20,0,62.0,0,female,head/neck,PAT_721,BCC,2.0
+PAT_361_743_82,pad_ufes20,0,70.0,0,male,head/neck,PAT_361,BCC,3.0
+PAT_800_1513_509,pad_ufes20,0,66.0,0,male,head/neck,PAT_800,BCC,2.0
+PAT_333_702_840,pad_ufes20,1,50.0,0,female,torso,PAT_333,MEL,3.0
+PAT_1439_1522_320,pad_ufes20,0,69.0,0,unknown,head/neck,PAT_1439,SEK,
+PAT_915_1738_667,pad_ufes20,0,63.0,0,female,torso,PAT_915,BCC,2.0
+PAT_423_839_717,pad_ufes20,0,71.0,0,female,head/neck,PAT_423,BCC,2.0
+PAT_91_356_456,pad_ufes20,0,65.0,0,male,torso,PAT_91,ACK,2.0
+PAT_837_1583_124,pad_ufes20,0,53.0,0,female,torso,PAT_837,BCC,3.0
+PAT_38_1002_668,pad_ufes20,0,53.0,0,male,head/neck,PAT_38,BCC,1.0
+PAT_568_1066_235,pad_ufes20,0,38.0,0,female,head/neck,PAT_568,BCC,3.0
+PAT_451_878_634,pad_ufes20,0,64.0,0,female,head/neck,PAT_451,BCC,2.0
+PAT_166_257_586,pad_ufes20,0,58.0,0,male,upper extremity,PAT_166,BCC,2.0
+PAT_815_1533_460,pad_ufes20,0,59.0,0,female,upper extremity,PAT_815,BCC,2.0
+PAT_257_396_494,pad_ufes20,0,85.0,0,female,torso,PAT_257,BCC,1.0
+PAT_963_1817_593,pad_ufes20,0,58.0,0,male,torso,PAT_963,SCC,2.0
+PAT_660_1249_373,pad_ufes20,0,42.0,0,female,head/neck,PAT_660,BCC,3.0
+PAT_1320_1135_471,pad_ufes20,0,34.0,0,unknown,upper extremity,PAT_1320,ACK,
+PAT_860_1641_998,pad_ufes20,0,57.0,0,female,upper extremity,PAT_860,SCC,3.0
+PAT_857_1627_310,pad_ufes20,0,78.0,0,male,lower extremity,PAT_857,SCC,2.0
+PAT_1636_2869_739,pad_ufes20,0,50.0,0,unknown,upper extremity,PAT_1636,SEK,
+PAT_829_1566_135,pad_ufes20,0,66.0,0,female,head/neck,PAT_829,BCC,2.0
+PAT_50_76_728,pad_ufes20,0,81.0,0,female,torso,PAT_50,BCC,2.0
+PAT_1786_3420_346,pad_ufes20,0,51.0,0,unknown,upper extremity,PAT_1786,ACK,
+PAT_1414_1429_53,pad_ufes20,0,75.0,0,unknown,upper extremity,PAT_1414,ACK,
+PAT_51_78_959,pad_ufes20,0,79.0,0,male,upper extremity,PAT_51,SCC,3.0
+PAT_937_1768_126,pad_ufes20,0,64.0,0,male,head/neck,PAT_937,ACK,2.0
+PAT_626_1186_898,pad_ufes20,0,85.0,0,female,head/neck,PAT_626,BCC,2.0
+PAT_263_403_382,pad_ufes20,0,83.0,0,male,torso,PAT_263,SCC,1.0
+PAT_1498_1715_345,pad_ufes20,0,68.0,0,unknown,head/neck,PAT_1498,ACK,
+PAT_1534_1810_719,pad_ufes20,0,14.0,0,unknown,torso,PAT_1534,NEV,
+PAT_368_1652_733,pad_ufes20,0,51.0,0,male,torso,PAT_368,BCC,2.0
+PAT_1364_1246_238,pad_ufes20,0,17.0,0,unknown,torso,PAT_1364,NEV,
+PAT_441_2868_663,pad_ufes20,0,55.0,0,female,torso,PAT_441,ACK,2.0
+PAT_360_742_782,pad_ufes20,0,68.0,0,male,upper extremity,PAT_360,SCC,2.0
+PAT_650_1230_636,pad_ufes20,0,73.0,0,female,torso,PAT_650,BCC,2.0
+PAT_756_1496_599,pad_ufes20,0,27.0,0,female,torso,PAT_756,NEV,4.0
+PAT_514_969_995,pad_ufes20,0,64.0,0,male,head/neck,PAT_514,BCC,3.0
+PAT_1653_2916_994,pad_ufes20,0,62.0,0,unknown,head/neck,PAT_1653,SEK,
+PAT_1326_1156_783,pad_ufes20,0,59.0,0,unknown,torso,PAT_1326,NEV,
+PAT_686_1355_168,pad_ufes20,0,32.0,0,male,head/neck,PAT_686,SCC,3.0
+PAT_1811_3487_560,pad_ufes20,0,34.0,0,unknown,head/neck,PAT_1811,ACK,
+PAT_1282_978_328,pad_ufes20,0,51.0,0,unknown,head/neck,PAT_1282,ACK,
+PAT_874_1672_743,pad_ufes20,0,84.0,0,female,head/neck,PAT_874,SCC,2.0
+PAT_883_1682_256,pad_ufes20,0,71.0,0,male,head/neck,PAT_883,ACK,2.0
+PAT_71_145_971,pad_ufes20,0,59.0,0,female,upper extremity,PAT_71,ACK,3.0
+PAT_599_1140_399,pad_ufes20,0,82.0,0,female,upper extremity,PAT_599,ACK,2.0
+PAT_628_1191_564,pad_ufes20,0,65.0,0,male,head/neck,PAT_628,BCC,2.0
+PAT_1245_844_471,pad_ufes20,0,22.0,0,unknown,torso,PAT_1245,NEV,
+PAT_375_764_705,pad_ufes20,0,52.0,0,male,torso,PAT_375,BCC,2.0
+PAT_1161_578_233,pad_ufes20,0,38.0,0,unknown,torso,PAT_1161,NEV,
+PAT_1740_3272_228,pad_ufes20,0,54.0,0,unknown,upper extremity,PAT_1740,ACK,
+PAT_2159_4792_718,pad_ufes20,0,35.0,0,unknown,head/neck,PAT_2159,NEV,
+PAT_830_1565_911,pad_ufes20,0,84.0,0,male,head/neck,PAT_830,BCC,2.0
+PAT_269_415_906,pad_ufes20,0,58.0,0,male,torso,PAT_269,BCC,2.0
+PAT_369_755_733,pad_ufes20,0,77.0,0,female,head/neck,PAT_369,SCC,2.0
+PAT_187_287_482,pad_ufes20,0,58.0,0,male,head/neck,PAT_187,BCC,2.0
+PAT_567_1078_978,pad_ufes20,0,44.0,0,male,torso,PAT_567,BCC,1.0
+PAT_1428_1489_454,pad_ufes20,0,68.0,0,unknown,upper extremity,PAT_1428,ACK,
+PAT_912_1729_244,pad_ufes20,0,33.0,0,female,head/neck,PAT_912,BCC,2.0
+PAT_63_1075_331,pad_ufes20,0,36.0,0,female,torso,PAT_63,BCC,2.0
+PAT_1854_3637_323,pad_ufes20,0,74.0,0,unknown,upper extremity,PAT_1854,ACK,
+PAT_188_289_859,pad_ufes20,0,57.0,0,male,torso,PAT_188,BCC,4.0
+PAT_480_921_1,pad_ufes20,0,47.0,0,male,head/neck,PAT_480,BCC,2.0
+PAT_1730_3236_201,pad_ufes20,0,73.0,0,unknown,upper extremity,PAT_1730,SEK,
+PAT_299_1455_759,pad_ufes20,0,78.0,0,male,head/neck,PAT_299,BCC,2.0
+PAT_1718_3202_152,pad_ufes20,0,35.0,0,unknown,lower extremity,PAT_1718,NEV,
+PAT_1694_3110_213,pad_ufes20,0,51.0,0,unknown,torso,PAT_1694,NEV,
+PAT_453_883_719,pad_ufes20,0,63.0,0,male,head/neck,PAT_453,BCC,2.0
+PAT_1804_3469_628,pad_ufes20,0,57.0,0,unknown,upper extremity,PAT_1804,ACK,
+PAT_59_93_573,pad_ufes20,0,72.0,0,female,upper extremity,PAT_59,BCC,2.0
+PAT_1581_2570_738,pad_ufes20,0,92.0,0,unknown,torso,PAT_1581,ACK,
+PAT_1136_517_92,pad_ufes20,0,40.0,0,unknown,torso,PAT_1136,NEV,
+PAT_662_1251_43,pad_ufes20,0,40.0,0,male,torso,PAT_662,BCC,3.0
+PAT_1278_966_295,pad_ufes20,0,65.0,0,unknown,head/neck,PAT_1278,ACK,
+PAT_656_1246_489,pad_ufes20,1,58.0,0,male,torso,PAT_656,MEL,2.0
+PAT_1324_1146_143,pad_ufes20,0,67.0,0,unknown,upper extremity,PAT_1324,ACK,
+PAT_230_1009_92,pad_ufes20,0,73.0,0,female,upper extremity,PAT_230,ACK,2.0
+PAT_56_88_274,pad_ufes20,0,70.0,0,female,head/neck,PAT_56,BCC,2.0
+PAT_1333_1177_434,pad_ufes20,0,38.0,0,unknown,torso,PAT_1333,NEV,
+PAT_193_297_295,pad_ufes20,0,66.0,0,female,head/neck,PAT_193,BCC,2.0
+PAT_771_1489_70,pad_ufes20,0,69.0,0,male,upper extremity,PAT_771,SCC,3.0
+PAT_260_400_566,pad_ufes20,0,78.0,0,female,head/neck,PAT_260,ACK,1.0
+PAT_419_833_148,pad_ufes20,0,80.0,0,female,upper extremity,PAT_419,SCC,2.0
+PAT_757_1431_907,pad_ufes20,0,77.0,0,male,head/neck,PAT_757,ACK,2.0
+PAT_1547_4231_928,pad_ufes20,0,57.0,0,unknown,head/neck,PAT_1547,ACK,
+PAT_445_871_524,pad_ufes20,0,61.0,0,female,head/neck,PAT_445,BCC,2.0
+PAT_904_1737_511,pad_ufes20,0,70.0,0,male,upper extremity,PAT_904,BCC,2.0
+PAT_325_1506_440,pad_ufes20,0,56.0,0,female,head/neck,PAT_325,ACK,3.0
+PAT_866_1649_674,pad_ufes20,0,56.0,0,male,upper extremity,PAT_866,BCC,3.0
+PAT_370_2558_573,pad_ufes20,0,62.0,0,male,upper extremity,PAT_370,ACK,3.0
+PAT_471_909_344,pad_ufes20,0,13.0,0,female,lower extremity,PAT_471,NEV,2.0
+PAT_864_1645_626,pad_ufes20,0,55.0,0,female,torso,PAT_864,BCC,3.0
+PAT_1575_2516_618,pad_ufes20,0,75.0,0,unknown,head/neck,PAT_1575,ACK,
+PAT_300_1689_862,pad_ufes20,0,62.0,0,female,lower extremity,PAT_300,ACK,2.0
+PAT_753_1834_712,pad_ufes20,0,59.0,0,female,torso,PAT_753,ACK,3.0
+PAT_263_1480_753,pad_ufes20,0,83.0,0,male,head/neck,PAT_263,ACK,1.0
+PAT_1312_1102_578,pad_ufes20,0,58.0,0,unknown,head/neck,PAT_1312,SEK,
+PAT_1033_153_301,pad_ufes20,0,41.0,0,unknown,head/neck,PAT_1033,ACK,
+PAT_972_1843_756,pad_ufes20,1,45.0,0,female,upper extremity,PAT_972,MEL,2.0
+PAT_1245_845_32,pad_ufes20,0,22.0,0,unknown,torso,PAT_1245,NEV,
+PAT_716_1345_460,pad_ufes20,0,56.0,0,female,torso,PAT_716,BCC,1.0
+PAT_2088_4525_507,pad_ufes20,0,9.0,0,unknown,torso,PAT_2088,NEV,
+PAT_161_250_197,pad_ufes20,0,86.0,0,female,upper extremity,PAT_161,BCC,2.0
+PAT_665_1261_17,pad_ufes20,0,30.0,0,female,torso,PAT_665,NEV,3.0
+PAT_417_828_723,pad_ufes20,0,27.0,0,male,lower extremity,PAT_417,NEV,3.0
+PAT_1332_1174_839,pad_ufes20,0,76.0,0,unknown,head/neck,PAT_1332,SEK,
+PAT_823_1556_787,pad_ufes20,0,64.0,0,male,head/neck,PAT_823,BCC,2.0
+PAT_14_22_850,pad_ufes20,0,70.0,0,male,head/neck,PAT_14,BCC,2.0
+PAT_272_420_10,pad_ufes20,0,83.0,0,female,torso,PAT_272,BCC,2.0
+PAT_1274_954_677,pad_ufes20,0,52.0,0,unknown,head/neck,PAT_1274,ACK,
+PAT_1223_770_120,pad_ufes20,0,35.0,0,unknown,head/neck,PAT_1223,NEV,
+PAT_1726_3228_674,pad_ufes20,0,45.0,0,unknown,upper extremity,PAT_1726,ACK,
+PAT_73_111_609,pad_ufes20,0,86.0,0,female,head/neck,PAT_73,BCC,2.0
+PAT_677_1348_657,pad_ufes20,0,75.0,0,male,torso,PAT_677,BCC,2.0
+PAT_100_393_898,pad_ufes20,0,14.0,0,male,head/neck,PAT_100,NEV,1.0
+PAT_1492_1705_728,pad_ufes20,0,63.0,0,unknown,upper extremity,PAT_1492,ACK,
+PAT_720_1362_700,pad_ufes20,0,54.0,0,female,upper extremity,PAT_720,BCC,2.0
+PAT_439_859_84,pad_ufes20,0,66.0,0,female,torso,PAT_439,NEV,4.0
+PAT_1547_1876_839,pad_ufes20,0,58.0,0,unknown,upper extremity,PAT_1547,ACK,
+PAT_2079_4480_586,pad_ufes20,0,61.0,0,unknown,lower extremity,PAT_2079,ACK,
+PAT_876_1665_569,pad_ufes20,0,57.0,0,female,torso,PAT_876,BCC,2.0
+PAT_237_363_858,pad_ufes20,0,77.0,0,male,head/neck,PAT_237,BCC,2.0
+PAT_388_1592_576,pad_ufes20,0,51.0,0,female,torso,PAT_388,BCC,1.0
+PAT_58_91_845,pad_ufes20,0,63.0,0,male,head/neck,PAT_58,BCC,2.0
+PAT_36_50_14,pad_ufes20,0,46.0,0,male,upper extremity,PAT_36,ACK,2.0
+PAT_201_306_781,pad_ufes20,0,54.0,0,male,torso,PAT_201,NEV,3.0
+PAT_771_1490_334,pad_ufes20,0,69.0,0,male,head/neck,PAT_771,BCC,3.0
+PAT_84_128_233,pad_ufes20,0,69.0,0,female,head/neck,PAT_84,BCC,2.0
+PAT_1301_1063_739,pad_ufes20,0,79.0,0,unknown,upper extremity,PAT_1301,ACK,
+PAT_1401_1374_593,pad_ufes20,0,51.0,0,unknown,torso,PAT_1401,NEV,
+PAT_1184_678_86,pad_ufes20,0,59.0,0,unknown,head/neck,PAT_1184,SEK,
+PAT_478_1829_141,pad_ufes20,0,47.0,0,male,torso,PAT_478,BCC,2.0
+PAT_181_280_417,pad_ufes20,0,58.0,0,male,upper extremity,PAT_181,SCC,4.0
+PAT_364_748_278,pad_ufes20,0,66.0,0,female,head/neck,PAT_364,BCC,2.0
+PAT_251_382_576,pad_ufes20,0,91.0,0,female,head/neck,PAT_251,BCC,2.0
+PAT_1249_861_810,pad_ufes20,0,73.0,0,unknown,upper extremity,PAT_1249,ACK,
+PAT_191_293_314,pad_ufes20,0,85.0,0,female,upper extremity,PAT_191,BCC,2.0
+PAT_573_1090_164,pad_ufes20,0,51.0,0,female,head/neck,PAT_573,BCC,4.0
+PAT_1928_3876_437,pad_ufes20,0,37.0,0,unknown,upper extremity,PAT_1928,NEV,
+PAT_1407_1402_347,pad_ufes20,0,81.0,0,unknown,upper extremity,PAT_1407,ACK,
+PAT_834_1572_430,pad_ufes20,0,81.0,0,male,head/neck,PAT_834,SCC,2.0
+PAT_1310_1097_774,pad_ufes20,0,69.0,0,unknown,torso,PAT_1310,SEK,
+PAT_318_677_278,pad_ufes20,0,60.0,0,female,head/neck,PAT_318,BCC,2.0
+PAT_46_879_386,pad_ufes20,0,55.0,0,female,torso,PAT_46,BCC,3.0
+PAT_1411_1415_723,pad_ufes20,0,63.0,0,unknown,torso,PAT_1411,SEK,
+PAT_641_3704_317,pad_ufes20,0,20.0,0,female,torso,PAT_641,NEV,2.0
+PAT_242_369_930,pad_ufes20,0,45.0,0,female,torso,PAT_242,BCC,2.0
+PAT_13_21_350,pad_ufes20,0,54.0,0,female,head/neck,PAT_13,BCC,1.0
+PAT_1495_1708_278,pad_ufes20,0,62.0,0,unknown,torso,PAT_1495,SEK,
+PAT_248_379_695,pad_ufes20,0,42.0,0,female,upper extremity,PAT_248,BCC,2.0
+PAT_1345_1223_175,pad_ufes20,0,56.0,0,unknown,torso,PAT_1345,NEV,
+PAT_392_792_22,pad_ufes20,0,48.0,0,male,head/neck,PAT_392,BCC,3.0
+PAT_146_217_187,pad_ufes20,0,70.0,0,male,head/neck,PAT_146,BCC,2.0
+PAT_1216_760_593,pad_ufes20,0,41.0,0,unknown,upper extremity,PAT_1216,ACK,
+PAT_367_753_130,pad_ufes20,0,72.0,0,female,head/neck,PAT_367,SCC,2.0
+PAT_570_1084_637,pad_ufes20,0,43.0,0,male,head/neck,PAT_570,SCC,2.0
+PAT_570_1085_344,pad_ufes20,0,43.0,0,male,head/neck,PAT_570,BCC,2.0
+PAT_986_1855_702,pad_ufes20,0,60.0,0,male,upper extremity,PAT_986,BCC,2.0
+PAT_1671_3008_622,pad_ufes20,0,46.0,0,unknown,head/neck,PAT_1671,NEV,
+PAT_370_758_322,pad_ufes20,0,61.0,0,male,upper extremity,PAT_370,ACK,3.0
+PAT_1063_268_919,pad_ufes20,0,65.0,0,unknown,upper extremity,PAT_1063,ACK,
+PAT_1464_1612_284,pad_ufes20,0,69.0,0,unknown,upper extremity,PAT_1464,ACK,
+PAT_422_837_617,pad_ufes20,0,64.0,0,male,head/neck,PAT_422,BCC,3.0
+PAT_662_1251_380,pad_ufes20,0,40.0,0,male,torso,PAT_662,BCC,3.0
+PAT_575_1087_29,pad_ufes20,0,80.0,0,female,head/neck,PAT_575,BCC,1.0
+PAT_383_777_129,pad_ufes20,0,73.0,0,male,head/neck,PAT_383,SCC,2.0
+PAT_1089_375_60,pad_ufes20,0,39.0,0,unknown,torso,PAT_1089,NEV,
+PAT_388_1589_976,pad_ufes20,0,51.0,0,female,upper extremity,PAT_388,ACK,1.0
+PAT_93_361_51,pad_ufes20,0,65.0,0,male,head/neck,PAT_93,SEK,4.0
+PAT_545_1031_428,pad_ufes20,0,37.0,0,male,torso,PAT_545,BCC,2.0
+PAT_406_1542_754,pad_ufes20,0,63.0,0,male,torso,PAT_406,BCC,3.0
+PAT_872_1709_526,pad_ufes20,0,71.0,0,female,upper extremity,PAT_872,ACK,2.0
+PAT_1241_824_82,pad_ufes20,0,49.0,0,unknown,torso,PAT_1241,SEK,
+PAT_949_1802_582,pad_ufes20,1,54.0,0,female,lower extremity,PAT_949,MEL,3.0
+PAT_169_694_411,pad_ufes20,0,44.0,0,male,torso,PAT_169,ACK,2.0
+PAT_537_1014_452,pad_ufes20,0,62.0,0,male,upper extremity,PAT_537,SCC,2.0
+PAT_277_1309_814,pad_ufes20,0,65.0,0,female,upper extremity,PAT_277,ACK,2.0
+PAT_632_1206_634,pad_ufes20,0,73.0,0,female,upper extremity,PAT_632,SCC,2.0
+PAT_1184_676_904,pad_ufes20,0,49.0,0,unknown,upper extremity,PAT_1184,ACK,
+PAT_1946_3924_929,pad_ufes20,0,73.0,0,unknown,upper extremity,PAT_1946,SEK,
+PAT_632_1206_637,pad_ufes20,0,73.0,0,female,upper extremity,PAT_632,SCC,2.0
+PAT_822_1551_573,pad_ufes20,0,72.0,0,male,head/neck,PAT_822,BCC,3.0
+PAT_683_1297_195,pad_ufes20,0,74.0,0,male,torso,PAT_683,BCC,2.0
+PAT_982_1852_526,pad_ufes20,0,68.0,0,female,upper extremity,PAT_982,ACK,3.0
+PAT_574_1081_628,pad_ufes20,0,51.0,0,male,torso,PAT_574,SCC,3.0
+PAT_1408_1406_950,pad_ufes20,0,68.0,0,unknown,head/neck,PAT_1408,SEK,
+PAT_736_1392_562,pad_ufes20,0,48.0,0,female,upper extremity,PAT_736,BCC,3.0
+PAT_691_1312_389,pad_ufes20,1,56.0,0,male,upper extremity,PAT_691,MEL,1.0
+PAT_687_1304_898,pad_ufes20,0,49.0,0,female,head/neck,PAT_687,BCC,5.0
+PAT_838_1585_979,pad_ufes20,0,53.0,0,female,head/neck,PAT_838,BCC,3.0
+PAT_1414_1426_124,pad_ufes20,0,75.0,0,unknown,head/neck,PAT_1414,SEK,
+PAT_719_1361_160,pad_ufes20,1,66.0,0,female,upper extremity,PAT_719,MEL,2.0
+PAT_1107_427_352,pad_ufes20,0,38.0,0,unknown,torso,PAT_1107,NEV,
+PAT_992_1864_653,pad_ufes20,0,51.0,0,male,upper extremity,PAT_992,ACK,3.0
+PAT_1051_220_356,pad_ufes20,0,47.0,0,unknown,head/neck,PAT_1051,ACK,
+PAT_1209_737_590,pad_ufes20,0,36.0,0,unknown,upper extremity,PAT_1209,ACK,
+PAT_2152_4781_332,pad_ufes20,0,59.0,0,unknown,head/neck,PAT_2152,SEK,
+PAT_323_687_169,pad_ufes20,0,73.0,0,male,torso,PAT_323,SCC,2.0
+PAT_833_1571_134,pad_ufes20,0,37.0,0,male,head/neck,PAT_833,BCC,4.0
+PAT_233_354_828,pad_ufes20,1,58.0,0,female,upper extremity,PAT_233,MEL,2.0
+PAT_1536_1819_562,pad_ufes20,0,71.0,0,unknown,upper extremity,PAT_1536,ACK,
+PAT_387_1614_866,pad_ufes20,0,58.0,0,male,head/neck,PAT_387,BCC,2.0
+PAT_1707_3148_237,pad_ufes20,0,75.0,0,unknown,torso,PAT_1707,ACK,
+PAT_851_4520_743,pad_ufes20,0,77.0,0,female,head/neck,PAT_851,SEK,3.0
+PAT_167_258_479,pad_ufes20,0,58.0,0,male,head/neck,PAT_167,BCC,1.0
+PAT_1755_3309_828,pad_ufes20,0,32.0,0,unknown,lower extremity,PAT_1755,SEK,
+PAT_710_1330_243,pad_ufes20,1,53.0,0,female,head/neck,PAT_710,MEL,3.0
+PAT_145_216_110,pad_ufes20,0,68.0,0,female,head/neck,PAT_145,BCC,2.0
+PAT_317_675_144,pad_ufes20,0,65.0,0,female,head/neck,PAT_317,ACK,3.0
+PAT_942_1792_411,pad_ufes20,0,67.0,0,male,head/neck,PAT_942,ACK,4.0
+PAT_324_1465_43,pad_ufes20,0,46.0,0,female,upper extremity,PAT_324,SCC,2.0
+PAT_894_1679_640,pad_ufes20,1,65.0,0,male,upper extremity,PAT_894,MEL,2.0
+PAT_373_2598_235,pad_ufes20,0,80.0,0,male,upper extremity,PAT_373,SEK,4.0
+PAT_31_43_129,pad_ufes20,0,77.0,0,male,head/neck,PAT_31,BCC,1.0
+PAT_220_338_339,pad_ufes20,0,67.0,0,female,head/neck,PAT_220,SCC,2.0
+PAT_1980_4018_929,pad_ufes20,0,65.0,0,unknown,upper extremity,PAT_1980,ACK,
+PAT_69_1053_332,pad_ufes20,0,66.0,0,female,upper extremity,PAT_69,ACK,2.0
+PAT_454_884_28,pad_ufes20,0,54.0,0,female,upper extremity,PAT_454,SCC,2.0
+PAT_1855_3641_327,pad_ufes20,0,70.0,0,unknown,upper extremity,PAT_1855,ACK,
+PAT_1074_322_864,pad_ufes20,0,45.0,0,unknown,upper extremity,PAT_1074,ACK,
+PAT_213_328_117,pad_ufes20,0,81.0,0,female,head/neck,PAT_213,NEV,3.0
+PAT_980_1849_295,pad_ufes20,0,65.0,0,male,upper extremity,PAT_980,BCC,2.0
+PAT_91_140_664,pad_ufes20,0,83.0,0,male,upper extremity,PAT_91,ACK,2.0
+PAT_369_756_130,pad_ufes20,0,77.0,0,female,torso,PAT_369,SCC,2.0
+PAT_1303_1077_501,pad_ufes20,0,79.0,0,unknown,upper extremity,PAT_1303,ACK,
+PAT_484_926_624,pad_ufes20,0,55.0,0,female,lower extremity,PAT_484,ACK,2.0
+PAT_742_1470_834,pad_ufes20,0,79.0,0,female,upper extremity,PAT_742,ACK,2.0
+PAT_215_330_341,pad_ufes20,0,91.0,0,female,head/neck,PAT_215,SCC,1.0
+PAT_1185_679_115,pad_ufes20,0,60.0,0,unknown,head/neck,PAT_1185,SEK,
+PAT_404_805_575,pad_ufes20,0,66.0,0,female,torso,PAT_404,ACK,2.0
+PAT_890_1693_904,pad_ufes20,1,55.0,0,female,torso,PAT_890,MEL,2.0
+PAT_756_1495_858,pad_ufes20,0,27.0,0,female,upper extremity,PAT_756,NEV,4.0
+PAT_1554_2392_767,pad_ufes20,0,81.0,0,unknown,torso,PAT_1554,SEK,
+PAT_1969_3980_995,pad_ufes20,0,62.0,0,unknown,head/neck,PAT_1969,ACK,
+PAT_1202_722_827,pad_ufes20,0,52.0,0,unknown,upper extremity,PAT_1202,SEK,
+PAT_101_1041_898,pad_ufes20,0,59.0,0,male,head/neck,PAT_101,BCC,2.0
+PAT_388_4500_103,pad_ufes20,0,51.0,0,female,upper extremity,PAT_388,ACK,1.0
+PAT_455_885_115,pad_ufes20,0,66.0,0,male,head/neck,PAT_455,BCC,3.0
+PAT_2013_4148_303,pad_ufes20,0,29.0,0,unknown,torso,PAT_2013,NEV,
+PAT_307_1685_651,pad_ufes20,0,74.0,0,female,upper extremity,PAT_307,ACK,2.0
+PAT_844_1605_308,pad_ufes20,0,63.0,0,male,head/neck,PAT_844,SCC,2.0
+PAT_172_267_557,pad_ufes20,0,81.0,0,female,head/neck,PAT_172,BCC,2.0
+PAT_93_361_467,pad_ufes20,0,65.0,0,male,head/neck,PAT_93,SEK,4.0
+PAT_1415_1440_629,pad_ufes20,0,77.0,0,unknown,upper extremity,PAT_1415,ACK,
+PAT_1414_1433_570,pad_ufes20,0,75.0,0,unknown,upper extremity,PAT_1414,ACK,
+PAT_355_732_102,pad_ufes20,0,80.0,0,male,head/neck,PAT_355,BCC,2.0
+PAT_2062_4397_39,pad_ufes20,0,22.0,0,unknown,upper extremity,PAT_2062,NEV,
+PAT_561_1068_557,pad_ufes20,0,39.0,0,male,head/neck,PAT_561,BCC,2.0
+PAT_781_1474_517,pad_ufes20,0,55.0,0,female,head/neck,PAT_781,BCC,3.0
+PAT_2123_4647_95,pad_ufes20,0,81.0,0,unknown,upper extremity,PAT_2123,ACK,
+PAT_1571_2484_488,pad_ufes20,0,52.0,0,unknown,head/neck,PAT_1571,ACK,
+PAT_1520_1777_935,pad_ufes20,0,26.0,0,unknown,torso,PAT_1520,NEV,
+PAT_247_1294_292,pad_ufes20,0,58.0,0,male,head/neck,PAT_247,BCC,3.0
+PAT_406_808_560,pad_ufes20,0,62.0,0,male,upper extremity,PAT_406,BCC,3.0
+PAT_78_118_164,pad_ufes20,0,54.0,0,male,torso,PAT_78,BCC,3.0
+PAT_81_123_52,pad_ufes20,0,63.0,0,male,upper extremity,PAT_81,ACK,3.0
+PAT_2077_4463_77,pad_ufes20,0,43.0,0,unknown,upper extremity,PAT_2077,ACK,
+PAT_935_1781_920,pad_ufes20,0,61.0,0,female,head/neck,PAT_935,BCC,2.0
+PAT_798_1770_256,pad_ufes20,0,55.0,0,female,torso,PAT_798,ACK,3.0
+PAT_377_768_643,pad_ufes20,0,65.0,0,male,torso,PAT_377,BCC,2.0
+PAT_920_1748_942,pad_ufes20,0,56.0,0,female,head/neck,PAT_920,ACK,2.0
+PAT_118_180_500,pad_ufes20,0,62.0,0,female,head/neck,PAT_118,BCC,2.0
+PAT_684_1303_368,pad_ufes20,0,79.0,0,male,upper extremity,PAT_684,BCC,1.0
+PAT_890_1693_454,pad_ufes20,1,55.0,0,female,torso,PAT_890,MEL,2.0
+PAT_1787_3421_516,pad_ufes20,0,43.0,0,unknown,torso,PAT_1787,NEV,
+PAT_1421_1464_297,pad_ufes20,0,62.0,0,unknown,upper extremity,PAT_1421,ACK,
+PAT_70_107_155,pad_ufes20,1,67.0,0,male,lower extremity,PAT_70,MEL,2.0
+PAT_464_1794_271,pad_ufes20,0,75.0,0,female,head/neck,PAT_464,BCC,3.0
+PAT_636_1204_666,pad_ufes20,0,78.0,0,female,torso,PAT_636,BCC,2.0
+PAT_943_1793_256,pad_ufes20,0,32.0,0,female,torso,PAT_943,BCC,2.0
+PAT_522_3168_747,pad_ufes20,0,53.0,0,male,lower extremity,PAT_522,NEV,2.0
+PAT_562_1110_360,pad_ufes20,0,58.0,0,male,head/neck,PAT_562,BCC,2.0
+PAT_689_1307_354,pad_ufes20,0,55.0,0,male,upper extremity,PAT_689,SCC,2.0
+PAT_223_1068_246,pad_ufes20,0,73.0,0,female,upper extremity,PAT_223,ACK,3.0
+PAT_1260_894_63,pad_ufes20,0,41.0,0,unknown,upper extremity,PAT_1260,ACK,
+PAT_1148_542_708,pad_ufes20,0,32.0,0,unknown,torso,PAT_1148,NEV,
+PAT_878_1663_7,pad_ufes20,0,74.0,0,female,lower extremity,PAT_878,ACK,2.0
+PAT_983_1854_274,pad_ufes20,0,78.0,0,female,upper extremity,PAT_983,ACK,2.0
+PAT_75_113_647,pad_ufes20,0,50.0,0,male,head/neck,PAT_75,SCC,2.0
+PAT_159_245_181,pad_ufes20,0,73.0,0,female,head/neck,PAT_159,BCC,2.0
+PAT_2161_4819_719,pad_ufes20,0,6.0,0,unknown,upper extremity,PAT_2161,NEV,
+PAT_1850_3631_519,pad_ufes20,0,76.0,0,unknown,torso,PAT_1850,ACK,
+PAT_2024_4221_632,pad_ufes20,0,73.0,0,unknown,torso,PAT_2024,ACK,
+PAT_78_118_685,pad_ufes20,0,54.0,0,male,torso,PAT_78,BCC,3.0
+PAT_217_332_906,pad_ufes20,0,75.0,0,male,head/neck,PAT_217,BCC,1.0
+PAT_1633_2855_460,pad_ufes20,0,51.0,0,unknown,torso,PAT_1633,ACK,
+PAT_202_308_692,pad_ufes20,0,77.0,0,female,upper extremity,PAT_202,ACK,3.0
+PAT_767_1501_691,pad_ufes20,0,86.0,0,male,head/neck,PAT_767,BCC,2.0
+PAT_139_207_342,pad_ufes20,0,83.0,0,male,head/neck,PAT_139,BCC,2.0
+PAT_1563_2425_443,pad_ufes20,0,70.0,0,unknown,upper extremity,PAT_1563,SEK,
+PAT_842_1606_971,pad_ufes20,0,40.0,0,female,torso,PAT_842,BCC,3.0
+PAT_775_1463_616,pad_ufes20,0,54.0,0,male,lower extremity,PAT_775,BCC,3.0
+PAT_93_361_231,pad_ufes20,0,65.0,0,male,head/neck,PAT_93,SEK,4.0
+PAT_531_1004_792,pad_ufes20,0,62.0,0,male,head/neck,PAT_531,BCC,2.0
+PAT_1180_650_843,pad_ufes20,0,66.0,0,unknown,upper extremity,PAT_1180,ACK,
+PAT_1983_4032_502,pad_ufes20,0,83.0,0,unknown,upper extremity,PAT_1983,ACK,
+PAT_1063_271_448,pad_ufes20,0,65.0,0,unknown,upper extremity,PAT_1063,ACK,
+PAT_416_824_540,pad_ufes20,0,84.0,0,male,head/neck,PAT_416,BCC,2.0
+PAT_520_983_932,pad_ufes20,0,68.0,0,male,torso,PAT_520,BCC,2.0
+PAT_1415_1437_743,pad_ufes20,0,77.0,0,unknown,torso,PAT_1415,SEK,
+PAT_624_1179_323,pad_ufes20,0,75.0,0,female,torso,PAT_624,SCC,2.0
+PAT_517_971_88,pad_ufes20,0,94.0,0,female,head/neck,PAT_517,BCC,2.0
+PAT_1734_3240_299,pad_ufes20,0,72.0,0,unknown,upper extremity,PAT_1734,SEK,
+PAT_1786_3419_768,pad_ufes20,0,51.0,0,unknown,head/neck,PAT_1786,ACK,
+PAT_21_31_965,pad_ufes20,0,55.0,0,female,head/neck,PAT_21,NEV,2.0
+PAT_149_221_679,pad_ufes20,0,83.0,0,female,head/neck,PAT_149,BCC,2.0
+PAT_148_220_174,pad_ufes20,0,48.0,0,male,head/neck,PAT_148,ACK,2.0
+PAT_1242_826_903,pad_ufes20,0,17.0,0,unknown,lower extremity,PAT_1242,NEV,
+PAT_85_129_896,pad_ufes20,0,71.0,0,female,torso,PAT_85,ACK,3.0
+PAT_1577_3527_831,pad_ufes20,0,83.0,0,unknown,head/neck,PAT_1577,SEK,
+PAT_889_1689_986,pad_ufes20,0,71.0,0,female,lower extremity,PAT_889,ACK,3.0
+PAT_645_1461_111,pad_ufes20,0,58.0,0,female,upper extremity,PAT_645,BCC,3.0
+PAT_2140_4726_85,pad_ufes20,0,45.0,0,unknown,head/neck,PAT_2140,ACK,
+PAT_990_1860_478,pad_ufes20,0,77.0,0,male,lower extremity,PAT_990,SCC,2.0
+PAT_553_1049_461,pad_ufes20,0,70.0,0,male,head/neck,PAT_553,BCC,1.0
+PAT_1455_1585_690,pad_ufes20,0,67.0,0,unknown,upper extremity,PAT_1455,SEK,
+PAT_744_1404_951,pad_ufes20,0,90.0,0,male,upper extremity,PAT_744,BCC,2.0
+PAT_488_931_321,pad_ufes20,0,80.0,0,female,head/neck,PAT_488,BCC,2.0
+PAT_87_133_159,pad_ufes20,0,57.0,0,female,torso,PAT_87,SEK,3.0
+PAT_2082_4491_519,pad_ufes20,0,46.0,0,unknown,head/neck,PAT_2082,ACK,
+PAT_1701_3136_33,pad_ufes20,0,75.0,0,unknown,upper extremity,PAT_1701,ACK,
+PAT_409_2614_24,pad_ufes20,0,46.0,0,female,upper extremity,PAT_409,ACK,3.0
+PAT_763_1439_668,pad_ufes20,0,66.0,0,female,lower extremity,PAT_763,ACK,4.0
+PAT_1219_764_111,pad_ufes20,0,35.0,0,unknown,head/neck,PAT_1219,NEV,
+PAT_2070_4430_290,pad_ufes20,0,58.0,0,unknown,upper extremity,PAT_2070,ACK,
+PAT_857_1628_916,pad_ufes20,0,78.0,0,male,lower extremity,PAT_857,ACK,2.0
+PAT_1304_1081_84,pad_ufes20,0,77.0,0,unknown,lower extremity,PAT_1304,SEK,
+PAT_115_1138_970,pad_ufes20,1,70.0,0,male,torso,PAT_115,MEL,2.0
+PAT_880_1674_223,pad_ufes20,0,83.0,0,female,lower extremity,PAT_880,ACK,2.0
+PAT_931_1763_617,pad_ufes20,0,71.0,0,female,upper extremity,PAT_931,ACK,2.0
+PAT_267_1061_324,pad_ufes20,0,79.0,0,male,head/neck,PAT_267,BCC,2.0
+PAT_1026_124_206,pad_ufes20,0,52.0,0,unknown,head/neck,PAT_1026,ACK,
+PAT_1216_759_365,pad_ufes20,0,41.0,0,unknown,head/neck,PAT_1216,NEV,
+PAT_389_2600_833,pad_ufes20,0,58.0,0,female,upper extremity,PAT_389,ACK,2.0
+PAT_653_1234_311,pad_ufes20,0,80.0,0,male,head/neck,PAT_653,SCC,2.0
+PAT_106_158_270,pad_ufes20,0,71.0,0,female,upper extremity,PAT_106,BCC,1.0
+PAT_113_172_610,pad_ufes20,0,71.0,0,male,upper extremity,PAT_113,SCC,1.0
+PAT_1466_1618_147,pad_ufes20,0,53.0,0,unknown,upper extremity,PAT_1466,ACK,
+PAT_486_929_317,pad_ufes20,1,57.0,0,male,torso,PAT_486,MEL,2.0
+PAT_849_1613_824,pad_ufes20,0,63.0,0,male,torso,PAT_849,ACK,2.0
+PAT_104_1756_151,pad_ufes20,0,79.0,0,female,head/neck,PAT_104,BCC,2.0
+PAT_682_1292_642,pad_ufes20,0,75.0,0,female,torso,PAT_682,BCC,2.0
+PAT_1655_2923_425,pad_ufes20,0,62.0,0,unknown,upper extremity,PAT_1655,ACK,
+PAT_443_864_894,pad_ufes20,0,68.0,0,female,head/neck,PAT_443,BCC,3.0
+PAT_730_1385_585,pad_ufes20,0,51.0,0,male,torso,PAT_730,BCC,3.0
+PAT_838_1586_622,pad_ufes20,0,53.0,0,female,head/neck,PAT_838,BCC,3.0
+PAT_913_1730_815,pad_ufes20,0,78.0,0,female,upper extremity,PAT_913,BCC,3.0
+PAT_1978_4004_304,pad_ufes20,0,75.0,0,unknown,torso,PAT_1978,SEK,
+PAT_320_681_410,pad_ufes20,1,70.0,0,male,head/neck,PAT_320,MEL,3.0
+PAT_1696_3115_917,pad_ufes20,0,89.0,0,unknown,torso,PAT_1696,SEK,
+PAT_309_662_737,pad_ufes20,0,89.0,0,female,torso,PAT_309,BCC,2.0
+PAT_82_125_907,pad_ufes20,0,71.0,0,male,upper extremity,PAT_82,BCC,2.0
+PAT_191_293_699,pad_ufes20,0,85.0,0,female,upper extremity,PAT_191,BCC,2.0
+PAT_619_1175_767,pad_ufes20,0,58.0,0,male,upper extremity,PAT_619,BCC,2.0
+PAT_693_1313_304,pad_ufes20,0,64.0,0,female,upper extremity,PAT_693,ACK,2.0
+PAT_1838_3609_254,pad_ufes20,0,47.0,0,unknown,lower extremity,PAT_1838,SEK,
+PAT_387_786_782,pad_ufes20,0,57.0,0,male,torso,PAT_387,SCC,2.0
+PAT_337_1697_721,pad_ufes20,0,50.0,0,male,upper extremity,PAT_337,ACK,2.0
+PAT_40_56_499,pad_ufes20,0,42.0,0,female,upper extremity,PAT_40,BCC,1.0
+PAT_460_894_429,pad_ufes20,0,73.0,0,female,head/neck,PAT_460,BCC,2.0
+PAT_650_3858_329,pad_ufes20,0,73.0,0,female,torso,PAT_650,SEK,2.0
+PAT_100_393_595,pad_ufes20,0,14.0,0,male,head/neck,PAT_100,NEV,1.0
+PAT_1297_1048_353,pad_ufes20,0,66.0,0,unknown,upper extremity,PAT_1297,NEV,
+PAT_223_1067_569,pad_ufes20,0,73.0,0,female,upper extremity,PAT_223,ACK,3.0
+PAT_2114_4609_615,pad_ufes20,0,70.0,0,unknown,head/neck,PAT_2114,ACK,
+PAT_581_1114_116,pad_ufes20,0,58.0,0,female,upper extremity,PAT_581,BCC,1.0
+PAT_973_1839_34,pad_ufes20,0,64.0,0,male,head/neck,PAT_973,ACK,3.0
+PAT_1341_1212_539,pad_ufes20,0,66.0,0,unknown,upper extremity,PAT_1341,SEK,
+PAT_479_917_598,pad_ufes20,0,48.0,0,male,head/neck,PAT_479,BCC,2.0
+PAT_202_308_721,pad_ufes20,0,77.0,0,female,upper extremity,PAT_202,ACK,3.0
+PAT_1246_846_111,pad_ufes20,0,51.0,0,unknown,upper extremity,PAT_1246,ACK,
+PAT_1540_1847_249,pad_ufes20,0,88.0,0,unknown,head/neck,PAT_1540,ACK,
+PAT_43_61_210,pad_ufes20,0,76.0,0,female,upper extremity,PAT_43,SCC,2.0
+PAT_1913_3818_991,pad_ufes20,0,39.0,0,unknown,head/neck,PAT_1913,ACK,
+PAT_876_1665_386,pad_ufes20,0,57.0,0,female,torso,PAT_876,BCC,2.0
+PAT_1304_1079_859,pad_ufes20,0,77.0,0,unknown,head/neck,PAT_1304,SEK,
+PAT_785_1479_108,pad_ufes20,0,77.0,0,female,head/neck,PAT_785,BCC,4.0
+PAT_214_329_300,pad_ufes20,0,73.0,0,male,upper extremity,PAT_214,BCC,2.0
+PAT_383_779_429,pad_ufes20,0,73.0,0,male,head/neck,PAT_383,BCC,2.0
+PAT_131_197_260,pad_ufes20,0,90.0,0,female,upper extremity,PAT_131,SCC,2.0
+PAT_359_741_966,pad_ufes20,0,53.0,0,female,head/neck,PAT_359,SCC,3.0
+PAT_564_1079_31,pad_ufes20,0,73.0,0,female,upper extremity,PAT_564,BCC,2.0
+PAT_695_1314_822,pad_ufes20,0,54.0,0,female,torso,PAT_695,BCC,3.0
+PAT_527_1360_225,pad_ufes20,0,60.0,0,male,upper extremity,PAT_527,BCC,1.0
+PAT_1513_1747_851,pad_ufes20,0,72.0,0,unknown,upper extremity,PAT_1513,ACK,
+PAT_726_1371_397,pad_ufes20,0,56.0,0,female,head/neck,PAT_726,BCC,2.0
+PAT_774_1462_821,pad_ufes20,0,45.0,0,male,head/neck,PAT_774,BCC,3.0
+PAT_715_1338_761,pad_ufes20,0,80.0,0,male,head/neck,PAT_715,ACK,2.0
+PAT_281_1518_571,pad_ufes20,0,61.0,0,male,torso,PAT_281,NEV,3.0
+PAT_503_950_368,pad_ufes20,0,88.0,0,male,head/neck,PAT_503,BCC,2.0
+PAT_1418_1452_948,pad_ufes20,0,86.0,0,unknown,upper extremity,PAT_1418,ACK,
+PAT_1967_3976_736,pad_ufes20,0,75.0,0,unknown,upper extremity,PAT_1967,ACK,
+PAT_575_1088_134,pad_ufes20,0,80.0,0,female,head/neck,PAT_575,BCC,1.0
+PAT_97_151_587,pad_ufes20,0,47.0,0,male,torso,PAT_97,BCC,2.0
+PAT_1757_3316_304,pad_ufes20,0,78.0,0,unknown,upper extremity,PAT_1757,ACK,
+PAT_30_41_815,pad_ufes20,0,57.0,0,male,head/neck,PAT_30,BCC,3.0
+PAT_698_1319_166,pad_ufes20,0,83.0,0,female,upper extremity,PAT_698,SCC,2.0
+PAT_1706_3144_891,pad_ufes20,0,73.0,0,unknown,lower extremity,PAT_1706,ACK,
+PAT_627_1188_503,pad_ufes20,0,32.0,0,female,lower extremity,PAT_627,NEV,2.0
+PAT_886_1684_103,pad_ufes20,0,70.0,0,female,upper extremity,PAT_886,ACK,3.0
+PAT_856_1626_630,pad_ufes20,0,51.0,0,male,torso,PAT_856,BCC,3.0
+PAT_645_1500_364,pad_ufes20,0,58.0,0,female,upper extremity,PAT_645,BCC,3.0
+PAT_135_202_593,pad_ufes20,0,53.0,0,female,torso,PAT_135,BCC,2.0
+PAT_215_330_224,pad_ufes20,0,91.0,0,female,head/neck,PAT_215,SCC,1.0
+PAT_927_1759_849,pad_ufes20,0,64.0,0,female,torso,PAT_927,BCC,2.0
+PAT_715_1339_508,pad_ufes20,0,80.0,0,male,torso,PAT_715,SEK,2.0
+PAT_90_138_605,pad_ufes20,0,73.0,0,female,head/neck,PAT_90,BCC,3.0
+PAT_943_1793_787,pad_ufes20,0,32.0,0,female,torso,PAT_943,BCC,2.0
+PAT_482_2928_201,pad_ufes20,0,69.0,0,female,head/neck,PAT_482,SEK,2.0
+PAT_474_912_879,pad_ufes20,0,38.0,0,female,head/neck,PAT_474,BCC,2.0
+PAT_279_430_356,pad_ufes20,0,51.0,0,male,upper extremity,PAT_279,ACK,2.0
+PAT_1392_1352_828,pad_ufes20,0,68.0,0,unknown,head/neck,PAT_1392,SEK,
+PAT_1429_1491_451,pad_ufes20,0,58.0,0,unknown,upper extremity,PAT_1429,ACK,
+PAT_45_66_822,pad_ufes20,1,73.0,0,male,torso,PAT_45,MEL,2.0
+PAT_1913_3815_367,pad_ufes20,0,39.0,0,unknown,head/neck,PAT_1913,ACK,
+PAT_999_20_401,pad_ufes20,0,40.0,0,unknown,upper extremity,PAT_999,ACK,
+PAT_1094_381_355,pad_ufes20,0,41.0,0,unknown,upper extremity,PAT_1094,ACK,
+PAT_229_349_141,pad_ufes20,0,74.0,0,male,head/neck,PAT_229,BCC,3.0
+PAT_219_337_358,pad_ufes20,0,85.0,0,female,head/neck,PAT_219,SCC,2.0
+PAT_738_1552_502,pad_ufes20,0,57.0,0,female,torso,PAT_738,SEK,2.0
+PAT_985_1856_91,pad_ufes20,0,49.0,0,male,head/neck,PAT_985,BCC,3.0
+PAT_1657_2932_680,pad_ufes20,0,23.0,0,unknown,head/neck,PAT_1657,NEV,
+PAT_739_1398_331,pad_ufes20,0,51.0,0,male,lower extremity,PAT_739,ACK,2.0
+PAT_160_249_76,pad_ufes20,0,78.0,0,male,upper extremity,PAT_160,BCC,2.0
+PAT_336_705_711,pad_ufes20,0,60.0,0,female,torso,PAT_336,BCC,3.0
+PAT_1613_2744_603,pad_ufes20,0,27.0,0,unknown,lower extremity,PAT_1613,NEV,
+PAT_181_281_54,pad_ufes20,0,58.0,0,male,head/neck,PAT_181,BCC,4.0
+PAT_126_192_208,pad_ufes20,0,48.0,0,male,torso,PAT_126,ACK,1.0
+PAT_192_884_310,pad_ufes20,0,70.0,0,male,upper extremity,PAT_192,ACK,2.0
+PAT_172_266_950,pad_ufes20,0,81.0,0,female,upper extremity,PAT_172,BCC,2.0
+PAT_987_1859_724,pad_ufes20,0,47.0,0,female,head/neck,PAT_987,ACK,3.0
+PAT_1401_1373_881,pad_ufes20,0,51.0,0,unknown,torso,PAT_1401,NEV,
+PAT_1403_1392_848,pad_ufes20,0,50.0,0,unknown,head/neck,PAT_1403,ACK,
+PAT_190_291_366,pad_ufes20,0,61.0,0,male,upper extremity,PAT_190,BCC,2.0
+PAT_830_1564_740,pad_ufes20,0,84.0,0,male,head/neck,PAT_830,BCC,2.0
+PAT_360_742_768,pad_ufes20,0,68.0,0,male,upper extremity,PAT_360,SCC,2.0
+PAT_1712_3175_600,pad_ufes20,0,66.0,0,unknown,upper extremity,PAT_1712,ACK,
+PAT_1713_3179_888,pad_ufes20,0,65.0,0,unknown,head/neck,PAT_1713,SEK,
+PAT_681_1299_458,pad_ufes20,0,71.0,0,male,head/neck,PAT_681,BCC,2.0
+PAT_747_1409_466,pad_ufes20,0,55.0,0,male,upper extremity,PAT_747,ACK,3.0
+PAT_136_203_436,pad_ufes20,0,60.0,0,female,head/neck,PAT_136,BCC,2.0
+PAT_1801_3461_351,pad_ufes20,0,56.0,0,unknown,head/neck,PAT_1801,NEV,
+PAT_498_944_488,pad_ufes20,0,60.0,0,female,head/neck,PAT_498,ACK,2.0
+PAT_492_937_43,pad_ufes20,0,70.0,0,male,torso,PAT_492,SCC,2.0
+PAT_414_822_420,pad_ufes20,0,20.0,0,female,torso,PAT_414,ACK,4.0
+PAT_754_1429_380,pad_ufes20,1,75.0,0,male,upper extremity,PAT_754,MEL,2.0
+PAT_1407_1402_562,pad_ufes20,0,81.0,0,unknown,upper extremity,PAT_1407,ACK,
+PAT_386_785_536,pad_ufes20,0,66.0,0,male,head/neck,PAT_386,ACK,2.0
+PAT_1294_1031_466,pad_ufes20,0,35.0,0,unknown,head/neck,PAT_1294,ACK,
+PAT_273_421_905,pad_ufes20,0,41.0,0,male,head/neck,PAT_273,BCC,2.0
+PAT_491_934_46,pad_ufes20,0,43.0,0,female,head/neck,PAT_491,SCC,2.0
+PAT_1708_3156_175,pad_ufes20,0,73.0,0,unknown,upper extremity,PAT_1708,ACK,
+PAT_46_880_140,pad_ufes20,0,55.0,0,female,torso,PAT_46,BCC,3.0
+PAT_1343_1217_404,pad_ufes20,0,74.0,0,unknown,upper extremity,PAT_1343,SEK,
+PAT_326_690_823,pad_ufes20,0,58.0,0,female,head/neck,PAT_326,BCC,3.0
+PAT_1714_3189_989,pad_ufes20,0,41.0,0,unknown,lower extremity,PAT_1714,SEK,

@@ -1,0 +1,3 @@
+# Stage 1c: FiLM still at grid edge (1.35e-3) -> one more step; concat 1.35e-3 rerun with divergence guard.
+configs/v2/film.yaml model_name=tune_film_lr4.05e-3 lr=4.05e-3 predict_splits=[val] probes=false
+configs/v2/concat_fusion.yaml model_name=tune_concat_fusion_lr1.35e-3 lr=1.35e-3 predict_splits=[val] probes=false

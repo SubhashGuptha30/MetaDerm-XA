@@ -1,0 +1,7 @@
+# Stage 1b: lr=4.5e-4 won for every model (grid edge) -> extend grid by one 3x step. Validation predictions only.
+configs/v2/baseline.yaml model_name=tune_baseline_lr1.35e-3 lr=1.35e-3 predict_splits=[val] probes=false
+configs/v2/baseline_wide.yaml model_name=tune_baseline_wide_lr1.35e-3 lr=1.35e-3 predict_splits=[val] probes=false
+configs/v2/concat_fusion.yaml model_name=tune_concat_fusion_lr1.35e-3 lr=1.35e-3 predict_splits=[val] probes=false
+configs/v2/cross_attention.yaml model_name=tune_cross_attention_lr1.35e-3 lr=1.35e-3 predict_splits=[val] probes=false
+configs/v2/film.yaml model_name=tune_film_lr1.35e-3 lr=1.35e-3 predict_splits=[val] probes=false
+configs/v2/field_token.yaml model_name=tune_field_token_lr1.35e-3 lr=1.35e-3 predict_splits=[val] probes=false

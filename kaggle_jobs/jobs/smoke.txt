@@ -1,0 +1,3 @@
+# Smoke test on Kaggle: data mounts, both GPUs, train+predict+probes end to end (tiny data).
+configs/v2/field_token.yaml model_name=smoke_field_token debug_fraction=0.02 epochs=1
+configs/v2/film.yaml model_name=smoke_film debug_fraction=0.02 epochs=1

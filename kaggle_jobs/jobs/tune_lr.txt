@@ -1,0 +1,19 @@
+# Stage 1: learning-rate selection on ISIC 2019 val ONLY (no test/external predictions are produced).
+configs/v2/baseline.yaml model_name=tune_baseline_lr5e-5 lr=5e-5 predict_splits=[val] probes=false
+configs/v2/baseline.yaml model_name=tune_baseline_lr1.5e-4 lr=1.5e-4 predict_splits=[val] probes=false
+configs/v2/baseline.yaml model_name=tune_baseline_lr4.5e-4 lr=4.5e-4 predict_splits=[val] probes=false
+configs/v2/baseline_wide.yaml model_name=tune_baseline_wide_lr5e-5 lr=5e-5 predict_splits=[val] probes=false
+configs/v2/baseline_wide.yaml model_name=tune_baseline_wide_lr1.5e-4 lr=1.5e-4 predict_splits=[val] probes=false
+configs/v2/baseline_wide.yaml model_name=tune_baseline_wide_lr4.5e-4 lr=4.5e-4 predict_splits=[val] probes=false
+configs/v2/concat_fusion.yaml model_name=tune_concat_fusion_lr5e-5 lr=5e-5 predict_splits=[val] probes=false
+configs/v2/concat_fusion.yaml model_name=tune_concat_fusion_lr1.5e-4 lr=1.5e-4 predict_splits=[val] probes=false
+configs/v2/concat_fusion.yaml model_name=tune_concat_fusion_lr4.5e-4 lr=4.5e-4 predict_splits=[val] probes=false
+configs/v2/cross_attention.yaml model_name=tune_cross_attention_lr5e-5 lr=5e-5 predict_splits=[val] probes=false
+configs/v2/cross_attention.yaml model_name=tune_cross_attention_lr1.5e-4 lr=1.5e-4 predict_splits=[val] probes=false
+configs/v2/cross_attention.yaml model_name=tune_cross_attention_lr4.5e-4 lr=4.5e-4 predict_splits=[val] probes=false
+configs/v2/film.yaml model_name=tune_film_lr5e-5 lr=5e-5 predict_splits=[val] probes=false
+configs/v2/film.yaml model_name=tune_film_lr1.5e-4 lr=1.5e-4 predict_splits=[val] probes=false
+configs/v2/film.yaml model_name=tune_film_lr4.5e-4 lr=4.5e-4 predict_splits=[val] probes=false
+configs/v2/field_token.yaml model_name=tune_field_token_lr5e-5 lr=5e-5 predict_splits=[val] probes=false
+configs/v2/field_token.yaml model_name=tune_field_token_lr1.5e-4 lr=1.5e-4 predict_splits=[val] probes=false
+configs/v2/field_token.yaml model_name=tune_field_token_lr4.5e-4 lr=4.5e-4 predict_splits=[val] probes=false

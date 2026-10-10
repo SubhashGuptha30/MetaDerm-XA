@@ -1,6 +1,6 @@
 # Data — never commit raw/processed patient data
-data/
-checkpoints/
+/data/
+/checkpoints/
 
 # Python
 __pycache__/
@@ -63,3 +63,23 @@ lightning_logs/
 .tempmediaStorage/
 .user_uploaded/
 scratch/
+
+# v2 pipeline artifacts
+/runs_v2/
+/kaggle_outputs/
+/pretrained/
+/kaggle_jobs/kernels/
+/kaggle_jobs/kaggle_user.txt
+
+# kept local (public repo): manuscripts, report text, working notes, tool state
+/paper/
+/report/content.py
+/report/*.docx
+/report/backups/
+/report/*.sha256
+/Report.docx
+*.asd
+/docs/claude/
+.claude-flow/
+/extend
+/one

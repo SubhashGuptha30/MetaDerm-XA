@@ -1,0 +1,32 @@
+# ======================================================================
+# v2 shared configuration — every model inherits this file unchanged.
+# Hyperparameters that are tuned (lr) are selected on the ISIC 2019 *val*
+# split only (see configs/v2/README.md). ISIC 2020 is never looked at.
+# ======================================================================
+seed: 42
+split_dir: splits/v2
+image_root: data/kaggle_upload/metaderm-images   # overridden by $METADERM_IMAGE_ROOT on Kaggle
+output_root: runs_v2
+
+backbone: efficientnet_b2
+pretrained: true
+img_size: 224
+feature_dim: 256
+num_attn_heads: 8
+dropout: 0.4
+
+imbalance: none        # none | pos_weight | sampler  (exactly one mechanism; v1 used two)
+pos_weight: auto       # only used when imbalance == pos_weight (auto = n_neg / n_pos)
+
+batch_size: 32
+num_workers: 4
+epochs: 20
+warmup_epochs: 1
+patience: 5            # on val AUROC
+lr: 1.5e-4
+weight_decay: 0.01
+grad_clip: 1.0
+use_amp: true
+deterministic: false
+
+predict_splits: [val, calib, test, external, pad]

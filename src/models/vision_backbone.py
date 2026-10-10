@@ -4,13 +4,27 @@ Returns spatial feature tokens (B, N_tokens, C) suitable for cross-attention.
 """
 
 import logging
-from typing import Tuple
+import os
+from pathlib import Path
 
 import timm
 import torch
 import torch.nn as nn
 
 log = logging.getLogger(__name__)
+
+
+def create_backbone(backbone_name: str, pretrained: bool, **kwargs) -> nn.Module:
+    """timm.create_model, but loads ImageNet weights from $METADERM_PRETRAINED_DIR/<name>.pth
+    when present (Kaggle jobs run without internet)."""
+    local = Path(os.environ.get("METADERM_PRETRAINED_DIR", "pretrained")) / f"{backbone_name}.pth"
+    if pretrained and local.exists():
+        model = timm.create_model(backbone_name, pretrained=False, **kwargs)
+        missing, unexpected = model.load_state_dict(torch.load(local, map_location="cpu"), strict=False)
+        assert not missing, f"missing keys loading {local}: {missing[:5]}"
+        log.info(f"Loaded local pretrained weights {local} (ignored {len(unexpected)} head keys)")
+        return model
+    return timm.create_model(backbone_name, pretrained=pretrained, **kwargs)
 
 SUPPORTED_BACKBONES = [
     "efficientnet_b0",
@@ -50,9 +64,9 @@ class VisionBackbone(nn.Module):
         self.feature_dim = feature_dim
 
         # Load backbone without classification head
-        self.backbone = timm.create_model(
+        self.backbone = create_backbone(
             backbone_name,
-            pretrained=pretrained,
+            pretrained,
             num_classes=0,       # removes classifier head
             global_pool="",      # removes global pooling → keeps spatial map
         )

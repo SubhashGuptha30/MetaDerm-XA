@@ -1,0 +1,64 @@
+{
+  "seed": 42,
+  "train_age_median": 55.0,
+  "splits": {
+    "train": {
+      "n": 18093,
+      "n_pos": 3230,
+      "prevalence": 0.1785,
+      "n_groups": 9937,
+      "age_missing": 309,
+      "sex_unknown": 276,
+      "site_unknown": 1893,
+      "n_unk": 0
+    },
+    "val": {
+      "n": 3619,
+      "n_pos": 646,
+      "prevalence": 0.1785,
+      "n_groups": 1987,
+      "age_missing": 73,
+      "sex_unknown": 62,
+      "site_unknown": 371,
+      "n_unk": 0
+    },
+    "calib": {
+      "n": 3619,
+      "n_pos": 646,
+      "prevalence": 0.1785,
+      "n_groups": 1988,
+      "age_missing": 55,
+      "sex_unknown": 46,
+      "site_unknown": 367,
+      "n_unk": 0
+    },
+    "test": {
+      "n": 8238,
+      "n_pos": 1327,
+      "prevalence": 0.1611,
+      "n_groups": 8238,
+      "age_missing": 326,
+      "sex_unknown": 339,
+      "site_unknown": 655,
+      "n_unk": 2047
+    },
+    "external": {
+      "n": 33126,
+      "n_pos": 584,
+      "prevalence": 0.0176,
+      "n_groups": 2056,
+      "age_missing": 68,
+      "sex_unknown": 65,
+      "site_unknown": 527
+    },
+    "pad": {
+      "n": 2298,
+      "n_pos": 52,
+      "prevalence": 0.0226,
+      "n_groups": 1373,
+      "age_missing": 0,
+      "sex_unknown": 804,
+      "site_unknown": 0
+    }
+  }
+}

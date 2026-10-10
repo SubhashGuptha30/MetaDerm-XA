@@ -1,0 +1,4 @@
+_base_: base.yaml
+model_name: field_token_k1
+model_type: field_token_ablated
+num_meta_tokens: 1

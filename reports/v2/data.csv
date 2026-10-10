@@ -1,0 +1,7 @@
+Split,Images,Melanoma,Prevalence (%),Groups,Age missing,Sex unknown,Site unknown
+train,18093,3230,17.8,9937,309,276,1893
+val,3619,646,17.8,1987,73,62,371
+calib,3619,646,17.8,1988,55,46,367
+test,8238,1327,16.1,8238,326,339,655
+external,33126,584,1.8,2056,68,65,527
+pad,2298,52,2.3,1373,0,804,0
