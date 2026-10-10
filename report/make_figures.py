@@ -132,9 +132,38 @@ def samples():
     plt.close(fig)
 
 
+def workflow():
+    """Where each step runs: laptop (all data and results stay here) vs Kaggle (GPU work only)."""
+    fig, ax = plt.subplots(figsize=(10, 7))
+    L, K, G = "#dbe9f6", "#fde9d4", "#dff2de"
+    ax.add_patch(FancyBboxPatch((0.05, 1.7), 4.6, 8.1, boxstyle="round,pad=0.02", fc="none", ec="#1f77b4", lw=1.5, ls="--"))
+    ax.add_patch(FancyBboxPatch((5.35, 1.7), 4.6, 8.1, boxstyle="round,pad=0.02", fc="none", ec="#ff7f0e", lw=1.5, ls="--"))
+    ax.text(2.35, 9.95, "Laptop (CPU)", ha="center", fontsize=11, weight="bold")
+    ax.text(7.65, 9.95, "Kaggle session (2 x NVIDIA T4)", ha="center", fontsize=11, weight="bold")
+    boxes = {
+        "prep": (0.3, 8.3, 4.1, 1.1, "preprocess_v2.py, near_duplicates.py\n-> frozen splits (splits/v2)", L),
+        "img": (0.3, 6.5, 4.1, 1.1, "prepare_kaggle_images.py\n-> resized images (private dataset)", L),
+        "code": (0.3, 4.7, 4.1, 1.1, "launch.py code / push <job>\n-> code dataset + kernel", L),
+        "ana": (0.3, 2.0, 4.1, 1.1, "launch.py pull -> runs_v2/\nanalysis.report / figures", G),
+        "run": (5.6, 8.3, 4.1, 1.1, "runner: job list, one worker per GPU,\ntime-budget guard", K),
+        "train": (5.6, 6.5, 4.1, 1.1, "src.train: model.pt, history,\nlogits for val/calib/test/ext./PAD", K),
+        "probe": (5.6, 4.7, 4.1, 1.1, "src.probes: withheld / shuffled\nmetadata, sweeps, masking", K),
+        "out": (5.6, 2.0, 4.1, 1.1, "run folders + job_status.txt\nin /kaggle/working", K),
+    }
+    arrows = [("prep", "img"), ("img", "code"), ("run", "train"), ("train", "probe")]
+    _boxes(ax, boxes, arrows)
+    for (xa, ya), (xb, yb) in [((4.4, 5.25), (5.6, 8.85)), ((5.6, 2.55), (4.4, 2.55))]:
+        ax.add_patch(FancyArrowPatch((xa, ya), (xb, yb), arrowstyle="-|>", mutation_scale=14, lw=1.3, color="#333"))
+    ax.add_patch(FancyArrowPatch((7.65, 4.7), (7.65, 3.1), arrowstyle="-|>", mutation_scale=14, lw=1.3, color="#333"))
+    ax.set_ylim(1.5, 10.3)
+    fig.savefig(OUT / "workflow.png", dpi=200, bbox_inches="tight")
+    plt.close(fig)
+
+
 if __name__ == "__main__":
     OUT.mkdir(parents=True, exist_ok=True)
     pipeline()
+    workflow()
     architecture()
     datasets()
     samples()

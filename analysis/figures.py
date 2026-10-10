@@ -196,8 +196,95 @@ def error_examples(model="baseline", k=4):
     _save(fig, "error_examples")
 
 
+def _gradcam(model_name, seed, img):
+    import torch
+    from src.data.transforms import get_val_transforms
+    from src.models.factory import build_model
+    from src.xai.gradcam import GradCAM, get_default_target_layer, overlay_cam_on_image
+    from src.data.dataloader import fit_encoder
+    ck = torch.load(C.RUNS / model_name / f"seed{seed}" / "model.pt", map_location="cpu", weights_only=False)
+    cfg = {**ck["config"], "pretrained": False}
+    model = build_model(cfg)
+    model.load_state_dict(ck["model_state_dict"])
+    model.eval()
+    return model, cfg, get_val_transforms(cfg.get("img_size", 224)), GradCAM, get_default_target_layer,         overlay_cam_on_image, fit_encoder
+
+
+def case_studies(names=("ISIC_0064585", "ISIC_0057796"), seed=42):
+    """Per case: image, Grad-CAM of image-only and field-token (seed 42), and the five-seed age sweep of every
+    fusion model with the image-only ensemble probability as reference."""
+    import torch
+    from PIL import Image
+    from src.data.dataloader import image_root
+    man = C.manifest("test")
+    fig, axes = plt.subplots(len(names), 4, figsize=(17, 4.2 * len(names)),
+                             gridspec_kw={"width_ratios": [1, 1, 1, 1.6]})
+    cams = {}
+    for m in ("baseline", "field_token"):
+        model, cfg, tf, GradCAM, layer, overlay, fit_encoder = _gradcam(m, seed, None)
+        enc = fit_encoder(cfg)
+        for name in names:
+            r = man[man.image_name == name].iloc[[0]]
+            pil = Image.open(image_root({}) / r.img_dir.iloc[0] / f"{name}.jpg").convert("RGB").resize((224, 224))
+            cont, site = enc.transform(r)
+            g = GradCAM(model, layer(cfg["model_type"], cfg.get("backbone", "efficientnet_b2")))
+            cam = g.generate(image=tf(pil).unsqueeze(0), metadata_cont=torch.tensor(cont, dtype=torch.float32),
+                             site_idx=torch.tensor(site, dtype=torch.long), model_type=cfg["model_type"])
+            g.remove_hooks()
+            cams[m, name] = (np.array(pil), overlay(np.array(pil), cam))
+    p_io = S.sigmoid(C.logit_matrix("baseline", "test").mean(0))
+    for row, name in zip(np.atleast_2d(axes), names):
+        i = int(np.where(man.image_name == name)[0][0])
+        r = man.iloc[i]
+        row[0].imshow(cams["baseline", name][0])
+        row[0].set_title(f"{name}\n{r.sex}, {r.age_approx:.0f} y, {r.anatom_site_general_challenge}", fontsize=9)
+        row[1].imshow(cams["baseline", name][1])
+        row[1].set_title("Grad-CAM, image-only", fontsize=9)
+        row[2].imshow(cams["field_token", name][1])
+        row[2].set_title("Grad-CAM, field-token", fontsize=9)
+        for a in row[:3]:
+            a.axis("off")
+        ax = row[3]
+        for m in ["concat_fusion", "cross_attention", "film", "field_token"]:
+            pr = [C.probes(m, s, "test") for s in C.seeds(m)]
+            curve = S.sigmoid(np.mean([q["age"][i] for q in pr], 0))
+            ax.plot(pr[0]["age_grid"], curve, color=COLORS[m], lw=2, label=C.LABEL[m])
+        ax.axhline(p_io[i], color=COLORS["baseline"], ls="--", lw=1.5, label=f"Image-only ({p_io[i]:.2f})")
+        ax.axvline(r.age_approx, color="k", ls=":", lw=1)
+        ax.set_ylim(0, 1)
+        ax.set_xlabel("age set to (years); dotted line = recorded age")
+        ax.set_ylabel("P(melanoma), five-seed ensemble")
+        ax.legend(fontsize=7, loc="lower right")
+    _save(fig, "case_studies")
+
+
+def metadata_profile():
+    import pandas as pd
+    sets = {"ISIC 2019 (development)": pd.concat([pd.read_csv(f"splits/v2/{s}.csv") for s in ("train", "val", "calib")]),
+            "ISIC 2020": pd.read_csv("splits/v2/external.csv"), "PAD-UFES-20": pd.read_csv("splits/v2/pad.csv")}
+    sites = ["head/neck", "upper extremity", "torso", "lower extremity", "palms/soles"]
+    fig, axes = plt.subplots(2, 3, figsize=(15, 7.5))
+    for k, (name, d) in enumerate(sets.items()):
+        d = d[d.age_missing == 0]
+        for y, col, lab in [(0, "#7f7f7f", "other lesions"), (1, "#d62728", "melanoma")]:
+            g = d[d.target == y]
+            axes[0, k].hist(g.age_approx, bins=np.arange(0, 95, 5), density=True, alpha=0.55, color=col,
+                            label=f"{lab} (mean {g.age_approx.mean():.1f} y)")
+            share = g.anatom_site_general_challenge.value_counts(normalize=True).reindex(sites).fillna(0)
+            axes[1, k].bar(np.arange(len(sites)) + (0.2 if y else -0.2), share.values, 0.4, color=col, label=lab)
+        axes[0, k].set_title(name)
+        axes[0, k].set_xlabel("age (years)")
+        axes[0, k].legend(fontsize=8)
+        axes[1, k].set_xticks(np.arange(len(sites)), sites, rotation=25, fontsize=8)
+        axes[1, k].set_ylabel("share of images")
+    axes[0, 0].set_ylabel("density")
+    axes[1, 0].legend(fontsize=8)
+    _save(fig, "metadata_profile")
+
+
 if __name__ == "__main__":
-    for f in (roc, age_sweep, attention_maps, reliability, transfer, training_curves, subgroups, error_examples):
+    for f in (roc, age_sweep, attention_maps, reliability, transfer, training_curves, subgroups, error_examples,
+              case_studies, metadata_profile):
         try:
             f()
         except (FileNotFoundError, ValueError, KeyError) as e:
