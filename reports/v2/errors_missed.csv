@@ -1,0 +1,14 @@
+Group,Value,n mel.,Missed: Image-only,Missed: FiLM,Missed: Field-token
+Site,head/neck,262,0.057,0.095,0.126
+Site,lower extremity,259,0.104,0.073,0.062
+Site,palms/soles,119,0.092,0.067,0.067
+Site,torso,427,0.066,0.066,0.080
+Site,unknown,45,0.067,0.044,0.089
+Site,upper extremity,214,0.117,0.061,0.093
+Age,31-50,343,0.120,0.070,0.082
+Age,51-70,508,0.085,0.055,0.061
+Age,<=30,54,0.074,0.500,0.556
+Age,>70,421,0.050,0.038,0.062
+Sex,female,655,0.096,0.090,0.111
+Sex,male,636,0.069,0.055,0.063
+Sex,unknown,35,0.057,0.029,0.057

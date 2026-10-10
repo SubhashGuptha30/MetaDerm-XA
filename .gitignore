@@ -76,6 +76,7 @@ scratch/
 /paper/
 /report/content.py
 /report/patch_results.py
+/report/patch_expand.py
 /report/*.docx
 /report/backups/
 /report/*.sha256

@@ -440,6 +440,50 @@ def sec_lr():
     return best
 
 
+def sec_training():
+    """Training cost and early-stopping behaviour per model (from runs_v2/*/seed*/summary.json)."""
+    rows = []
+    for m in available(C.MAIN_MODELS + C.ABLATION_MODELS[:3]):
+        r = pd.DataFrame([json.loads((C.RUNS / m / f"seed{s}" / "summary.json").read_text()) for s in C.seeds(m)])
+        rows.append({"Model": C.LABEL[m], "Parameters (M)": f"{r.n_params.iloc[0] / 1e6:.2f}",
+                     "LR": f"{r.config.iloc[0]['lr']:.2e}",
+                     "Best epoch": fmt(r.best_epoch.mean(), r.best_epoch.std(ddof=1), 1),
+                     "Epochs run": fmt(r.epochs_run.mean(), r.epochs_run.std(ddof=1), 1),
+                     "Train time (min)": fmt(r.train_sec.mean() / 60, r.train_sec.std(ddof=1) / 60, 0),
+                     "Best val AUROC": fmt(r.best_val_auroc.mean(), r.best_val_auroc.std(ddof=1))})
+    save("training", pd.DataFrame(rows))
+
+
+DX = ["MEL", "NV", "BCC", "AK", "BKL", "DF", "VASC", "SCC", "UNK"]
+
+
+def sec_errors(models=("baseline", "film", "field_token")):
+    """Where the seed ensembles err on ISIC 2019 test at the calib-fitted 90%-sensitivity threshold:
+    flag rate per true diagnosis (MEL row = sensitivity) and miss rate of melanomas per subgroup."""
+    man = C.manifest("test")
+    y, yc = man["target"].values, C.manifest("calib")["target"].values
+    dx = man[DX].values.argmax(1)
+    age = pd.cut(man["age_approx"], [-1, 30, 50, 70, 200], labels=["<=30", "31-50", "51-70", ">70"]).astype(str).values
+    groups = {"Site": man["anatom_site_general_challenge"].values, "Age": age, "Sex": man["sex"].values}
+    flags = {}
+    for m in available(list(models)):
+        thr = S.threshold_for_sens(yc, C.logit_matrix(m, "calib").mean(0), 0.90)
+        flags[C.LABEL[m]] = C.logit_matrix(m, "test").mean(0) >= thr
+    rows = [{"Diagnosis": d, "n": int((dx == k).sum()),
+             **{f"Flagged: {name}": f"{f[dx == k].mean():.3f}" for name, f in flags.items()}}
+            for k, d in enumerate(DX)]
+    save("errors_dx", pd.DataFrame(rows))
+    rows = []
+    for gname, g in groups.items():
+        for val in sorted(set(g)):
+            mel = (g == val) & (y == 1)
+            if mel.sum() < 20:
+                continue
+            rows.append({"Group": gname, "Value": val, "n mel.": int(mel.sum()),
+                         **{f"Missed: {name}": f"{1 - f[mel].mean():.3f}" for name, f in flags.items()}})
+    save("errors_missed", pd.DataFrame(rows))
+
+
 SECTIONS = {
     "lr": sec_lr,
     "pitfalls": sec_pitfalls,
@@ -455,6 +499,8 @@ SECTIONS = {
     "ablation": sec_ablation,
     "unk": sec_unk,
     "subgroups": sec_subgroups,
+    "training": sec_training,
+    "errors": sec_errors,
 }
 
 if __name__ == "__main__":
