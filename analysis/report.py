@@ -500,7 +500,7 @@ def sec_transfer_tables():
     rows = []
     for (target, g) in b.groupby("Target", sort=False):
         for _, r in g.iterrows():
-            rows.append({"Target": names[target], "n labelled": r["n labelled"], "melanomas (mean)": r["n mel. (mean)"],
+            rows.append({"Target": names[target], "n labelled": r["n labelled"], "melanomas (mean)": f"{float(r['n mel. (mean)']):.1f}",
                          "Sensitivity": r["Sensitivity"], "Specificity": r["Specificity"], "Usable draws": r["usable reps"]})
     save("transfer_budget", pd.DataFrame(rows))
 
