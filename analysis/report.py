@@ -92,11 +92,11 @@ def sec_main(split):
         ens = L.mean(0)
         lo, hi = S.ci(S.bootstrap(lambda i: roc_auc_score(y[i], ens[i]), len(y), cl, B))
         rows.append({"Model": C.LABEL[m], "Seeds": len(L),
-                     "AUROC": fmt(per.auroc.mean(), per.auroc.std()),
+                     "AUROC": fmt(per.auroc.mean(), per.auroc.std(ddof=1)),
                      "AUROC (ens.) [95% CI]": fmt_ci(roc_auc_score(y, ens), lo, hi),
-                     "AUPRC": fmt(per.auprc.mean(), per.auprc.std()),
-                     "Sens@Spec95": fmt(per["sens@spec95"].mean(), per["sens@spec95"].std()),
-                     "Spec@Sens90": fmt(per["spec@sens90"].mean(), per["spec@sens90"].std())})
+                     "AUPRC": fmt(per.auprc.mean(), per.auprc.std(ddof=1)),
+                     "Sens@Spec95": fmt(per["sens@spec95"].mean(), per["sens@spec95"].std(ddof=1)),
+                     "Spec@Sens90": fmt(per["spec@sens90"].mean(), per["spec@sens90"].std(ddof=1))})
     save(f"main_{split}", pd.DataFrame(rows))
 
 
@@ -137,10 +137,10 @@ def sec_operating():
                     res.append(S.confusion_metrics(y, C.logits(m, split)[s], thr))
                 r = pd.DataFrame(res)
                 rows.append({"Model": C.LABEL[m], "Threshold rule": rule, "Split": split,
-                             "Sensitivity": fmt(r.sensitivity.mean(), r.sensitivity.std()),
-                             "Specificity": fmt(r.specificity.mean(), r.specificity.std()),
-                             "PPV": fmt(r.ppv.mean(), r.ppv.std()),
-                             "Flag rate": fmt(r.flag_rate.mean(), r.flag_rate.std())})
+                             "Sensitivity": fmt(r.sensitivity.mean(), r.sensitivity.std(ddof=1)),
+                             "Specificity": fmt(r.specificity.mean(), r.specificity.std(ddof=1)),
+                             "PPV": fmt(r.ppv.mean(), r.ppv.std(ddof=1)),
+                             "Flag rate": fmt(r.flag_rate.mean(), r.flag_rate.std(ddof=1))})
     save("operating_points", pd.DataFrame(rows))
 
 
@@ -182,7 +182,7 @@ def sec_shift():
         for split, tag in [("test", "int"), ("external", "ext")]:
             y = C.manifest(split)["target"].values
             auc = np.array([roc_auc_score(y, z) for z in C.logit_matrix(m, split)])
-            r[f"AUROC {tag}"] = fmt(auc.mean(), auc.std())
+            r[f"AUROC {tag}"] = fmt(auc.mean(), auc.std(ddof=1))
             r[f"_{tag}"] = auc
             if m not in ("baseline", "baseline_wide"):
                 wh, sh = [], []
@@ -255,10 +255,10 @@ def sec_faithfulness():
                 stats_.append((d_top.mean(), d_rand.mean(), d_bot.mean(), (d_top > d_rand).mean(), w.pvalue))
             if stats_:
                 a = np.array(stats_)
-                rows.append({"Model": C.LABEL[m], "k": k, "|dlogit| top": fmt(a[:, 0].mean(), a[:, 0].std()),
-                             "|dlogit| random": fmt(a[:, 1].mean(), a[:, 1].std()),
-                             "|dlogit| bottom": fmt(a[:, 2].mean(), a[:, 2].std()),
-                             "frac top>random": fmt(a[:, 3].mean(), a[:, 3].std()),
+                rows.append({"Model": C.LABEL[m], "k": k, "|dlogit| top": fmt(a[:, 0].mean(), a[:, 0].std(ddof=1)),
+                             "|dlogit| random": fmt(a[:, 1].mean(), a[:, 1].std(ddof=1)),
+                             "|dlogit| bottom": fmt(a[:, 2].mean(), a[:, 2].std(ddof=1)),
+                             "frac top>random": fmt(a[:, 3].mean(), a[:, 3].std(ddof=1)),
                              "seeds p<0.05": f"{int((a[:, 4] < 0.05).sum())}/{len(a)}"})
     if rows:
         save("faithfulness", pd.DataFrame(rows))
@@ -271,8 +271,8 @@ def sec_ablation():
     for m in available(C.ABLATION_MODELS):
         a = np.array([roc_auc_score(y, z) for z in C.logit_matrix(m, "test")])
         e = np.array([roc_auc_score(ye, z) for z in C.logit_matrix(m, "external")])
-        rows.append({"Model": C.LABEL[m], "Seeds": len(a), "AUROC test": fmt(a.mean(), a.std()),
-                     "AUROC external": fmt(e.mean(), e.std())})
+        rows.append({"Model": C.LABEL[m], "Seeds": len(a), "AUROC test": fmt(a.mean(), a.std(ddof=1)),
+                     "AUROC external": fmt(e.mean(), e.std(ddof=1))})
     if rows:
         save("ablation", pd.DataFrame(rows))
 
@@ -286,9 +286,9 @@ def sec_unk():
         L = C.logit_matrix(m, "test")
         a = np.array([roc_auc_score(y, z) for z in L])
         k = np.array([roc_auc_score(y[known], z[known]) for z in L])
-        rows.append({"Model": C.LABEL[m], f"AUROC all (n={len(y)})": fmt(a.mean(), a.std()),
-                     f"AUROC known-label (n={known.sum()})": fmt(k.mean(), k.std()),
-                     "Delta": fmt((k - a).mean(), (k - a).std())})
+        rows.append({"Model": C.LABEL[m], f"AUROC all (n={len(y)})": fmt(a.mean(), a.std(ddof=1)),
+                     f"AUROC known-label (n={known.sum()})": fmt(k.mean(), k.std(ddof=1)),
+                     "Delta": fmt((k - a).mean(), (k - a).std(ddof=1))})
     save("unk", pd.DataFrame(rows))
 
 
@@ -331,7 +331,7 @@ def sec_pitfalls(models=("baseline", "film", "field_token")):
                          "Naive": fmt(a_all.mean()), "Correct": fmt(a.mean())})
             # 2. best seed vs seed mean
             rows.append({"Model": C.LABEL[m], "Pitfall": "best of seeds (AUROC)", "Split": split,
-                         "Naive": fmt(a.max()), "Correct": fmt(a.mean(), a.std())})
+                         "Naive": fmt(a.max()), "Correct": fmt(a.mean(), a.std(ddof=1))})
             # 3. threshold for 90% sensitivity and temperature fitted on the evaluated split vs on calib
             yc = C.manifest("calib")["target"].values
             sens_n, sens_c, ece_n, ece_c = [], [], [], []
@@ -402,10 +402,10 @@ def sec_transfer(models=("baseline", "film", "field_token"), budgets=(25, 50, 10
                 r = np.array(res)
                 rows.append({"Model": C.LABEL[m], "Target": split, "n labelled": int(r[:, 0].mean()),
                              "n mel. (mean)": f"{r[:, 1].mean():.1f}",
-                             "Sensitivity": fmt(r[:, 2].mean(), r[:, 2].std()),
-                             "Specificity": fmt(r[:, 3].mean(), r[:, 3].std()),
+                             "Sensitivity": fmt(r[:, 2].mean(), r[:, 2].std(ddof=1)),
+                             "Specificity": fmt(r[:, 3].mean(), r[:, 3].std(ddof=1)),
                              "|sens-0.90|": fmt(np.abs(r[:, 2] - target_sens).mean()),
-                             "ECE (Platt)": fmt(r[:, 4].mean(), r[:, 4].std()),
+                             "ECE (Platt)": fmt(r[:, 4].mean(), r[:, 4].std(ddof=1)),
                              "usable reps": f"{len(r)}/{reps}"})
     if rows:
         save("transfer", pd.DataFrame(rows).fillna("--"))

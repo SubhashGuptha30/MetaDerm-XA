@@ -1,0 +1,25 @@
+Model,Threshold rule,Split,Sensitivity,Specificity,PPV,Flag rate
+Image-only,sens90,test,0.915 $\pm$ 0.019,0.637 $\pm$ 0.041,0.328 $\pm$ 0.022,0.452 $\pm$ 0.037
+Image-only,sens90,external,0.649 $\pm$ 0.073,0.736 $\pm$ 0.101,0.044 $\pm$ 0.008,0.271 $\pm$ 0.100
+Image-only,youden,test,0.771 $\pm$ 0.030,0.826 $\pm$ 0.026,0.463 $\pm$ 0.028,0.270 $\pm$ 0.027
+Image-only,youden,external,0.445 $\pm$ 0.099,0.914 $\pm$ 0.048,0.097 $\pm$ 0.033,0.093 $\pm$ 0.049
+Image-only (wide),sens90,test,0.928 $\pm$ 0.014,0.587 $\pm$ 0.036,0.302 $\pm$ 0.015,0.496 $\pm$ 0.031
+Image-only (wide),sens90,external,0.685 $\pm$ 0.080,0.660 $\pm$ 0.091,0.036 $\pm$ 0.006,0.346 $\pm$ 0.090
+Image-only (wide),youden,test,0.762 $\pm$ 0.032,0.841 $\pm$ 0.016,0.480 $\pm$ 0.017,0.256 $\pm$ 0.017
+Image-only (wide),youden,external,0.426 $\pm$ 0.052,0.925 $\pm$ 0.022,0.095 $\pm$ 0.017,0.081 $\pm$ 0.022
+Concat,sens90,test,0.920 $\pm$ 0.006,0.624 $\pm$ 0.044,0.322 $\pm$ 0.025,0.463 $\pm$ 0.037
+Concat,sens90,external,0.713 $\pm$ 0.020,0.606 $\pm$ 0.049,0.031 $\pm$ 0.004,0.400 $\pm$ 0.048
+Concat,youden,test,0.794 $\pm$ 0.021,0.814 $\pm$ 0.026,0.453 $\pm$ 0.029,0.284 $\pm$ 0.024
+Concat,youden,external,0.526 $\pm$ 0.032,0.853 $\pm$ 0.038,0.062 $\pm$ 0.014,0.154 $\pm$ 0.037
+Cross-attn (1 token),sens90,test,0.913 $\pm$ 0.013,0.623 $\pm$ 0.036,0.319 $\pm$ 0.020,0.463 $\pm$ 0.031
+Cross-attn (1 token),sens90,external,0.741 $\pm$ 0.018,0.615 $\pm$ 0.090,0.034 $\pm$ 0.008,0.391 $\pm$ 0.088
+Cross-attn (1 token),youden,test,0.771 $\pm$ 0.050,0.834 $\pm$ 0.039,0.478 $\pm$ 0.054,0.264 $\pm$ 0.040
+Cross-attn (1 token),youden,external,0.531 $\pm$ 0.076,0.874 $\pm$ 0.057,0.079 $\pm$ 0.029,0.133 $\pm$ 0.057
+FiLM,sens90,test,0.926 $\pm$ 0.011,0.620 $\pm$ 0.025,0.320 $\pm$ 0.014,0.468 $\pm$ 0.022
+FiLM,sens90,external,0.744 $\pm$ 0.043,0.578 $\pm$ 0.062,0.031 $\pm$ 0.003,0.428 $\pm$ 0.062
+FiLM,youden,test,0.768 $\pm$ 0.034,0.851 $\pm$ 0.024,0.500 $\pm$ 0.028,0.249 $\pm$ 0.025
+FiLM,youden,external,0.506 $\pm$ 0.042,0.889 $\pm$ 0.018,0.075 $\pm$ 0.006,0.118 $\pm$ 0.018
+Field-token,sens90,test,0.914 $\pm$ 0.014,0.613 $\pm$ 0.028,0.313 $\pm$ 0.013,0.472 $\pm$ 0.026
+Field-token,sens90,external,0.710 $\pm$ 0.055,0.574 $\pm$ 0.144,0.031 $\pm$ 0.009,0.430 $\pm$ 0.142
+Field-token,youden,test,0.797 $\pm$ 0.046,0.803 $\pm$ 0.041,0.443 $\pm$ 0.046,0.293 $\pm$ 0.042
+Field-token,youden,external,0.528 $\pm$ 0.060,0.846 $\pm$ 0.053,0.061 $\pm$ 0.016,0.160 $\pm$ 0.052

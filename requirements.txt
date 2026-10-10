@@ -1,44 +1,24 @@
-# Core DL — install PyTorch separately via:
-#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
-# (see setup instructions)
+# PyTorch: install separately for your platform, e.g.
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+# torchvision >= 0.16 is required (transforms.v2).
 
-# Data science
-pandas>=2.1
 numpy>=1.26,<2.0
+pandas>=2.1
 scikit-learn>=1.4
-
-# Image processing
+scipy>=1.13
 Pillow>=10.0
-opencv-python>=4.9
-albumentations>=1.4
-
-# Pretrained backbones
 timm>=0.9.16
-
-# Explainability
-captum>=0.7.0
-shap>=0.45.0
-
-# Visualization
+pyyaml>=6.0
 matplotlib>=3.8
 seaborn>=0.13
-plotly>=5.18
 
-# App
+# near-duplicate screen (scripts/near_duplicates.py)
+ImageHash>=4.3
+
+# demo app (app/streamlit_app.py)
 streamlit>=1.33
 
-# Config / logging
-pyyaml>=6.0
-tqdm>=4.66
-tensorboard>=2.16
+# Kaggle GPU workflow (kaggle_jobs/launch.py)
+kaggle>=1.6
 
-# Testing
 pytest>=8.0
-pytest-cov>=5.0
-
-# Utilities
-scipy>=1.13
-statsmodels>=0.14
-
-# Dataset download
-kaggle>=1.5

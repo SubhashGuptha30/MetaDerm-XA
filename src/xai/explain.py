@@ -4,9 +4,7 @@ Unified XAI explain API — Phase 7.
 `explain_case(model, image, metadata)` → {sensitivity_curves, attention_map, nl_summary}
 
 Usage:
-    python src/xai/explain.py --config configs/cross_attention.yaml \
-                              --checkpoint checkpoints/cross_attention_best.pth \
-                              --n_cases 10
+    python -m src.xai.explain --checkpoint runs_v2/cross_attention/seed42/model.pt --n_cases 10
 """
 
 import argparse
@@ -17,7 +15,6 @@ from typing import Dict, Optional, Tuple
 
 import numpy as np
 import torch
-import yaml
 from PIL import Image
 
 from src.data.metadata_encoder import MetadataEncoder, SITE_CATEGORIES
@@ -172,44 +169,30 @@ def explain_case(
     return result
 
 
-def run_batch(config_path: str, checkpoint_path: str, n_cases: int = 10,
-              melanoma_only: bool = False) -> None:
-    """Runs explain_case on n_cases randomly sampled test images."""
-    import pandas as pd
+def run_batch(checkpoint_path: str, n_cases: int = 10, melanoma_only: bool = False) -> None:
+    """Runs explain_case on n_cases randomly sampled ISIC 2019 test images (v2 splits)."""
+    from src.data.dataloader import fit_encoder, image_root, load_split
     from src.data.transforms import get_val_transforms
 
-    with open(config_path) as f:
-        cfg = yaml.safe_load(f)
-
-    set_seed(cfg.get("seed", 42))
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
+    ckpt = torch.load(checkpoint_path, map_location=device, weights_only=False)
+    cfg = {**ckpt["config"], "pretrained": False}
+    set_seed(cfg.get("seed", 42))
     model_type = cfg.get("model_type", "cross_attention")
     backbone_name = cfg.get("backbone", "efficientnet_b2")
 
-    # Load model
     model = build_model(cfg).to(device)
-    ckpt = torch.load(checkpoint_path, map_location=device, weights_only=False)
     model.load_state_dict(ckpt["model_state_dict"])
+    encoder = fit_encoder(cfg)
 
-    # Load encoder
-    encoder_path = Path(cfg.get("encoder_save_path", "data/processed/metadata_encoder.json"))
-    encoder = MetadataEncoder.load(encoder_path)
-
-    # Load test CSV from config's processed_dir
-    processed_dir = Path(cfg.get("processed_dir", "data/processed"))
-    test_df = pd.read_csv(processed_dir / "test.csv")
-
+    test_df = load_split(cfg, "test")
     if melanoma_only:
         test_df = test_df[test_df["target"] == 1].reset_index(drop=True)
         log.info(f"Filtered to {len(test_df)} melanoma cases")
 
     sample = test_df.sample(min(n_cases, len(test_df)), random_state=42)
-
     cont_arr, site_arr = encoder.transform(sample)
-
-    # Use test_images_dir if available
-    images_dir = Path(cfg.get("test_images_dir", cfg.get("images_dir", "data/raw/isic2020/images")))
+    root = image_root(cfg)
     transform = get_val_transforms(cfg.get("img_size", 224))
 
     model_name = cfg.get("model_name", model_type)
@@ -220,13 +203,9 @@ def run_batch(config_path: str, checkpoint_path: str, n_cases: int = 10,
     for i, (idx, row) in enumerate(sample.iterrows()):
         img_name = row["image_name"]
         try:
-            for ext in [".jpg", ".jpeg", ""]:
-                p = images_dir / f"{img_name}{ext}"
-                if p.exists():
-                    break
-            image_np = np.array(Image.open(p).convert("RGB"))
-            aug = transform(image=image_np)
-            image_tensor = aug["image"].unsqueeze(0)
+            image_pil = Image.open(root / row["img_dir"] / f"{img_name}.jpg").convert("RGB")
+            image_np = np.array(image_pil)
+            image_tensor = transform(image_pil).unsqueeze(0)
 
             explain_case(
                 model=model,
@@ -250,11 +229,10 @@ def run_batch(config_path: str, checkpoint_path: str, n_cases: int = 10,
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--config", required=True)
     parser.add_argument("--checkpoint", required=True)
     parser.add_argument("--n_cases", type=int, default=10)
     parser.add_argument("--melanoma_only", action="store_true",
                         help="Only sample from melanoma-positive cases")
     args = parser.parse_args()
-    run_batch(args.config, args.checkpoint, args.n_cases, args.melanoma_only)
+    run_batch(args.checkpoint, args.n_cases, args.melanoma_only)
 

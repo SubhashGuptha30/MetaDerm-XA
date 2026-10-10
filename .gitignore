@@ -23,6 +23,7 @@ build/
 
 # Jupyter
 .ipynb_checkpoints/
+.pytest_cache/
 *.ipynb_checkpoints
 
 # IDE
@@ -74,6 +75,7 @@ scratch/
 # kept local (public repo): manuscripts, report text, working notes, tool state
 /paper/
 /report/content.py
+/report/patch_results.py
 /report/*.docx
 /report/backups/
 /report/*.sha256
@@ -81,5 +83,4 @@ scratch/
 *.asd
 /docs/claude/
 .claude-flow/
-/extend
-/one
+/reports/v2/report_log*.txt

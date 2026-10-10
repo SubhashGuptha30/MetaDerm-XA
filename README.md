@@ -1,201 +1,119 @@
 # MetaDerm-XA
-## Field-Wise Metadata Conditioning and Image-Fixed Intervention Analysis for CNN-Based Skin Lesion Classification
 
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.2-orange.svg)](https://pytorch.org/)
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/Dataset%20License-CC--BY--NC-lightgrey)](https://creativecommons.org/licenses/by-nc/4.0/)
+Melanoma detection from dermoscopic images plus patient metadata (age, sex, anatomical site), evaluated
+under dataset shift. The repository compares five ways of adding metadata to the same EfficientNet-B2
+image model, trains every model with five seeds, and tests on three datasets: the ISIC 2019 test set
+(same archive), ISIC 2020 (external dermoscopy) and PAD-UFES-20 (external smartphone photographs).
 
----
+> Research code. Not a medical device and not for diagnostic use.
 
-## Overview
+## Models
 
-MetaDerm-XA is a **multi-modal skin lesion classification system** that fuses dermoscopic images with patient clinical metadata (age, sex, anatomical site) using a novel **field-token cross-attention mechanism**. Each metadata variable is encoded as a separate learnable token, enabling spatially selective, field-specific conditioning of CNN feature maps.
+| Name | What metadata does |
+|---|---|
+| `baseline` | nothing (image only) |
+| `baseline_wide` | nothing; head widened to match the fusion models' parameter count |
+| `concat_fusion` | encoded metadata concatenated with pooled image features |
+| `film` | metadata predicts per-channel scale/shift of the image feature map |
+| `cross_attention` | one metadata token attends over the 7x7 image tokens |
+| `field_token` | one token per field (age, sex, site, missingness) attends over image tokens |
+| `field_token_k1/k2/k3` | ablations with 1-3 metadata tokens |
 
-The system includes a **counterfactual XAI engine** that answers: *"How would the predicted score change if the patient were older, or if the lesion were on a different site?"*
+All models share the backbone, image size (224), augmentation, optimiser and early-stopping rule; only the
+learning rate is tuned per model, on the validation split.
 
-### Key Contributions
+## Results (AUROC, mean ± SD over 5 seeds, duplicates removed)
 
-1. **Field-Token Cross-Attention** — 4 separate metadata tokens (age, sex, site, missingness) enable spatially varying, field-selective image conditioning
-2. **Image-Fixed Intervention Protocol** — full test-set counterfactual sweep (1,327 melanoma cases) with population-mean curves and 95% confidence bands
-3. **Cross-Dataset Evaluation** — trained on ISIC 2019, externally validated on ISIC 2020
-4. **4-Model Ablation** with DeLong pairwise tests and calibration analysis
+| Model | ISIC 2019 test | ISIC 2020 | PAD-UFES-20 |
+|---|---|---|---|
+| Metadata only (logistic regression) | 0.613 | 0.650 | 0.321 |
+| Image only | 0.888 ± 0.007 | 0.759 ± 0.012 | 0.700 ± 0.055 |
+| Image only (wide) | 0.884 ± 0.007 | 0.749 ± 0.013 | 0.657 ± 0.029 |
+| Concatenation | 0.888 ± 0.012 | 0.741 ± 0.023 | 0.740 ± 0.055 |
+| Cross-attention (1 token) | 0.889 ± 0.005 | 0.767 ± 0.024 | 0.698 ± 0.082 |
+| FiLM | 0.893 ± 0.006 | 0.751 ± 0.015 | 0.660 ± 0.040 |
+| Field-token | 0.884 ± 0.005 | 0.727 ± 0.023 | 0.639 ± 0.110 |
 
----
+No fusion model differs significantly from the image-only model after Holm correction. Full tables
+(calibration, operating points, metadata probes, attention faithfulness, subgroups, threshold transfer)
+are in [`reports/v2/`](reports/v2).
 
-## Results
-
-### ISIC 2019 Internal Test (8,238 images)
-
-| Model | AUROC | 95% CI | Recall | ECE ↓ |
-|-------|-------|--------|--------|-------|
-| Baseline (vision-only) | 0.880 | [0.870–0.890] | 0.802 | 0.164 |
-| Cross-Attn (1-token) | 0.883 | [0.873–0.892] | 0.769 | 0.133 |
-| Concat Fusion | 0.895 | [0.886–0.904] | 0.729 | 0.237 |
-| **Field-Token (ours)** | **0.896** | **[0.887–0.904]** | **0.855** | 0.186 |
-
-> Field-token significantly outperforms baseline (p<0.001) and 1-token cross-attention (p<0.001) via DeLong test.
-
-### ISIC 2020 External Validation (33,126 images)
-
-| Model | AUROC | AUROC Drop |
-|-------|-------|------------|
-| Concat Fusion | **0.796** | −11.1% |
-| Cross-Attn (1-token) | 0.795 | −10.0% |
-| Baseline | 0.763 | −13.3% |
-| Field-Token (ours) | 0.746 | −16.7% |
-
----
-
-## Datasets
-
-**Training:** ISIC 2019 Challenge (25,331 images, 8 diagnostic categories)
-- Source: [ISIC Challenge](https://challenge.isic-archive.com/data/#2019)
-- Binary mapping: MEL → malignant (1), all others → benign (0)
-- Patient-level stratified split: 20,160 train / 5,171 val / 8,238 test (via `lesion_id`)
-
-**External Validation:** SIIM-ISIC 2020 (33,126 images)
-- Source: [ISIC Archive](https://doi.org/10.34970/2020-DS01)
-- License: CC BY-NC 4.0
-
----
-
-## Project Structure
+## Repository layout
 
 ```
-skin-lesion-project/
-├── README.md
-├── requirements.txt
-├── .gitignore
-│
-├── configs/
-│   ├── isic2019/               # Primary experiment configs
-│   │   ├── baseline.yaml
-│   │   ├── concat_fusion.yaml
-│   │   ├── cross_attention.yaml
-│   │   └── field_token.yaml
-│   ├── external_eval/          # ISIC 2020 external validation
-│   │   ├── baseline.yaml
-│   │   ├── concat_fusion.yaml
-│   │   ├── cross_attention.yaml
-│   │   └── field_token.yaml
-│   └── archive/                # Legacy ISIC 2020-only experiments
-│
-├── src/
-│   ├── train.py                # Config-driven training loop
-│   ├── evaluate.py             # Full evaluation + bootstrap CIs
-│   ├── calibration_analysis.py # ECE, Brier, DeLong pairwise tests
-│   ├── counterfactual_sweep.py # Full test-set counterfactual analysis
-│   ├── data/                   # Dataset, transforms, loaders
-│   ├── models/                 # All architectures
-│   │   ├── baseline.py
-│   │   ├── concat_fusion.py
-│   │   ├── cross_attention_fusion.py
-│   │   ├── field_token_model.py       # ← Novel architecture
-│   │   └── field_token_metadata_encoder.py
-│   ├── utils/                  # Metrics, visualization, seed
-│   └── xai/                    # Counterfactual engine, Grad-CAM
-│
-├── checkpoints/                # 8 trained models (gitignored)
-├── data/
-│   ├── raw/                    # ISIC 2019 + 2020 images (gitignored)
-│   ├── processed_isic2019/     # Primary processed splits
-│   └── processed/              # ISIC 2020 processed data
-│
-├── reports/
-│   ├── isic2019_internal/      # Internal test metrics + plots
-│   ├── isic2020_external/      # External validation results
-│   ├── calibration/            # Reliability diagrams, ECE/Brier
-│   ├── counterfactual/         # Full sweep: age/sex/site curves
-│   └── xai_examples/           # Grad-CAM + counterfactual panels
-│
-├── runs/                       # TensorBoard logs
-├── app/                        # Streamlit demo
-├── notebooks/                  # EDA notebook
-├── scripts/                    # Utility scripts
-└── tests/                      # Unit tests (pytest)
+src/data/preprocess_v2.py   build frozen splits (lesion-grouped, duplicate-aware) -> splits/v2/
+src/data/                   dataset, metadata encoder, torchvision-v2 transforms, dataloaders
+src/models/                 backbone + the fusion models (factory.build_model)
+src/train.py                train one model/seed -> runs_v2/<model>/seed<k>/
+src/probes.py               withheld/shuffled metadata, image-fixed sweeps, attention masking
+src/xai/                    Grad-CAM and counterfactual sweeps for single images
+analysis/                   statistics (DeLong, bootstrap, ECE, recalibration), tables, figures
+configs/v2/                 base.yaml + one file per model; protocol in configs/v2/README.md
+kaggle_jobs/                run training on Kaggle GPUs from a laptop
+scripts/                    near-duplicate screen, image resizing, pretrained-weight download
+app/streamlit_app.py        demo: prediction, Grad-CAM and metadata sweeps for an uploaded image
+tests/                      pytest suite
+legacy/v1/                  first-version preprocessing, kept for reference only
 ```
 
----
+## Setup
 
-## Quick Start
-
-### 1. Install
 ```bash
-conda create -n skin-lesion python=3.10
-conda activate skin-lesion
+pip install torch torchvision          # pick the CUDA/CPU build for your machine
 pip install -r requirements.txt
+python scripts/fetch_pretrained.py     # ImageNet EfficientNet-B2 weights -> pretrained/
 ```
 
-### 2. Train (ISIC 2019)
+Data (not included; download from the providers and accept their licences):
+
+```
+data/raw/isic2019/{train,test}/   images/ + ISIC_2019_{Training,Test}_{GroundTruth,Metadata}.csv
+data/raw/isic2020/                images/ + train.csv
+data/raw/PAD-UFES-20/             metadata.csv + images/unz/imgs_part_*/
+```
+
+## Reproducing
+
 ```bash
-python src/train.py --config configs/isic2019/field_token.yaml
+python -m src.data.preprocess_v2                 # splits/v2/*.csv (already committed)
+python scripts/prepare_kaggle_images.py          # resized copies -> data/kaggle_upload/metaderm-images/
+python -m src.train --config configs/v2/field_token.yaml --set seed=42 lr=4.5e-4
+python -m src.probes --run_dir runs_v2/field_token/seed42
+python -m analysis.report                        # reports/v2/*.csv
+python -m analysis.figures
 ```
 
-### 3. Evaluate
+The learning rates used for the final runs (selected on validation) are 1.35e-3 for FiLM and 4.5e-4 for every
+other model; `kaggle_jobs/jobs/final_{a,b}.txt` lists every final run with its exact overrides.
+
+Training on Kaggle instead of a local GPU (needs a configured Kaggle API token):
+
 ```bash
-python src/evaluate.py \
-    --config configs/isic2019/field_token.yaml \
-    --checkpoint checkpoints/field_token_isic2019_best.pth
+python kaggle_jobs/launch.py code -m "update"    # upload src/, configs/, splits/ as a private dataset
+python kaggle_jobs/launch.py push final_a        # run the jobs listed in kaggle_jobs/jobs/final_a.txt
+python kaggle_jobs/launch.py status final_a
+python kaggle_jobs/launch.py pull final_a        # merge outputs into runs_v2/
 ```
 
-### 4. Counterfactual Analysis
-```bash
-python src/counterfactual_sweep.py \
-    --config configs/isic2019/field_token.yaml \
-    --checkpoint checkpoints/field_token_isic2019_best.pth \
-    --target_class melanoma
-```
+Demo app and single-image explanations (after training or pulling runs):
 
-### 5. Explainability (Grad-CAM + Counterfactuals)
-```bash
-python src/xai/explain.py \
-    --config configs/isic2019/field_token.yaml \
-    --checkpoint checkpoints/field_token_isic2019_best.pth \
-    --n_cases 10 --melanoma_only
-```
-
-### 6. Calibration & DeLong Tests
-```bash
-python src/calibration_analysis.py
-```
-
-### 7. Demo App
 ```bash
 streamlit run app/streamlit_app.py
+python -m src.xai.explain --checkpoint runs_v2/cross_attention/seed42/model.pt --n_cases 10
 ```
 
-> ⚠️ **Disclaimer:** Research prototype only. Not a medical device. Not for diagnostic use.
+## What changed from the first version
 
----
+The first version selected hyperparameters on ISIC 2020 while also calling it the external test set, fitted
+temperature scaling on the test set, reported the best of five seeds, applied class re-weighting twice
+(sampler and loss weight), imputed missing age with each split's own median, and did not check for duplicate
+images across splits and datasets. The v2 pipeline uses a separate calibration split, selects learning rates
+on validation only, imputes with the training median, screens for near-duplicates (68 confirmed pairs,
+excluded from evaluation), reports all five seeds with seed-aware statistics, and trains without
+re-weighting. The v1 numbers should not be used.
 
-## Architecture
+## Datasets and licences
 
-```
-Image (224×224) ──► EfficientNet-B2 ──► Spatial Feature Tokens [B, H*W, C]
-                                                          │
-                    ┌─ age  ──► MLP  ──► token_age  ──┐   │
-Metadata ──────────►├─ sex  ──► OHE  ──► token_sex  ──┤── M = [B, 4, D]
-                    ├─ site ──► Emb  ──► token_site ──┤   │
-                    └─ miss ──► MLP  ──► token_miss ──┘   │
-                                                          │
-                         Cross-Attention (Q=image, K/V=M) │
-                         Softmax over 4 metadata fields   │
-                                                          │
-                         Global Average Pool ──► Classifier ──► P(malignant)
-```
-
----
-
-## Reproducing Results
-
-All experiments use seed `42`. To reproduce:
-1. Use patient-level splits saved in `data/processed_isic2019/`
-2. Use configs from `configs/isic2019/`
-3. PyTorch 2.2.2, CUDA 12.x
-
----
-
-## License
-
-Code: MIT License
-Dataset: CC BY-NC 4.0 (ISIC 2019/2020) — non-commercial research only
+- ISIC 2019: <https://challenge.isic-archive.com/data/#2019> (CC BY-NC)
+- ISIC 2020: <https://doi.org/10.34970/2020-DS01> (CC BY-NC 4.0)
+- PAD-UFES-20: <https://doi.org/10.17632/zr7vgbcyr2.1> (CC BY 4.0)

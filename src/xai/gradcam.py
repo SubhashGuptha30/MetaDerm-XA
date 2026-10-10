@@ -114,7 +114,7 @@ def overlay_cam_on_image(
     colormap: str = "jet",
 ) -> np.ndarray:
     """Blends Grad-CAM heatmap over original image. Returns (H, W, 3) uint8."""
-    import matplotlib.cm as cm
+    import matplotlib
 
     # Resize CAM to match original image if dimensions differ
     h, w = image_np.shape[:2]
@@ -123,7 +123,7 @@ def overlay_cam_on_image(
     else:
         cam_resized = cam
 
-    cmap = cm.get_cmap(colormap)
+    cmap = matplotlib.colormaps[colormap]
     heatmap = cmap(cam_resized)[:, :, :3]  # (H, W, 3) float [0, 1]
     heatmap = (heatmap * 255).astype(np.uint8)
 
@@ -133,13 +133,15 @@ def overlay_cam_on_image(
 
 def get_default_target_layer(model_type: str, backbone_name: str) -> str:
     """Returns a sensible default target layer name for common backbones."""
+    # token cross-attention models wrap the backbone; baseline/concat/FiLM hold it directly
+    uses_vision_wrapper = model_type == "cross_attention" or model_type.startswith("field_token")
     if "efficientnet" in backbone_name:
-        if model_type == "baseline":
+        if not uses_vision_wrapper:
             return "backbone.conv_head"
         else:
             return "vision_backbone.backbone.conv_head"
     elif "resnet" in backbone_name:
-        if model_type == "baseline":
+        if not uses_vision_wrapper:
             return "backbone.layer4"
         else:
             return "vision_backbone.backbone.layer4"

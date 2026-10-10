@@ -1,5 +1,5 @@
 """
-Streamlit Demo App — Phase 9.
+Streamlit demo app for the v2 models (runs_v2/<model>/seed<k>/model.pt).
 
 Upload a dermoscopy image + enter clinical context →
     • Predicted malignancy probability
@@ -20,13 +20,13 @@ from pathlib import Path
 import numpy as np
 import streamlit as st
 import torch
-import yaml
 from PIL import Image
 
 # Add project root to path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from src.data.metadata_encoder import MetadataEncoder, SITE_CATEGORIES, SEX_CATEGORIES
+from src.data.dataloader import fit_encoder
+from src.data.metadata_encoder import SITE_CATEGORIES, SEX_CATEGORIES
 from src.data.transforms import get_inference_transforms
 from src.models.factory import build_model
 from src.xai.counterfactual_engine import run_full_counterfactual, sweep_age
@@ -152,37 +152,20 @@ st.markdown("---")
 
 # ─── Model Loading (cached) ───────────────────────────────────────────────────
 @st.cache_resource
-def load_model_and_encoder(config_path: str, checkpoint_path: str):
-    """Load model and metadata encoder (cached across reruns)."""
-    with open(config_path) as f:
-        cfg = yaml.safe_load(f)
-
+def load_model_and_encoder(checkpoint_path: str):
+    """Load a v2 run (model.pt holds weights + config) and refit the train-split metadata encoder."""
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    ckpt = torch.load(checkpoint_path, map_location=device, weights_only=False)
+    cfg = {**ckpt["config"], "pretrained": False}
     model_type = cfg.get("model_type", "cross_attention")
     backbone_name = cfg.get("backbone", "efficientnet_b2")
 
     model = build_model(cfg).to(device)
-
-    ckpt_path = Path(checkpoint_path)
-    if ckpt_path.exists():
-        ckpt = torch.load(ckpt_path, map_location=device, weights_only=False)
-        model.load_state_dict(ckpt["model_state_dict"])
-        st.success(f"✓ Model loaded (val AUROC: {ckpt.get('val_auroc', 0):.3f})")
-    else:
-        st.warning("⚠️ No checkpoint found — using random weights for demonstration.")
-
+    model.load_state_dict(ckpt["model_state_dict"])
     model.eval()
+    st.success(f"✓ Loaded {model_type} (epoch {ckpt.get('epoch', '?')})")
 
-    encoder_path = Path(cfg.get("encoder_save_path", "data/processed/metadata_encoder.json"))
-    if encoder_path.exists():
-        encoder = MetadataEncoder.load(str(encoder_path))
-    else:
-        st.warning("⚠️ No encoder found — using default stats. Run preprocessing first.")
-        encoder = MetadataEncoder()
-        encoder.age_mean = 50.0
-        encoder.age_std = 15.0
-        encoder._fitted = True
-
+    encoder = fit_encoder(cfg)  # same encoder as training: fitted on splits/v2/train.csv
     return model, encoder, device, cfg, model_type, backbone_name
 
 
@@ -190,14 +173,9 @@ def load_model_and_encoder(config_path: str, checkpoint_path: str):
 with st.sidebar:
     st.markdown("### ⚙️ Model Configuration")
 
-    CONFIG_PATH = st.text_input(
-        "Config YAML",
-        value="configs/cross_attention.yaml",
-        key="config_path",
-    )
     CHECKPOINT_PATH = st.text_input(
-        "Checkpoint (.pth)",
-        value="checkpoints/cross_attention_best.pth",
+        "Checkpoint (model.pt from runs_v2/)",
+        value="runs_v2/cross_attention/seed42/model.pt",
         key="ckpt_path",
     )
 
@@ -252,9 +230,7 @@ with col_result:
     if uploaded_file and analyze_btn:
         with st.spinner("Loading model …"):
             try:
-                model, encoder, device, cfg, model_type, backbone_name = load_model_and_encoder(
-                    CONFIG_PATH, CHECKPOINT_PATH
-                )
+                model, encoder, device, cfg, model_type, backbone_name = load_model_and_encoder(CHECKPOINT_PATH)
             except Exception as e:
                 st.error(f"Failed to load model: {e}")
                 st.stop()
@@ -262,8 +238,7 @@ with col_result:
         with st.spinner("Analyzing image …"):
             # Prepare image tensor
             transform = get_inference_transforms(cfg.get("img_size", 224))
-            aug = transform(image=image_np)
-            image_tensor = aug["image"].unsqueeze(0).to(device)  # (1, 3, H, W)
+            image_tensor = transform(image_pil).unsqueeze(0).to(device)  # (1, 3, H, W), PIL as in training
 
             # Prepare metadata
             import pandas as pd

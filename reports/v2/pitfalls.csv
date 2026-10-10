@@ -1,0 +1,29 @@
+Model,Pitfall,Split,Naive,Correct
+Image-only,duplicates kept,test,0.888,0.888
+Image-only,best of seeds (AUROC),test,0.898,0.888 $\pm$ 0.007
+Image-only,threshold fitted on test (sens. at 90% target),test,0.900,0.915 $\pm$ 0.017
+Image-only,temperature fitted on test (ECE),test,0.046,0.046 $\pm$ 0.019
+Image-only,duplicates kept,external,0.762,0.759
+Image-only,best of seeds (AUROC),external,0.775,0.759 $\pm$ 0.012
+Image-only,threshold fitted on test (sens. at 90% target),external,0.902,0.649 $\pm$ 0.066
+Image-only,temperature fitted on test (ECE),external,0.026,0.067 $\pm$ 0.016
+FiLM,duplicates kept,test,0.893,0.893
+FiLM,best of seeds (AUROC),test,0.901,0.893 $\pm$ 0.006
+FiLM,threshold fitted on test (sens. at 90% target),test,0.900,0.926 $\pm$ 0.010
+FiLM,temperature fitted on test (ECE),test,0.043,0.044 $\pm$ 0.008
+FiLM,duplicates kept,external,0.753,0.751
+FiLM,best of seeds (AUROC),external,0.766,0.751 $\pm$ 0.015
+FiLM,threshold fitted on test (sens. at 90% target),external,0.901,0.744 $\pm$ 0.039
+FiLM,temperature fitted on test (ECE),external,0.048,0.104 $\pm$ 0.014
+Field-token,duplicates kept,test,0.884,0.884
+Field-token,best of seeds (AUROC),test,0.890,0.884 $\pm$ 0.005
+Field-token,threshold fitted on test (sens. at 90% target),test,0.900,0.914 $\pm$ 0.012
+Field-token,temperature fitted on test (ECE),test,0.053,0.052 $\pm$ 0.014
+Field-token,duplicates kept,external,0.729,0.727
+Field-token,best of seeds (AUROC),external,0.761,0.727 $\pm$ 0.023
+Field-token,threshold fitted on test (sens. at 90% target),external,0.901,0.710 $\pm$ 0.050
+Field-token,temperature fitted on test (ECE),external,0.052,0.104 $\pm$ 0.027
+FiLM vs image-only,single-seed DeLong (seeds p<0.05),test,2/5,"p=0.286 [-0.004, +0.014]"
+FiLM vs image-only,single-seed DeLong (seeds p<0.05),external,0/5,"p=0.492 [-0.030, +0.013]"
+Field-token vs image-only,single-seed DeLong (seeds p<0.05),test,0/5,"p=0.403 [-0.013, +0.005]"
+Field-token vs image-only,single-seed DeLong (seeds p<0.05),external,4/5,"p=0.014 [-0.056, -0.007]"
