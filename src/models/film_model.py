@@ -21,9 +21,10 @@ class FiLMLayer(nn.Module):
         nn.init.zeros_(self.beta_net.bias)
 
     def forward(self, feature_map: torch.Tensor, metadata: torch.Tensor) -> torch.Tensor:
-        gamma = self.gamma_net(metadata)[..., None, None]
-        beta = self.beta_net(metadata)[..., None, None]
-        return gamma * feature_map + beta
+        gamma, beta = self.gamma_net(metadata), self.beta_net(metadata)
+        if feature_map.dim() == 3:  # ViT tokens (B, N, C): modulate every token's channels
+            return gamma[:, None, :] * feature_map + beta[:, None, :]
+        return gamma[..., None, None] * feature_map + beta[..., None, None]
 
 
 class FiLMModel(nn.Module):
@@ -48,7 +49,8 @@ class FiLMModel(nn.Module):
 
     def fuse(self, feats, metadata_cont, site_idx) -> torch.Tensor:
         meta = self.meta_encoder(metadata_cont, site_idx)
-        pooled = self.film(feats, meta).mean(dim=(2, 3))
+        mod = self.film(feats, meta)
+        pooled = mod.mean(dim=1) if mod.dim() == 3 else mod.mean(dim=(2, 3))
         return self.classifier(pooled).squeeze(-1)
 
     def forward(self, image, metadata_cont, site_idx) -> torch.Tensor:

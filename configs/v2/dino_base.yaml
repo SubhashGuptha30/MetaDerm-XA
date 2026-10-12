@@ -1,0 +1,4 @@
+# DINOv2 ViT-B/14 (Apache-2.0, LVD-142M; no dermatology data in pretraining) at 224 px, CLS-token pooling.
+_base_: base.yaml
+backbone: vit_base_patch14_dinov2.lvd142m
+lr: 3.0e-5   # placeholder; selected on val by the dino_lr job

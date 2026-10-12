@@ -1,0 +1,4 @@
+_base_: base.yaml
+model_name: concat_ogm
+model_type: concat_fusion
+ogm_alpha: 0.5

@@ -17,6 +17,10 @@ log = logging.getLogger(__name__)
 def create_backbone(backbone_name: str, pretrained: bool, **kwargs) -> nn.Module:
     """timm.create_model, but loads ImageNet weights from $METADERM_PRETRAINED_DIR/<name>.pth
     when present (Kaggle jobs run without internet)."""
+    if backbone_name.startswith("vit"):  # ViTs (e.g. DINOv2, native 518 px) run at our 224 px input
+        kwargs.setdefault("img_size", 224)
+        if kwargs.get("global_pool") == "avg":  # avg pooling would replace the pretrained final norm; use CLS
+            kwargs["global_pool"] = "token"
     local = Path(os.environ.get("METADERM_PRETRAINED_DIR", "pretrained")) / f"{backbone_name}.pth"
     if pretrained and local.exists():
         model = timm.create_model(backbone_name, pretrained=False, **kwargs)

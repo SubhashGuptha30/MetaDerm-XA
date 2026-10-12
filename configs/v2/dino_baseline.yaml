@@ -1,0 +1,3 @@
+_base_: dino_base.yaml
+model_name: dino_baseline
+model_type: baseline

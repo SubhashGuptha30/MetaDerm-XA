@@ -4,7 +4,7 @@ and the encode_image()/fuse() split used by src/probes.py."""
 import torch.nn as nn
 
 MODEL_TYPES = ("baseline", "baseline_wide", "concat_fusion", "film",
-               "cross_attention", "field_token", "field_token_ablated")
+               "cross_attention", "field_token", "field_token_ablated", "safe_prior")
 IMAGE_ONLY = ("baseline", "baseline_wide")
 
 
@@ -17,7 +17,11 @@ def build_model(cfg: dict) -> nn.Module:
         return BaselineModel(wide=t == "baseline_wide", **common)
     if t == "concat_fusion":
         from src.models.concat_fusion import ConcatFusionModel
-        return ConcatFusionModel(feature_dim=cfg.get("feature_dim", 256), **common)
+        return ConcatFusionModel(feature_dim=cfg.get("feature_dim", 256), meta_dropout=cfg.get("meta_dropout", 0.0),
+                                 ogm_alpha=cfg.get("ogm_alpha", 0.0), **common)
+    if t == "safe_prior":
+        from src.models.safe_prior import SAFEPriorModel
+        return SAFEPriorModel(hsic_weight=cfg.get("hsic_weight", 0.0), **common)
     if t == "film":
         from src.models.film_model import FiLMModel
         return FiLMModel(feature_dim=cfg.get("feature_dim", 256), **common)

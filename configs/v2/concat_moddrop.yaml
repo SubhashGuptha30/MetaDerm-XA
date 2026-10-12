@@ -1,0 +1,4 @@
+_base_: base.yaml
+model_name: concat_moddrop
+model_type: concat_fusion
+meta_dropout: 0.5

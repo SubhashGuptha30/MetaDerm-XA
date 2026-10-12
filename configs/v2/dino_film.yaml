@@ -1,0 +1,3 @@
+_base_: dino_base.yaml
+model_name: dino_film
+model_type: film

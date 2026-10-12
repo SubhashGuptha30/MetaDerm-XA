@@ -1,0 +1,3 @@
+_base_: dino_base.yaml
+model_name: dino_concat_fusion
+model_type: concat_fusion

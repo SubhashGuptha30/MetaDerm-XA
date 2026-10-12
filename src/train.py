@@ -84,6 +84,9 @@ def run(cfg: dict) -> dict:
 
     loaders = get_dataloaders(cfg, ("train", "val"))
     model = build_model(cfg).to(device)
+    if hasattr(model, "set_prior"):  # SAFE-Prior: frozen metadata prior fitted on the training split
+        from src.models.safe_prior import fit_metadata_prior
+        model.set_prior(*fit_metadata_prior(cfg))
     n_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
 
     imb = cfg.get("imbalance", "none")
@@ -109,8 +112,12 @@ def run(cfg: dict) -> dict:
             opt.zero_grad(set_to_none=True)
             with torch.autocast(device.type, dtype=torch.float16, enabled=amp):
                 loss = criterion(model(x, m, s).float(), y)
+            if hasattr(model, "extra_loss"):  # SAFE-Prior HSIC penalty; OGM coefficients
+                loss = loss + model.extra_loss(y)
             scaler.scale(loss).backward()
             scaler.unscale_(opt)
+            if hasattr(model, "after_backward"):  # OGM gradient modulation
+                model.after_backward()
             nn.utils.clip_grad_norm_(model.parameters(), cfg.get("grad_clip", 1.0))
             scaler.step(opt)
             scaler.update()

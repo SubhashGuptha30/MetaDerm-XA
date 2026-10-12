@@ -1,0 +1,4 @@
+_base_: base.yaml
+model_name: safe_prior
+model_type: safe_prior
+hsic_weight: 0.0

@@ -1,0 +1,21 @@
+# SAFE-Prior + shortcut-mitigation baselines on EfficientNet-B2 (lr 4.5e-4 = image-only selection), 5 seeds
+configs/v2/safe_prior.yaml seed=42 lr=0.00045
+configs/v2/safe_prior.yaml seed=123 lr=0.00045
+configs/v2/safe_prior.yaml seed=456 lr=0.00045
+configs/v2/safe_prior.yaml seed=789 lr=0.00045
+configs/v2/safe_prior.yaml seed=2024 lr=0.00045
+configs/v2/safe_prior_hsic.yaml seed=42 lr=0.00045
+configs/v2/safe_prior_hsic.yaml seed=123 lr=0.00045
+configs/v2/safe_prior_hsic.yaml seed=456 lr=0.00045
+configs/v2/safe_prior_hsic.yaml seed=789 lr=0.00045
+configs/v2/safe_prior_hsic.yaml seed=2024 lr=0.00045
+configs/v2/concat_moddrop.yaml seed=42 lr=0.00045
+configs/v2/concat_moddrop.yaml seed=123 lr=0.00045
+configs/v2/concat_moddrop.yaml seed=456 lr=0.00045
+configs/v2/concat_moddrop.yaml seed=789 lr=0.00045
+configs/v2/concat_moddrop.yaml seed=2024 lr=0.00045
+configs/v2/concat_ogm.yaml seed=42 lr=0.00045
+configs/v2/concat_ogm.yaml seed=123 lr=0.00045
+configs/v2/concat_ogm.yaml seed=456 lr=0.00045
+configs/v2/concat_ogm.yaml seed=789 lr=0.00045
+configs/v2/concat_ogm.yaml seed=2024 lr=0.00045

@@ -1,0 +1,4 @@
+_base_: dino_base.yaml
+model_name: dino_safe_prior
+model_type: safe_prior
+hsic_weight: 0.0

@@ -1,0 +1,4 @@
+# DINOv2 image-only learning-rate selection on val (seed 42)
+configs/v2/dino_baseline.yaml model_name=tune_dino_baseline_lr1e-5 lr=1e-5 predict_splits=[val] probes=false
+configs/v2/dino_baseline.yaml model_name=tune_dino_baseline_lr3e-5 lr=3e-5 predict_splits=[val] probes=false
+configs/v2/dino_baseline.yaml model_name=tune_dino_baseline_lr1e-4 lr=1e-4 predict_splits=[val] probes=false

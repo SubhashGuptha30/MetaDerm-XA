@@ -1,0 +1,4 @@
+_base_: base.yaml
+model_name: safe_prior_hsic
+model_type: safe_prior
+hsic_weight: 0.1   # fixed a priori (~15% of the BCE loss at initialisation), not tuned
