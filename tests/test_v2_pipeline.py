@@ -77,11 +77,16 @@ def test_config_inheritance_and_overrides():
     assert cfg["model_type"] == "field_token_ablated" and cfg["num_meta_tokens"] == 2
     assert cfg["seed"] == 7 and cfg["lr"] == 1e-3 and cfg["imbalance"] == "none"
     base = load_config("configs/v2/base.yaml")
-    identity = {"model_name", "model_type", "num_meta_tokens"}
+    dino = load_config("configs/v2/dino_base.yaml")
+    drop = lambda d: {k: v for k, v in d.items() if k not in {"backbone", "lr"}}  # noqa: E731
+    assert drop(dino) == drop(base), "dino_base may only change backbone/lr"
+    # model identity and method switches; everything else (training recipe) must equal the shared base
+    identity = {"model_name", "model_type", "num_meta_tokens", "meta_dropout", "ogm_alpha", "hsic_weight"}
     from pathlib import Path
     for path in Path("configs/v2").glob("*.yaml"):
         c = load_config(path)
-        assert {k: v for k, v in c.items() if k not in identity} == base, f"{path} deviates from base.yaml"
+        ref = dino if path.name.startswith("dino_") else base
+        assert {k: v for k, v in c.items() if k not in identity} == ref, f"{path} deviates from its base config"
 
 
 @pytest.fixture
