@@ -1,0 +1,4 @@
+_base_: dino_base.yaml
+model_name: dino_concat_moddrop
+model_type: concat_fusion
+meta_dropout: 0.5

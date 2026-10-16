@@ -1,0 +1,2 @@
+# DINOv2 lr grid extension: 1e-5 was best at the grid edge
+configs/v2/dino_baseline.yaml model_name=tune_dino_baseline_lr3e-6 lr=3e-6 predict_splits=[val] probes=false

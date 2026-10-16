@@ -94,7 +94,11 @@ def run(cfg: dict) -> dict:
     criterion = nn.BCEWithLogitsLoss(pos_weight=pw)
     log.info(f"model={cfg['model_type']} params={n_params:,} imbalance={imb} pos_weight={pw}")
 
-    opt = torch.optim.AdamW(model.parameters(), lr=cfg["lr"], weight_decay=cfg["weight_decay"])
+    # optional larger lr for the freshly initialised layers (standard for fine-tuning pretrained ViTs)
+    is_bb = lambda n: "backbone" in n.split(".")  # noqa: E731
+    groups = [{"params": [p for n, p in model.named_parameters() if is_bb(n)], "lr": cfg["lr"]},
+              {"params": [p for n, p in model.named_parameters() if not is_bb(n)], "lr": cfg.get("head_lr", cfg["lr"])}]
+    opt = torch.optim.AdamW([g for g in groups if g["params"]], weight_decay=cfg["weight_decay"])
     epochs = cfg["epochs"]
     sched = make_scheduler(opt, len(loaders["train"]), epochs, cfg.get("warmup_epochs", 1))
     scaler = torch.amp.GradScaler("cuda", enabled=amp)
