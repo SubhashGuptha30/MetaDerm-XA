@@ -71,3 +71,15 @@ def test_threshold_for_sens():
     s = np.arange(12.0)
     t = S.threshold_for_sens(y, s, 0.9)
     assert ((s >= t) & (y == 1)).sum() / y.sum() >= 0.9
+
+
+def test_threshold_transfer_recovers_shift():
+    from analysis.threshold_transfer import hl_shift, loc_scale_thr
+    rng = np.random.default_rng(0)
+    sp = rng.normal(2.0, 1.0, 400)
+    tp = rng.normal(2.0 - 1.5, 1.0, 50)  # target melanomas shifted down by 1.5
+    hl, lo = hl_shift(tp, sp)
+    assert abs(hl + 1.5) < 0.4 and lo < hl
+    # pure shift: loc-scale threshold moves by about the same amount as the median
+    t = loc_scale_thr(tp, 0.7, np.median(sp), sp.std())
+    assert abs(t - (0.7 - 1.5)) < 0.5
