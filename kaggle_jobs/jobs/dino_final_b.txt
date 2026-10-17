@@ -1,0 +1,13 @@
+# DINOv2 final B: lr 3e-6
+configs/v2/dino_concat_moddrop.yaml seed=456 lr=3e-6
+configs/v2/dino_safe_prior.yaml seed=456 lr=3e-6
+configs/v2/dino_baseline.yaml seed=789 lr=3e-6
+configs/v2/dino_concat_fusion.yaml seed=789 lr=3e-6
+configs/v2/dino_film.yaml seed=789 lr=3e-6
+configs/v2/dino_concat_moddrop.yaml seed=789 lr=3e-6
+configs/v2/dino_safe_prior.yaml seed=789 lr=3e-6
+configs/v2/dino_baseline.yaml seed=2024 lr=3e-6
+configs/v2/dino_concat_fusion.yaml seed=2024 lr=3e-6
+configs/v2/dino_film.yaml seed=2024 lr=3e-6
+configs/v2/dino_concat_moddrop.yaml seed=2024 lr=3e-6
+configs/v2/dino_safe_prior.yaml seed=2024 lr=3e-6

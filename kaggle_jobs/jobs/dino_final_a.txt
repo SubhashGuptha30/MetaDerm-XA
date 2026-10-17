@@ -1,0 +1,14 @@
+# DINOv2 final A: lr 3e-6 = best validated (dino_lr/dino_lr2; dino_lr3 stuck on Kaggle)
+configs/v2/dino_baseline.yaml seed=42 lr=3e-6
+configs/v2/dino_concat_fusion.yaml seed=42 lr=3e-6
+configs/v2/dino_film.yaml seed=42 lr=3e-6
+configs/v2/dino_concat_moddrop.yaml seed=42 lr=3e-6
+configs/v2/dino_safe_prior.yaml seed=42 lr=3e-6
+configs/v2/dino_baseline.yaml seed=123 lr=3e-6
+configs/v2/dino_concat_fusion.yaml seed=123 lr=3e-6
+configs/v2/dino_film.yaml seed=123 lr=3e-6
+configs/v2/dino_concat_moddrop.yaml seed=123 lr=3e-6
+configs/v2/dino_safe_prior.yaml seed=123 lr=3e-6
+configs/v2/dino_baseline.yaml seed=456 lr=3e-6
+configs/v2/dino_concat_fusion.yaml seed=456 lr=3e-6
+configs/v2/dino_film.yaml seed=456 lr=3e-6
