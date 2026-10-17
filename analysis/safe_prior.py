@@ -124,15 +124,21 @@ def evaluate(name, z_by_split, adapt=False):
 
 def main():
     rows = []
-    for m in [m for m in ["baseline", "concat_fusion", "film", "field_token", "concat_moddrop", "concat_ogm"] if C.seeds(m)]:
-        rows.append(evaluate(C.LABEL.get(m, m), {s: C.logit_matrix(m, s).mean(0) for s in SPLITS}))
-    variants = [("SAFE-Prior post-hoc", posthoc_parts())]
-    variants += [(f"SAFE-Prior ({m})", trained_parts(m)) for m in ["safe_prior", "safe_prior_hsic"] if C.seeds(m)]
-    for name, parts in variants:
-        rows.append(evaluate(name + ", unbounded", {s: f + g for s, (f, g) in parts.items()}))
-        B, c = choose_bound(parts)
-        rows.append(evaluate(f"{name}, bounded B={B:g}", {s: f + bounded(g, c, B) for s, (f, g) in parts.items()},
-                             adapt=True))
+    for bb, p in [("EfficientNet-B2", ""), ("DINOv2 ViT-B/14", "dino_")]:
+        out = []
+        for m in [p + m for m in ["baseline", "concat_fusion", "film", "field_token", "concat_moddrop", "concat_ogm"]]:
+            if C.seeds(m):
+                out.append(evaluate(C.LABEL.get(m, m), {s: C.logit_matrix(m, s).mean(0) for s in SPLITS}))
+        variants = [("SAFE-Prior post-hoc", posthoc_parts(p + "baseline"))] if C.seeds(p + "baseline") else []
+        variants += [(f"SAFE-Prior ({m})", trained_parts(m)) for m in [p + "safe_prior", p + "safe_prior_hsic"]
+                     if C.seeds(m)]
+        for name, parts in variants:
+            out.append(evaluate(name + ", prior removed (f only)", {s: f for s, (f, g) in parts.items()}))
+            out.append(evaluate(name + ", unbounded", {s: f + g for s, (f, g) in parts.items()}))
+            B, c = choose_bound(parts)
+            out.append(evaluate(f"{name}, bounded B={B:g}", {s: f + bounded(g, c, B) for s, (f, g) in parts.items()},
+                                adapt=True))
+        rows += [{"Backbone": bb, **r} for r in out]
     save("safe_main", pd.DataFrame(rows))
 
 
