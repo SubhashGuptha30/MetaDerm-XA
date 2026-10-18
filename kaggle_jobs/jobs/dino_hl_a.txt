@@ -1,0 +1,14 @@
+# DINOv2 with head lr 4.5e-4 (EffNet-validated lr) for freshly initialised layers; at 3e-6 the metadata branches barely learned
+configs/v2/dino_baseline.yaml model_name=dino_baseline_hl seed=42 lr=3e-6 head_lr=4.5e-4
+configs/v2/dino_concat_fusion.yaml model_name=dino_concat_fusion_hl seed=42 lr=3e-6 head_lr=4.5e-4
+configs/v2/dino_film.yaml model_name=dino_film_hl seed=42 lr=3e-6 head_lr=4.5e-4
+configs/v2/dino_concat_moddrop.yaml model_name=dino_concat_moddrop_hl seed=42 lr=3e-6 head_lr=4.5e-4
+configs/v2/dino_safe_prior.yaml model_name=dino_safe_prior_hl seed=42 lr=3e-6 head_lr=4.5e-4
+configs/v2/dino_baseline.yaml model_name=dino_baseline_hl seed=123 lr=3e-6 head_lr=4.5e-4
+configs/v2/dino_concat_fusion.yaml model_name=dino_concat_fusion_hl seed=123 lr=3e-6 head_lr=4.5e-4
+configs/v2/dino_film.yaml model_name=dino_film_hl seed=123 lr=3e-6 head_lr=4.5e-4
+configs/v2/dino_concat_moddrop.yaml model_name=dino_concat_moddrop_hl seed=123 lr=3e-6 head_lr=4.5e-4
+configs/v2/dino_safe_prior.yaml model_name=dino_safe_prior_hl seed=123 lr=3e-6 head_lr=4.5e-4
+configs/v2/dino_baseline.yaml model_name=dino_baseline_hl seed=456 lr=3e-6 head_lr=4.5e-4
+configs/v2/dino_concat_fusion.yaml model_name=dino_concat_fusion_hl seed=456 lr=3e-6 head_lr=4.5e-4
+configs/v2/dino_film.yaml model_name=dino_film_hl seed=456 lr=3e-6 head_lr=4.5e-4
