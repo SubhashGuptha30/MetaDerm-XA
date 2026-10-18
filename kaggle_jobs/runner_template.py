@@ -55,8 +55,11 @@ os.chdir(code)
 env = dict(os.environ, METADERM_IMAGE_ROOT=str(image_root), METADERM_PRETRAINED_DIR=str(code / "pretrained"),
            PYTHONUNBUFFERED="1")
 print("code:", code_src, "| images:", image_root, flush=True)
-subprocess.run([sys.executable, "-c", "import torch,timm,torchvision;print(torch.__version__,timm.__version__,"
-                "torchvision.__version__,torch.cuda.device_count())"], env=env)
+try:  # a bad GPU node can hang at start-up for the full 12 h (seen once: 0 B output): fail fast instead of burning the 12 h quota
+    subprocess.run([sys.executable, "-c", "import torch,timm,torchvision;print(torch.__version__,timm.__version__,"
+                    "torchvision.__version__,torch.cuda.device_count())"], env=env, timeout=300)
+except subprocess.TimeoutExpired:
+    sys.exit("CUDA initialisation hung for 5 min - aborting; re-push the job")
 
 import torch  # noqa: E402
 

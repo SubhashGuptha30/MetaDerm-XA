@@ -9,7 +9,8 @@ threshold by the shift of target positives relative to source positives:
   * HL lower bound  t = t_src + one-sided 90% Mann-Whitney lower bound on the shift (conservative)
   * loc-scale       t = median(tp) + b (t_src - median(sp)), b = shrunk ratio of spreads (K0 pseudo-labels)
   * loc-scale cert. 10th percentile of the loc-scale threshold over a bootstrap of the k labels
-Baselines: source threshold, minimum of the k labelled scores, and the oracle threshold (all target labels).
+Every method is run on raw logits and on per-site quantile-normalised scores (label-free; needed when the
+backbone compresses scores, e.g. DINOv2). Baselines: source threshold, minimum of the k labelled scores, and the oracle threshold (all target labels).
 Metrics are computed on the target images not used as labels, over R random draws of the k melanomas.
 
     python -m analysis.threshold_transfer            # -> reports/v2/threshold_transfer.csv
@@ -25,7 +26,7 @@ from analysis.report import save
 
 TARGET, LEVEL, K0, R, B_BOOT = 0.90, 0.90, 5, 500, 200
 KS = [2, 3, 5, 10, 20]
-MODELS = ["baseline", "concat_moddrop", "safe_prior", "dino_baseline", "dino_concat_moddrop", "dino_safe_prior"]
+MODELS = ["baseline", "concat_moddrop", "safe_prior", "dino_baseline_hl", "dino_concat_moddrop_hl", "dino_safe_prior_hl"]
 
 
 def hl_shift(tp, sp, level=LEVEL):
@@ -44,8 +45,18 @@ def loc_scale_thr(tp, t_src, med_s, sd_s, k0=K0):
     return float(np.median(tp) + b * (t_src - med_s))
 
 
-def run_model(model, rng):
+def quantile_normalise(x):
+    """Probit of each score's mid-rank within its own site's unlabelled scores. Benign images dominate every site
+    (prevalence ~2%), so this re-expresses scores relative to the site's benign distribution; label-free."""
+    r = np.sort(x)
+    p = (np.searchsorted(r, x, "left") + np.searchsorted(r, x, "right")) / 2 / len(r)
+    return norm.ppf(np.clip(p, 0.5 / len(r), 1 - 0.5 / len(r)))
+
+
+def run_model(model, rng, space="raw"):
     z = {s: C.logit_matrix(model, s).mean(0) for s in ["calib", "external", "pad"]}
+    if space == "quantile":
+        z = {s: quantile_normalise(v) for s, v in z.items()}
     y = {s: C.manifest(s)["target"].values for s in z}
     sp = z["calib"][y["calib"] == 1]
     t_src = S.threshold_for_sens(y["calib"], z["calib"], TARGET)
@@ -54,7 +65,7 @@ def run_model(model, rng):
     for s, lab in [("external", "ISIC20"), ("pad", "PAD")]:
         pos = np.where(y[s] == 1)[0]
         orc = S.confusion_metrics(y[s], z[s], S.threshold_for_sens(y[s], z[s], TARGET))
-        rows.append({"Model": C.LABEL.get(model, model), "Target": lab, "k": "all", "Method": "Oracle",
+        rows.append({"Model": C.LABEL.get(model, model), "Space": space, "Target": lab, "k": "all", "Method": "Oracle",
                      "Sens": orc["sensitivity"], "Spec": orc["specificity"], "P(sens>=0.9)": np.nan})
         for k in KS:
             res = {}
@@ -73,7 +84,7 @@ def run_model(model, rng):
                     res.setdefault(name, []).append((m["sensitivity"], m["specificity"]))
             for name, v in res.items():
                 v = np.asarray(v)
-                rows.append({"Model": C.LABEL.get(model, model), "Target": lab, "k": k, "Method": name,
+                rows.append({"Model": C.LABEL.get(model, model), "Space": space, "Target": lab, "k": k, "Method": name,
                              "Sens": v[:, 0].mean(), "Spec": v[:, 1].mean(),
                              "P(sens>=0.9)": (v[:, 0] >= TARGET).mean()})
     return rows
@@ -81,7 +92,7 @@ def run_model(model, rng):
 
 def main():
     rng = np.random.default_rng(0)
-    rows = [r for m in MODELS if C.seeds(m) for r in run_model(m, rng)]
+    rows = [r for m in MODELS if C.seeds(m) for sp in ("raw", "quantile") for r in run_model(m, rng, sp)]
     save("threshold_transfer", pd.DataFrame(rows).round(3))
 
 

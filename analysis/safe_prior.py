@@ -122,15 +122,21 @@ def evaluate(name, z_by_split, adapt=False):
     return row
 
 
+# (label, model-name prefix, suffix). DINOv2 head lr 4.5e-4 is the validation-selected setting; 3e-6 is reported as
+# a sensitivity analysis (there the metadata branches of the fusion models barely train).
+BACKBONES = [("EfficientNet-B2", "", ""), ("DINOv2 ViT-B/14", "dino_", "_hl"),
+             ("DINOv2 ViT-B/14, head lr 3e-6", "dino_", "")]
+
+
 def main():
     rows = []
-    for bb, p in [("EfficientNet-B2", ""), ("DINOv2 ViT-B/14", "dino_")]:
+    for bb, p, q in BACKBONES:
         out = []
-        for m in [p + m for m in ["baseline", "concat_fusion", "film", "field_token", "concat_moddrop", "concat_ogm"]]:
+        for m in [p + m + q for m in ["baseline", "concat_fusion", "film", "field_token", "concat_moddrop", "concat_ogm"]]:
             if C.seeds(m):
                 out.append(evaluate(C.LABEL.get(m, m), {s: C.logit_matrix(m, s).mean(0) for s in SPLITS}))
-        variants = [("SAFE-Prior post-hoc", posthoc_parts(p + "baseline"))] if C.seeds(p + "baseline") else []
-        variants += [(f"SAFE-Prior ({m})", trained_parts(m)) for m in [p + "safe_prior", p + "safe_prior_hsic"]
+        variants = [("SAFE-Prior post-hoc", posthoc_parts(p + "baseline" + q))] if C.seeds(p + "baseline" + q) else []
+        variants += [(f"SAFE-Prior ({m})", trained_parts(m)) for m in [p + "safe_prior" + q, p + "safe_prior_hsic" + q]
                      if C.seeds(m)]
         for name, parts in variants:
             out.append(evaluate(name + ", prior removed (f only)", {s: f for s, (f, g) in parts.items()}))
@@ -140,6 +146,29 @@ def main():
                                 adapt=True))
         rows += [{"Backbone": bb, **r} for r in out]
     save("safe_main", pd.DataFrame(rows))
+    save("safe_bound_sweep", bound_sweep())
+
+
+def bound_sweep():
+    """AUROC and worst age-band sensitivity of f + g_B for every bound B (trained SAFE-Prior, both backbones)."""
+    rows = []
+    for bb, m in [(bb, p + "safe_prior" + q) for bb, p, q in BACKBONES]:
+        if not C.seeds(m):
+            continue
+        parts = trained_parts(m)
+        B_sel, c = choose_bound(parts)
+        yc = C.manifest("calib")["target"].values
+        for B in BOUNDS:
+            z = {s: f + bounded(g, c, B) for s, (f, g) in parts.items()}
+            thr = S.threshold_for_sens(yc, z["calib"], 0.90)
+            r = {"Backbone": bb, "B": "inf" if np.isinf(B) else f"{B:g}", "Selected": "yes" if B == B_sel else ""}
+            for s, lab in [("calib", "Calib"), ("test", "ISIC19"), ("external", "ISIC20"), ("pad", "PAD")]:
+                r[f"{lab} AUROC"] = round(roc_auc_score(C.manifest(s)["target"].values, z[s]), 3)
+            r["Calib worst age sens"] = round(worst_band_sens(yc, z["calib"], thr, age_band("calib")), 3)
+            r["ISIC19 worst age sens"] = round(worst_band_sens(C.manifest("test")["target"].values, z["test"], thr,
+                                                               age_band("test")), 3)
+            rows.append(r)
+    return pd.DataFrame(rows)
 
 
 if __name__ == "__main__":

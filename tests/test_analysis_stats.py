@@ -83,3 +83,9 @@ def test_threshold_transfer_recovers_shift():
     # pure shift: loc-scale threshold moves by about the same amount as the median
     t = loc_scale_thr(tp, 0.7, np.median(sp), sp.std())
     assert abs(t - (0.7 - 1.5)) < 0.5
+
+
+def test_quantile_normalise_invariant_to_monotone_rescaling():
+    from analysis.threshold_transfer import quantile_normalise
+    x = np.random.default_rng(1).normal(0, 1, 500)
+    np.testing.assert_allclose(quantile_normalise(x), quantile_normalise(np.exp(3 * x) - 2))
