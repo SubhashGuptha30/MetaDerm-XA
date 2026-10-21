@@ -75,10 +75,7 @@ scratch/
 # kept local (public repo): manuscripts, report text, working notes, tool state
 /paper/
 /report/content.py
-/report/patch_results.py
-/report/patch_expand.py
-/report/patch_layout.py
-/report/patch_more.py
+/report/patch_*.py
 /report/*.docx
 /report/backups/
 /report/*.sha256
